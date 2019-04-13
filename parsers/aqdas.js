@@ -137,9 +137,6 @@ function recurseList (ul, jsonIndexEntry) {
                 if (txt === '-') {
                   // Todo: Handle range `-`
                   arr.push('++LINKED-RANGE');
-                } else if ((/-\d+$/u).test(txt)) {
-                  // Todo: Handle range `-`
-                  arr.push('++UNLINKED-RANGE' + txt);
                 } else {
                   // Todo: Handle
                   arr.push('==' + txt);
