@@ -170,7 +170,8 @@ function recurseList (ul, jsonIndexEntry) {
               const val = nodeName === 'a'
                 ? l.textContent
                 : l.nodeName + '::' + l.textContent;
-              // Todo: Handle table `nodeName` and newlines case
+              // Todo: Handle table `nodeName` and newlines case;
+              //   handle `mutatis mutandis`
               arr.push(val);
               break;
             }
