@@ -6,7 +6,8 @@
     "$children": {
       "Writings (Tablets) individual works": {
         "$children": {
-          "": {},
+          "<i>Memorials of the Faithful</i>": {},
+          "<i>Some Answered Questions</i>": {},
           "Will and Testament of": {},
           "not accounted \"verses of God,\"": {}
         }
@@ -247,7 +248,7 @@
       "Writings": {
         "$children": {
           "Qayyúmu'l-Asmá'": {},
-          "": {},
+          "<i>Selections from the Writings of the Bab</i>": {},
           "Tablet addressed to Bahá'u'lláh": {}
         }
       }
@@ -312,7 +313,7 @@
       "to turn to 'Abdu'l-Bahá": {}
     }
   },
-  "": {},
+  "<i>Bahá'í World, The</i>": {},
   "Bahá'u'lláh": {
     "$children": {
       "advent": {},
@@ -451,11 +452,19 @@
               "Kitáb-i-Iqan": {},
               "Obligatory Prayers": {},
               "Prayer for the Dead": {},
-              "": {},
+              "<i>Prayers and Meditations by Bahá'u'lláh</i>": {},
               "supplementary to the Kitáb-i-Aqdas": {},
               "Questions and Answers": {},
+              "<i>Tablets of Bahá'u'lláh revealed after the Kitáb-i-Aqdas</i>": {
+                "$children": {
+                  "Bishárát": {},
+                  "Ishráqát": {},
+                  "Words of Paradise": {}
+                }
+              },
               "Súriy-i-Jajj": {},
               "Tablet to Abá Badí'": {},
+              "": {},
               "Will and Testament": {}
             }
           },
@@ -783,6 +792,7 @@
   },
   "David (King)": {},
   "Dawn, prayer at": {},
+  "<i>Dawn-Breakers, The</i>": {},
   "Day(s)": {
     "$children": {
       "of the Covenant": {},
@@ -1508,7 +1518,7 @@
       "works of Bahá'u'lláh supplementary to": {
         "$children": {
           "Questions and Answers": {},
-          "": {}
+          "<i>Tablets of Bahá'u'lláh revealed after the Kitáb-i-Aqdas</i>": {}
         }
       }
     }
@@ -1554,7 +1564,7 @@
       "antecedents": {},
       "application": {
         "$children": {
-          "to men and women equally": {},
+          "to men and women equally, <i>mutatis mutandis</i>": {},
           "progressive": {},
           "in relation to Civil Law": {}
         }
@@ -2533,7 +2543,7 @@
       "and Kitáb-i-Aqdas": {
         "$children": {
           "annotations to": {},
-          "description in": {},
+          "description in <i>God Passes By</i>": {},
           "synopsis and codification": {},
           "translation": {}
         }
@@ -2543,7 +2553,8 @@
         "$children": {
           "individual works": {
             "$children": {
-              "": {}
+              "<i>God Passes By</i>": {},
+              "<i>World Order of Bahá'u'lláh</i>": {}
             }
           }
         }
@@ -3137,6 +3148,7 @@
       "Greater and Lesser": {}
     }
   },
+  "<i>World Order of Bahá'u'lláh, The</i>": {},
   "Worship": {
     "$children": {
       "acceptability to God": {},

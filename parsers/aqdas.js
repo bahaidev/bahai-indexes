@@ -21,6 +21,15 @@ const topUls = letterSections.map((
 
 /**
  *
+ * @param {string} s
+ * @returns {string}
+ */
+function stripPunctuationAndWhitespace (s) {
+  return s.trim().replace(/\s(\s+)/gu, ' ').replace(/[.,]$/gu, ''); // .replace(/\n/gu, '')
+}
+
+/**
+ *
  * @param {HTMLUListElement} ul
  * @param {Object} jsonIndexEntry
  * @returns {undefined}
@@ -43,8 +52,20 @@ function recurseList (ul, jsonIndexEntry) {
           break;
         }
         case Node.ELEMENT_NODE: {
-          if (elem.matches('i,a[href]')) { // Ignore "see also"'s
-            // Todo: Add see also values
+          if (elem.matches('i')) {
+            if ([
+              'see',
+              'See', 'See also', 'See above', 'See below',
+              'See headings under'
+            ].includes(elem.textContent.trim())) {
+              // Todo: Add see also values
+              return true;
+            }
+            text += `<i>${stripPunctuationAndWhitespace(elem.textContent)}</i>`;
+            break;
+          }
+          if (elem.matches('a[href]')) {
+            // Todo: Handle links
             return true;
           }
           text += elem.textContent;
@@ -55,7 +76,7 @@ function recurseList (ul, jsonIndexEntry) {
         }
         return false;
       });
-      text = text.trim().replace(/\s(\s+)/gu, ' ').replace(/[.,]$/gu, ''); // .replace(/\n/gu, '')
+      text = stripPunctuationAndWhitespace(text);
       jsonIndexEntry[text] = {};
       lastText = text;
     } else if (liOrUl.matches('ul')) {
