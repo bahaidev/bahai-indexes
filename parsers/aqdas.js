@@ -120,8 +120,7 @@ function recurseList (ul, jsonIndexEntry) {
                   'Unexpected nodeName ' + nodeName + '::' + l.textContent
                 );
               }
-              // Todo: Handle newlines case;
-              //   handle `mutatis mutandis`
+              // Todo: Handle `mutatis mutandis`
               // Todo: Deal with "see-also" links at different levels
               $links.push(l.textContent);
               break;
