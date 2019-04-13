@@ -10072,24 +10072,6 @@
       "K186"
     ]
   },
-  "Peace": {
-    "$links": [
-      "12",
-      "K67",
-      "K93",
-      "100",
-      "n173"
-    ],
-    "$children": {
-      "": {
-        "$links": [
-          "Peace",
-          "==- Compilation"
-        ]
-      },
-      "The Promise of World Peace - A Statement by the Universal House of Justice": {}
-    }
-  },
   "Patience": {
     "$links": [
       "K87"
