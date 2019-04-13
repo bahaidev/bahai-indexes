@@ -55,6 +55,7 @@ function recurseList (ul, jsonIndexEntry) {
         }
         return false;
       });
+      text = text.trim().replace(/\s(\s+)/gu, ' ').replace(/[.,]$/gu, ''); // .replace(/\n/gu, '')
       jsonIndexEntry[text] = {};
       lastText = text;
     } else if (liOrUl.matches('ul')) {
@@ -70,4 +71,7 @@ topUls.forEach((ul) => {
   recurseList(ul, jsonIndex);
 });
 
-console.log(jsonIndex);
+fs.writeFileSync(
+  join(__dirname, '/../indexes/json/aqdas.json'),
+  JSON.stringify(jsonIndex, null, 2)
+);
