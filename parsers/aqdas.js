@@ -101,25 +101,29 @@ function recurseList (ul, jsonIndexEntry) {
             }
             case Node.ELEMENT_NODE: {
               const nodeName = l.nodeName.toLowerCase();
-              if (nodeName === 'br' ||
-                (nodeName === 'i' &&
+              if (nodeName === 'br') {
+                break;
+              }
+              if (nodeName === 'i' &&
                   [
                     // These are used depending on whether other child
                     //   content exists, but this can be detected and added
                     //   programmatically
-                    'See also', 'see also', 'See'
-                  ].includes(l.textContent))
+                    'See also', 'see also', 'See', 'See also above'
+                  ].includes(l.textContent)
               ) {
-                seeAlso = links + j;
+                seeAlso = links + j + 1;
                 return true;
               }
-              const val = nodeName === 'a'
-                ? l.textContent
-                : l.nodeName + '::' + l.textContent;
+              if (nodeName !== 'a') {
+                throw new TypeError(
+                  'Unexpected nodeName ' + nodeName + '::' + l.textContent
+                );
+              }
               // Todo: Handle newlines case;
               //   handle `mutatis mutandis`
               // Todo: Deal with "see-also" links at different levels
-              $links.push(val);
+              $links.push(l.textContent);
               break;
             }
             default:
@@ -151,11 +155,10 @@ function recurseList (ul, jsonIndexEntry) {
                     // These two are used depending on whether other child
                     //   content exists, but this can be detected and added
                     //   programmatically
-                    'See', 'See also', 'see also', 'see', 'See headings under',
+                    'See also', 'See', 'see', 'See headings under',
                     // "See above" and "See below" are used if the entry
                     //   were in the same level, but this can be detected
                     //   and added programmatically
-                    'See also above',
                     'See above', 'See below',
                     // Todo: We could add a flag to allow programmatic
                     //   reconstruction re: headings
