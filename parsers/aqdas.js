@@ -83,6 +83,7 @@ function recurseList (ul, jsonIndexEntry) {
       jsonIndexEntry[text] = {};
       lastText = text;
       if (links !== false) {
+        let rangeBegun = false;
         const $links = [];
         childNodes.slice(links).some(
           (l, j) => {
@@ -94,8 +95,12 @@ function recurseList (ul, jsonIndexEntry) {
                 if (txt !== '-') {
                   throw new TypeError('Unexpected text node');
                 }
-                // Todo: Handle range `-`
-                $links.push('++LINKED-RANGE');
+                // Don't keep nesting if this accidentally lists as a range,
+                //   e.g., K175-K176-K177
+                if (!rangeBegun && !Array.isArray($links[$links.length - 1])) {
+                  rangeBegun = true;
+                  $links.push([$links.pop()]);
+                }
               }
               break;
             }
@@ -122,7 +127,13 @@ function recurseList (ul, jsonIndexEntry) {
               }
               // Todo: Handle `mutatis mutandis`
               // Todo: Deal with "see-also" links at different levels
-              $links.push(l.textContent);
+
+              if (rangeBegun) {
+                $links[$links.length - 1].push(l.textContent);
+                rangeBegun = false;
+              } else {
+                $links.push(l.textContent);
+              }
               break;
             }
             default:

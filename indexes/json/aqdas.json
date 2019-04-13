@@ -1129,9 +1129,10 @@
           "K136",
           "K139",
           "K140",
-          "K179",
-          "++LINKED-RANGE",
-          "K180"
+          [
+            "K179",
+            "K180"
+          ]
         ]
       },
       "service to": {
@@ -1241,9 +1242,10 @@
           "K29",
           "K75",
           "K144",
-          "Q33",
-          "++LINKED-RANGE",
-          "Q34",
+          [
+            "Q33",
+            "Q34"
+          ],
           "Q84",
           "n38"
         ]
@@ -1374,9 +1376,10 @@
           "K30",
           "K42",
           "n49",
-          "n66",
-          "++LINKED-RANGE",
-          "n67"
+          [
+            "n66",
+            "n67"
+          ]
         ],
         "$seeAlso": [
           "Guardianship",
@@ -1393,11 +1396,10 @@
         "$links": [
           "K39",
           "K97",
-          "K175",
-          "++LINKED-RANGE",
-          "K176",
-          "++LINKED-RANGE",
-          "K177"
+          [
+            "K175",
+            "K177"
+          ]
         ]
       },
       "Law(s) of": {
@@ -1583,12 +1585,14 @@
               "n141",
               "n146",
               "n155",
-              "n157",
-              "++LINKED-RANGE",
-              "n158",
-              "n185",
-              "++LINKED-RANGE",
-              "n186"
+              [
+                "n157",
+                "n158"
+              ],
+              [
+                "n185",
+                "n186"
+              ]
             ]
           },
           "Hidden Mystery": {
@@ -1783,11 +1787,10 @@
               "K50",
               "K55",
               "K132",
-              "K134",
-              "++LINKED-RANGE",
-              "K135",
-              "++LINKED-RANGE",
-              "K136",
+              [
+                "K134",
+                "K136"
+              ],
               "K157",
               "K183",
               "n155",
@@ -1799,30 +1802,27 @@
               "K41",
               "K100",
               "K102",
-              "K165",
-              "++LINKED-RANGE",
-              "K166"
+              [
+                "K165",
+                "K166"
+              ]
             ]
           },
           "to kings": {
             "$links": [
               "K82",
-              "K85",
-              "++LINKED-RANGE",
-              "K86"
+              [
+                "K85",
+                "K86"
+              ]
             ]
           },
           "to people of Bayán": {
             "$links": [
-              "K137",
-              "++LINKED-RANGE",
-              "K138",
-              "++LINKED-RANGE",
-              "K139",
-              "++LINKED-RANGE",
-              "K140",
-              "++LINKED-RANGE",
-              "K141",
+              [
+                "K137",
+                "K141"
+              ],
               "K179"
             ]
           },
@@ -1838,10 +1838,10 @@
           "K35",
           "K41",
           "K85",
-          "K139",
-          "++LINKED-RANGE",
-          "K140",
-          "K141",
+          [
+            "K139",
+            "K141"
+          ],
           "K166"
         ],
         "$seeAlso": [
@@ -1854,9 +1854,10 @@
           "K110",
           "K175",
           "K179",
-          "n108",
-          "++LINKED-RANGE",
-          "n109"
+          [
+            "n108",
+            "n109"
+          ]
         ],
         "$seeAlso": [
           "Báb, the"
@@ -1864,12 +1865,14 @@
       },
       "receives Tablet from the Báb": {
         "$links": [
-          "K175",
-          "++LINKED-RANGE",
-          "K176",
-          "n185",
-          "++LINKED-RANGE",
-          "n186"
+          [
+            "K175",
+            "K176"
+          ],
+          [
+            "n185",
+            "n186"
+          ]
         ]
       },
       "relationship to God": {
@@ -1884,9 +1887,10 @@
           "K42",
           "K61",
           "161",
-          "n66",
-          "++LINKED-RANGE",
-          "n67",
+          [
+            "n66",
+            "n67"
+          ],
           "n85"
         ]
       },
@@ -1901,11 +1905,10 @@
       },
       "and \"School of Transcendent Oneness,\"": {
         "$links": [
-          "K175",
-          "++LINKED-RANGE",
-          "K176",
-          "++LINKED-RANGE",
-          "K177",
+          [
+            "K175",
+            "K177"
+          ],
           "n185"
         ]
       },
@@ -1935,9 +1938,10 @@
       "station": {
         "$links": [
           "K47",
-          "K142",
-          "++LINKED-RANGE",
-          "K143",
+          [
+            "K142",
+            "K143"
+          ],
           "162",
           "n160"
         ],
@@ -2298,9 +2302,10 @@
                 "$links": [
                   "n26",
                   "n139",
-                  "n147",
-                  "++LINKED-RANGE",
-                  "n148"
+                  [
+                    "n147",
+                    "n148"
+                  ]
                 ],
                 "$seeAlso": [
                   "Calendar, Bahá'í",
@@ -2434,28 +2439,14 @@
       },
       "People of, addressed": {
         "$links": [
-          "K137",
-          "++LINKED-RANGE",
-          "38",
-          "++LINKED-RANGE",
-          "39",
-          "++LINKED-RANGE",
-          "40",
-          "++LINKED-RANGE",
-          "41",
-          "++LINKED-RANGE",
-          "42",
-          "++LINKED-RANGE",
-          "43",
-          "K176",
-          "++LINKED-RANGE",
-          "77",
-          "++LINKED-RANGE",
-          "78",
-          "++LINKED-RANGE",
-          "79",
-          "++LINKED-RANGE",
-          "80"
+          [
+            "K137",
+            "K143"
+          ],
+          [
+            "K176",
+            "K180"
+          ]
         ]
       },
       "Promised One of": {
@@ -2729,9 +2720,10 @@
     "$links": [
       "K20",
       "Q53",
-      "n38",
-      "++LINKED-RANGE",
-      "n39"
+      [
+        "n38",
+        "n39"
+      ]
     ],
     "$seeAlso": [
       "Inheritance"
@@ -2749,9 +2741,10 @@
     "$children": {
       "burial rings": {
         "$links": [
-          "K128",
-          "++LINKED-RANGE",
-          "K129",
+          [
+            "K128",
+            "K129"
+          ],
           "Q70",
           "n149"
         ]
@@ -2926,9 +2919,10 @@
   "Capital punishment": {
     "$links": [
       "K62",
-      "n86",
-      "++LINKED-RANGE",
-      "n87"
+      [
+        "n86",
+        "n87"
+      ]
     ],
     "$seeAlso": [
       "Arson",
@@ -3113,10 +3107,10 @@
           "K66",
           "Q87",
           "147",
-          "n93",
-          "++LINKED-RANGE",
-          "n94",
-          "++LINKED-RANGE",
+          [
+            "n93",
+            "n94"
+          ],
           "n95"
         ]
       },
@@ -3220,32 +3214,34 @@
       "addressed": {
         "$links": [
           "K41",
-          "K99",
-          "++LINKED-RANGE",
-          "100",
-          "++LINKED-RANGE",
-          "101",
-          "++LINKED-RANGE",
-          "102",
-          "++LINKED-RANGE",
-          "103",
-          "++LINKED-RANGE",
-          "104",
-          "K165",
-          "++LINKED-RANGE",
-          "166",
-          "++LINKED-RANGE",
-          "167",
-          "++LINKED-RANGE",
-          "168",
-          "++LINKED-RANGE",
-          "169",
-          "++LINKED-RANGE",
-          "170",
-          "++LINKED-RANGE",
-          "171",
-          "++LINKED-RANGE",
-          "172",
+          [
+            "K99",
+            "100"
+          ],
+          [
+            "101",
+            "102"
+          ],
+          [
+            "103",
+            "104"
+          ],
+          [
+            "K165",
+            "166"
+          ],
+          [
+            "167",
+            "168"
+          ],
+          [
+            "169",
+            "170"
+          ],
+          [
+            "171",
+            "172"
+          ],
           "161"
         ]
       },
@@ -3444,9 +3440,10 @@
   },
   "Constancy": {
     "$links": [
-      "K163",
-      "++LINKED-RANGE",
-      "164"
+      [
+        "K163",
+        "164"
+      ]
     ],
     "$seeAlso": [
       "Steadfastness"
@@ -3458,9 +3455,10 @@
       "K89",
       "163",
       "n107",
-      "n119",
-      "++LINKED-RANGE",
-      "20",
+      [
+        "n119",
+        "20"
+      ],
       "n178"
     ]
   },
@@ -3735,9 +3733,10 @@
           "Q37",
           "Q54",
           "n38",
-          "n44",
-          "++LINKED-RANGE",
-          "45"
+          [
+            "n44",
+            "45"
+          ]
         ],
         "$seeAlso": [
           "Inheritance"
@@ -3761,12 +3760,14 @@
   },
   "<i>Dawn-Breakers, The</i>": {
     "$links": [
-      "n171",
-      "++LINKED-RANGE",
-      "72",
-      "n178",
-      "++LINKED-RANGE",
-      "79"
+      [
+        "n171",
+        "72"
+      ],
+      [
+        "n178",
+        "79"
+      ]
     ]
   },
   "Day(s)": {
@@ -3812,9 +3813,10 @@
       "punishment for murder or arson": {
         "$links": [
           "K62",
-          "n86",
-          "++LINKED-RANGE",
-          "87"
+          [
+            "n86",
+            "87"
+          ]
         ]
       },
       "of spouse while on journey": {
@@ -3986,9 +3988,10 @@
     "$children": {
       "between marriage partners": {
         "$links": [
-          "K69",
-          "++LINKED-RANGE",
-          "70",
+          [
+            "K69",
+            "70"
+          ],
           "Q19",
           "n100"
         ]
@@ -4132,9 +4135,10 @@
           "clothing": {
             "$links": [
               "K159",
-              "n174",
-              "++LINKED-RANGE",
-              "75"
+              [
+                "n174",
+                "75"
+              ]
             ]
           },
           "destruction of books": {
@@ -4156,9 +4160,10 @@
             "$links": [
               "Q31",
               "Q43",
-              "n89",
-              "++LINKED-RANGE",
-              "90",
+              [
+                "n89",
+                "90"
+              ],
               "n93",
               "n101"
             ]
@@ -4175,9 +4180,10 @@
           },
           "prayer": {
             "$links": [
-              "n6",
-              "++LINKED-RANGE",
-              "7",
+              [
+                "n6",
+                "7"
+              ],
               "n15",
               "n135"
             ],
@@ -4265,9 +4271,10 @@
       "remarriage": {
         "$links": [
           "K68",
-          "n101",
-          "++LINKED-RANGE",
-          "02"
+          [
+            "n101",
+            "02"
+          ]
         ]
       },
       "separation": {
@@ -4282,13 +4289,14 @@
             "$links": [
               "K67",
               "Q4",
-              "n96",
-              "++LINKED-RANGE",
-              "97",
-              "++LINKED-RANGE",
-              "98",
-              "++LINKED-RANGE",
-              "99"
+              [
+                "n96",
+                "97"
+              ],
+              [
+                "98",
+                "99"
+              ]
             ]
           }
         }
@@ -4354,12 +4362,14 @@
       "determining amount": {
         "$links": [
           "Q26",
-          "Q87",
-          "++LINKED-RANGE",
-          "88",
-          "n94",
-          "++LINKED-RANGE",
-          "95"
+          [
+            "Q87",
+            "88"
+          ],
+          [
+            "n94",
+            "95"
+          ]
         ]
       },
       "promissory note": {
@@ -4543,9 +4553,10 @@
   "Endowments": {
     "$links": [
       "K42",
-      "n66",
-      "++LINKED-RANGE",
-      "67"
+      [
+        "n66",
+        "67"
+      ]
     ]
   },
   "Engagement": {
@@ -4788,13 +4799,15 @@
       },
       "duration": {
         "$links": [
-          "K16",
-          "++LINKED-RANGE",
-          "17",
+          [
+            "K16",
+            "17"
+          ],
           "146",
-          "n26",
-          "++LINKED-RANGE",
-          "27"
+          [
+            "n26",
+            "27"
+          ]
         ]
       },
       "during days other than prescribed": {
@@ -4859,9 +4872,10 @@
               "Q22",
               "Q75",
               "147",
-              "n30",
-              "++LINKED-RANGE",
-              "31"
+              [
+                "n30",
+                "31"
+              ]
             ]
           }
         }
@@ -4947,9 +4961,10 @@
     "$links": [
       "K110",
       "K112",
-      "Q1",
-      "++LINKED-RANGE",
-      "2",
+      [
+        "Q1",
+        "2"
+      ],
       "155",
       "n138",
       "n140"
@@ -4978,9 +4993,10 @@
       "to poor": {
         "$links": [
           "n56",
-          "n161",
-          "++LINKED-RANGE",
-          "62"
+          [
+            "n161",
+            "62"
+          ]
         ]
       }
     }
@@ -5000,9 +5016,10 @@
         "$links": [
           "K49",
           "Q23",
-          "n77",
-          "++LINKED-RANGE",
-          "78"
+          [
+            "n77",
+            "78"
+          ]
         ]
       },
       "for having sexual intercourse during year of patience": {
@@ -5370,9 +5387,10 @@
       },
       "He shall not be asked of His doings": {
         "$links": [
-          "K161",
-          "++LINKED-RANGE",
-          "62",
+          [
+            "K161",
+            "62"
+          ],
           "162"
         ]
       },
@@ -5516,9 +5534,10 @@
       },
       "recognition of Word and commandments": {
         "$links": [
-          "K3",
-          "++LINKED-RANGE",
-          "4",
+          [
+            "K3",
+            "4"
+          ],
           "K7"
         ]
       },
@@ -5663,9 +5682,10 @@
           "K18",
           "Q77",
           "156",
-          "n33",
-          "++LINKED-RANGE",
-          "34"
+          [
+            "n33",
+            "34"
+          ]
         ]
       },
       "significance": {
@@ -6293,25 +6313,28 @@
       },
       "inheritances from missing heirs": {
         "$links": [
-          "K21",
-          "++LINKED-RANGE",
-          "22",
-          "Q6",
-          "++LINKED-RANGE",
-          "7",
+          [
+            "K21",
+            "22"
+          ],
+          [
+            "Q6",
+            "7"
+          ],
           "Q28",
           "Q33",
           "Q41",
           "Q72",
           "Q100",
           "152-55",
-          "n38",
-          "++LINKED-RANGE",
-          "39",
-          "n42",
-          "++LINKED-RANGE",
-          "43",
-          "++LINKED-RANGE",
+          [
+            "n38",
+            "39"
+          ],
+          [
+            "n42",
+            "43"
+          ],
           "44"
         ]
       },
@@ -6344,10 +6367,10 @@
   },
   "House of Justice, National (Secondary)": {
     "$links": [
-      "n49",
-      "++LINKED-RANGE",
-      "50",
-      "++LINKED-RANGE",
+      [
+        "n49",
+        "50"
+      ],
       "51",
       "n80",
       "n183"
@@ -6385,9 +6408,10 @@
       "establishment": {
         "$links": [
           "K42",
-          "n66",
-          "++LINKED-RANGE",
-          "67"
+          [
+            "n66",
+            "67"
+          ]
         ]
       },
       "membership": {
@@ -6412,36 +6436,40 @@
           "administers endowments": {
             "$links": [
               "K42",
-              "n66",
-              "++LINKED-RANGE",
-              "67"
+              [
+                "n66",
+                "67"
+              ]
             ]
           },
           "future legislation": {
             "$children": {
               "application of penalties for murder and arson": {
                 "$links": [
-                  "n86",
-                  "++LINKED-RANGE",
-                  "87"
+                  [
+                    "n86",
+                    "87"
+                  ]
                 ]
               },
               "application of penalties for sexual offenses": {
                 "$links": [
                   "Q49",
                   "n36",
-                  "n77",
-                  "++LINKED-RANGE",
-                  "78",
+                  [
+                    "n77",
+                    "78"
+                  ],
                   "n134"
                 ]
               },
               "degrees of, and application of penalties for theft": {
                 "$links": [
                   "Q49",
-                  "n70",
-                  "++LINKED-RANGE",
-                  "71"
+                  [
+                    "n70",
+                    "71"
+                  ]
                 ]
               },
               "manner of applying various laws of Bahá'u'lláh": {
@@ -6501,9 +6529,10 @@
       "addressed": {
         "$links": [
           "K3",
-          "K54",
-          "++LINKED-RANGE",
-          "55",
+          [
+            "K54",
+            "55"
+          ],
           "K107",
           "K132",
           "K174",
@@ -6551,9 +6580,10 @@
           "K3",
           "K7",
           "K99",
-          "K124",
-          "++LINKED-RANGE",
-          "25",
+          [
+            "K124",
+            "25"
+          ],
           "K148",
           "K186"
         ]
@@ -6609,9 +6639,10 @@
       "K60",
       "Q24",
       "156",
-      "n83",
-      "++LINKED-RANGE",
-      "84",
+      [
+        "n83",
+        "84"
+      ],
       "n173"
     ]
   },
@@ -6626,12 +6657,14 @@
       "conditions for payment": {
         "$links": [
           "Q8",
-          "Q44",
-          "++LINKED-RANGE",
-          "45",
-          "Q89",
-          "++LINKED-RANGE",
-          "90",
+          [
+            "Q44",
+            "45"
+          ],
+          [
+            "Q89",
+            "90"
+          ],
           "n125"
         ]
       },
@@ -6697,9 +6730,10 @@
   "Ignorance": {
     "$links": [
       "K62",
-      "K122",
-      "++LINKED-RANGE",
-      "123",
+      [
+        "K122",
+        "123"
+      ],
       "K144",
       "K159"
     ]
@@ -6762,9 +6796,10 @@
       "for murder and arson": {
         "$links": [
           "K62",
-          "n86",
-          "++LINKED-RANGE",
-          "87"
+          [
+            "n86",
+            "87"
+          ]
         ]
       },
       "for theft": {
@@ -6887,10 +6922,10 @@
           },
           "other catagories": {
             "$links": [
-              "K22",
-              "++LINKED-RANGE",
-              "23",
-              "++LINKED-RANGE",
+              [
+                "K22",
+                "23"
+              ],
               "24"
             ]
           },
@@ -6945,9 +6980,10 @@
                   "Q41",
                   "Q54",
                   "Q72",
-                  "n44",
-                  "++LINKED-RANGE",
-                  "45"
+                  [
+                    "n44",
+                    "45"
+                  ]
                 ]
               },
               "male": {
@@ -7130,9 +7166,10 @@
           },
           "other catagories' allocation": {
             "$links": [
-              "K22",
-              "++LINKED-RANGE",
-              "23",
+              [
+                "K22",
+                "23"
+              ],
               "Q28",
               "n38",
               "n43"
@@ -7218,9 +7255,10 @@
   "Interpretation of Sacred Text": {
     "$links": [
       "K108",
-      "K167",
-      "++LINKED-RANGE",
-      "168",
+      [
+        "K167",
+        "168"
+      ],
       "n180"
     ],
     "$seeAlso": [
@@ -7286,9 +7324,10 @@
       "n122",
       "n124",
       "n126",
-      "n131",
-      "++LINKED-RANGE",
-      "32",
+      [
+        "n131",
+        "32"
+      ],
       "n176"
     ]
   },
@@ -7354,9 +7393,10 @@
       "K89",
       "163",
       "n107",
-      "n119",
-      "++LINKED-RANGE",
-      "20",
+      [
+        "n119",
+        "20"
+      ],
       "n178"
     ]
   },
@@ -7544,17 +7584,18 @@
     "$children": {
       "addressed collectively": {
         "$links": [
-          "K78",
-          "++LINKED-RANGE",
-          "79",
-          "++LINKED-RANGE",
-          "80",
-          "++LINKED-RANGE",
-          "81",
-          "++LINKED-RANGE",
-          "82",
-          "++LINKED-RANGE",
-          "83",
+          [
+            "K78",
+            "79"
+          ],
+          [
+            "80",
+            "81"
+          ],
+          [
+            "82",
+            "83"
+          ],
           "K87"
         ]
       },
@@ -7682,9 +7723,10 @@
           "K42",
           "143",
           "n49",
-          "n66",
-          "++LINKED-RANGE",
-          "67"
+          [
+            "n66",
+            "67"
+          ]
         ],
         "$seeAlso": [
           "House(s) of Justice"
@@ -7812,14 +7854,14 @@
       },
       "works of Bahá'u'lláh supplementary to": {
         "$links": [
-          "91",
-          "++LINKED-RANGE",
-          "93",
-          "++LINKED-RANGE",
-          "99",
-          "++LINKED-RANGE",
-          "101",
-          "++LINKED-RANGE",
+          [
+            "91",
+            "93"
+          ],
+          [
+            "99",
+            "101"
+          ],
           "102"
         ],
         "$children": {
@@ -7865,10 +7907,10 @@
             "$links": [
               "K41",
               "K102",
-              "K166",
-              "++LINKED-RANGE",
-              "67",
-              "++LINKED-RANGE",
+              [
+                "K166",
+                "67"
+              ],
               "68",
               "K170",
               "n64",
@@ -7880,9 +7922,10 @@
             "$links": [
               "K99",
               "K101",
-              "K176",
-              "++LINKED-RANGE",
-              "77",
+              [
+                "K176",
+                "77"
+              ],
               "K180",
               "n128"
             ]
@@ -7995,9 +8038,10 @@
           "16",
           "K189",
           "162",
-          "n193",
-          "++LINKED-RANGE",
-          "94"
+          [
+            "n193",
+            "94"
+          ]
         ]
       }
     }
@@ -8263,10 +8307,10 @@
             "$links": [
               "K45",
               "K97",
-              "K123",
-              "++LINKED-RANGE",
-              "24",
-              "++LINKED-RANGE",
+              [
+                "K123",
+                "24"
+              ],
               "25",
               "K155",
               "Q105"
@@ -8299,13 +8343,14 @@
               "8-9",
               "K65",
               "K129",
-              "K139",
-              "++LINKED-RANGE",
-              "40",
-              "++LINKED-RANGE",
-              "41",
-              "++LINKED-RANGE",
-              "42",
+              [
+                "K139",
+                "40"
+              ],
+              [
+                "41",
+                "42"
+              ],
               "K179",
               "n108-",
               "09",
@@ -8373,13 +8418,14 @@
   "Liberty": {
     "$links": [
       "16",
-      "K122",
-      "++LINKED-RANGE",
-      "23",
-      "++LINKED-RANGE",
-      "24",
-      "++LINKED-RANGE",
-      "25",
+      [
+        "K122",
+        "23"
+      ],
+      [
+        "24",
+        "25"
+      ],
       "163"
     ]
   },
@@ -8404,9 +8450,10 @@
       "imprisonment": {
         "$links": [
           "K62",
-          "n86",
-          "++LINKED-RANGE",
-          "87"
+          [
+            "n86",
+            "87"
+          ]
         ]
       },
       "purpose": {
@@ -8565,13 +8612,14 @@
         "$links": [
           "K67",
           "Q4",
-          "n96",
-          "++LINKED-RANGE",
-          "97",
-          "++LINKED-RANGE",
-          "98",
-          "++LINKED-RANGE",
-          "99"
+          [
+            "n96",
+            "97"
+          ],
+          [
+            "98",
+            "99"
+          ]
         ],
         "$children": {
           "death during": {
@@ -8962,9 +9010,10 @@
   },
   "Moses": {
     "$links": [
-      "n111",
-      "++LINKED-RANGE",
-      "12"
+      [
+        "n111",
+        "12"
+      ]
     ]
   },
   "Mosque(s)": {
@@ -9773,9 +9822,10 @@
           "K59",
           "K136",
           "K140",
-          "92",
-          "++LINKED-RANGE",
-          "93",
+          [
+            "92",
+            "93"
+          ],
           "94",
           "95",
           "100",
@@ -10300,9 +10350,10 @@
           "Q83",
           "144",
           "146",
-          "n5",
-          "++LINKED-RANGE",
-          "n6"
+          [
+            "n5",
+            "n6"
+          ]
         ],
         "$seeAlso": [
           "Obligatory Prayers",
@@ -10370,27 +10421,30 @@
     "$links": [
       "15",
       "K6",
-      "K8",
-      "++LINKED-RANGE",
-      "K14",
+      [
+        "K8",
+        "K14"
+      ],
       "K18",
       "93",
       "99",
       "101",
       "Q14",
-      "Q58",
-      "++LINKED-RANGE",
-      "Q67",
+      [
+        "Q58",
+        "Q67"
+      ],
       "Q77",
-      "Q81",
-      "++LINKED-RANGE",
-      "82",
-      "++LINKED-RANGE",
+      [
+        "Q81",
+        "82"
+      ],
       "83",
       "143-46",
-      "n3",
-      "++LINKED-RANGE",
-      "n22",
+      [
+        "n3",
+        "n22"
+      ],
       "n25"
     ],
     "$seeAlso": [
@@ -10455,13 +10509,14 @@
                 "$links": [
                   "K14",
                   "Q21",
-                  "Q58",
-                  "++LINKED-RANGE",
-                  "59",
-                  "++LINKED-RANGE",
-                  "60",
-                  "++LINKED-RANGE",
-                  "61",
+                  [
+                    "Q58",
+                    "59"
+                  ],
+                  [
+                    "60",
+                    "61"
+                  ],
                   "146",
                   "n21"
                 ]
@@ -10533,10 +10588,10 @@
       },
       "Tablet of": {
         "$links": [
-          "93",
-          "++LINKED-RANGE",
-          "99",
-          "++LINKED-RANGE",
+          [
+            "93",
+            "99"
+          ],
           "101",
           "Q63",
           "Q65"
@@ -10556,9 +10611,10 @@
   },
   "Observance of laws of God": {
     "$links": [
-      "K1",
-      "++LINKED-RANGE",
-      "2",
+      [
+        "K1",
+        "2"
+      ],
       "K17",
       "K45",
       "K62",
@@ -10658,9 +10714,10 @@
   },
   "Ottoman Empire": {
     "$links": [
-      "n119",
-      "++LINKED-RANGE",
-      "20"
+      [
+        "n119",
+        "20"
+      ]
     ]
   },
   "Paradise": {
@@ -10824,9 +10881,10 @@
       "n122",
       "n124",
       "n126",
-      "n131",
-      "++LINKED-RANGE",
-      "32",
+      [
+        "n131",
+        "32"
+      ],
       "n176"
     ]
   },
@@ -10947,9 +11005,10 @@
   "Pools, Persian": {
     "$links": [
       "K106",
-      "n131",
-      "++LINKED-RANGE",
-      "32"
+      [
+        "n131",
+        "32"
+      ]
     ],
     "$seeAlso": [
       "Bath(s)"
@@ -11122,9 +11181,10 @@
     "$links": [
       "K8",
       "102",
-      "n10",
-      "++LINKED-RANGE",
-      "11",
+      [
+        "n10",
+        "11"
+      ],
       "n149"
     ],
     "$children": {
@@ -11492,10 +11552,10 @@
       "laws of Bahá'u'lláh as": {
         "$links": [
           "K45",
-          "K123",
-          "++LINKED-RANGE",
-          "24",
-          "++LINKED-RANGE",
+          [
+            "K123",
+            "24"
+          ],
           "25",
           "K155",
           "n86",
@@ -11908,14 +11968,14 @@
           "of Obligatory Prayer(s)": {
             "$links": [
               "Q14",
-              "n3",
-              "++LINKED-RANGE",
-              "n4",
-              "++LINKED-RANGE",
-              "n5",
-              "++LINKED-RANGE",
-              "n6",
-              "++LINKED-RANGE",
+              [
+                "n3",
+                "n4"
+              ],
+              [
+                "n5",
+                "n6"
+              ],
               "n7",
               "n19"
             ],
@@ -12000,9 +12060,10 @@
           "K85",
           "K100",
           "K157",
-          "K182",
-          "++LINKED-RANGE",
-          "83",
+          [
+            "K182",
+            "83"
+          ],
           "n1",
           "n48"
         ],
@@ -12092,10 +12153,10 @@
       },
       "verity \"He shall not be asked of His doings,\"": {
         "$links": [
-          "K161",
-          "++LINKED-RANGE",
-          "62",
-          "++LINKED-RANGE",
+          [
+            "K161",
+            "62"
+          ],
           "63",
           "162"
         ],
@@ -12199,16 +12260,18 @@
       "leaders": {
         "$links": [
           "K99",
-          "K101",
-          "++LINKED-RANGE",
-          "02",
-          "++LINKED-RANGE",
-          "03",
-          "++LINKED-RANGE",
-          "04",
-          "K165",
-          "++LINKED-RANGE",
-          "66",
+          [
+            "K101",
+            "02"
+          ],
+          [
+            "03",
+            "04"
+          ],
+          [
+            "K165",
+            "66"
+          ],
           "n64",
           "n171"
         ],
@@ -12258,9 +12321,10 @@
           "Q4",
           "149-50",
           "n96",
-          "n97",
-          "++LINKED-RANGE",
-          "98"
+          [
+            "n97",
+            "98"
+          ]
         ]
       },
       "with former spouse": {
@@ -12270,9 +12334,10 @@
           "151",
           "151-52",
           "158",
-          "n101",
-          "++LINKED-RANGE",
-          "02"
+          [
+            "n101",
+            "02"
+          ]
         ]
       }
     }
@@ -12380,10 +12445,10 @@
             "$links": [
               "K80",
               "K103",
-              "K175",
-              "++LINKED-RANGE",
-              "76",
-              "++LINKED-RANGE",
+              [
+                "K175",
+                "76"
+              ],
               "77",
               "n111",
               "n160"
@@ -12470,9 +12535,10 @@
         "$links": [
           "16",
           "K1",
-          "K85",
-          "++LINKED-RANGE",
-          "86",
+          [
+            "K85",
+            "86"
+          ],
           "K134",
           "n1",
           "n155"
@@ -12650,9 +12716,10 @@
     "$children": {
       "of God": {
         "$links": [
-          "K176",
-          "++LINKED-RANGE",
-          "77",
+          [
+            "K176",
+            "77"
+          ],
           "n185"
         ]
       },
@@ -13017,10 +13084,10 @@
                   "13-18",
                   "n108",
                   "n158",
-                  "n190",
-                  "++LINKED-RANGE",
-                  "91",
-                  "++LINKED-RANGE",
+                  [
+                    "n190",
+                    "91"
+                  ],
                   "92"
                 ]
               },
@@ -13367,10 +13434,10 @@
       },
       "hindrances": {
         "$links": [
-          "K161",
-          "++LINKED-RANGE",
-          "62",
-          "++LINKED-RANGE",
+          [
+            "K161",
+            "62"
+          ],
           "63",
           "n134",
           "n170"
@@ -14198,9 +14265,10 @@
       "apostrophe addressed to": {
         "$links": [
           "16-17",
-          "K91",
-          "++LINKED-RANGE",
-          "92",
+          [
+            "K91",
+            "92"
+          ],
           "163"
         ]
       },
@@ -14341,13 +14409,14 @@
           "Q27",
           "149-50",
           "151",
-          "n96",
-          "++LINKED-RANGE",
-          "97",
-          "++LINKED-RANGE",
-          "98",
-          "++LINKED-RANGE",
-          "99"
+          [
+            "n96",
+            "97"
+          ],
+          [
+            "98",
+            "99"
+          ]
         ]
       },
       "and pilgrimage": {
@@ -14359,17 +14428,19 @@
         "$links": [
           "K14",
           "Q21",
-          "Q58",
-          "++LINKED-RANGE",
-          "59",
-          "++LINKED-RANGE",
-          "60",
-          "++LINKED-RANGE",
-          "61",
+          [
+            "Q58",
+            "59"
+          ],
+          [
+            "60",
+            "61"
+          ],
           "146",
-          "n21",
-          "++LINKED-RANGE",
-          "22"
+          [
+            "n21",
+            "22"
+          ]
         ]
       },
       "removal of restrictions in Bayán": {
@@ -14483,10 +14554,10 @@
         "$links": [
           "K70",
           "K134",
-          "K182",
-          "++LINKED-RANGE",
-          "83",
-          "++LINKED-RANGE",
+          [
+            "K182",
+            "83"
+          ],
           "84"
         ]
       },
@@ -14499,9 +14570,10 @@
         "$links": [
           "K3",
           "K7",
-          "K162",
-          "++LINKED-RANGE",
-          "63"
+          [
+            "K162",
+            "63"
+          ]
         ]
       },
       "of Manifestations of God": {
@@ -14628,9 +14700,10 @@
       "of Bahá'ís": {
         "$links": [
           "16",
-          "K57",
-          "++LINKED-RANGE",
-          "58",
+          [
+            "K57",
+            "58"
+          ],
           "K65",
           "K70",
           "161",
@@ -14809,9 +14882,10 @@
       "effect of": {
         "$links": [
           "K116",
-          "K148",
-          "++LINKED-RANGE",
-          "49"
+          [
+            "K148",
+            "49"
+          ]
         ]
       },
       "recitation": {
@@ -14836,15 +14910,17 @@
           },
           "Obligatory Prayers": {
             "$links": [
-              "K13",
-              "++LINKED-RANGE",
-              "14",
+              [
+                "K13",
+                "14"
+              ],
               "Q58",
               "Q60",
               "146",
-              "n20",
-              "++LINKED-RANGE",
-              "21"
+              [
+                "n20",
+                "21"
+              ]
             ],
             "$seeAlso": [
               "Obligatory Prayer(s)"
@@ -14896,10 +14972,10 @@
           "K66",
           "Q87",
           "149",
-          "n93",
-          "++LINKED-RANGE",
-          "94",
-          "++LINKED-RANGE",
+          [
+            "n93",
+            "94"
+          ],
           "95"
         ]
       },
@@ -14980,9 +15056,10 @@
     "$children": {
       "holy": {
         "$links": [
-          "n173",
-          "++LINKED-RANGE",
-          "74"
+          [
+            "n173",
+            "74"
+          ]
         ]
       }
     }
@@ -15068,9 +15145,10 @@
       "oneself": {
         "$links": [
           "K106",
-          "n131",
-          "++LINKED-RANGE",
-          "32"
+          [
+            "n131",
+            "32"
+          ]
         ]
       },
       "of soiled things": {
@@ -15110,9 +15188,10 @@
       "in Persian pools": {
         "$links": [
           "K106",
-          "n131",
-          "++LINKED-RANGE",
-          "32"
+          [
+            "n131",
+            "32"
+          ]
         ]
       },
       "pure": {
@@ -15331,9 +15410,10 @@
       "16",
       "K86",
       "162",
-      "n117",
-      "++LINKED-RANGE",
-      "18"
+      [
+        "n117",
+        "18"
+      ]
     ]
   },
   "Wine": {
@@ -15347,9 +15427,10 @@
     "$children": {
       "as symbol": {
         "$links": [
-          "K4",
-          "++LINKED-RANGE",
-          "5",
+          [
+            "K4",
+            "5"
+          ],
           "K150",
           "K173",
           "n2"
@@ -15778,10 +15859,10 @@
       "K184",
       "K190",
       "n177",
-      "n190",
-      "++LINKED-RANGE",
-      "91",
-      "++LINKED-RANGE",
+      [
+        "n190",
+        "91"
+      ],
       "92"
     ],
     "$children": {
