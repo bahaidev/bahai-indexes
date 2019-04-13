@@ -134,13 +134,11 @@ function recurseList (ul, jsonIndexEntry) {
             case Node.TEXT_NODE: {
               const txt = stripPunctuationAndWhitespace(l.nodeValue);
               if (txt) {
-                if (txt === '-') {
-                  // Todo: Handle range `-`
-                  arr.push('++LINKED-RANGE');
-                } else {
-                  // Todo: Handle
-                  arr.push('==' + txt);
+                if (txt !== '-') {
+                  throw new TypeError('Unexpected text node');
                 }
+                // Todo: Handle range `-`
+                arr.push('++LINKED-RANGE');
               }
               break;
             }
