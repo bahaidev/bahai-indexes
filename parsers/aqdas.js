@@ -95,9 +95,11 @@ function recurseList (ul, jsonIndexEntry) {
                 if (txt !== '-') {
                   throw new TypeError('Unexpected text node');
                 }
-                // Don't keep nesting if this accidentally lists as a range,
-                //   e.g., K175-K176-K177
-                if (!rangeBegun && !Array.isArray($links[$links.length - 1])) {
+                if (!rangeBegun &&
+                  // Don't keep nesting if this accidentally lists as a range,
+                  //   e.g., K175-K176-K177
+                  !Array.isArray($links[$links.length - 1])
+                ) {
                   rangeBegun = true;
                   $links.push([$links.pop()]);
                 }
@@ -125,6 +127,7 @@ function recurseList (ul, jsonIndexEntry) {
                   'Unexpected nodeName ' + nodeName + '::' + l.textContent
                 );
               }
+              // Todo: Finish range checking against `Range work` commit
               // Todo: Handle `mutatis mutandis`
               // Todo: Deal with "see-also" links at different levels
 
