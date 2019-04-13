@@ -82,6 +82,55 @@ function recurseList (ul, jsonIndexEntry) {
       text = stripPunctuationAndWhitespace(text);
       jsonIndexEntry[text] = {};
       lastText = text;
+      if (links !== false) {
+        const $links = [];
+        childNodes.slice(links).some(
+          (l, j) => {
+            const {nodeType} = l;
+            switch (nodeType) {
+            case Node.TEXT_NODE: {
+              const txt = stripPunctuationAndWhitespace(l.nodeValue);
+              if (txt) {
+                if (txt !== '-') {
+                  throw new TypeError('Unexpected text node');
+                }
+                // Todo: Handle range `-`
+                $links.push('++LINKED-RANGE');
+              }
+              break;
+            }
+            case Node.ELEMENT_NODE: {
+              const nodeName = l.nodeName.toLowerCase();
+              if (nodeName === 'br' ||
+                (nodeName === 'i' &&
+                  [
+                    // These are used depending on whether other child
+                    //   content exists, but this can be detected and added
+                    //   programmatically
+                    'See also', 'See'
+                  ].includes(l.textContent))
+              ) {
+                seeAlso = links + j;
+                return true;
+              }
+              const val = nodeName === 'a'
+                ? l.textContent
+                : l.nodeName + '::' + l.textContent;
+              // Todo: Handle newlines case;
+              //   handle `mutatis mutandis`
+              // Todo: Deal with "see-also" links at different levels
+              $links.push(val);
+              break;
+            }
+            default:
+              throw new TypeError('Unexpected `links` type ' + nodeType);
+            }
+            return false;
+          },
+          []
+        );
+        jsonIndexEntry[text].$links = $links;
+      }
       if (seeAlso !== false) {
         jsonIndexEntry[text].$seeAlso = childNodes.slice(seeAlso).reduce(
           (arr, l) => {
@@ -102,75 +151,28 @@ function recurseList (ul, jsonIndexEntry) {
                     // These two are used depending on whether other child
                     //   content exists, but this can be detected and added
                     //   programmatically
-                    'See', 'See also', 'see', 'See headings under',
-                    // "See above" and "See below" are used if the entry
-                    //   were in the same level, but this can be detected
-                    //   and added programmatically
-                    'See above', 'See below'
-                  ].includes(l.textContent))
-              ) {
-                break;
-              }
-              throw new TypeError('Unexpected node name');
-            }
-            default:
-              throw new TypeError('Unexpected `seeAlso` type ' + nodeType);
-            }
-            return arr;
-          },
-          []
-        );
-      }
-      if (links !== false) {
-        jsonIndexEntry[text].$links = childNodes.slice(links).reduce(
-          (arr, l) => {
-            const {nodeType} = l;
-            switch (nodeType) {
-            case Node.TEXT_NODE: {
-              const txt = stripPunctuationAndWhitespace(l.nodeValue);
-              if (txt) {
-                if (txt !== '-') {
-                  throw new TypeError('Unexpected text node');
-                }
-                // Todo: Handle range `-`
-                arr.push('++LINKED-RANGE');
-              }
-              break;
-            }
-            case Node.ELEMENT_NODE: {
-              const nodeName = l.nodeName.toLowerCase();
-              if (nodeName === 'br' ||
-                (nodeName === 'i' &&
-                  [
-                    // These are used depending on whether other child
-                    //   content exists, but this can be detected and added
-                    //   programmatically
-                    'See also', 'see also', 'See',
+                    'See', 'See also', 'see also', 'see', 'See headings under',
                     // "See above" and "See below" are used if the entry
                     //   were in the same level, but this can be detected
                     //   and added programmatically
                     'See also above',
+                    'See above', 'See below',
                     // Todo: We could add a flag to allow programmatic
                     //   reconstruction re: headings
                     // Probably not too critical to preserve these
                     //   distinct descriptions
-                    'See also additional headings under',
-                    'see additional headings under'
+                    'see additional headings under',
+                    'See also additional headings under'
                   ].includes(l.textContent))
               ) {
                 break;
               }
-              const val = nodeName === 'a'
-                ? l.textContent
-                : l.nodeName + '::' + l.textContent;
-              // Todo: Handle newlines case;
-              //   handle `mutatis mutandis`
-              // Todo: Deal with "see-also" links at different levels
-              arr.push(val);
-              break;
+              throw new TypeError(
+                'Unexpected node name: ' + nodeName + ': ' + l.textContent
+              );
             }
             default:
-              throw new TypeError('Unexpected `links` type ' + nodeType);
+              throw new TypeError('Unexpected `seeAlso` type ' + nodeType);
             }
             return arr;
           },
