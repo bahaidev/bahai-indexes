@@ -56,8 +56,8 @@
       }
     }
   },
-  "Abhá. See": {
-    "$links": [
+  "Abhá": {
+    "$seeAlso": [
       "Greatest Name"
     ]
   },
@@ -6047,8 +6047,11 @@
   },
   "House(s) of Justice": {
     "$links": [
+      "3",
       "4",
-      "TABLE::\n     \n      \n     See also\n     House of Justice, Local,House of Justice, National (Secondary),House of Justice, Universal (International)\n    \n    "
+      "House of Justice, Local",
+      "House of Justice, National (Secondary)",
+      "House of Justice, Universal (International)"
     ],
     "$children": {
       "assures education of children": {
@@ -6524,7 +6527,7 @@
           "Q95"
         ]
       },
-      "real estate yeilding no income": {
+      "real estate yielding no income": {
         "$links": [
           "Q102"
         ]
@@ -6650,7 +6653,7 @@
     ]
   },
   "Income": {
-    "$links": [
+    "$seeAlso": [
       "House(s) of Justice",
       "Huqúqu'lláh"
     ]

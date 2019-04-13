@@ -111,11 +111,6 @@ function recurseList (ul, jsonIndexEntry) {
               ) {
                 break;
               }
-              if (nodeName !== 'i') {
-                // Todo: Handle `ul`
-                arr.push(nodeName + ':::' + l.outerHTML);
-                break;
-              }
               throw new TypeError('Unexpected node name');
             }
             default:
@@ -168,8 +163,9 @@ function recurseList (ul, jsonIndexEntry) {
               const val = nodeName === 'a'
                 ? l.textContent
                 : l.nodeName + '::' + l.textContent;
-              // Todo: Handle table `nodeName` and newlines case;
+              // Todo: Handle newlines case;
               //   handle `mutatis mutandis`
+              // Todo: Deal with "see-also" links at different levels
               arr.push(val);
               break;
             }
