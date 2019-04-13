@@ -141,7 +141,7 @@ function recurseList (ul, jsonIndexEntry) {
                   // Todo: Handle range `-`
                   arr.push('++UNLINKED-RANGE' + txt);
                 } else {
-                  // Todo: handle
+                  // Todo: Handle
                   arr.push('==' + txt);
                 }
               }
@@ -149,7 +149,25 @@ function recurseList (ul, jsonIndexEntry) {
             }
             case Node.ELEMENT_NODE: {
               const nodeName = l.nodeName.toLowerCase();
-              if (nodeName === 'br') {
+              if (nodeName === 'br' ||
+                (nodeName === 'i' &&
+                  [
+                    // These are used depending on whether other child
+                    //   content exists, but this can be detected and added
+                    //   programmatically
+                    'See also', 'see also', 'See',
+                    // "See above" and "See below" are used if the entry
+                    //   were in the same level, but this can be detected
+                    //   and added programmatically
+                    'See also above',
+                    // Todo: We could add a flag to allow programmatic
+                    //   reconstruction re: headings
+                    // Probably not too critical to preserve these
+                    //   distinct descriptions
+                    'See also additional headings under',
+                    'see additional headings under'
+                  ].includes(l.textContent))
+              ) {
                 break;
               }
               const val = nodeName === 'a'
