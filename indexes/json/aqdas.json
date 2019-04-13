@@ -3,9 +3,9 @@
   "Abasement": {},
   "'Abdu'l-`Azíz, Sultan": {},
   "`Abdu'l-Bahá": {
-    "children": {
+    "$children": {
       "Writings (Tablets) individual works": {
-        "children": {
+        "$children": {
           "": {},
           "Will and Testament of": {},
           "not accounted \"verses of God,\"": {}
@@ -16,7 +16,7 @@
   "Abhá. See": {},
   "Abjad notation": {},
   "Ablutions": {
-    "children": {
+    "$children": {
       "before Obligatory Prayers": {},
       "before repetition of \"Alláh-u-Abhá,\"": {},
       "before verse to be said by women in their courses": {},
@@ -27,13 +27,13 @@
   },
   "Abraham": {},
   "Abrogation of laws and practices": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
   "Absolution of sins": {},
   "Abuse forbidden": {
-    "children": {
+    "$children": {
       "physical": {},
       "verbal": {}
     }
@@ -41,24 +41,24 @@
   "Administrative Order, Bahá'í": {},
   "Admonitions": {},
   "Adoration, Point of": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
   "Adrianople": {},
   "Adult": {},
   "Adultery": {
-    "children": {
+    "$children": {
       "forbidden": {},
       "punishment for": {
-        "children": {
+        "$children": {
           "fine levied for each offense": {}
         }
       }
     }
   },
   "Age": {
-    "children": {
+    "$children": {
       "coming of": {},
       "of maturity": {},
       "old": {},
@@ -66,7 +66,7 @@
     }
   },
   "Aghsán": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
@@ -76,12 +76,12 @@
   "Aid": {},
   "`Akká": {},
   "`Alá, month of": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
   "Alchohol": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
@@ -95,13 +95,13 @@
   "Angels": {},
   "Anger": {},
   "Animals": {
-    "children": {
+    "$children": {
       "": {},
       "cruelty to, prohibited": {}
     }
   },
   "Anniversaries, Bahá'í": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
@@ -112,17 +112,17 @@
   "Aqá Ján": {},
   "Aqsá Mosque": {},
   "Ar-Rúm": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
   "Arab(s)": {},
   "Arabic": {
-    "children": {
+    "$children": {
       "Bahá'u'lláh's mastery of": {},
       "Bayan, identified": {},
       "of Kitáb-i-Aqdas": {
-        "children": {
+        "$children": {
           "": {}
         }
       },
@@ -135,7 +135,7 @@
   "Arms, carrying of": {},
   "Arson": {},
   "Art(s)": {
-    "children": {
+    "$children": {
       "of reading and writing": {},
       "study of such as benefit mankind": {}
     }
@@ -144,7 +144,7 @@
   "Asceticism": {},
   "Ashkhabad ('Ishqábád)": {},
   "Assemblies, Spiritual, Bahá'í": {
-    "children": {
+    "$children": {
       "": {},
       "membership": {},
       "ordained": {},
@@ -152,7 +152,7 @@
     }
   },
   "Assistance (Aid)": {
-    "children": {
+    "$children": {
       "to Cause of God": {},
       "divine": {},
       "to king who will arise": {},
@@ -160,46 +160,46 @@
     }
   },
   "Associations": {
-    "children": {
+    "$children": {
       "with followers of all religions": {},
       "between people of Bahá": {}
     }
   },
   "Astronomy": {},
   "Attributes": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
   "Aunts": {
-    "children": {
+    "$children": {
       "": {}
     }
   },
   "Austria": {},
   "Authority": {
-    "children": {
+    "$children": {
       "": {},
       "of 'Abdu'l-Bahá": {
-        "children": {
+        "$children": {
           "": {}
         }
       },
       "of God": {},
       "of Holy Text": {},
       "of House of Justice": {
-        "children": {
+        "$children": {
           "": {}
         }
       },
       "of interpretation": {
-        "children": {
+        "$children": {
           "": {}
         }
       },
       "of Manifestation of God": {},
       "of Shoghi Effendi": {
-        "children": {
+        "$children": {
           "": {}
         }
       },
@@ -211,14 +211,14 @@
   "Azalís": {},
   "B and E (the letters)": {},
   "Bab, the": {
-    "children": {
+    "$children": {
       "Bahá'u'lláh refers to": {},
       "Birth of (one of Twin Birthdays)": {},
       "Declaration of": {},
       "Dispensation of": {},
       "followers of (Bábí's)": {},
       "He Whom God will make manifest, references to": {
-        "children": {
+        "$children": {
           "commands to offer priceless gifts to": {},
           "forbids followers to ask Him questions": {},
           "identifies Qiblih with": {},
@@ -237,7 +237,7 @@
       "Shrine of": {},
       "sufferings of Bahá'u'lláh foreshadowed": {},
       "titles": {
-        "children": {
+        "$children": {
           "Point of the Bayán": {},
           "Primal Point": {}
         }
@@ -245,7 +245,7 @@
       "\"Upright Alif,\" as symbol of advent": {},
       "warnings of": {},
       "Writings": {
-        "children": {
+        "$children": {
           "Qayyúmu'l-Asmá'": {},
           "": {},
           "Tablet addressed to Bahá'u'lláh": {}
@@ -258,12 +258,12 @@
   "Baghdád": {},
   "Bahá": {},
   "Bahá'í Faith (Cause of God)": {
-    "children": {
+    "$children": {
       "acceptance": {},
       "\"Crimson Ark&#; refers to": {},
       "denial": {},
       "direction of affairs of": {
-        "children": {
+        "$children": {
           "": {}
         }
       },
@@ -271,7 +271,7 @@
       "Head of": {},
       "Holy Places": {},
       "opposition to": {
-        "children": {
+        "$children": {
           "predicted": {}
         }
       },
@@ -282,13 +282,13 @@
       "recognition as state religion": {},
       "relationship to Faith of the Báb": {},
       "service to": {
-        "children": {
+        "$children": {
           "attracts divine assistance": {}
         }
       },
       "unity of": {},
       "victory": {
-        "children": {
+        "$children": {
           "through aid of believers": {},
           "through aid of Laws": {}
         }
@@ -298,10 +298,10 @@
     }
   },
   "Bahá'ís (believers, followers of Bahá'u'lláh, loved ones, people of Bahá)": {
-    "children": {
+    "$children": {
       "conduct and character enjoined on": {},
       "duties": {
-        "children": {
+        "$children": {
           "observance of laws": {},
           "recognition of Manifestation of God": {}
         }
@@ -314,14 +314,14 @@
   },
   "": {},
   "Bahá'u'lláh": {
-    "children": {
+    "$children": {
       "advent": {},
       "Ascension": {},
       "birth": {},
       "captivity": {},
       "commandments": {},
       "Covenant of": {
-        "children": {
+        "$children": {
           "Arch-breaker of": {}
         }
       },
@@ -337,7 +337,7 @@
       "mastery of Arabic": {},
       "mission communicated to Mírzá Yahyá": {},
       "Names and titles": {
-        "children": {
+        "$children": {
           "Ancient Beauty": {},
           "Ancient of Days": {},
           "Ancient Root": {},
@@ -345,7 +345,7 @@
           "Compassionate, Most": {},
           "Counselor": {},
           "Dawning-place": {
-            "children": {
+            "$children": {
               "of Beauty": {},
               "of God's Cause": {},
               "of Revelation": {},
@@ -354,7 +354,7 @@
             }
           },
           "Dayspring": {
-            "children": {
+            "$children": {
               "of Divine Unity": {},
               "of God's Light": {},
               "of Grandeur": {},
@@ -365,7 +365,7 @@
             }
           },
           "Daystar": {
-            "children": {
+            "$children": {
               "of Utterance": {}
             }
           },
@@ -382,7 +382,7 @@
           "Nightingale": {},
           "Ocean, Most Mighty": {},
           "Pen": {
-            "children": {
+            "$children": {
               "of the Eternal King": {},
               "of Glory": {},
               "of His behest": {},
@@ -406,7 +406,7 @@
       "observance of laws": {},
       "purpose of": {},
       "recognition of": {
-        "children": {
+        "$children": {
           "effect on believer": {},
           "exhortations concerning": {},
           "to clergy": {},
@@ -424,7 +424,7 @@
       "and \"School of Transcendent Oneness,\"": {},
       "Shrine of (Most Holy Shrine, Most Holy Tomb)": {},
       "sovereignty": {
-        "children": {
+        "$children": {
           "over hearts of men": {}
         }
       },
@@ -435,17 +435,17 @@
       "unlettered": {},
       "vision of": {},
       "Words of": {
-        "children": {
+        "$children": {
           "power and influence": {},
           "sweetness": {}
         }
       },
       "World Order of": {},
       "Writings": {
-        "children": {
+        "$children": {
           "disparities between Tablets": {},
           "individual works": {
-            "children": {
+            "$children": {
               "Hidden Words": {},
               "Kitáb-i-'Ahd (Book of My Covenant)": {},
               "Kitáb-i-Iqan": {},
@@ -469,21 +469,21 @@
   "Balance, Book of God as": {},
   "Bastámí, Mullá 'Alí": {},
   "Bath(s)": {
-    "children": {
+    "$children": {
       "Persian public": {}
     }
   },
   "Bayán": {
-    "children": {
+    "$children": {
       "description": {
-        "children": {
+        "$children": {
           "Arabic and Persian": {}
         }
       },
       "laws": {
-        "children": {
+        "$children": {
           "abrogated by Bahá'u'lláh": {
-            "children": {
+            "$children": {
               "Destruction of books": {},
               "fine for causing sadness to another": {},
               "marriage with a non-believer": {},
@@ -493,7 +493,7 @@
             }
           },
           "confirmed, amplified or modified by Bahá'u'lláh": {
-            "children": {
+            "$children": {
               "burial": {},
               "burial ring, inscription on": {},
               "calendar": {},
@@ -540,7 +540,7 @@
   "Birthdays (of Bahá'u'lláh and the Báb)": {},
   "Birthright of eldest son": {},
   "Body": {
-    "children": {
+    "$children": {
       "care of": {},
       "desires of the flesh": {},
       "respect for": {}
@@ -548,7 +548,7 @@
   },
   "Bones do not invalidate prayer": {},
   "Book(s)": {
-    "children": {
+    "$children": {
       "of the Covenant": {},
       "of creation": {},
       "destruction of": {},
@@ -562,7 +562,7 @@
   },
   "Bosporus": {},
   "Bride": {
-    "children": {
+    "$children": {
       "and dowry": {},
       "and virginity": {}
     }
@@ -571,7 +571,7 @@
   "Brothers, as inheritors": {},
   "Buddha": {},
   "Burial": {
-    "children": {
+    "$children": {
       "burial rings": {},
       "coffin": {},
       "cremation prohibited": {},
@@ -583,19 +583,19 @@
   },
   "Burning Bush": {},
   "Business": {
-    "children": {
+    "$children": {
       "investment in": {},
       "place of, exempt from Huqúq": {}
     }
   },
   "Byzantium": {},
   "Calendar, Bahá'í": {
-    "children": {
+    "$children": {
       "Based on solar year": {},
       "day, period of": {},
       "Intercalary Days (Ayyám-i-Há)": {},
       "months": {
-        "children": {
+        "$children": {
           "names": {},
           "number of, in a year": {},
           "number of days in": {}
@@ -619,16 +619,16 @@
   "Celibacy": {},
   "Chapels": {},
   "Charity": {
-    "children": {
+    "$children": {
       "endowments dedicated to": {},
       "works of": {}
     }
   },
   "Chastity": {},
   "Children": {
-    "children": {
+    "$children": {
       "education": {
-        "children": {
+        "$children": {
           "daughters take precedence": {},
           "spiritual": {}
         }
@@ -639,21 +639,21 @@
     }
   },
   "Christ (Jesus)": {
-    "children": {
+    "$children": {
       "title \"Spirit of God,\"": {}
     }
   },
   "Christianity": {},
   "Churches": {},
   "Cities": {
-    "children": {
+    "$children": {
       "development of": {},
       "establishment of House of Justice in": {},
       "development of Mashriqu'l-Adhkár in": {}
     }
   },
   "City dweller": {
-    "children": {
+    "$children": {
       "amount of dowry payable by": {},
       "definition": {}
     }
@@ -662,12 +662,12 @@
   "Civility": {},
   "Civilization": {},
   "Claim to Revelation": {
-    "children": {
+    "$children": {
       "by Mírza Yahyá": {}
     }
   },
   "Cleanliness": {
-    "children": {
+    "$children": {
       "immaculate standard inculcated": {},
       "influence on spirit of man": {},
       "to perfume oneself": {},
@@ -676,7 +676,7 @@
     }
   },
   "Clergy (Divines)": {
-    "children": {
+    "$children": {
       "addressed": {},
       "opposition by": {},
       "practices prohibited or abolished": {},
@@ -685,11 +685,11 @@
   },
   "Clocks": {},
   "Clothing": {
-    "children": {
+    "$children": {
       "cleanliness, enjoined": {},
       "of deceased": {},
       "former restrictions lifted": {
-        "children": {
+        "$children": {
           "animal furs": {},
           "silk": {}
         }
@@ -707,7 +707,7 @@
   "Comprehension": {},
   "Concepts, human": {},
   "Concourse (on high)": {
-    "children": {
+    "$children": {
       "circle around Qiblih": {},
       "promise of assistance": {}
     }
@@ -720,14 +720,14 @@
   "Constancy": {},
   "Constantinople (Istanbul)": {},
   "Consultation": {
-    "children": {
+    "$children": {
       "and House of Justice": {},
       "method of": {},
       "at Nineteen Day Feast": {}
     }
   },
   "Contention": {
-    "children": {
+    "$children": {
       "not to contend with authoritive interpretations of Writings": {},
       "with those in authority": {}
     }
@@ -736,7 +736,7 @@
   "Controversy": {},
   "Councils": {},
   "Counselors": {
-    "children": {
+    "$children": {
       "Continental Boards": {},
       "professional": {}
     }
@@ -746,7 +746,7 @@
   "Courtesy": {},
   "Cousins": {},
   "Covenant": {
-    "children": {
+    "$children": {
       "of Bahá'u'lláh": {},
       "of God": {}
     }
@@ -754,7 +754,7 @@
   "Covenant-breaking": {},
   "Craft": {},
   "Creation": {
-    "children": {
+    "$children": {
       "all things purified": {},
       "book of": {},
       "called into being": {},
@@ -769,14 +769,14 @@
   "Crystal": {},
   "Cursing": {},
   "Customs": {
-    "children": {
+    "$children": {
       "redefined and take on new meaning": {}
     }
   },
   "Cycle, divine": {},
   "Danger, times of": {},
   "Daughters": {
-    "children": {
+    "$children": {
       "education": {},
       "inheritance": {}
     }
@@ -784,14 +784,14 @@
   "David (King)": {},
   "Dawn, prayer at": {},
   "Day(s)": {
-    "children": {
+    "$children": {
       "of the Covenant": {},
       "of God": {}
     }
   },
   "Dead, transportation of": {},
   "Death": {
-    "children": {
+    "$children": {
       "punishment for murder or arson": {},
       "of spouse while on journey": {}
     }
@@ -801,9 +801,9 @@
   "Deceit": {},
   "Decision-making": {},
   "Deeds": {
-    "children": {
+    "$children": {
       "good": {
-        "children": {
+        "$children": {
           "acceptance dependent on good-pleasure of God": {},
           "recognition": {}
         }
@@ -816,13 +816,13 @@
   "Depreciation of property": {},
   "Deputies": {},
   "Descendants": {
-    "children": {
+    "$children": {
       "of Bahá'u'lláh": {},
       "of Muhammad": {}
     }
   },
   "Desire": {
-    "children": {
+    "$children": {
       "corrupt, selfish": {},
       "earthly": {},
       "wilderness of": {}
@@ -832,7 +832,7 @@
   "Detachment": {},
   "Development, social and economic": {},
   "Differences": {
-    "children": {
+    "$children": {
       "between marriage partners": {},
       "between people": {},
       "between revealed verses": {},
@@ -846,18 +846,18 @@
   "Discrimination": {},
   "Disorder, spread not": {},
   "Dispensation, Bahá'í": {
-    "children": {
+    "$children": {
       "duration of": {}
     }
   },
   "Dispensations, religious, of the past": {
-    "children": {
+    "$children": {
       "abrogation of laws by Bahá'u'lláh": {},
       "essential unity of": {},
       "holy books of": {},
       "law of primogeniture": {},
       "practices concerning": {
-        "children": {
+        "$children": {
           "ablutions": {},
           "clothing": {},
           "destruction of books": {},
@@ -867,7 +867,7 @@
           "monasticism and asceticism": {},
           "music": {},
           "prayer": {
-            "children": {
+            "$children": {
               "congregational": {},
               "exemptions granted to women in their courses": {}
             }
@@ -883,18 +883,18 @@
   "Dissension": {},
   "Divines": {},
   "Divorce": {
-    "children": {
+    "$children": {
       "censured": {},
       "infidelity": {},
       "recovery of dowry": {},
       "remarriage": {},
       "separation": {
-        "children": {
+        "$children": {
           "due to absence of spouse": {}
         }
       },
       "year of patience": {
-        "children": {
+        "$children": {
           "maintenance of wife and children": {},
           "record of": {},
           "and renewal of affection": {},
@@ -906,7 +906,7 @@
   "Domestic help": {},
   "Doubt": {},
   "Dowry": {
-    "children": {
+    "$children": {
       "determining amount": {},
       "promissory note": {},
       "recovery of": {},
@@ -914,7 +914,7 @@
     }
   },
   "Dress": {
-    "children": {
+    "$children": {
       "propriety": {}
     }
   },
@@ -927,15 +927,15 @@
   "Eating, plungings one's hand in food": {},
   "Ecclesiastics": {},
   "Education": {
-    "children": {
+    "$children": {
       "areas of study": {
-        "children": {
+        "$children": {
           "arts and sciences": {},
           "languages": {}
         }
       },
       "of children": {
-        "children": {
+        "$children": {
           "daughters take precedence": {}
         }
       },
@@ -956,7 +956,7 @@
   "Estate": {},
   "Eternity": {},
   "Evening": {
-    "children": {
+    "$children": {
       "definition (for purposes of Obligatory Prayer)": {},
       "prayer": {},
       "recitation of verses": {},
@@ -965,7 +965,7 @@
   },
   "Evil": {},
   "Exemptions": {
-    "children": {
+    "$children": {
       "not viewed as prohibitions": {}
     }
   },
@@ -977,19 +977,19 @@
   "Faithfulness": {},
   "Faithlessness": {},
   "Family": {
-    "children": {
+    "$children": {
       "bedrock of society": {}
     }
   },
   "Fanaticism": {},
   "Fancies, idle": {},
   "Fasting": {
-    "children": {
+    "$children": {
       "age of maturity for": {},
       "conditions": {
-        "children": {
+        "$children": {
           "abstinence from food and drink": {
-            "children": {
+            "$children": {
               "includes smoking": {}
             }
           },
@@ -999,7 +999,7 @@
       "duration": {},
       "during days other than prescribed": {},
       "exemptions from, due to": {
-        "children": {
+        "$children": {
           "age": {},
           "Bahá'í Holy Days": {},
           "illness": {},
@@ -1013,7 +1013,7 @@
     }
   },
   "Father": {
-    "children": {
+    "$children": {
       "instruction of son and daughter enjoined on": {},
       "son should serve": {}
     }
@@ -1023,7 +1023,7 @@
   "Feasts": {},
   "Feet, washing of": {},
   "Fellowship": {
-    "children": {
+    "$children": {
       "among Bahá'ís": {},
       "with followers of all religions": {}
     }
@@ -1031,13 +1031,13 @@
   "Festivals, Bahá'í": {},
   "Fidelity": {},
   "Financial Assistance": {
-    "children": {
+    "$children": {
       "to family during year of patience": {},
       "to poor": {}
     }
   },
   "Fines": {
-    "children": {
+    "$children": {
       "for committing adultery": {},
       "for having sexual intercourse during year of patience": {}
     }
@@ -1050,7 +1050,7 @@
   "Force, use of": {},
   "Forefathers": {},
   "Forgiveness": {
-    "children": {
+    "$children": {
       "repentance and": {}
     }
   },
@@ -1060,7 +1060,7 @@
   "Franco-Prussian War": {},
   "Freedom": {},
   "Fulfillment": {
-    "children": {
+    "$children": {
       "of promises": {}
     }
   },
@@ -1070,14 +1070,14 @@
   "Furnishings": {},
   "Hadith": {},
   "Hair": {
-    "children": {
+    "$children": {
       "does not invalidate prayer": {},
       "length": {},
       "shaving": {}
     }
   },
   "Hand(s)": {
-    "children": {
+    "$children": {
       "kissing": {},
       "plunging into food": {},
       "washing of": {}
@@ -1094,7 +1094,7 @@
   "Heroes": {},
   "Heroin": {},
   "He Whom God shall make manifest": {
-    "children": {
+    "$children": {
       "offering priceless gifts to": {},
       "questioning": {},
       "statements of the Báb concerning": {}
@@ -1107,17 +1107,17 @@
   "Holy City": {},
   "Holy Court": {},
   "Holy Days": {
-    "children": {
+    "$children": {
       "Ascension of Bahá'u'lláh": {},
       "Day of the Covenant": {},
       "Declaration of the Báb": {
-        "children": {
+        "$children": {
           "during the fast": {}
         }
       },
       "Martyrdom of the Báb": {},
       "Naw-Rúz (New Year)": {
-        "children": {
+        "$children": {
           "Day of God": {},
           "immediately follows Fast": {},
           "timing of": {}
@@ -1125,13 +1125,13 @@
       },
       "Passing of 'Abdu'l-Bahá": {},
       "Ridván, Festival of (Declaration of Bahá'u'lláh)": {
-        "children": {
+        "$children": {
           "first, ninth and twelfth days": {},
           "King of Festivals": {}
         }
       },
       "Twin Holy Birthdays": {
-        "children": {
+        "$children": {
           "Birth of the Báb": {},
           "Birth of Bahá'u'lláh": {},
           "during the Fast": {},
@@ -1143,11 +1143,11 @@
   },
   "Holy Land": {},
   "Holy Places and Historical Sites": {
-    "children": {
+    "$children": {
       "House of the Báb in Shíráz": {},
       "Shrine of Bahá'u'lláh": {},
       "Twin Houses": {
-        "children": {
+        "$children": {
           "and other sites, restoration and preservation": {},
           "pilgrimage to": {}
         }
@@ -1160,7 +1160,7 @@
   "Homosexual relations": {},
   "Hospitality": {},
   "Houses": {
-    "children": {
+    "$children": {
       "entering without permission of owner": {},
       "furnishings, renewal": {},
       "sacred": {},
@@ -1168,13 +1168,13 @@
     }
   },
   "House(s) of Justice": {
-    "children": {
+    "$children": {
       "assures education of children": {},
       "charged with affairs of the people": {},
       "legislates on marriage between relatives": {},
       "matters of state to be referred to": {},
       "membership": {
-        "children": {
+        "$children": {
           "composition": {},
           "number": {},
           "referred to as Deputies": {},
@@ -1191,12 +1191,12 @@
     }
   },
   "House of Justice, Local": {
-    "children": {
+    "$children": {
       "administers divorces": {},
       "financial assistance to the poor": {},
       "inheritances from missing heirs": {},
       "membership": {
-        "children": {
+        "$children": {
           "men and women eligible": {},
           "number": {}
         }
@@ -1207,23 +1207,23 @@
   },
   "House of Justice, National (Secondary)": {},
   "House of Justice, Universal (International)": {
-    "children": {
+    "$children": {
       "authority conferred by Bahá'u'lláh": {},
       "constitution": {},
       "divinely guided": {},
       "election method": {},
       "establishment": {},
       "membership": {
-        "children": {
+        "$children": {
           "confined to men": {},
           "number": {}
         }
       },
       "powers and duties": {
-        "children": {
+        "$children": {
           "administers endowments": {},
           "future legislation": {
-            "children": {
+            "$children": {
               "application of penalties for murder and arson": {},
               "application of penalties for sexual offenses": {},
               "degrees of, and application of penalties for theft": {},
@@ -1241,7 +1241,7 @@
   },
   "House of Worship": {},
   "Human Race (Humanity, Man, Mankind, Peoples, Peoples of the World)": {
-    "children": {
+    "$children": {
       "addressed": {},
       "coming of age": {},
       "condition": {},
@@ -1258,7 +1258,7 @@
   "Humility": {},
   "Hunting": {},
   "Huqúqu'lláh (Right of God)": {
-    "children": {
+    "$children": {
       "conditions for payment": {},
       "estate of deceased": {},
       "exemptions": {},
@@ -1272,10 +1272,10 @@
   "Idleness, prohibited": {},
   "Ignorance": {},
   "Illness": {
-    "children": {
+    "$children": {
       "consult physician": {},
       "exemptions during": {
-        "children": {
+        "$children": {
           "fasting": {},
           "Obligatory Prayer": {}
         }
@@ -1286,7 +1286,7 @@
   "Implementation of laws": {},
   "Imposter": {},
   "Imprisonment": {
-    "children": {
+    "$children": {
       "for murder and arson": {},
       "for theft": {}
     }
@@ -1294,30 +1294,30 @@
   "Impurity": {},
   "Income": {},
   "Indemnity": {
-    "children": {
+    "$children": {
       "for manslaughter": {},
       "for wounding or striking a person": {}
     }
   },
   "India": {},
   "Indulgence": {
-    "children": {
+    "$children": {
       "in carrying out laws": {},
       "of passions": {}
     }
   },
   "Infallibility": {
-    "children": {
+    "$children": {
       "of Manifestation of God (Most Great Infallibility)": {},
       "of Word of God": {}
     }
   },
   "Inheritance": {
-    "children": {
+    "$children": {
       "absence of heirs": {
-        "children": {
+        "$children": {
           "children": {
-            "children": {
+            "$children": {
               "female": {},
               "male": {}
             }
@@ -1327,14 +1327,14 @@
         }
       },
       "allocation of shares and property": {
-        "children": {
+        "$children": {
           "brothers": {
-            "children": {
+            "$children": {
               "half-brothers": {}
             }
           },
           "children": {
-            "children": {
+            "$children": {
               "female": {},
               "male": {},
               "under age": {}
@@ -1346,13 +1346,13 @@
           "mother": {},
           "nephews and neices": {},
           "sisters": {
-            "children": {
+            "$children": {
               "half-sisters": {}
             }
           },
           "spouse": {},
           "teachers": {
-            "children": {
+            "$children": {
               "non-Bahá'í, do not inherit": {}
             }
           },
@@ -1360,7 +1360,7 @@
         }
       },
       "clothing, distribution of": {
-        "children": {
+        "$children": {
           "used, of deceased woman": {}
         }
       },
@@ -1372,7 +1372,7 @@
       "non-Bahá'í relatives and intestacy": {},
       "residence, principle": {},
       "reversion of inheritance to House of Justice": {
-        "children": {
+        "$children": {
           "childrens allocation": {},
           "male heirs' allocation": {},
           "other catagories' allocation": {}
@@ -1384,19 +1384,19 @@
   },
   "Instability of human affairs": {},
   "Institutions": {
-    "children": {
+    "$children": {
       "administrative": {},
       "elections for": {}
     }
   },
   "Intercalary days (Ayyám-i-Há)": {
-    "children": {
+    "$children": {
       "position in calendar": {}
     }
   },
   "International Teaching Center": {},
   "Interpretation of Sacred Text": {
-    "children": {
+    "$children": {
       "authoritive": {},
       "individual": {}
     }
@@ -1410,7 +1410,7 @@
   "Isfahán": {},
   "'Ishqábád (Ashkhabad)": {},
   "Islám": {
-    "children": {
+    "$children": {
       "laws": {},
       "practices and traditions": {}
     }
@@ -1423,7 +1423,7 @@
   "Jewelry": {},
   "Joseph": {},
   "Journey": {
-    "children": {
+    "$children": {
       "Night, of Muhammad": {},
       "of soul towards God": {}
     }
@@ -1431,7 +1431,7 @@
   "Judaism": {},
   "Judicial officer, religious": {},
   "Justice": {
-    "children": {
+    "$children": {
       "appearance on earth": {},
       "in Bahá'í laws": {},
       "exhortations to observe": {},
@@ -1442,7 +1442,7 @@
   "Khurásán": {},
   "Kindness": {},
   "Kingdom(s)": {
-    "children": {
+    "$children": {
       "of creation": {},
       "language of": {},
       "of Revelation": {}
@@ -1450,7 +1450,7 @@
   },
   "King of Festivals": {},
   "Kings (Crowned heads)": {
-    "children": {
+    "$children": {
       "addressed collectively": {},
       "who will arise to aid Cause": {}
     }
@@ -1460,16 +1460,16 @@
   "Kirmání, Mírzá áqá Khán": {},
   "Kissing of hands": {},
   "Kitáb-i-Aqdas": {
-    "children": {
+    "$children": {
       "character of": {},
       "circulation gradual": {},
       "Dispensations, past, relationship": {
-        "children": {
+        "$children": {
           "anticipated by Prophet Isaiah": {},
           "anticipated by writer of the Apocalypse": {},
           "embraces all": {},
           "Holy Books of": {
-            "children": {
+            "$children": {
               "Bayán": {}
             }
           },
@@ -1488,13 +1488,13 @@
       "prohibitions": {},
       "publication of original Arabic text": {},
       "revelation": {
-        "children": {
+        "$children": {
           "date": {},
           "most signal act of Bahá'u'lláh's ministry": {}
         }
       },
       "significance": {
-        "children": {
+        "$children": {
           "brightest emanation of Author's mind": {},
           "Charter of future world civilization": {},
           "Most Holy Book": {},
@@ -1506,7 +1506,7 @@
       "Synopsis and Codification of": {},
       "warnings": {},
       "works of Bahá'u'lláh supplementary to": {
-        "children": {
+        "$children": {
           "Questions and Answers": {},
           "": {}
         }
@@ -1514,10 +1514,10 @@
     }
   },
   "Knowledge": {
-    "children": {
+    "$children": {
       "aquisition of": {},
       "barrier to recognition of": {
-        "children": {
+        "$children": {
           "Manifestation of God": {},
           "divine": {}
         }
@@ -1530,12 +1530,12 @@
   "Krishna": {},
   "Labor": {},
   "lamentation": {
-    "children": {
+    "$children": {
       "of Berlin": {}
     }
   },
   "Land": {
-    "children": {
+    "$children": {
       "Holy": {},
       "of Káf and Rá": {},
       "of Khá": {},
@@ -1544,16 +1544,16 @@
     }
   },
   "Language(s)": {
-    "children": {
+    "$children": {
       "learned for teaching Cause": {},
       "universal": {}
     }
   },
   "Law(s) of Bahá'u'lláh": {
-    "children": {
+    "$children": {
       "antecedents": {},
       "application": {
-        "children": {
+        "$children": {
           "to men and women equally": {},
           "progressive": {},
           "in relation to Civil Law": {}
@@ -1563,7 +1563,7 @@
       "brevity": {},
       "central themes": {},
       "characterised by Bahá'u'lláh": {
-        "children": {
+        "$children": {
           "breath of life": {},
           "hearts will rejoice through": {},
           "keys of mercy": {},
@@ -1576,7 +1576,7 @@
       },
       "designed for future state of society": {},
       "elaboration and supplementation": {
-        "children": {
+        "$children": {
           "by Bahá'u'lláh": {},
           "by Universal House of Justice": {}
         }
@@ -1584,13 +1584,13 @@
       "embedded in spiritual commentary": {},
       "exemptions from": {},
       "institutions ordained by": {
-        "children": {
+        "$children": {
           "Guardianship": {},
           "House of Justice": {}
         }
       },
       "obedience to, observance of": {
-        "children": {
+        "$children": {
           "benefits": {},
           "brings true liberty": {},
           "enjoined": {},
@@ -1603,7 +1603,7 @@
       "particular to men": {},
       "particular to women": {},
       "purpose(s)": {
-        "children": {
+        "$children": {
           "establishment of love, harmony, unity": {},
           "maintenance of order and security": {},
           "protection and elevation of human station": {}
@@ -1612,7 +1612,7 @@
       "revelation": {},
       "significance": {},
       "supersede former laws and customs": {
-        "children": {
+        "$children": {
           "relation to laws of the Báb": {}
         }
       },
@@ -1622,7 +1622,7 @@
   "Law, civil": {},
   "Leap Year": {},
   "Learned, amoung people of Bahá": {
-    "children": {
+    "$children": {
       "duties": {}
     }
   },
@@ -1630,7 +1630,7 @@
   "Legislation": {},
   "Liberty": {},
   "Life": {
-    "children": {
+    "$children": {
       "Book of": {},
       "everlasting": {},
       "imprisonment": {},
@@ -1640,7 +1640,7 @@
   "Lost property": {},
   "Lotteries": {},
   "Love": {
-    "children": {
+    "$children": {
       "human": {},
       "and marriage": {}
     }
@@ -1650,7 +1650,7 @@
   "Maid (female servant)": {},
   "majority vote in decision-making": {},
   "Manifestation(s) of God": {
-    "children": {
+    "$children": {
       "infallibility of": {},
       "next": {},
       "of past": {}
@@ -1661,9 +1661,9 @@
   "Marijuana": {},
   "Marketplace": {},
   "Marriage": {
-    "children": {
+    "$children": {
       "absence of spouse": {
-        "children": {
+        "$children": {
           "death during": {}
         }
       },
@@ -1679,7 +1679,7 @@
     }
   },
   "Mashriqu'l-Adhkár (House of Worship)": {
-    "children": {
+    "$children": {
       "children to recite tablets in": {},
       "dawn prayers": {},
       "dependencies": {},
@@ -1688,11 +1688,11 @@
   },
   "Material means, to make use of": {},
   "Maturity, age of": {
-    "children": {
+    "$children": {
       "for Bahá'í administrative purposes": {},
       "for betrothal and marriage": {},
       "for performance of religious duties": {
-        "children": {
+        "$children": {
           "Prayer for the Dead and burial rings": {}
         }
       },
@@ -1703,7 +1703,7 @@
   "Medicine": {},
   "Meetings, Bahá'í": {},
   "Men": {
-    "children": {
+    "$children": {
       "burial rings, inscription": {},
       "hair, length of": {},
       "marriage verse": {},
@@ -1716,7 +1716,7 @@
   },
   "Mendicancy": {},
   "Menstruation": {
-    "children": {
+    "$children": {
       "during the fast": {},
       "and Obligatory Prayer": {}
     }
@@ -1733,7 +1733,7 @@
   "Monogamy": {},
   "Morality, implications of violating laws of": {},
   "Morning": {
-    "children": {
+    "$children": {
       "definition (for the purpose of Obligatory Prayer)": {},
       "determining time": {},
       "recitation of verses": {},
@@ -1742,7 +1742,7 @@
   },
   "Moses": {},
   "Mosque(s)": {
-    "children": {
+    "$children": {
       "Aqsá": {}
     }
   },
@@ -1759,7 +1759,7 @@
   "Most Holy Shrine": {},
   "Most Mighty Branch": {},
   "Mother": {
-    "children": {
+    "$children": {
       "first educator": {}
     }
   },
@@ -1771,7 +1771,7 @@
   "Muhammad Karím Khán-i-Kirmání, Hájí Mírzá": {},
   "Muharram": {},
   "Murder": {
-    "children": {
+    "$children": {
       "attempt on life of Bahá'u'lláh": {},
       "penalty for": {},
       "of Siyyid Muhammad-i-Isfahání": {}
@@ -1788,14 +1788,14 @@
   "Najíbíyyih Garden": {},
   "Nakhud(s)": {},
   "Name(s)": {
-    "children": {
+    "$children": {
       "as barriers to recognition of Manifestation of God": {},
       "of months": {},
       "place names referred to by initial letter": {}
     }
   },
   "Names and attributes of God and/or Bahá'u'lláh": {
-    "children": {
+    "$children": {
       "Almighty": {},
       "Ancient of Days": {},
       "Answerer": {},
@@ -1836,9 +1836,9 @@
       "King of the seen and unseen": {},
       "Knowing (All-)": {},
       "Lord of": {
-        "children": {
+        "$children": {
           "all": {
-            "children": {
+            "$children": {
               "Mankind": {},
               "Men": {},
               "Names": {},
@@ -1887,7 +1887,7 @@
       "Self-Sufficient": {},
       "Signs, Revealer of": {},
       "Source of": {
-        "children": {
+        "$children": {
           "Command": {},
           "Divine inspiration": {},
           "Revelation": {}
@@ -1904,7 +1904,7 @@
       "Truth, Sun of": {},
       "Unconstrained": {},
       "Universe": {
-        "children": {
+        "$children": {
           "Fashioner of": {},
           "Ruler of": {}
         }
@@ -1922,7 +1922,7 @@
   "National Spiritual Assembly": {},
   "Natural events, fearful": {},
   "Naw-Rúz": {
-    "children": {
+    "$children": {
       "method of determining date": {}
     }
   },
@@ -1932,7 +1932,7 @@
   "News": {},
   "Neices": {},
   "Night": {
-    "children": {
+    "$children": {
       "determining of time for prayer and fasting": {},
       "recitation of Verses": {},
       "times of the Fast": {}
@@ -1941,7 +1941,7 @@
   "Nimrod": {},
   "Nineteen Day Feast": {},
   "Non-Bahá'í(s)": {
-    "children": {
+    "$children": {
       "acceptable as witnesses": {},
       "and law of inheritance": {},
       "marriage with, permitted": {},
@@ -1949,7 +1949,7 @@
     }
   },
   "Noon": {
-    "children": {
+    "$children": {
       "definition (for purpose of Obligatory Prayer)": {}
     }
   },
@@ -1957,10 +1957,10 @@
   "Numbers": {},
   "Nursing women, fasting and": {},
   "Obedience": {
-    "children": {
+    "$children": {
       "to government": {},
       "to laws of God": {
-        "children": {
+        "$children": {
           "true liberty is": {}
         }
       },
@@ -1968,24 +1968,24 @@
     }
   },
   "Obligatory Prayer(s)": {
-    "children": {
+    "$children": {
       "and ablutions": {
-        "children": {
+        "$children": {
           "verse in replacement of": {}
         }
       },
       "choice of one": {},
       "exemptions from": {
-        "children": {
+        "$children": {
           "when ill": {},
           "in old age": {},
           "in times of insecurity": {
-            "children": {
+            "$children": {
               "prostrations and verse in replacement of": {}
             }
           },
           "for women in their courses": {
-            "children": {
+            "$children": {
               "verse in replacement of": {}
             }
           }
@@ -2002,7 +2002,7 @@
     }
   },
   "Observance of laws of God": {
-    "children": {
+    "$children": {
       "love for God as motive for": {}
     }
   },
@@ -2013,7 +2013,7 @@
   "Opposition": {},
   "Oppression": {},
   "Order": {
-    "children": {
+    "$children": {
       "in society": {},
       "World": {}
     }
@@ -2022,12 +2022,12 @@
   "Orphans": {},
   "Ottoman Empire": {},
   "Paradise": {
-    "children": {
+    "$children": {
       "Words of": {}
     }
   },
   "Parents": {
-    "children": {
+    "$children": {
       "consent to marriage": {},
       "duty to educate children": {},
       "and inheritance": {},
@@ -2035,7 +2035,7 @@
     }
   },
   "Parliaments": {
-    "children": {
+    "$children": {
       "enjoined to adopt universal language and script": {}
     }
   },
@@ -2043,13 +2043,13 @@
   "Passion(s)": {},
   "Path, Straight": {},
   "Peace": {
-    "children": {
+    "$children": {
       "": {},
       "The Promise of World Peace - A Statement by the Universal House of Justice": {}
     }
   },
   "Patience": {
-    "children": {
+    "$children": {
       "in marriage": {},
       "year of": {}
     }
@@ -2070,13 +2070,13 @@
   "Philanthropy": {},
   "Philosophy, divine": {},
   "Physicians": {
-    "children": {
+    "$children": {
       "permitted to prescribe alchohol or other drugs": {}
     }
   },
   "Piety": {},
   "Pilgrimage": {
-    "children": {
+    "$children": {
       "ordained": {},
       "places of, defined": {},
       "shaving of heads": {},
@@ -2089,9 +2089,9 @@
   "Polygamy": {},
   "Pools, Persian": {},
   "Poor": {
-    "children": {
+    "$children": {
       "assistance to": {
-        "children": {
+        "$children": {
           "in educating children": {}
         }
       },
@@ -2099,19 +2099,19 @@
     }
   },
   "Possessions": {
-    "children": {
+    "$children": {
       "duty to offer to Manifestation of God abrogated": {},
       "evanescence of": {}
     }
   },
   "Posture of unity": {},
   "Poverty": {
-    "children": {
+    "$children": {
       "elimination of": {}
     }
   },
   "Power": {
-    "children": {
+    "$children": {
       "of God": {},
       "of kings": {},
       "rational": {},
@@ -2121,7 +2121,7 @@
   "Practices of former Dispensations": {},
   "Praise of God": {},
   "Prayer": {
-    "children": {
+    "$children": {
       "cleanliness enjoined when praying": {},
       "congregatonal": {},
       "dawn": {},
@@ -2134,7 +2134,7 @@
     }
   },
   "Prayer for the Dead": {
-    "children": {
+    "$children": {
       "congregational": {},
       "when unable to read": {}
     }
@@ -2150,7 +2150,7 @@
   "Primal Point": {},
   "Primogeniture": {},
   "Problems": {
-    "children": {
+    "$children": {
       "personal": {},
       "solution of": {}
     }
@@ -2159,20 +2159,20 @@
   "Progressive Revelation": {},
   "Prohibitions": {},
   "Promise(s)": {
-    "children": {
+    "$children": {
       "of Divine assistance": {},
       "fulfillment of promise": {},
       "obligation to fulfill": {}
     }
   },
   "Promised One": {
-    "children": {
+    "$children": {
       "fulfillment of promise of previous Dispensations": {}
     }
   },
   "Proof(s)": {},
   "Property": {
-    "children": {
+    "$children": {
       "Aghsán have no right to property of others": {},
       "of deceased": {},
       "held in trust": {},
@@ -2182,19 +2182,19 @@
     }
   },
   "Prophecies": {
-    "children": {
+    "$children": {
       "concerning the Rhine and Berlin": {},
       "concerning fall of Napoleon III": {}
     }
   },
   "Prophet(s)": {
-    "children": {
+    "$children": {
       "Seal of the": {},
       "station of": {}
     }
   },
   "Propriety": {
-    "children": {
+    "$children": {
       "bounds of, do not overstep": {},
       "in dress": {},
       "in relation to music": {},
@@ -2203,14 +2203,14 @@
     }
   },
   "Prostration": {
-    "children": {
+    "$children": {
       "before another person forbidden": {},
       "on clean surface": {},
       "compensating prostration": {}
     }
   },
   "Protection": {
-    "children": {
+    "$children": {
       "of Bahá'í Faith (Cause of God)": {},
       "laws of Bahá'u'lláh as": {},
       "of self": {}
@@ -2218,7 +2218,7 @@
   },
   "Prussia": {},
   "Public places": {
-    "children": {
+    "$children": {
       "confession of sins in": {},
       "mutering verses on": {},
       "Persian baths": {}
@@ -2226,10 +2226,10 @@
   },
   "Pulpits, use prohibited": {},
   "Punishment(s)": {
-    "children": {
+    "$children": {
       "reward and": {},
       "for various offenses": {
-        "children": {
+        "$children": {
           "adultery": {},
           "murder and arson": {},
           "sexual acts committed during year of patience": {},
@@ -2241,20 +2241,20 @@
     }
   },
   "Purification": {
-    "children": {
+    "$children": {
       "of all things": {},
       "of possessions and means of sustenance": {}
     }
   },
   "Purity": {
-    "children": {
+    "$children": {
       "of water": {},
       "of heart": {}
     }
   },
   "Qayyúmu'l-Asmá": {},
   "Qiblih": {
-    "children": {
+    "$children": {
       "focus for Obligatory Prayers": {},
       "identified by the Báb as Bahá'u'lláh": {},
       "and non-obligatory prayers": {},
@@ -2264,17 +2264,17 @@
   },
   "Qualities enjoined on Bahá'ís. See Association\nCharity\nChastity\nCivility\nCleanliness\nConstancy\nContentment\nCourtesy\nDetachment\nFairness\nFaithfulness\nFear of God\nFellowship\nFidelity\nForbearance\nForgiveness\nGodliness\nHospitality\nHumility\nJustice\nKindness\nKnowledge\nLove\nObedience Parents, respect for and kindness to\nPatience\nPerseverance\nPiety\nPropriety\nPurity\nReason, power of\nRefinement\nRemembrance of God\nRespect\nService\nSincerity\nSteadfastness\nTact\nTenacity\nTenderness\nTrustworthiness\nTruthfulness\nUnderstanding\nUnity\nUprightness\nVirtue\nVision\nWisdom": {},
   "Questioning": {
-    "children": {
+    "$children": {
       "authority of God": {},
       "He Who God will make manifest": {}
     }
   },
   "Questions and Answers": {},
   "Qur'án (the Book)": {
-    "children": {
+    "$children": {
       "Islamic practices not derived from": {},
       "laws": {
-        "children": {
+        "$children": {
           "abrogated": {},
           "confirmed": {}
         }
@@ -2286,10 +2286,10 @@
   "Rak'ah(s)": {},
   "Rape": {},
   "Reading": {
-    "children": {
+    "$children": {
       "instruction of children in": {},
       "of sacred verses": {
-        "children": {
+        "$children": {
           "manner of": {}
         }
       }
@@ -2299,9 +2299,9 @@
   "Reality": {},
   "Reason, power of": {},
   "Recitation of sacred Writings and Verses": {
-    "children": {
+    "$children": {
       "daily": {
-        "children": {
+        "$children": {
           "of \"Alláh-u-Abhá,\"": {},
           "of Obligatory Prayer(s)": {},
           "of verses": {}
@@ -2311,7 +2311,7 @@
       "in public": {},
       "of verse replacing Prayer of the Signs": {},
       "of verses alternative to": {
-        "children": {
+        "$children": {
           "ablutions": {},
           "fasting": {},
           "Obligatory Prayers": {}
@@ -2320,12 +2320,12 @@
     }
   },
   "Recognition of": {
-    "children": {
+    "$children": {
       "Bahá'í Faith within society": {},
       "Manifestation of God": {
-        "children": {
+        "$children": {
           "barriers (veils) to": {
-            "children": {
+            "$children": {
               "earthly desires": {},
               "learning": {},
               "names": {},
@@ -2348,13 +2348,13 @@
   },
   "Reconciliation": {},
   "Refinement": {
-    "children": {
+    "$children": {
       "definition of Arabic word": {},
       "effect of": {}
     }
   },
   "Rejection": {
-    "children": {
+    "$children": {
       "of the Báb": {},
       "of Bahá'u'lláh": {},
       "of Him Whom God will make manifest": {}
@@ -2362,9 +2362,9 @@
   },
   "Relief of poor or suffering": {},
   "Religion(s) (other than Bahá'í Faith)": {
-    "children": {
+    "$children": {
       "followers": {
-        "children": {
+        "$children": {
           "Bahá'u'lláh's precepts, Water of Life to": {},
           "consort with": {},
           "refutations by": {}
@@ -2377,7 +2377,7 @@
     }
   },
   "Remarriage": {
-    "children": {
+    "$children": {
       "due to death of spouse": {},
       "due to prolonged absence": {},
       "with former spouse": {}
@@ -2389,7 +2389,7 @@
   "Republics of America": {},
   "Residence": {},
   "Respect": {
-    "children": {
+    "$children": {
       "for parents": {},
       "for people of learning and accomplishment": {}
     }
@@ -2397,10 +2397,10 @@
   "Restoration of Holy Places": {},
   "Retirement": {},
   "Revelation": {
-    "children": {
+    "$children": {
       "nature of": {},
       "progressive": {
-        "children": {
+        "$children": {
           "and authority of Manifestation of God": {},
           "fulfillment of previous Dispensations": {},
           "future": {},
@@ -2412,7 +2412,7 @@
     }
   },
   "Revelation of Bahá'u'lláh": {
-    "children": {
+    "$children": {
       "Antichrist of": {},
       "birth in Síyáh-Chál": {},
       "interpretation forbidden": {},
@@ -2438,7 +2438,7 @@
   "Ring": {},
   "Ritual uncleanliness": {},
   "Ruler(s)": {
-    "children": {
+    "$children": {
       "and learned": {}
     }
   },
@@ -2446,7 +2446,7 @@
   "Sacred House": {},
   "Sacred Text": {},
   "Sadness": {
-    "children": {
+    "$children": {
       "backbiting as cause": {},
       "not to cause": {},
       "fine for causing abolished": {}
@@ -2456,16 +2456,16 @@
   "Saints": {},
   "Salát": {},
   "School": {
-    "children": {
+    "$children": {
       "of God": {},
       "of inner meaning and explanation": {},
       "of Transcendent Oneness": {}
     }
   },
   "Science(s)": {
-    "children": {
+    "$children": {
       "divine philosophy": {
-        "children": {
+        "$children": {
           "most firm foundation": {}
         }
       },
@@ -2476,7 +2476,7 @@
   "Scripture": {},
   "Sea of Purification": {},
   "Seal": {
-    "children": {
+    "$children": {
       "of the Prophets": {},
       "Tablets embellished with": {}
     }
@@ -2484,7 +2484,7 @@
   "Seat of Justice": {},
   "Seclusion": {},
   "Security": {
-    "children": {
+    "$children": {
       "collective": {}
     }
   },
@@ -2494,17 +2494,17 @@
   "Sermons": {},
   "Servant, domestic": {},
   "Service": {
-    "children": {
+    "$children": {
       "exhortation to arise": {},
       "exhortation to Kings": {},
       "Promise of Divine Assistance": {}
     }
   },
   "Sexual acts": {
-    "children": {
+    "$children": {
       "lawful": {},
       "unlawful": {
-        "children": {
+        "$children": {
           "adultery": {},
           "consequences": {},
           "during year of patience": {},
@@ -2519,19 +2519,19 @@
   "Shaving the head": {},
   "Shaykí School": {},
   "Shí'ih Islám": {
-    "children": {
+    "$children": {
       "practices": {}
     }
   },
   "Shiráz": {},
   "Shoghi Effendi (Guardian of the Bahá'í Faith)": {
-    "children": {
+    "$children": {
       "Divine Plan, implementation of": {},
       "Guardian of the Faith": {},
       "Hands of the Cause, appointment": {},
       "Interpreter of Sacred Text": {},
       "and Kitáb-i-Aqdas": {
-        "children": {
+        "$children": {
           "annotations to": {},
           "description in": {},
           "synopsis and codification": {},
@@ -2540,9 +2540,9 @@
       },
       "passing of": {},
       "writings": {
-        "children": {
+        "$children": {
           "individual works": {
-            "children": {
+            "$children": {
               "": {}
             }
           }
@@ -2555,18 +2555,18 @@
   "Sickness": {},
   "Sifter of Wheat": {},
   "Silk": {
-    "children": {
+    "$children": {
       "for shrouds": {},
       "wearing of": {}
     }
   },
   "Silver": {
-    "children": {
+    "$children": {
       "utensils": {}
     }
   },
   "Sin": {
-    "children": {
+    "$children": {
       "confession of": {},
       "forgiveness of": {},
       "repentance": {}
@@ -2577,7 +2577,7 @@
   "Sisters": {},
   "Sites, Historical": {},
   "Sitting": {
-    "children": {
+    "$children": {
       "associated with Obligatory Prayers": {},
       "associated with compensatory verses": {},
       "in Mashriqu'l-Adhkár": {},
@@ -2592,7 +2592,7 @@
   "Sloth": {},
   "Smoking": {},
   "Society": {
-    "children": {
+    "$children": {
       "condition of": {},
       "divine law in response to conditions of": {},
       "effect of Divine Revelation on": {},
@@ -2601,7 +2601,7 @@
       "future state of": {},
       "institutions vital to": {},
       "role of": {
-        "children": {
+        "$children": {
           "to promote industriousness": {},
           "to promote justice": {}
         }
@@ -2614,7 +2614,7 @@
   "Son, eldest": {},
   "Sorrow": {},
   "Soul": {
-    "children": {
+    "$children": {
       "condition of sanctified": {},
       "hindrances": {},
       "influence of Divine Revelation": {},
@@ -2625,29 +2625,29 @@
   "South, extreme": {},
   "Sovereign, Sign of the": {},
   "Sovereignty": {
-    "children": {
+    "$children": {
       "of Bahá'í Faith": {},
       "of God": {
-        "children": {
+        "$children": {
           "relation to kingship": {}
         }
       }
     }
   },
   "Speech": {
-    "children": {
+    "$children": {
       "to assist God through": {},
       "manner of delivery": {}
     }
   },
   "Spirit": {
-    "children": {
+    "$children": {
       "of God, title for Jesus Christ": {},
       "Holy": {}
     }
   },
   "Spot, in reference to": {
-    "children": {
+    "$children": {
       "'Akká": {},
       "Baghdád": {},
       "Constantinople": {},
@@ -2659,7 +2659,7 @@
   "Spouse": {},
   "Spring equinox": {},
   "Standing": {
-    "children": {
+    "$children": {
       "to deliver talks": {},
       "movements of Obligatory Prayer": {},
       "for recitation of Prayer for the Dead": {}
@@ -2675,12 +2675,12 @@
   "Street, muttering sacred verses in": {},
   "Strife": {},
   "Striking a person": {
-    "children": {
+    "$children": {
       "penalties for": {}
     }
   },
   "Study of": {
-    "children": {
+    "$children": {
       "arts and sciences": {},
       "Kitáb-i-Aqdas": {},
       "languages": {},
@@ -2691,7 +2691,7 @@
   "Succession": {},
   "Suffering of Bahá'u'lláh": {},
   "Summons of Bahá'u'lláh to": {
-    "children": {
+    "$children": {
       "divines": {},
       "human race": {},
       "kings": {},
@@ -2699,16 +2699,16 @@
     }
   },
   "Sun as symbol for": {
-    "children": {
+    "$children": {
       "laws": {},
       "Manifestation of God": {}
     }
   },
   "Sunní Islám, leaders of": {},
   "Sunrise": {
-    "children": {
+    "$children": {
       "prayer at dawn": {
-        "children": {
+        "$children": {
           "in the Mashriqu'l-Adhkár": {}
         }
       },
@@ -2717,7 +2717,7 @@
     }
   },
   "Sunset (Sundown)": {
-    "children": {
+    "$children": {
       "determining date of Naw-Rúz": {},
       "time for Obligatory Prayer": {},
       "times for Fast": {}
@@ -2726,7 +2726,7 @@
   "Supplication": {},
   "Synopsis and Codification": {},
   "Tablet(s) (Writings) of": {
-    "children": {
+    "$children": {
       "'Abdu'l-Bahá": {},
       "the Báb": {},
       "Bahá'u'lláh": {}
@@ -2735,17 +2735,17 @@
   "Tact": {},
   "Tax": {},
   "Teacher": {
-    "children": {
+    "$children": {
       "of Bahá'í Faith": {},
       "divine": {},
       "and spiritual education of child": {}
     }
   },
   "Teaching the Cause": {
-    "children": {
+    "$children": {
       "to children": {},
       "exhortations to arise": {
-        "children": {
+        "$children": {
           "to all": {},
           "to kings": {},
           "to \"learned,\"": {},
@@ -2757,7 +2757,7 @@
       "power of the tongue": {},
       "promise of divine assistance": {},
       "teachers": {
-        "children": {
+        "$children": {
           "station of": {},
           "who depart from the Writings": {}
         }
@@ -2766,7 +2766,7 @@
   },
   "Temper, not to lose": {},
   "Temple": {
-    "children": {
+    "$children": {
       "of human body": {},
       "of Manifestation of God": {}
     }
@@ -2775,18 +2775,18 @@
   "Tenacity": {},
   "Tenderness": {},
   "Testament": {
-    "children": {
+    "$children": {
       "Old": {}
     }
   },
   "Testimony": {
-    "children": {
+    "$children": {
       "will and testament": {},
       "of witnesses (legal)": {}
     }
   },
   "Text, Sacred (Words of Bahá'u'lláh)": {
-    "children": {
+    "$children": {
       "Arabic, use of": {},
       "authority and integrity": {},
       "deviation from": {},
@@ -2799,7 +2799,7 @@
     }
   },
   "Theft": {
-    "children": {
+    "$children": {
       "punishments specified": {},
       "mark on brow of thief": {},
       "of superseded Obligatory Prayer": {}
@@ -2808,10 +2808,10 @@
   "Theology": {},
   "Throne": {},
   "Tihrán": {
-    "children": {
+    "$children": {
       "apostrophe addressed to": {},
       "birthplace of": {
-        "children": {
+        "$children": {
           "Bahá'u'lláh": {},
           "revelation of Bahá'u'lláh": {}
         }
@@ -2823,14 +2823,14 @@
   "Tongue": {},
   "Town": {},
   "Trade": {
-    "children": {
+    "$children": {
       "in slaves": {}
     }
   },
   "Traditions": {},
   "Training": {},
   "Transgression(s)": {
-    "children": {
+    "$children": {
       "of bounds of propriety": {},
       "confession of": {},
       "of laws of God": {}
@@ -2839,7 +2839,7 @@
   "Translation of Bahá'í Writings": {},
   "Transmutation of elements": {},
   "Travel": {
-    "children": {
+    "$children": {
       "during Fast": {},
       "and marital relations": {},
       "and pilgrimage": {},
@@ -2849,7 +2849,7 @@
   },
   "Treachery": {},
   "Treasure": {
-    "children": {
+    "$children": {
       "Hidden": {},
       "trove": {}
     }
@@ -2858,21 +2858,21 @@
   "Tree beyond which there is no passing": {},
   "Trespass(es)": {},
   "Trust": {
-    "children": {
+    "$children": {
       "in God": {},
       "property in": {}
     }
   },
   "Trusted ones of the Merciful (Trustees)": {},
   "Trustees": {
-    "children": {
+    "$children": {
       "of the House of Justice": {},
       "in inheritance law": {}
     }
   },
   "Trustworthiness": {},
   "Truth": {
-    "children": {
+    "$children": {
       "of Bahá'u'lláh's words": {},
       "and knowledge": {},
       "of Law(s) of Bahá'u'lláh": {},
@@ -2891,7 +2891,7 @@
   "Uncles": {},
   "Uncleanliness, ritual concept abolished": {},
   "Understanding": {
-    "children": {
+    "$children": {
       "and consultation": {},
       "of individuals and interpretation": {},
       "the Law(s) of God": {},
@@ -2899,7 +2899,7 @@
     }
   },
   "Unity": {
-    "children": {
+    "$children": {
       "of Bahá'ís": {},
       "of Bahá'í Faith": {},
       "of Manifestations of God": {},
@@ -2913,13 +2913,13 @@
   "Utensils, gold and silver": {},
   "Utterance": {},
   "Vanity": {
-    "children": {
+    "$children": {
       "vain imaginings": {}
     }
   },
   "Vassals": {},
   "Veils": {
-    "children": {
+    "$children": {
       "of concealment": {},
       "created by Divines": {},
       "of earthly desires": {},
@@ -2931,14 +2931,14 @@
   "Verity": {},
   "Vernal equinox": {},
   "Verse(s), Holy": {
-    "children": {
+    "$children": {
       "allegorical": {},
       "definition": {},
       "disparities between": {},
       "effect of": {},
       "recitation": {},
       "in replacement of": {
-        "children": {
+        "$children": {
           "ablutions": {},
           "fasting": {},
           "Obligatory Prayers": {}
@@ -2953,7 +2953,7 @@
   "Viláyat": {},
   "Village, House of Worship in every": {},
   "Village dweller": {
-    "children": {
+    "$children": {
       "amount of dowry payable by": {},
       "definition of": {}
     }
@@ -2961,26 +2961,26 @@
   "Vineyard of God": {},
   "Violence forbidden": {},
   "Virginity": {
-    "children": {
+    "$children": {
       "and dowry": {},
       "and parental consent to marriage": {}
     }
   },
   "Virtue": {},
   "Vision": {
-    "children": {
+    "$children": {
       "universal": {},
       "unrivaled": {}
     }
   },
   "Wages payable to servants": {},
   "War": {
-    "children": {
+    "$children": {
       "holy": {}
     }
   },
   "Warnings of Bahá'u'lláh": {
-    "children": {
+    "$children": {
       "to Constantinople": {},
       "to ecclesiastical leaders": {},
       "to followers": {},
@@ -2991,7 +2991,7 @@
     }
   },
   "Washing": {
-    "children": {
+    "$children": {
       "of face": {},
       "of feet": {},
       "of hands": {},
@@ -3001,19 +3001,19 @@
   },
   "Watches": {},
   "Water": {
-    "children": {
+    "$children": {
       "for ablutions": {},
       "all created out of": {},
       "in Persian pools": {},
       "pure": {
-        "children": {
+        "$children": {
           "definition": {},
           "use required": {}
         }
       },
       "as symbol": {},
       "for washing": {
-        "children": {
+        "$children": {
           "oneself": {},
           "things": {},
           "warm recommended": {}
@@ -3022,7 +3022,7 @@
     }
   },
   "Wealth": {
-    "children": {
+    "$children": {
       "and charity": {},
       "and dowry": {},
       "and Huqúqu'lláh": {},
@@ -3032,7 +3032,7 @@
   },
   "Weapons": {},
   "Wedding": {
-    "children": {
+    "$children": {
       "must occur within ninety-five days of betrothal": {}
     }
   },
@@ -3044,7 +3044,7 @@
   "Widow(s)": {},
   "Wife": {},
   "Will": {
-    "children": {
+    "$children": {
       "adornment with Greatest Name": {},
       "obligation to write": {},
       "owners jurisdiction over disposition of property": {}
@@ -3052,19 +3052,19 @@
   },
   "Will of God": {},
   "Will and Testament": {
-    "children": {
+    "$children": {
       "of 'Abdu'l-Bahá": {},
       "Bahá'u'lláh": {}
     }
   },
   "William I, King of Prussia": {},
   "Wine": {
-    "children": {
+    "$children": {
       "as symbol": {}
     }
   },
   "Wisdom": {
-    "children": {
+    "$children": {
       "Divine": {},
       "in laws and teachings": {},
       "related to coming maturity of mankind": {},
@@ -3073,14 +3073,14 @@
     }
   },
   "Witnesses, just": {
-    "children": {
+    "$children": {
       "definition": {},
       "to spouses death": {},
       "to year of patience": {}
     }
   },
   "Women": {
-    "children": {
+    "$children": {
       "burial rings, inscription": {},
       "concept of uncleanliness in courses abolished": {},
       "eligibility as members of Spiritual Assemblies (Houses of Justice)": {},
@@ -3095,7 +3095,7 @@
   },
   "Wood for coffins": {},
   "Word(s)": {
-    "children": {
+    "$children": {
       "of Bahá'u'lláh": {},
       "definition of \"Be\"": {},
       "and expression of spiritual realities": {},
@@ -3103,13 +3103,13 @@
     }
   },
   "Word of God": {
-    "children": {
+    "$children": {
       "injunction to recite": {},
       "revealed by manifestations of God": {}
     }
   },
   "Work": {
-    "children": {
+    "$children": {
       "exalted to rank of worship": {},
       "heavy, during the fast": {},
       "homemaking": {},
@@ -3118,13 +3118,13 @@
     }
   },
   "Works": {
-    "children": {
+    "$children": {
       "acceptability dependent of God": {},
       "God independent of man's": {}
     }
   },
   "World": {
-    "children": {
+    "$children": {
       "civilisation": {},
       "equilibrium upset": {},
       "language": {},
@@ -3133,12 +3133,12 @@
     }
   },
   "Worlds, spiritual": {
-    "children": {
+    "$children": {
       "Greater and Lesser": {}
     }
   },
   "Worship": {
-    "children": {
+    "$children": {
       "acceptability to God": {},
       "House of Worship": {},
       "obligation": {},
@@ -3150,7 +3150,7 @@
   "Wrangling": {},
   "Writing, instruction in": {},
   "Writings": {
-    "children": {
+    "$children": {
       "Bahá'í": {},
       "Islamic": {},
       "of Shaykh Muhammad-Hasan": {}
@@ -3161,7 +3161,7 @@
   "assurance of forgiveness should he repent": {},
   "followers of": {},
   "Year": {
-    "children": {
+    "$children": {
       "length of": {},
       "of patience": {},
       "of waiting": {}

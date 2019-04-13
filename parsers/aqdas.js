@@ -59,8 +59,8 @@ function recurseList (ul, jsonIndexEntry) {
       jsonIndexEntry[text] = {};
       lastText = text;
     } else if (liOrUl.matches('ul')) {
-      jsonIndexEntry[lastText].children = {};
-      recurseList(liOrUl, jsonIndexEntry[lastText].children);
+      jsonIndexEntry[lastText].$children = {};
+      recurseList(liOrUl, jsonIndexEntry[lastText].$children);
     }
   });
 }
