@@ -3157,9 +3157,12 @@
     }
   },
   "Yá Bahá'u'l-Abhá": {},
-  "Yahyá, Mírzá (Subh-i-Azal)": {},
-  "assurance of forgiveness should he repent": {},
-  "followers of": {},
+  "Yahyá, Mírzá (Subh-i-Azal)": {
+    "$children": {
+      "assurance of forgiveness should he repent": {},
+      "followers of": {}
+    }
+  },
   "Year": {
     "$children": {
       "length of": {},

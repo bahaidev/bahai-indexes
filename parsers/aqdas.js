@@ -73,5 +73,5 @@ topUls.forEach((ul) => {
 
 fs.writeFileSync(
   join(__dirname, '/../indexes/json/aqdas.json'),
-  JSON.stringify(jsonIndex, null, 2)
+  JSON.stringify(jsonIndex, null, 2) + '\n'
 );
