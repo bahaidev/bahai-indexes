@@ -107,7 +107,7 @@ function recurseList (ul, jsonIndexEntry) {
                     // These are used depending on whether other child
                     //   content exists, but this can be detected and added
                     //   programmatically
-                    'See also', 'See'
+                    'See also', 'see also', 'See'
                   ].includes(l.textContent))
               ) {
                 seeAlso = links + j;

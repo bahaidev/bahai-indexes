@@ -2461,8 +2461,9 @@
       "Promised One of": {
         "$links": [
           "n153",
-          "n185",
-          "I::see also",
+          "n185"
+        ],
+        "$seeAlso": [
           "Promised One"
         ]
       },
@@ -4559,8 +4560,9 @@
   },
   "Equality of the sexes": {
     "$links": [
-      "7-8",
-      "I::see also",
+      "7-8"
+    ],
+    "$seeAlso": [
       "Mutatis mutandis, application of laws equally to both sexes"
     ]
   },
@@ -7700,8 +7702,9 @@
       },
       "obedience to, all are charged with": {
         "$links": [
-          "Q10",
-          "I::see also",
+          "Q10"
+        ],
+        "$seeAlso": [
           "Law(s) of Bahá'u'lláh"
         ]
       },
@@ -11230,8 +11233,9 @@
     "$links": [
       "K33",
       "n56",
-      "n162",
-      "I::see also",
+      "n162"
+    ],
+    "$seeAlso": [
       "Occupation, obligation to engage in",
       "Trade",
       "Work"
