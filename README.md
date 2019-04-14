@@ -12,3 +12,4 @@ tools to convert from the original (idiosyncratic) HTML versions.
 ## To-dos
 
 1. Add category mechanism
+1. Add JSON Schema for each schema and any fixed rules into an abstract schema
