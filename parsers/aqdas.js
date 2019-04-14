@@ -127,12 +127,30 @@ function recurseList (ul, jsonIndexEntry) {
                   'Unexpected nodeName ' + nodeName + '::' + l.textContent
                 );
               }
-              // Todo: Finish range checking against `Range work` commit
-              // Todo: Handle `mutatis mutandis`
-              // Todo: Deal with "see-also" links at different levels
 
+              // Todo: Handle `mutatis mutandis`
+              // Todo: Deal with "see-also" links at different levels and IDs
               if (rangeBegun) {
-                $links[$links.length - 1].push(l.textContent);
+                // Todo: Script to convert existing sequential to ranges
+                let val;
+                // Add missing letters to range endings
+                if ((/^[nKQ]\d+$/u).test($links[$links.length - 1][0]) &&
+                  (/^\d+$/u).test(l.textContent)
+                ) {
+                  const diff = $links[$links.length - 1][0].slice(1).length -
+                    l.textContent.length;
+                  val = $links[$links.length - 1][0].charAt() + (
+                    diff > 0
+                      // Programmatic fix if insufficiently
+                      //  padded (e.g., `02`)
+                      ? $links[$links.length - 1][0].slice(1, diff + 1) +
+                        l.textContent
+                      : l.textContent
+                  );
+                } else {
+                  val = l.textContent;
+                }
+                $links[$links.length - 1].push(val);
                 rangeBegun = false;
               } else {
                 $links.push(l.textContent);
@@ -149,6 +167,7 @@ function recurseList (ul, jsonIndexEntry) {
         jsonIndexEntry[text].$links = $links;
       }
       if (seeAlso !== false) {
+        let additionalHeadings = false;
         jsonIndexEntry[text].$seeAlso = childNodes.slice(seeAlso).reduce(
           (arr, l) => {
             const {nodeType} = l;
@@ -159,29 +178,38 @@ function recurseList (ul, jsonIndexEntry) {
             case Node.ELEMENT_NODE: {
               const nodeName = l.nodeName.toLowerCase();
               if (nodeName === 'a') {
-                arr.push(l.textContent);
+                arr.push(
+                  additionalHeadings
+                    // Here the `see-also` points to the *headings of*
+                    //   an entry, not the entry itself
+                    ? {headings: l.textContent}
+                    : l.textContent
+                );
                 break;
               }
-              if (nodeName === 'br' ||
-                (nodeName === 'i' &&
-                  [
-                    // These two are used depending on whether other child
-                    //   content exists, but this can be detected and added
-                    //   programmatically
-                    'See also', 'See', 'see', 'See headings under',
-                    // "See above" and "See below" are used if the entry
-                    //   were in the same level, but this can be detected
-                    //   and added programmatically
-                    'See above', 'See below',
-                    // Todo: We could add a flag to allow programmatic
-                    //   reconstruction re: headings
-                    // Probably not too critical to preserve these
-                    //   distinct descriptions
-                    'see additional headings under',
-                    'See also additional headings under'
-                  ].includes(l.textContent))
-              ) {
+              if (nodeName === 'br') {
                 break;
+              }
+              if (nodeName === 'i') {
+                if ([
+                  // These two are used depending on whether other child
+                  //   content exists, but this can be detected and added
+                  //   programmatically
+                  'See also', 'See', 'see', 'See headings under',
+                  // "See above" and "See below" are used if the entry
+                  //   were in the same level, but this can be detected
+                  //   and added programmatically
+                  'See above', 'See below'
+                ].includes(l.textContent)) {
+                  break;
+                }
+                if ([
+                  'see additional headings under',
+                  'See also additional headings under'
+                ].includes(l.textContent)) {
+                  additionalHeadings = true;
+                  break;
+                }
               }
               throw new TypeError(
                 'Unexpected node name: ' + nodeName + ': ' + l.textContent
