@@ -54,9 +54,8 @@ iterateKeys(aqdas, {
       if (!link.match(aqdasInternalLinksRegex) &&
         ![
           'viii', 'ix', 'vii',
-          // Todo: Fix these:
-          'vii-viii',
-          'Dispensations, religious, of the past'
+          // Todo: Fix this:
+          'vii-viii'
         ].includes(link)
       ) {
         throw new Error('Unexpected link format: ' + link);
