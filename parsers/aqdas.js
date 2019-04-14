@@ -196,6 +196,17 @@ function recurseList (ul, jsonIndexEntry) {
                   'Unexpected nodeName ' + nodeName + '::' + l.textContent
                 );
               }
+              // Todo: Fix cases like
+              //   "protection and elevation of human station",
+              //   where such constructs as this:
+              /*
+              [
+                "K123",
+                "K124"
+              ],
+              "25"
+              // ...have the end of a range without the "K" or "n"/"Q"
+              */
 
               // Todo: Deal with "see-also" links at different levels and IDs
               const textContent = serializeLinkContents(l);
