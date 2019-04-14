@@ -10,7 +10,10 @@ const {document, Node} = (new JSDOM(html)).window;
 // const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
 
-const letterSections = [...$$('a[name]')].filter((a) => (/^[A-Z]$/u).test(a.name))
+const letterSections = [...$$('a[name]')]
+  // Main letter sections
+  .filter((a) => (/^[A-Z]$/u).test(a.name))
+  // Followed by nested items
   .filter(({parentElement: implicitPar}) => {
     const ul = implicitPar && implicitPar.nextElementSibling;
     return ul && ul.matches('ul');
@@ -85,6 +88,34 @@ function recurseList (ul, jsonIndexEntry) {
       if (links !== false) {
         let rangeBegun = false;
         const $links = [];
+        const letterLinkRegex = /^[nKQ]\d+$/u;
+        const numbersOnlyRegex = /^\d+$/u;
+        const mergeIfSequential = (val) => {
+          const lastRange = $links[$links.length - 1];
+          if (!Array.isArray(lastRange)) {
+            return false;
+          }
+          const lastItem = lastRange[lastRange.length - 1];
+          if (
+            (lastItem.length === val.length) &&
+            (
+              // e.g., K101, K102
+              (lastItem.match(letterLinkRegex) &&
+                val.match(letterLinkRegex) &&
+                ((parseInt(val.slice(1)) - parseInt(lastItem.slice(1))) === 1)
+              ) ||
+              // e.g., 101, 102
+              (lastItem.match(numbersOnlyRegex) &&
+                val.match(numbersOnlyRegex) &&
+                ((parseInt(val) - parseInt(lastItem)) === 1))
+            )
+          ) {
+            lastRange.pop();
+            lastRange.push(val);
+            return true;
+          }
+          return false;
+        };
         childNodes.slice(links).some(
           (l, j) => {
             const {nodeType} = l;
@@ -101,7 +132,14 @@ function recurseList (ul, jsonIndexEntry) {
                   !Array.isArray($links[$links.length - 1])
                 ) {
                   rangeBegun = true;
-                  $links.push([$links.pop()]);
+                  const val = $links.pop();
+                  // Check to see if value is contiguous with
+                  //   any range array just previous and merge instead of
+                  //   pushing
+                  if (mergeIfSequential(val)) {
+                    break;
+                  }
+                  $links.push([val]);
                 }
               }
               break;
@@ -131,11 +169,10 @@ function recurseList (ul, jsonIndexEntry) {
               // Todo: Handle `mutatis mutandis`
               // Todo: Deal with "see-also" links at different levels and IDs
               if (rangeBegun) {
-                // Todo: Script to convert existing sequential to ranges
                 let val;
                 // Add missing letters to range endings
-                if ((/^[nKQ]\d+$/u).test($links[$links.length - 1][0]) &&
-                  (/^\d+$/u).test(l.textContent)
+                if ($links[$links.length - 1][0].match(letterLinkRegex) &&
+                  l.textContent.match(numbersOnlyRegex)
                 ) {
                   const diff = $links[$links.length - 1][0].slice(1).length -
                     l.textContent.length;
@@ -153,6 +190,10 @@ function recurseList (ul, jsonIndexEntry) {
                 $links[$links.length - 1].push(val);
                 rangeBegun = false;
               } else {
+                // Merge with last range array if still sequential
+                if (mergeIfSequential(l.textContent)) {
+                  break;
+                }
                 $links.push(l.textContent);
               }
               break;
