@@ -81,6 +81,9 @@ iterateKeys(aqdas, {
       return;
     }
     seeAlsos.forEach((seeAlso) => {
+      seeAlso = seeAlso && typeof seeAlso === 'object'
+        ? seeAlso.headings
+        : seeAlso;
       if (!indexEntryInfo.has(seeAlso) && !badSeeAlsos.includes(seeAlso)) {
         // throw new Error('Unexpected duplicate index entry: ' + indexName);
         badSeeAlsos.push(seeAlso);
