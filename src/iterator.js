@@ -35,7 +35,6 @@ iterateKeys(aqdas, {
     // Todo: Set index entry info if needed using basePath, and
     //    get `seeAlso` to use
     if (!basePath) {
-      console.log('i', indexName);
       indexEntryInfo.set(indexName, {
         children: val.$children, links: val.$links
       });
@@ -53,7 +52,13 @@ iterateKeys(aqdas, {
     function validateLink (link) {
       // Validate `links` are all numeric or with `[KQn]`
       if (!link.match(aqdasInternalLinksRegex) &&
-        !['viii', 'ix', 'vii'].includes(link)
+        ![
+          'viii', 'ix', 'vii',
+          // Todo: Fix these:
+          'vii-viii', 'n108-',
+          'Dispensations, religious, of the past',
+          'Inheritance'
+        ].includes(link)
       ) {
         throw new Error('Unexpected link format: ' + link);
       }
@@ -83,5 +88,6 @@ iterateKeys(aqdas, {
     });
   }
 });
+
 console.log(badSeeAlsos);
 console.log('Length: ' + badSeeAlsos.length);
