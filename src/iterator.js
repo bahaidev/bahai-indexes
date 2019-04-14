@@ -73,7 +73,7 @@ iterateKeys(aqdas, {
 const badSeeAlsos = [];
 iterateKeys(aqdas, {
   seeAlso (seeAlsos, indexName, basePath) {
-    // Todo: Validate that `seeAlso`'s lead to (unique) location
+    // Todo: Validate that `seeAlso`'s lead to (unique) existent location
     if (!seeAlsos) {
       return;
     }
