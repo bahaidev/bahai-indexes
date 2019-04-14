@@ -107,28 +107,39 @@ function recurseList (ul, jsonIndexEntry) {
         const $links = [];
         const letterLinkRegex = /^[nKQ]\d+$/u;
         const numbersOnlyRegex = /^\d+$/u;
-        const mergeIfSequential = (val) => {
+        const sequenceDifference = (val) => {
           const lastRange = $links[$links.length - 1];
           if (!Array.isArray(lastRange)) {
             return false;
           }
           const lastItem = lastRange[lastRange.length - 1];
-          if (
-            (lastItem.length === val.length) &&
-            (
-              // e.g., K101, K102
-              (lastItem.match(letterLinkRegex) &&
-                val.match(letterLinkRegex) &&
-                ((parseInt(val.slice(1)) - parseInt(lastItem.slice(1))) === 1)
-              ) ||
-              // e.g., 101, 102
-              (lastItem.match(numbersOnlyRegex) &&
-                val.match(numbersOnlyRegex) &&
-                ((parseInt(val) - parseInt(lastItem)) === 1))
-            )
-          ) {
-            lastRange.pop();
-            lastRange.push(val);
+          if (lastItem.length === val.length) {
+            // e.g., K101, K102
+            if (lastItem.match(letterLinkRegex) &&
+                val.match(letterLinkRegex)
+            ) {
+              return parseInt(val.slice(1)) - parseInt(lastItem.slice(1));
+            }
+            // e.g., 101, 102
+            if (lastItem.match(numbersOnlyRegex) &&
+                val.match(numbersOnlyRegex)
+            ) {
+              return parseInt(val) - parseInt(lastItem);
+            }
+          }
+          return false;
+        };
+        const isSequential = (val) => {
+          return sequenceDifference(val) === 1;
+        };
+        const mergeSequential = (val) => {
+          const lastRange = $links[$links.length - 1];
+          lastRange.pop();
+          lastRange.push(val);
+        };
+        const mergeIfSequential = (val) => {
+          if (isSequential(val)) {
+            mergeSequential(val);
             return true;
           }
           return false;
@@ -209,6 +220,16 @@ function recurseList (ul, jsonIndexEntry) {
               } else {
                 // Merge with last range array if still sequential
                 if (mergeIfSequential(textContent)) {
+                  break;
+                }
+                if (textContent.match(/^\d+-\d+$/u)) {
+                  const [begin, end] = textContent.split('-');
+                  const diff = sequenceDifference(begin);
+                  if (diff === 0 || diff === 1) {
+                    mergeSequential(end);
+                  } else {
+                    $links.push([begin, end]);
+                  }
                   break;
                 }
                 $links.push(textContent);
