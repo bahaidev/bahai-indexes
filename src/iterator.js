@@ -53,9 +53,8 @@ iterateKeys(aqdas, {
       // Validate `links` are all numeric or with `[KQn]`
       if (!link.match(aqdasInternalLinksRegex) &&
         ![
-          'viii', 'ix', 'vii',
-          // Todo: Fix this:
-          'vii-viii'
+          // Could replace this with a Roman numeral regex
+          'viii', 'ix', 'vii'
         ].includes(link)
       ) {
         throw new Error('Unexpected link format: ' + link);

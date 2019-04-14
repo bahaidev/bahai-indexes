@@ -7873,7 +7873,10 @@
       },
       "English translation": {
         "$links": [
-          "vii-viii",
+          [
+            "vii",
+            "viii"
+          ],
           [
             "10",
             "12"
@@ -14276,7 +14279,10 @@
   },
   "Synopsis and Codification": {
     "$links": [
-      "vii-viii",
+      [
+        "vii",
+        "viii"
+      ],
       [
         "139",
         "64"
@@ -14559,7 +14565,10 @@
       },
       "publication": {
         "$links": [
-          "vii-viii"
+          [
+            "vii",
+            "viii"
+          ]
         ]
       },
       "reading from pulpits prohibited": {

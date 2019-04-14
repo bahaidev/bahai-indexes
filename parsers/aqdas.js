@@ -105,8 +105,11 @@ function recurseList (ul, jsonIndexEntry) {
       if (links !== false) {
         let rangeBegun = false;
         const $links = [];
-        const letterLinkRegex = /^[nKQ]\d+$/u;
+        const letterLinkOnlyRegex = /^[nKQ]\d+$/u;
         const numbersOnlyRegex = /^\d+$/u;
+        const romanNumeralsOnlyRegex = /^[mclxvi]+$/u;
+        const decimalRangeRegex = /^\d+-\d+$/u;
+        const romanNumeralRangeRegex = /^[mclxvi]+-[mclxvi]+$/u;
         const sequenceDifference = (val) => {
           const lastRange = $links[$links.length - 1];
           if (!Array.isArray(lastRange)) {
@@ -115,8 +118,8 @@ function recurseList (ul, jsonIndexEntry) {
           const lastItem = lastRange[lastRange.length - 1];
           if (lastItem.length === val.length) {
             // e.g., K101, K102
-            if (lastItem.match(letterLinkRegex) &&
-                val.match(letterLinkRegex)
+            if (lastItem.match(letterLinkOnlyRegex) &&
+                val.match(letterLinkOnlyRegex)
             ) {
               return parseInt(val.slice(1)) - parseInt(lastItem.slice(1));
             }
@@ -199,7 +202,7 @@ function recurseList (ul, jsonIndexEntry) {
               if (rangeBegun) {
                 let val;
                 // Add missing letters to range endings
-                if ($links[$links.length - 1][0].match(letterLinkRegex) &&
+                if ($links[$links.length - 1][0].match(letterLinkOnlyRegex) &&
                   textContent.match(numbersOnlyRegex)
                 ) {
                   const diff = $links[$links.length - 1][0].slice(1).length -
@@ -222,7 +225,7 @@ function recurseList (ul, jsonIndexEntry) {
                 if (mergeIfSequential(textContent)) {
                   break;
                 }
-                if (textContent.match(/^\d+-\d+$/u)) {
+                if (textContent.match(decimalRangeRegex)) {
                   const [begin, end] = textContent.split('-');
                   const diff = sequenceDifference(begin);
                   if (diff === 0 || diff === 1) {
@@ -232,6 +235,20 @@ function recurseList (ul, jsonIndexEntry) {
                   }
                   break;
                 }
+                if (textContent.match(romanNumeralRangeRegex)
+                ) {
+                  // We thankfully don't need any merging of roman numerals
+                  $links.push(textContent.split('-'));
+                  break;
+                }
+                if (
+                  !textContent.match(letterLinkOnlyRegex) &&
+                  !textContent.match(numbersOnlyRegex) &&
+                  !textContent.match(romanNumeralsOnlyRegex)
+                ) {
+                  throw new Error('Unexpected link content');
+                }
+
                 $links.push(textContent);
               }
               break;
