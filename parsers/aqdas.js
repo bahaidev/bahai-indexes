@@ -1,6 +1,7 @@
 const fs = require('fs');
 const {join} = require('path');
 const {JSDOM} = require('jsdom');
+const handleNode = require('handle-node');
 
 const html = fs.readFileSync(
   join(__dirname, '/../indexes/html/aqdas.html'),
@@ -30,6 +31,22 @@ const topUls = letterSections.map((
 function stripPunctuationAndWhitespace (s) {
   return s.trim().replace(/\s(\s+)/gu, ' ').replace(/[.,;]$/gu, ''); // .replace(/\n/gu, '')
 }
+
+const serializeLinkContents = (linkElem) => {
+  const textContentSerializer = {
+    element ({childNodes, nodeName}) {
+      const children = [...childNodes].reduce((str, node) => {
+        return str + handleNode(node, textContentSerializer);
+      }, '');
+      if (nodeName.toLowerCase() === 'i') {
+        return '<i>' + children + '</i>';
+      }
+      return children;
+    },
+    text: ({nodeValue}) => nodeValue
+  };
+  return handleNode(linkElem, textContentSerializer);
+};
 
 /**
  *
@@ -74,7 +91,7 @@ function recurseList (ul, jsonIndexEntry) {
             links = i;
             return true;
           }
-          text += elem.textContent;
+          text += serializeLinkContents(elem);
           break;
         }
         default:
@@ -166,35 +183,35 @@ function recurseList (ul, jsonIndexEntry) {
                 );
               }
 
-              // Todo: Handle `mutatis mutandis`
               // Todo: Deal with "see-also" links at different levels and IDs
+              const textContent = serializeLinkContents(l);
               if (rangeBegun) {
                 let val;
                 // Add missing letters to range endings
                 if ($links[$links.length - 1][0].match(letterLinkRegex) &&
-                  l.textContent.match(numbersOnlyRegex)
+                  textContent.match(numbersOnlyRegex)
                 ) {
                   const diff = $links[$links.length - 1][0].slice(1).length -
-                    l.textContent.length;
+                    textContent.length;
                   val = $links[$links.length - 1][0].charAt() + (
                     diff > 0
                       // Programmatic fix if insufficiently
                       //  padded (e.g., `02`)
                       ? $links[$links.length - 1][0].slice(1, diff + 1) +
-                        l.textContent
-                      : l.textContent
+                        textContent
+                      : textContent
                   );
                 } else {
-                  val = l.textContent;
+                  val = textContent;
                 }
                 $links[$links.length - 1].push(val);
                 rangeBegun = false;
               } else {
                 // Merge with last range array if still sequential
-                if (mergeIfSequential(l.textContent)) {
+                if (mergeIfSequential(textContent)) {
                   break;
                 }
-                $links.push(l.textContent);
+                $links.push(textContent);
               }
               break;
             }
@@ -219,12 +236,13 @@ function recurseList (ul, jsonIndexEntry) {
             case Node.ELEMENT_NODE: {
               const nodeName = l.nodeName.toLowerCase();
               if (nodeName === 'a') {
+                const textContent = serializeLinkContents(l);
                 arr.push(
                   additionalHeadings
                     // Here the `see-also` points to the *headings of*
                     //   an entry, not the entry itself
-                    ? {headings: l.textContent}
-                    : l.textContent
+                    ? {headings: textContent}
+                    : textContent
                 );
                 break;
               }
