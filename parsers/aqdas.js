@@ -157,6 +157,17 @@ function recurseList (ul, jsonIndexEntry) {
                 if (txt !== '-') {
                   throw new TypeError('Unexpected text node');
                 }
+                // Todo: Fix cases like
+                //   "protection and elevation of human station",
+                //   where such constructs as this:
+                /*
+                [
+                  "K123",
+                  "K124"
+                ],
+                "25"
+                // ...have the end of a range without the "K" or "n"/"Q"
+                */
                 if (!rangeBegun &&
                   // Don't keep nesting if this accidentally lists as a range,
                   //   e.g., K175-K176-K177
@@ -196,17 +207,6 @@ function recurseList (ul, jsonIndexEntry) {
                   'Unexpected nodeName ' + nodeName + '::' + l.textContent
                 );
               }
-              // Todo: Fix cases like
-              //   "protection and elevation of human station",
-              //   where such constructs as this:
-              /*
-              [
-                "K123",
-                "K124"
-              ],
-              "25"
-              // ...have the end of a range without the "K" or "n"/"Q"
-              */
 
               // Todo: Deal with "see-also" links at different levels and IDs
               const textContent = serializeLinkContents(l);
