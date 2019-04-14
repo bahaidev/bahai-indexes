@@ -13552,7 +13552,7 @@
     ]
   },
   "Sisters": {
-    "$links": [
+    "$seeAlso": [
       "Inheritance"
     ]
   },

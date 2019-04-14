@@ -56,8 +56,7 @@ iterateKeys(aqdas, {
           'viii', 'ix', 'vii',
           // Todo: Fix these:
           'vii-viii',
-          'Dispensations, religious, of the past',
-          'Inheritance'
+          'Dispensations, religious, of the past'
         ].includes(link)
       ) {
         throw new Error('Unexpected link format: ' + link);
