@@ -3,11 +3,11 @@
 Indexes to the Bahá'í Writings in JSON format, along with some
 tools to convert from the original (idiosyncratic) HTML versions.
 
-***NOTE: This project is not yet functional!***
+**NOTE: This project only has an index for the following files at present!**
 
 ## Sources
 
-- `aqdas` - From <http://bahai-library.com/writings/bahaullah/aqdas/aqdas2/aqdas-allindex.html>
+-  *Kitáb-i-Aqdas* (`aqdas`) - From <http://bahai-library.com/writings/bahaullah/aqdas/aqdas2/aqdas-allindex.html>
 
 ## To-dos
 
