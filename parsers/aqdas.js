@@ -196,6 +196,9 @@ function recurseList (ul, jsonIndexEntry) {
                 ].includes(l.textContent)
             ) {
               seeAlso = links + j + 1;
+              if (l.textContent === 'See also above') {
+                // Todo
+              }
               return true;
             }
             if (nodeName !== 'a') {
@@ -318,7 +321,11 @@ function recurseList (ul, jsonIndexEntry) {
                   // These two are used depending on whether other child
                   //   content exists, but this can be detected and added
                   //   programmatically
-                  'See also', 'See', 'see',
+                  'See also', 'See', 'see'
+                ].includes(l.textContent)) {
+                  break;
+                }
+                if ([
                   // "See above" and "See below" are used if the entry
                   //   were in the same level, but this can be detected
                   //   and added programmatically
