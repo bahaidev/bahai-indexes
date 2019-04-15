@@ -163,15 +163,18 @@ function arrangeByParagraph () {
         if (!fullLabel.charAt().match(/[`"A-Z]/u) && !badFullLabels.includes(fullLabel)) {
           badFullLabels.push(fullLabel);
         }
+
         // Todo: Also resolve `see` links (if no links?)
         paragraphToIndexEntries[num].push(
           [
             fullLabel,
-            // Todo: We could also check whether the seeAlso IDs exist at this
-            //   level, so indexes could reconstruct "see above"/"see below"
+            // Todo: We could also check whether the `seeAlso` IDs exist at
+            //   this level, so indexes could reconstruct
+            //   "see above"/"see below"
 
             // val.$seeAlso ? '======' + JSON.stringify(val.$seeAlso) : '',
             val.$seeAlso,
+            // Todo: We could filter this to also check for array ranges
             // JSON.stringify(paragraphLinks.filter((pl) => pl !== p)),
             paragraphLinks.filter((pl) => pl !== p),
             // JSON.stringify(nonparagraphLinks)
@@ -180,9 +183,13 @@ function arrangeByParagraph () {
         );
       };
       paragraphLinks.forEach((ps) => {
-        // Todo: These are *ranges*; need to handle values within
         if (Array.isArray(ps)) {
-          ps.map((p) => setInfo(p));
+          // eslint-disable-next-line prefer-const
+          let [start, end] = ps.map((n) => parseInt(n.slice(1)));
+          while (start <= end) {
+            setInfo('K' + start);
+            start++;
+          }
           return;
         }
         setInfo(ps);
