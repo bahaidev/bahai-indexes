@@ -112,7 +112,11 @@ function recurseList (ul, jsonIndexEntry) {
       });
       text = stripPunctuationAndWhitespace(text);
       lastID = id || text;
-      jsonIndexEntry[lastID] = {text};
+      if (id) {
+        jsonIndexEntry[lastID] = {text};
+      } else {
+        jsonIndexEntry[lastID] = {text, notID: true};
+      }
       if (links !== false) {
         let rangeBegun = false;
         const $links = [];
@@ -201,9 +205,6 @@ function recurseList (ul, jsonIndexEntry) {
                 ].includes(l.textContent)
             ) {
               seeAlso = links + j + 1;
-              if (l.textContent === 'See also above') {
-                // Todo
-              }
               return true;
             }
             if (nodeName !== 'a') {
@@ -313,13 +314,15 @@ function recurseList (ul, jsonIndexEntry) {
                   throw new Error('Unexpected link format: ' + l.href);
                 }
                 const id = l.href.replace(endIndexLinkRegex, '');
-                arr.push(
-                  headings
-                    // Here the `see-also` points to the *headings of*
-                    //   an entry, not the entry itself
-                    ? {id, text: textContent, headings: true}
-                    : {id, text: textContent}
+                // eslint-disable-next-line prefer-object-spread
+                const obj = Object.assign(
+                  {id},
+                  id === textContent ? {} : {text: textContent},
+                  // Here the `see-also` points to the *headings of*
+                  //   an entry, not the entry itself
+                  headings ? {headings: true} : {}
                 );
+                arr.push(obj);
                 break;
               }
               if (nodeName === 'br') {
@@ -330,11 +333,7 @@ function recurseList (ul, jsonIndexEntry) {
                   // These two are used depending on whether other child
                   //   content exists, but this can be detected and added
                   //   programmatically
-                  'See also', 'See', 'see'
-                ].includes(l.textContent)) {
-                  break;
-                }
-                if ([
+                  'See also', 'See', 'see',
                   // "See above" and "See below" are used if the entry
                   //   were in the same level, but this can be detected
                   //   and added programmatically
