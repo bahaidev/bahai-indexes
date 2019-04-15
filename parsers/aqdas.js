@@ -8,6 +8,7 @@ const numbersOnlyRegex = /^\d+$/u;
 const romanNumeralsOnlyRegex = /^[mclxvi]+$/u;
 const decimalRangeRegex = /^\d+-\d+$/u;
 const romanNumeralRangeRegex = /^[mclxvi]+-[mclxvi]+$/u;
+const endIndexLinkRegex = /^([A-Z]_EndIndex\.htm|about:blank)?#/u; // eslint-disable-line unicorn/no-unsafe-regex
 
 const html = fs.readFileSync(
   join(__dirname, '/../indexes/html/aqdas.html'),
@@ -63,13 +64,14 @@ const serializeLinkContents = (linkElem) => {
 function recurseList (ul, jsonIndexEntry) {
   const {children: lisOrUls} = ul;
   // console.log(lisOrUls);
-  let lastText;
+  let lastID;
   [...lisOrUls].forEach((liOrUl, i) => {
     if (liOrUl.matches('li')) {
       let text = '';
       let seeAlso = false;
       let links = false;
       const childNodes = [...liOrUl.childNodes];
+      let id;
       childNodes.some((elem, i) => {
         const {nodeType, nodeValue} = elem;
         switch (nodeType) {
@@ -97,6 +99,9 @@ function recurseList (ul, jsonIndexEntry) {
             links = i;
             return true;
           }
+          if (elem.matches('a[name]')) {
+            id = elem.name;
+          }
           text += serializeLinkContents(elem);
           break;
         }
@@ -106,8 +111,8 @@ function recurseList (ul, jsonIndexEntry) {
         return false;
       });
       text = stripPunctuationAndWhitespace(text);
-      jsonIndexEntry[text] = {};
-      lastText = text;
+      lastID = id || text;
+      jsonIndexEntry[lastID] = {text};
       if (links !== false) {
         let rangeBegun = false;
         const $links = [];
@@ -289,11 +294,11 @@ function recurseList (ul, jsonIndexEntry) {
           }
           return false;
         }, []);
-        jsonIndexEntry[text].$links = $links;
+        jsonIndexEntry[lastID].$links = $links;
       }
       if (seeAlso !== false) {
         let headings = false;
-        jsonIndexEntry[text].$seeAlso = childNodes.slice(seeAlso).reduce(
+        jsonIndexEntry[lastID].$seeAlso = childNodes.slice(seeAlso).reduce(
           (arr, l) => {
             const {nodeType} = l;
             switch (nodeType) {
@@ -304,12 +309,16 @@ function recurseList (ul, jsonIndexEntry) {
               const nodeName = l.nodeName.toLowerCase();
               if (nodeName === 'a') {
                 const textContent = serializeLinkContents(l);
+                if (!l.href.match(endIndexLinkRegex)) {
+                  throw new Error('Unexpected link format: ' + l.href);
+                }
+                const id = l.href.replace(endIndexLinkRegex, '');
                 arr.push(
                   headings
                     // Here the `see-also` points to the *headings of*
                     //   an entry, not the entry itself
-                    ? {headings: textContent}
-                    : textContent
+                    ? {id, text: textContent, headings: true}
+                    : {id, text: textContent}
                 );
                 break;
               }
@@ -355,8 +364,8 @@ function recurseList (ul, jsonIndexEntry) {
         );
       }
     } else if (liOrUl.matches('ul')) {
-      jsonIndexEntry[lastText].$children = {};
-      recurseList(liOrUl, jsonIndexEntry[lastText].$children);
+      jsonIndexEntry[lastID].$children = {};
+      recurseList(liOrUl, jsonIndexEntry[lastID].$children);
     }
   });
 }

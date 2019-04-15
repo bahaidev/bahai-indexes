@@ -40,13 +40,9 @@ const isValidLink = (link) => {
 const indexEntryInfo = new Map();
 iterateKeys(aqdas, {
   keys (indexName, basePath, val) {
-    // Todo: Set index entry info if needed using basePath, and
-    //    get `seeAlso` to use
-    if (!basePath) {
-      indexEntryInfo.set(indexName, {
-        children: val.$children, links: val.$links
-      });
-    }
+    indexEntryInfo.set(indexName, {
+      children: val.$children, links: val.$links
+    });
   },
   links (links) {
     if (!links) {
@@ -84,15 +80,14 @@ iterateKeys(aqdas, {
       return;
     }
     seeAlsos.forEach((seeAlso) => {
-      seeAlso = seeAlso && typeof seeAlso === 'object'
-        ? seeAlso.headings
-        : seeAlso;
       // This might not be an error, but probably a good sanity check
       //   until we see any such data
-      if (isValidLink(seeAlso)) {
+      if (isValidLink(seeAlso.id) || isValidLink(seeAlso.text)) {
         throw new Error('Unexpected apparent link format');
       }
-      if (!indexEntryInfo.has(seeAlso) && !badSeeAlsos.includes(seeAlso)) {
+      if (!indexEntryInfo.has(seeAlso.id) &&
+        !badSeeAlsos.includes(seeAlso.id)
+      ) {
         // throw new Error('Unexpected duplicate index entry: ' + indexName);
         badSeeAlsos.push(seeAlso);
       }
