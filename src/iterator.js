@@ -45,7 +45,7 @@ function validate () {
   const indexEntryInfo = new Map();
   iterateKeys(aqdas, {
     keys (indexName, basePath, val) {
-      if (val.notID) { // A hierarchical entry, but not a target of links
+      if (!val.id) { // A hierarchical entry, but not a target of links
         return;
       }
       if (indexEntryInfo.has(indexName)) {
