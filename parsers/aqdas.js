@@ -113,7 +113,7 @@ function recurseList (ul, jsonIndexEntry) {
       text = stripPunctuationAndWhitespace(text);
       lastID = id || text;
       if (id) {
-        jsonIndexEntry[lastID] = {text, id: true};
+        jsonIndexEntry[lastID] = {text};
       } else {
         jsonIndexEntry[lastID] = {};
       }

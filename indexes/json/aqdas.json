@@ -20,7 +20,6 @@
   },
   "AbdulBaha": {
     "text": "`Abdu'l-Bahá",
-    "id": true,
     "$links": [
       "3",
       "n184",
@@ -29,7 +28,6 @@
     "$children": {
       "AbdulBahaWritings": {
         "text": "Writings (Tablets) individual works",
-        "id": true,
         "$children": {
           "<i>Memorials of the Faithful</i>": {
             "$links": [
@@ -73,7 +71,6 @@
   },
   "Abjadnotation": {
     "text": "Abjad notation",
-    "id": true,
     "$links": [
       "n28",
       "n50",
@@ -84,7 +81,6 @@
   },
   "Ablutions": {
     "text": "Ablutions",
-    "id": true,
     "$links": [
       "145"
     ],
@@ -139,7 +135,6 @@
   },
   "Abrogation": {
     "text": "Abrogation of laws and practices",
-    "id": true,
     "$links": [
       "5",
       [
@@ -163,7 +158,6 @@
   },
   "Abuseforbidden": {
     "text": "Abuse forbidden",
-    "id": true,
     "$children": {
       "physical": {
         "$links": [
@@ -183,7 +177,6 @@
   },
   "AdministrativeOrder": {
     "text": "Administrative Order, Bahá'í",
-    "id": true,
     "$links": [
       [
         "3",
@@ -217,7 +210,6 @@
   },
   "Adrianople": {
     "text": "Adrianople",
-    "id": true,
     "$links": [
       "K37",
       "Q100",
@@ -236,7 +228,6 @@
   },
   "Adultery": {
     "text": "Adultery",
-    "id": true,
     "$links": [
       "n36"
     ],
@@ -266,7 +257,6 @@
   },
   "Age": {
     "text": "Age",
-    "id": true,
     "$children": {
       "coming of": {
         "$seeAlso": [
@@ -300,7 +290,6 @@
   },
   "Aghsan": {
     "text": "Aghsán",
-    "id": true,
     "$links": [
       "K42",
       "K61",
@@ -322,7 +311,6 @@
   },
   "AhmadiAhsai": {
     "text": "Ahmad-i-Ahsá'í, Shaykh",
-    "id": true,
     "$links": [
       "K157",
       "n171",
@@ -349,7 +337,6 @@
   },
   "Akka": {
     "text": "`Akká",
-    "id": true,
     "$links": [
       "K85",
       "K132",
@@ -545,7 +532,6 @@
   },
   "Arabic": {
     "text": "Arabic",
-    "id": true,
     "$links": [
       "viii",
       "n28",
@@ -624,7 +610,6 @@
   },
   "Arson": {
     "text": "Arson",
-    "id": true,
     "$links": [
       "15",
       "K62",
@@ -664,7 +649,6 @@
   },
   "Asceticism": {
     "text": "Asceticism",
-    "id": true,
     "$links": [
       "15",
       "K36",
@@ -674,7 +658,6 @@
   },
   "Ashkhabad": {
     "text": "Ashkhabad ('Ishqábád)",
-    "id": true,
     "$links": [
       "n124"
     ]
@@ -710,7 +693,6 @@
   },
   "Assistance": {
     "text": "Assistance (Aid)",
-    "id": true,
     "$children": {
       "to Cause of God": {
         "$links": [
@@ -740,7 +722,6 @@
   },
   "Association": {
     "text": "Associations",
-    "id": true,
     "$children": {
       "with followers of all religions": {
         "$links": [
@@ -948,7 +929,6 @@
   },
   "Azalis": {
     "text": "Azalís",
-    "id": true,
     "$links": [
       "K164",
       "n177",
@@ -967,7 +947,6 @@
   },
   "Babthe": {
     "text": "Bab, the",
-    "id": true,
     "$children": {
       "Bahá'u'lláh refers to": {
         "$links": [
@@ -1073,7 +1052,6 @@
       },
       "BabHouseinShiraz": {
         "text": "House in Shíráz",
-        "id": true,
         "$seeAlso": [
           {
             "id": "HolyPlaces",
@@ -1161,7 +1139,6 @@
       },
       "BabtheWritingsof": {
         "text": "Writings",
-        "id": true,
         "$seeAlso": [
           {
             "id": "Bayan",
@@ -1199,7 +1176,6 @@
   },
   "Backbiting": {
     "text": "Backbiting",
-    "id": true,
     "$links": [
       "15",
       "K19",
@@ -1223,7 +1199,6 @@
   },
   "Baghdad": {
     "text": "Baghdád",
-    "id": true,
     "$links": [
       "Q29",
       "n54",
@@ -1246,7 +1221,6 @@
   },
   "BahaiFaith": {
     "text": "Bahá'í Faith (Cause of God)",
-    "id": true,
     "$children": {
       "acceptance": {
         "$links": [
@@ -1334,7 +1308,6 @@
       },
       "BahaiFaithoppositionto": {
         "text": "opposition to",
-        "id": true,
         "$links": [
           "K73",
           "K135",
@@ -1446,7 +1419,6 @@
       },
       "victoryBahaiFaith": {
         "text": "victory",
-        "id": true,
         "$children": {
           "through aid of believers": {
             "$links": [
@@ -1481,7 +1453,6 @@
   },
   "Bahais": {
     "text": "Bahá'ís (believers, followers of Bahá'u'lláh, loved ones, people of Bahá)",
-    "id": true,
     "$children": {
       "conduct and character enjoined on": {
         "$links": [
@@ -1509,7 +1480,6 @@
       },
       "Bahaisduties": {
         "text": "duties",
-        "id": true,
         "$links": [
           [
             "143",
@@ -1582,7 +1552,6 @@
   },
   "Bahaullah": {
     "text": "Bahá'u'lláh",
-    "id": true,
     "$children": {
       "advent": {
         "$links": [
@@ -1601,7 +1570,6 @@
       },
       "BahaullahAscension": {
         "text": "Ascension",
-        "id": true,
         "$links": [
           "1",
           "K38",
@@ -1685,7 +1653,6 @@
       },
       "BahaHouseBaghdad": {
         "text": "House in Baghdád",
-        "id": true,
         "$links": [
           "K32",
           "K133",
@@ -1770,7 +1737,6 @@
       },
       "BahaullahNamesof": {
         "text": "Names and titles",
-        "id": true,
         "$links": [
           "n23",
           "n160"
@@ -2126,7 +2092,6 @@
       },
       "Bahaullahrecognitionof": {
         "text": "recognition of",
-        "id": true,
         "$links": [
           "n48"
         ],
@@ -2195,7 +2160,6 @@
       },
       "Bahaullahrejectionof": {
         "text": "rejection of",
-        "id": true,
         "$links": [
           "K35",
           "K41",
@@ -2250,7 +2214,6 @@
       },
       "Bahaullahrelativesof": {
         "text": "relatives of (Aghsán)",
-        "id": true,
         "$links": [
           [
             "3",
@@ -2286,7 +2249,6 @@
       },
       "BahaullahShrineof": {
         "text": "Shrine of (Most Holy Shrine, Most Holy Tomb)",
-        "id": true,
         "$links": [
           "K6",
           "n8",
@@ -2343,7 +2305,6 @@
       },
       "Bahaullahsufferingsof": {
         "text": "sufferings",
-        "id": true,
         "$links": [
           "14",
           "17",
@@ -2415,7 +2376,6 @@
       },
       "WorldOrderofBahaullah": {
         "text": "World Order of",
-        "id": true,
         "$links": [
           [
             "1",
@@ -2441,7 +2401,6 @@
       },
       "BahaullahWritings": {
         "text": "Writings",
-        "id": true,
         "$links": [
           [
             "8",
@@ -2481,7 +2440,6 @@
               },
               "KitabiAhd": {
                 "text": "Kitáb-i-'Ahd (Book of My Covenant)",
-                "id": true,
                 "$links": [
                   "n37",
                   "n66",
@@ -2619,7 +2577,6 @@
   },
   "BalanceBookofGodas": {
     "text": "Balance, Book of God as",
-    "id": true,
     "$links": [
       "17",
       "K99",
@@ -2634,7 +2591,6 @@
   },
   "Baths": {
     "text": "Bath(s)",
-    "id": true,
     "$links": [
       "K106",
       "n131"
@@ -2659,7 +2615,6 @@
   },
   "Bayan": {
     "text": "Bayán",
-    "id": true,
     "$children": {
       "description": {
         "$links": [
@@ -2683,7 +2638,6 @@
       },
       "Bayanlaws": {
         "text": "laws",
-        "id": true,
         "$links": [
           "2",
           [
@@ -2922,7 +2876,6 @@
       },
       "Bayanpeopleofaddressed": {
         "text": "People of, addressed",
-        "id": true,
         "$links": [
           [
             "K137",
@@ -3024,7 +2977,6 @@
   },
   "Berlin": {
     "text": "Berlin",
-    "id": true,
     "$links": [
       "K86",
       "K90",
@@ -3034,7 +2986,6 @@
   },
   "Betrothal": {
     "text": "Betrothal",
-    "id": true,
     "$links": [
       "Q43",
       "148"
@@ -3047,7 +2998,6 @@
   },
   "Bible": {
     "text": "Bible",
-    "id": true,
     "$links": [
       "n2"
     ],
@@ -3091,7 +3041,6 @@
   },
   "Body": {
     "text": "Body",
-    "id": true,
     "$children": {
       "care of": {
         "$links": [
@@ -3283,14 +3232,12 @@
   },
   "Buddha": {
     "text": "Buddha",
-    "id": true,
     "$links": [
       "n160"
     ]
   },
   "Burial": {
     "text": "Burial",
-    "id": true,
     "$links": [
       "155"
     ],
@@ -3379,7 +3326,6 @@
   },
   "CalendarBahai": {
     "text": "Calendar, Bahá'í",
-    "id": true,
     "$links": [
       "155",
       "n26"
@@ -3474,7 +3420,6 @@
   },
   "Calumny": {
     "text": "Calumny",
-    "id": true,
     "$links": [
       "15",
       "K19",
@@ -3489,7 +3434,6 @@
   },
   "Capitalpunishment": {
     "text": "Capital punishment",
-    "id": true,
     "$links": [
       "K62",
       [
@@ -3514,7 +3458,6 @@
   },
   "Carrion": {
     "text": "Carrion",
-    "id": true,
     "$links": [
       "K60",
       "Q24",
@@ -3559,7 +3502,6 @@
   },
   "Charity": {
     "text": "Charity",
-    "id": true,
     "$children": {
       "endowments dedicated to": {
         "$links": [
@@ -3587,7 +3529,6 @@
   },
   "Chastity": {
     "text": "Chastity",
-    "id": true,
     "$links": [
       "16",
       "n170"
@@ -3604,11 +3545,9 @@
   },
   "Children": {
     "text": "Children",
-    "id": true,
     "$children": {
       "Childreneducation": {
         "text": "education",
-        "id": true,
         "$links": [
           "15",
           "K48",
@@ -3653,7 +3592,6 @@
   },
   "Christ": {
     "text": "Christ (Jesus)",
-    "id": true,
     "$links": [
       "14",
       "n89",
@@ -3683,7 +3621,6 @@
   },
   "Cities": {
     "text": "Cities",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Ashkhabad"
@@ -3730,7 +3667,6 @@
   },
   "Citydweller": {
     "text": "City dweller",
-    "id": true,
     "$children": {
       "amount of dowry payable by": {
         "$links": [
@@ -3757,7 +3693,6 @@
   },
   "Civility": {
     "text": "Civility",
-    "id": true,
     "$links": [
       "n74"
     ],
@@ -3794,7 +3729,6 @@
   },
   "Cleanliness": {
     "text": "Cleanliness",
-    "id": true,
     "$links": [
       "161"
     ],
@@ -3849,7 +3783,6 @@
   },
   "Clergy": {
     "text": "Clergy (Divines)",
-    "id": true,
     "$links": [
       "5",
       "14",
@@ -3902,7 +3835,6 @@
   },
   "Clothing": {
     "text": "Clothing",
-    "id": true,
     "$children": {
       "cleanliness, enjoined": {
         "$links": [
@@ -3991,7 +3923,6 @@
   },
   "Commonwealthworld": {
     "text": "Commonwealth, world",
-    "id": true,
     "$links": [
       "n173",
       "n183",
@@ -4056,7 +3987,6 @@
   },
   "Conduct": {
     "text": "Conduct",
-    "id": true,
     "$links": [
       [
         "15",
@@ -4090,7 +4020,6 @@
   },
   "Conflict": {
     "text": "Conflict",
-    "id": true,
     "$links": [
       "n173"
     ],
@@ -4117,7 +4046,6 @@
   },
   "Constancy": {
     "text": "Constancy",
-    "id": true,
     "$links": [
       [
         "K163",
@@ -4132,7 +4060,6 @@
   },
   "Constantinople": {
     "text": "Constantinople (Istanbul)",
-    "id": true,
     "$links": [
       "16",
       "K89",
@@ -4147,7 +4074,6 @@
   },
   "Consultation": {
     "text": "Consultation",
-    "id": true,
     "$links": [
       "159"
     ],
@@ -4185,7 +4111,6 @@
   },
   "Contention": {
     "text": "Contention",
-    "id": true,
     "$links": [
       "16",
       "K73",
@@ -4216,7 +4141,6 @@
   },
   "Contentment": {
     "text": "Contentment",
-    "id": true,
     "$links": [
       "K63",
       "K66",
@@ -4270,7 +4194,6 @@
   },
   "Courtesy": {
     "text": "Courtesy",
-    "id": true,
     "$links": [
       "K120",
       "160",
@@ -4290,7 +4213,6 @@
   },
   "Covenant": {
     "text": "Covenant",
-    "id": true,
     "$children": {
       "of Bahá'u'lláh": {
         "$links": [
@@ -4343,7 +4265,6 @@
   },
   "Creation": {
     "text": "Creation",
-    "id": true,
     "$children": {
       "all things purified": {
         "$links": [
@@ -4394,7 +4315,6 @@
   },
   "CrimsonArk": {
     "text": "Crimson Ark",
-    "id": true,
     "$links": [
       "K84",
       "n115"
@@ -4432,7 +4352,6 @@
   },
   "Customs": {
     "text": "Customs",
-    "id": true,
     "$seeAlso": [
       {
         "id": "hadith",
@@ -4475,7 +4394,6 @@
   },
   "Daughters": {
     "text": "Daughters",
-    "id": true,
     "$children": {
       "education": {
         "$links": [
@@ -4650,7 +4568,6 @@
   },
   "Deeds": {
     "text": "Deeds",
-    "id": true,
     "$children": {
       "good": {
         "$links": [
@@ -4746,7 +4663,6 @@
   },
   "Desire": {
     "text": "Desire",
-    "id": true,
     "$children": {
       "corrupt, selfish": {
         "$links": [
@@ -4778,7 +4694,6 @@
   },
   "Detachment": {
     "text": "Detachment",
-    "id": true,
     "$links": [
       "K54",
       "K83",
@@ -4796,7 +4711,6 @@
   },
   "Differences": {
     "text": "Differences",
-    "id": true,
     "$children": {
       "between marriage partners": {
         "$links": [
@@ -4829,7 +4743,6 @@
   },
   "Dirt": {
     "text": "Dirt",
-    "id": true,
     "$links": [
       "K74",
       "K76",
@@ -4857,7 +4770,6 @@
   },
   "Disbelief": {
     "text": "Disbelief",
-    "id": true,
     "$links": [
       "K141"
     ],
@@ -4887,7 +4799,6 @@
   },
   "DispensationBahai": {
     "text": "Dispensation, Bahá'í",
-    "id": true,
     "$links": [
       "1",
       "8",
@@ -4919,7 +4830,6 @@
   },
   "DispensationsReligiousPast": {
     "text": "Dispensations, religious, of the past",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Babthe",
@@ -5067,7 +4977,6 @@
   },
   "Disputation": {
     "text": "Disputation",
-    "id": true,
     "$links": [
       "16",
       "K77",
@@ -5090,7 +4999,6 @@
   },
   "Divorce": {
     "text": "Divorce",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Marriage"
@@ -5202,7 +5110,6 @@
   },
   "Dowry": {
     "text": "Dowry",
-    "id": true,
     "$links": [
       "K66",
       [
@@ -5281,7 +5188,6 @@
   },
   "Dust": {
     "text": "Dust",
-    "id": true,
     "$links": [
       "K36",
       "K76",
@@ -5334,7 +5240,6 @@
   },
   "Eating_plunginghand": {
     "text": "Eating, plungings one's hand in food",
-    "id": true,
     "$links": [
       "K46",
       "157",
@@ -5350,7 +5255,6 @@
   },
   "Education": {
     "text": "Education",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Knowledge"
@@ -5409,7 +5313,6 @@
   },
   "Elderly": {
     "text": "Elderly",
-    "id": true,
     "$links": [
       "K10",
       "Q74",
@@ -5421,7 +5324,6 @@
   },
   "ElectionsBahai": {
     "text": "Elections, Bahá'í",
-    "id": true,
     "$links": [
       "4",
       "n49",
@@ -5503,7 +5405,6 @@
   },
   "Evening": {
     "text": "Evening",
-    "id": true,
     "$seeAlso": [
       {
         "id": "ObligatoryPrayers",
@@ -5591,7 +5492,6 @@
   },
   "Exhortations": {
     "text": "Exhortations",
-    "id": true,
     "$links": [
       [
         "4",
@@ -5633,7 +5533,6 @@
   },
   "Fairness": {
     "text": "Fairness",
-    "id": true,
     "$links": [
       "16",
       "K4",
@@ -5644,7 +5543,6 @@
   },
   "Faithfulness": {
     "text": "Faithfulness",
-    "id": true,
     "$links": [
       "16",
       "K7",
@@ -5662,7 +5560,6 @@
   },
   "Family": {
     "text": "Family",
-    "id": true,
     "$links": [
       "n76",
       "n91",
@@ -5699,7 +5596,6 @@
   },
   "Fasting": {
     "text": "Fasting",
-    "id": true,
     "$links": [
       "4",
       "15",
@@ -5875,7 +5771,6 @@
   },
   "FearofGod": {
     "text": "Fear of God",
-    "id": true,
     "$links": [
       "K64",
       "K73",
@@ -5907,7 +5802,6 @@
   },
   "Fellowship": {
     "text": "Fellowship",
-    "id": true,
     "$children": {
       "among Bahá'ís": {
         "$links": [
@@ -5925,7 +5819,6 @@
   },
   "FestivalsBahai": {
     "text": "Festivals, Bahá'í",
-    "id": true,
     "$links": [
       "K110",
       "K112",
@@ -5946,7 +5839,6 @@
   },
   "Fidelity": {
     "text": "Fidelity",
-    "id": true,
     "$links": [
       "16",
       "K120"
@@ -5978,7 +5870,6 @@
   },
   "fines": {
     "text": "Fines",
-    "id": true,
     "$links": [
       "K52",
       "K148",
@@ -6046,7 +5937,6 @@
   },
   "Forbearance": {
     "text": "Forbearance",
-    "id": true,
     "$links": [
       "16",
       "K153"
@@ -6066,7 +5956,6 @@
   },
   "Forgiveness": {
     "text": "Forgiveness",
-    "id": true,
     "$links": [
       "Q47",
       "n58"
@@ -6088,7 +5977,6 @@
   },
   "Fornication": {
     "text": "Fornication",
-    "id": true,
     "$links": [
       "n36",
       "n89"
@@ -6113,7 +6001,6 @@
   },
   "FrancisJosephEmperorAustria": {
     "text": "Francis Joseph, Emperor of Austria",
-    "id": true,
     "$links": [
       "16",
       "K85",
@@ -6151,7 +6038,6 @@
   },
   "FundBahai": {
     "text": "Fund, Bahá'í",
-    "id": true,
     "$links": [
       "n125",
       "n161",
@@ -6192,7 +6078,6 @@
   },
   "Gamblingandgamesofchance": {
     "text": "Gambling and games of chance",
-    "id": true,
     "$links": [
       "15",
       "K155",
@@ -6202,7 +6087,6 @@
   },
   "GandumPakKun": {
     "text": "Gandum-Pák-Kun (Sifter of Wheat)",
-    "id": true,
     "$links": [
       "K166",
       "164",
@@ -6278,7 +6162,6 @@
   },
   "God": {
     "text": "God",
-    "id": true,
     "$children": {
       "acts of": {
         "$links": [
@@ -6555,7 +6438,6 @@
       },
       "Godonenessof": {
         "text": "oneness of",
-        "id": true,
         "$links": [
           "2",
           "Q106"
@@ -6563,7 +6445,6 @@
       },
       "Godpraiseof": {
         "text": "praise of",
-        "id": true,
         "$links": [
           "K40",
           "K50",
@@ -6681,7 +6562,6 @@
   },
   "Godliness": {
     "text": "Godliness",
-    "id": true,
     "$links": [
       "K108",
       "Q106"
@@ -6724,7 +6604,6 @@
   },
   "Gospels": {
     "text": "Gospels",
-    "id": true,
     "$links": [
       "14"
     ],
@@ -6740,7 +6619,6 @@
   },
   "Governments": {
     "text": "Governments",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Parliaments"
@@ -6765,7 +6643,6 @@
   },
   "GreatestName": {
     "text": "Greatest Name (Most Great Name)",
-    "id": true,
     "$links": [
       "K127",
       "n33",
@@ -6818,7 +6695,6 @@
   },
   "Guardianship": {
     "text": "Guardianship",
-    "id": true,
     "$links": [
       [
         "3",
@@ -6882,7 +6758,6 @@
   },
   "hadith": {
     "text": "Hadith",
-    "id": true,
     "$links": [
       "n23",
       "n33",
@@ -6897,7 +6772,6 @@
   },
   "Hair": {
     "text": "Hair",
-    "id": true,
     "$children": {
       "does not invalidate prayer": {
         "$links": [
@@ -6958,7 +6832,6 @@
   },
   "HandsofCause": {
     "text": "Hands of the Cause",
-    "id": true,
     "$links": [
       "n67",
       "n183"
@@ -7115,7 +6988,6 @@
   },
   "HolyCity": {
     "text": "Holy City",
-    "id": true,
     "$links": [
       "13",
       "n114"
@@ -7135,7 +7007,6 @@
   },
   "HolyDays": {
     "text": "Holy Days",
-    "id": true,
     "$links": [
       "15",
       "155"
@@ -7266,7 +7137,6 @@
   },
   "HolyLand": {
     "text": "Holy Land",
-    "id": true,
     "$links": [
       "K103",
       "n114",
@@ -7276,7 +7146,6 @@
   },
   "HolyPlaces": {
     "text": "Holy Places and Historical Sites",
-    "id": true,
     "$children": {
       "House of the Báb in Shíráz": {
         "$seeAlso": [
@@ -7298,7 +7167,6 @@
       },
       "TwinHouses": {
         "text": "Twin Houses",
-        "id": true,
         "$children": {
           "and other sites, restoration and preservation": {
             "$links": [
@@ -7338,7 +7206,6 @@
   },
   "Homosexualrelations": {
     "text": "Homosexual relations",
-    "id": true,
     "$links": [
       "K107",
       "157",
@@ -7347,7 +7214,6 @@
   },
   "Hospitality": {
     "text": "Hospitality",
-    "id": true,
     "$links": [
       "16",
       "K16",
@@ -7358,7 +7224,6 @@
   },
   "Houses": {
     "text": "Houses",
-    "id": true,
     "$children": {
       "entering without permission of owner": {
         "$links": [
@@ -7396,7 +7261,6 @@
   },
   "HousesofJustice": {
     "text": "House(s) of Justice",
-    "id": true,
     "$links": [
       "3",
       "4"
@@ -7512,7 +7376,6 @@
   },
   "LocalHouseofJustice": {
     "text": "House of Justice, Local",
-    "id": true,
     "$links": [
       "4",
       "n183"
@@ -7599,7 +7462,6 @@
   },
   "NationalHouseofJustice": {
     "text": "House of Justice, National (Secondary)",
-    "id": true,
     "$links": [
       [
         "n49",
@@ -7617,7 +7479,6 @@
   },
   "UniversalHouseJustice": {
     "text": "House of Justice, Universal (International)",
-    "id": true,
     "$seeAlso": [
       {
         "id": "HousesofJustice",
@@ -7677,7 +7538,6 @@
       },
       "UHJpowersduties": {
         "text": "powers and duties",
-        "id": true,
         "$links": [
           "n51"
         ],
@@ -7775,7 +7635,6 @@
   },
   "HumanRace": {
     "text": "Human Race (Humanity, Man, Mankind, Peoples, Peoples of the World)",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Society"
@@ -7799,7 +7658,6 @@
       },
       "Humanracecomingofage": {
         "text": "coming of age",
-        "id": true,
         "$links": [
           "1",
           "12",
@@ -7890,7 +7748,6 @@
   },
   "Humility": {
     "text": "Humility",
-    "id": true,
     "$links": [
       "n3",
       "n135",
@@ -7899,7 +7756,6 @@
   },
   "Hunting": {
     "text": "Hunting",
-    "id": true,
     "$links": [
       "K60",
       "Q24",
@@ -7913,7 +7769,6 @@
   },
   "Huququllah": {
     "text": "Huqúqu'lláh (Right of God)",
-    "id": true,
     "$links": [
       "15",
       "K97",
@@ -8021,7 +7876,6 @@
   },
   "Illness": {
     "text": "Illness",
-    "id": true,
     "$children": {
       "consult physician": {
         "$links": [
@@ -8055,7 +7909,6 @@
   },
   "Immorality": {
     "text": "Immorality",
-    "id": true,
     "$links": [
       "n134"
     ],
@@ -8130,7 +7983,6 @@
   },
   "Indemnity": {
     "text": "Indemnity",
-    "id": true,
     "$seeAlso": [
       {
         "id": "fines",
@@ -8182,7 +8034,6 @@
   },
   "Infallibility": {
     "text": "Infallibility",
-    "id": true,
     "$links": [
       "15"
     ],
@@ -8209,7 +8060,6 @@
   },
   "Inheritance": {
     "text": "Inheritance",
-    "id": true,
     "$links": [
       "4",
       "15",
@@ -8575,7 +8425,6 @@
   },
   "IntercalaryDays": {
     "text": "Intercalary days (Ayyám-i-Há)",
-    "id": true,
     "$links": [
       "15",
       "K16",
@@ -8606,7 +8455,6 @@
   },
   "InterpretationofSacredText": {
     "text": "Interpretation of Sacred Text",
-    "id": true,
     "$links": [
       "K108",
       [
@@ -8658,7 +8506,6 @@
   },
   "Intestacy": {
     "text": "Intestacy",
-    "id": true,
     "$links": [
       "n38",
       "n136"
@@ -8671,7 +8518,6 @@
   },
   "Intoxicants": {
     "text": "Intoxicants",
-    "id": true,
     "$links": [
       "15",
       "K119",
@@ -8683,7 +8529,6 @@
   },
   "Investmentfinancial": {
     "text": "Investment, financial",
-    "id": true,
     "$links": [
       "K27"
     ]
@@ -8725,7 +8570,6 @@
   },
   "Islam": {
     "text": "Islám",
-    "id": true,
     "$links": [
       "5",
       "n113",
@@ -8790,7 +8634,6 @@
   },
   "Jerusalem": {
     "text": "Jerusalem",
-    "id": true,
     "$links": [
       "13",
       "n7",
@@ -8859,7 +8702,6 @@
   },
   "Justice": {
     "text": "Justice",
-    "id": true,
     "$seeAlso": [
       {
         "id": "HousesofJustice",
@@ -8909,7 +8751,6 @@
   },
   "Khurasan": {
     "text": "Khurásán",
-    "id": true,
     "$links": [
       "17",
       "K94",
@@ -8919,7 +8760,6 @@
   },
   "Kindness": {
     "text": "Kindness",
-    "id": true,
     "$links": [
       "K61",
       "Q106",
@@ -8973,7 +8813,6 @@
   },
   "Kings": {
     "text": "Kings (Crowned heads)",
-    "id": true,
     "$links": [
       [
         "14",
@@ -9018,14 +8857,12 @@
   },
   "Kingship": {
     "text": "Kingship",
-    "id": true,
     "$links": [
       "n194"
     ]
   },
   "Kirman": {
     "text": "Kirmán",
-    "id": true,
     "$links": [
       "17",
       "K164",
@@ -9049,7 +8886,6 @@
   },
   "KitabiAqdas": {
     "text": "Kitáb-i-Aqdas",
-    "id": true,
     "$children": {
       "character of": {
         "$links": [
@@ -9385,7 +9221,6 @@
   },
   "Knowledge": {
     "text": "Knowledge",
-    "id": true,
     "$links": [
       "K138",
       "n130",
@@ -9458,7 +9293,6 @@
   },
   "Krishna": {
     "text": "Krishna",
-    "id": true,
     "$links": [
       "n160"
     ]
@@ -9546,7 +9380,6 @@
   },
   "Languages": {
     "text": "Language(s)",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Arabic"
@@ -9561,7 +9394,6 @@
       },
       "universalLanguages": {
         "text": "universal",
-        "id": true,
         "$links": [
           "16",
           "K189",
@@ -9576,7 +9408,6 @@
   },
   "LawsofBahaullah": {
     "text": "Law(s) of Bahá'u'lláh",
-    "id": true,
     "$links": [
       [
         "2",
@@ -9608,7 +9439,6 @@
       },
       "LawsBahaullahapplication": {
         "text": "application",
-        "id": true,
         "$children": {
           "to men and women equally, <i>mutatis mutandis</i>": {
             "$links": [
@@ -10021,7 +9851,6 @@
   },
   "LearnedamoungpeopleBaha": {
     "text": "Learned, amoung people of Bahá",
-    "id": true,
     "$links": [
       "K173",
       "163",
@@ -10056,7 +9885,6 @@
   },
   "Liberty": {
     "text": "Liberty",
-    "id": true,
     "$links": [
       "16",
       [
@@ -10103,7 +9931,6 @@
   },
   "Lostproperty": {
     "text": "Lost property",
-    "id": true,
     "$links": [
       "Q17",
       "156"
@@ -10122,7 +9949,6 @@
   },
   "Love": {
     "text": "Love",
-    "id": true,
     "$links": [
       "K4",
       "K15",
@@ -10155,7 +9981,6 @@
   },
   "Maidfemaleservant": {
     "text": "Maid (female servant)",
-    "id": true,
     "$links": [
       "K63",
       "Q30",
@@ -10171,7 +9996,6 @@
   },
   "ManifestationsofGod": {
     "text": "Manifestation(s) of God",
-    "id": true,
     "$links": [
       "n23",
       "n60",
@@ -10244,7 +10068,6 @@
   },
   "Manslaughter": {
     "text": "Manslaughter",
-    "id": true,
     "$links": [
       "K188",
       "156",
@@ -10270,7 +10093,6 @@
   },
   "Marriage": {
     "text": "Marriage",
-    "id": true,
     "$links": [
       "4",
       "15",
@@ -10392,7 +10214,6 @@
   },
   "MashriqulAdhkar": {
     "text": "Mashriqu'l-Adhkár (House of Worship)",
-    "id": true,
     "$links": [
       "15",
       "K31",
@@ -10436,7 +10257,6 @@
   },
   "Maturity_ageof": {
     "text": "Maturity, age of",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Humanracecomingofage",
@@ -10512,7 +10332,6 @@
   },
   "Men": {
     "text": "Men",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Divorce"
@@ -10578,7 +10397,6 @@
   },
   "Mendicancy": {
     "text": "Mendicancy",
-    "id": true,
     "$links": [
       "15",
       "K33",
@@ -10617,7 +10435,6 @@
   },
   "Midday": {
     "text": "Midday",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Noon"
@@ -10626,7 +10443,6 @@
   },
   "MiddleWay": {
     "text": "Middle Way",
-    "id": true,
     "$links": [
       "K43"
     ]
@@ -10679,7 +10495,6 @@
   },
   "Money": {
     "text": "Money",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Charity"
@@ -10713,7 +10528,6 @@
   },
   "Monogamy": {
     "text": "Monogamy",
-    "id": true,
     "$links": [
       "15",
       "K63",
@@ -10784,7 +10598,6 @@
   },
   "Moses": {
     "text": "Moses",
-    "id": true,
     "$links": [
       [
         "n111",
@@ -10925,7 +10738,6 @@
   },
   "Muhammad": {
     "text": "Muhammad (Apostle of God)",
-    "id": true,
     "$links": [
       "14",
       "n7",
@@ -10937,7 +10749,6 @@
   },
   "MuhammadAli": {
     "text": "Muhammad-'Alí, Archbreaker of Bahá'u'lláh's Covenant",
-    "id": true,
     "$links": [
       "n1",
       "n9"
@@ -10973,7 +10784,6 @@
   },
   "Murder": {
     "text": "Murder",
-    "id": true,
     "$links": [
       "15",
       "K19",
@@ -11008,7 +10818,6 @@
   },
   "Music": {
     "text": "Music",
-    "id": true,
     "$links": [
       "K51",
       "158",
@@ -11025,7 +10834,6 @@
   },
   "Mutatismutandis": {
     "text": "<i>Mutatis mutandis</i>, application of laws equally to both sexes",
-    "id": true,
     "$links": [
       [
         "7",
@@ -11037,7 +10845,6 @@
   },
   "MutteringSacredVersesinpublic": {
     "text": "Muttering sacred verses in public",
-    "id": true,
     "$links": [
       "K108",
       "157",
@@ -11123,7 +10930,6 @@
   },
   "NamesAttributesGod": {
     "text": "Names and attributes of God and/or Bahá'u'lláh",
-    "id": true,
     "$links": [
       "K18",
       "K60",
@@ -12042,7 +11848,6 @@
   },
   "NapoleonIII": {
     "text": "Napoleon III",
-    "id": true,
     "$links": [
       "16",
       "K86",
@@ -12091,7 +11896,6 @@
   },
   "Negligence": {
     "text": "Negligence",
-    "id": true,
     "$links": [
       "K40",
       "K134",
@@ -12186,7 +11990,6 @@
   },
   "NineteenDayFeast": {
     "text": "Nineteen Day Feast",
-    "id": true,
     "$links": [
       "15",
       "K57",
@@ -12196,7 +11999,6 @@
   },
   "NonBahai": {
     "text": "Non-Bahá'í(s)",
-    "id": true,
     "$children": {
       "acceptable as witnesses": {
         "$links": [
@@ -12225,7 +12027,6 @@
   },
   "Noon": {
     "text": "Noon",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Midday"
@@ -12280,7 +12081,6 @@
   },
   "Obedience": {
     "text": "Obedience",
-    "id": true,
     "$children": {
       "to government": {
         "$links": [
@@ -12321,7 +12121,6 @@
   },
   "ObligatoryPrayers": {
     "text": "Obligatory Prayer(s)",
-    "id": true,
     "$links": [
       "15",
       "K6",
@@ -12505,7 +12304,6 @@
       },
       "shortthird": {
         "text": "short (third)",
-        "id": true,
         "$links": [
           "101",
           "Q81",
@@ -12538,7 +12336,6 @@
   },
   "ObservelawsofGod": {
     "text": "Observance of laws of God",
-    "id": true,
     "$links": [
       [
         "K1",
@@ -12565,7 +12362,6 @@
   },
   "Occupationobligeengagein": {
     "text": "Occupation, obligation to engage in",
-    "id": true,
     "$links": [
       "15",
       "K33",
@@ -12595,7 +12391,6 @@
   },
   "Opium": {
     "text": "Opium",
-    "id": true,
     "$links": [
       "15",
       "K155",
@@ -12613,7 +12408,6 @@
   },
   "Oppression": {
     "text": "Oppression",
-    "id": true,
     "$links": [
       "K73",
       "K88",
@@ -12647,7 +12441,6 @@
       },
       "OrderWorld": {
         "text": "World",
-        "id": true,
         "$links": [
           [
             "13",
@@ -12721,7 +12514,6 @@
       },
       "Parentsrespectkindnessto": {
         "text": "respect and kindness to",
-        "id": true,
         "$links": [
           "Q104",
           "Q106",
@@ -12733,7 +12525,6 @@
   },
   "Parliaments": {
     "text": "Parliaments",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Governments"
@@ -12782,7 +12573,6 @@
   },
   "Patience": {
     "text": "Patience",
-    "id": true,
     "$links": [
       "K87"
     ],
@@ -12905,7 +12695,6 @@
   },
   "Perseverance": {
     "text": "Perseverance",
-    "id": true,
     "$links": [
       "160"
     ],
@@ -12954,7 +12743,6 @@
   },
   "Physicians": {
     "text": "Physicians",
-    "id": true,
     "$links": [
       "K113",
       "161",
@@ -12971,7 +12759,6 @@
   },
   "Piety": {
     "text": "Piety",
-    "id": true,
     "$links": [
       "K64",
       "K148",
@@ -12983,7 +12770,6 @@
   },
   "Pilgrimage": {
     "text": "Pilgrimage",
-    "id": true,
     "$children": {
       "ordained": {
         "$links": [
@@ -13057,7 +12843,6 @@
   },
   "PoorReliefof": {
     "text": "Poor",
-    "id": true,
     "$children": {
       "assistance to": {
         "$links": [
@@ -13084,7 +12869,6 @@
   },
   "Possessions": {
     "text": "Possessions",
-    "id": true,
     "$children": {
       "duty to offer to Manifestation of God abrogated": {
         "$links": [
@@ -13167,7 +12951,6 @@
   },
   "Prayer": {
     "text": "Prayer",
-    "id": true,
     "$links": [
       "4",
       "n4",
@@ -13251,7 +13034,6 @@
   },
   "PrayerforDead": {
     "text": "Prayer for the Dead",
-    "id": true,
     "$links": [
       "K8",
       "102",
@@ -13279,7 +13061,6 @@
   },
   "PrayerofSigns": {
     "text": "Prayer of the Signs",
-    "id": true,
     "$links": [
       "K11",
       "Q52",
@@ -13380,7 +13161,6 @@
   },
   "Professionobligeengagein": {
     "text": "Profession, obligation to engage in",
-    "id": true,
     "$links": [
       "K33",
       "n56",
@@ -13417,7 +13197,6 @@
   },
   "Prohibitions": {
     "text": "Prohibitions",
-    "id": true,
     "$links": [
       "4",
       "15",
@@ -13466,7 +13245,6 @@
   },
   "PromisedOne": {
     "text": "Promised One",
-    "id": true,
     "$links": [
       "K35",
       "K88",
@@ -13502,7 +13280,6 @@
   },
   "Proofs": {
     "text": "Proof(s)",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Testimony"
@@ -13531,7 +13308,6 @@
   },
   "Property": {
     "text": "Property",
-    "id": true,
     "$children": {
       "Aghsán have no right to property of others": {
         "$links": [
@@ -13625,7 +13401,6 @@
   },
   "Propriety": {
     "text": "Propriety",
-    "id": true,
     "$children": {
       "bounds of, do not overstep": {
         "$links": [
@@ -13726,7 +13501,6 @@
   },
   "Publicplaces": {
     "text": "Public places",
-    "id": true,
     "$children": {
       "confession of sins in": {
         "$links": [
@@ -13757,7 +13531,6 @@
   },
   "Punishments": {
     "text": "Punishment(s)",
-    "id": true,
     "$links": [
       "15",
       "n86"
@@ -13856,7 +13629,6 @@
   },
   "Purity": {
     "text": "Purity",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Cleanliness"
@@ -13889,7 +13661,6 @@
   },
   "Qiblih": {
     "text": "Qiblih",
-    "id": true,
     "$links": [
       "15",
       "K6",
@@ -13937,7 +13708,6 @@
   },
   "Qualities": {
     "text": "Qualities enjoined on Bahá'ís",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Association"
@@ -14109,7 +13879,6 @@
   },
   "QuestionsandAnswers": {
     "text": "Questions and Answers",
-    "id": true,
     "$links": [
       "vii",
       "viii",
@@ -14121,7 +13890,6 @@
   },
   "Quran": {
     "text": "Qur'án (the Book)",
-    "id": true,
     "$links": [
       "14",
       "n1",
@@ -14176,7 +13944,6 @@
   },
   "Rakah": {
     "text": "Rak'ah(s)",
-    "id": true,
     "$links": [
       "K6",
       "K8",
@@ -14195,14 +13962,12 @@
   },
   "Rape": {
     "text": "Rape",
-    "id": true,
     "$links": [
       "n36"
     ]
   },
   "Reading": {
     "text": "Reading",
-    "id": true,
     "$children": {
       "instruction of children in": {
         "$links": [
@@ -14242,7 +14007,6 @@
   },
   "Reasonpowerof": {
     "text": "Reason, power of",
-    "id": true,
     "$links": [
       "K119",
       "n130",
@@ -14252,7 +14016,6 @@
   },
   "RecitationSacredWritingsVerses": {
     "text": "Recitation of sacred Writings and Verses",
-    "id": true,
     "$links": [
       "K116",
       "K150",
@@ -14354,7 +14117,6 @@
   },
   "Recognition": {
     "text": "Recognition of",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Bahaullahrecognitionof",
@@ -14497,7 +14259,6 @@
   },
   "Refinement": {
     "text": "Refinement",
-    "id": true,
     "$links": [
       "K74"
     ],
@@ -14516,7 +14277,6 @@
   },
   "Rejection": {
     "text": "Rejection",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Bahaullahrejectionof",
@@ -14552,7 +14312,6 @@
   },
   "ReligionsnotBahai": {
     "text": "Religion(s) (other than Bahá'í Faith)",
-    "id": true,
     "$links": [
       "K7"
     ],
@@ -14636,7 +14395,6 @@
   },
   "Remarriage": {
     "text": "Remarriage",
-    "id": true,
     "$children": {
       "due to death of spouse": {
         "$links": [
@@ -14685,7 +14443,6 @@
   },
   "RememberGod": {
     "text": "Remembrance of God",
-    "id": true,
     "$links": [
       "K40",
       "K43"
@@ -14724,7 +14481,6 @@
   },
   "Respect": {
     "text": "Respect",
-    "id": true,
     "$children": {
       "for parents": {
         "$links": [
@@ -14765,7 +14521,6 @@
       },
       "Revelationprogressive": {
         "text": "progressive",
-        "id": true,
         "$links": [
           [
             "1",
@@ -14835,7 +14590,6 @@
   },
   "RevelationofBahaullah": {
     "text": "Revelation of Bahá'u'lláh",
-    "id": true,
     "$seeAlso": [
       {
         "id": "BahaiFaith",
@@ -14966,7 +14720,6 @@
   },
   "Revenge": {
     "text": "Revenge",
-    "id": true,
     "$links": [
       "n86"
     ]
@@ -15005,7 +14758,6 @@
   },
   "Ridvan": {
     "text": "Ridván",
-    "id": true,
     "$links": [
       "K75",
       "n107",
@@ -15107,7 +14859,6 @@
   },
   "Sadness": {
     "text": "Sadness",
-    "id": true,
     "$children": {
       "backbiting as cause": {
         "$links": [
@@ -15116,7 +14867,6 @@
       },
       "Sadnessnottocause": {
         "text": "not to cause",
-        "id": true,
         "$links": [
           "92",
           "Q98",
@@ -15133,7 +14883,6 @@
   },
   "SadratulMuntaha": {
     "text": "Sadratu'l-Muntahá",
-    "id": true,
     "$links": [
       "K100",
       "K148",
@@ -15345,7 +15094,6 @@
   },
   "Service": {
     "text": "Service",
-    "id": true,
     "$links": [
       "16",
       "K125",
@@ -15382,7 +15130,6 @@
   },
   "Sexualacts": {
     "text": "Sexual acts",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Chastity"
@@ -15458,7 +15205,6 @@
   },
   "Shavingthehead": {
     "text": "Shaving the head",
-    "id": true,
     "$links": [
       "K44",
       "Q10",
@@ -15509,7 +15255,6 @@
   },
   "ShoghiEffendi": {
     "text": "Shoghi Effendi (Guardian of the Bahá'í Faith)",
-    "id": true,
     "$links": [
       "vii",
       "255"
@@ -15595,7 +15340,6 @@
       },
       "writingsShoghiEffendi": {
         "text": "writings",
-        "id": true,
         "$children": {
           "individual works": {
             "$children": {
@@ -15700,7 +15444,6 @@
   },
   "Sin": {
     "text": "Sin",
-    "id": true,
     "$children": {
       "confession of": {
         "$links": [
@@ -15731,7 +15474,6 @@
   },
   "Sincerity": {
     "text": "Sincerity",
-    "id": true,
     "$links": [
       "K29",
       "K108",
@@ -15832,7 +15574,6 @@
   },
   "Slaveryprohibition": {
     "text": "Slavery, prohibition of",
-    "id": true,
     "$links": [
       "15",
       "K72",
@@ -15854,7 +15595,6 @@
   },
   "Society": {
     "text": "Society",
-    "id": true,
     "$children": {
       "condition of": {
         "$links": [
@@ -15974,7 +15714,6 @@
   },
   "Sodomy": {
     "text": "Sodomy",
-    "id": true,
     "$links": [
       "K107",
       "Q49",
@@ -16093,7 +15832,6 @@
   },
   "Speech": {
     "text": "Speech",
-    "id": true,
     "$links": [
       "K160"
     ],
@@ -16258,7 +15996,6 @@
   },
   "Steadfastness": {
     "text": "Steadfastness",
-    "id": true,
     "$links": [
       "K134",
       "K164",
@@ -16334,7 +16071,6 @@
   },
   "Strikingaperson": {
     "text": "Striking a person",
-    "id": true,
     "$links": [
       "K148",
       "157"
@@ -16488,7 +16224,6 @@
   },
   "Sunrise": {
     "text": "Sunrise",
-    "id": true,
     "$children": {
       "prayer at dawn": {
         "$links": [
@@ -16537,7 +16272,6 @@
   },
   "Sunset": {
     "text": "Sunset (Sundown)",
-    "id": true,
     "$children": {
       "determining date of Naw-Rúz": {
         "$links": [
@@ -16578,7 +16312,6 @@
   },
   "SynopsisandCodification": {
     "text": "Synopsis and Codification",
-    "id": true,
     "$links": [
       [
         "vii",
@@ -16628,7 +16361,6 @@
   },
   "Tact": {
     "text": "Tact",
-    "id": true,
     "$links": [
       "6",
       "K73",
@@ -16678,7 +16410,6 @@
   },
   "TeachingtheCause": {
     "text": "Teaching the Cause",
-    "id": true,
     "$links": [
       "159",
       "n183"
@@ -16805,7 +16536,6 @@
   },
   "Tenacity": {
     "text": "Tenacity",
-    "id": true,
     "$links": [
       "K74"
     ],
@@ -16817,7 +16547,6 @@
   },
   "Tenderness": {
     "text": "Tenderness",
-    "id": true,
     "$links": [
       "K184",
       "K184",
@@ -16836,7 +16565,6 @@
     "$children": {
       "TestamentOld": {
         "text": "Old",
-        "id": true,
         "$links": [
           "n1"
         ],
@@ -16853,7 +16581,6 @@
   },
   "Testimony": {
     "text": "Testimony",
-    "id": true,
     "$links": [
       "17",
       "K136",
@@ -16897,7 +16624,6 @@
   },
   "TextSacred": {
     "text": "Text, Sacred (Words of Bahá'u'lláh)",
-    "id": true,
     "$seeAlso": [
       {
         "id": "InterpretationofSacredText",
@@ -16997,7 +16723,6 @@
   },
   "Theft": {
     "text": "Theft",
-    "id": true,
     "$links": [
       "157"
     ],
@@ -17041,7 +16766,6 @@
   },
   "Tihran": {
     "text": "Tihrán",
-    "id": true,
     "$links": [
       "n122"
     ],
@@ -17128,7 +16852,6 @@
   },
   "Trade": {
     "text": "Trade",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Occupationobligeengagein",
@@ -17153,7 +16876,6 @@
   },
   "Traditions": {
     "text": "Traditions",
-    "id": true,
     "$links": [
       "n2",
       "n22",
@@ -17212,7 +16934,6 @@
   },
   "TranslationBahaiWritings": {
     "text": "Translation of Bahá'í Writings",
-    "id": true,
     "$links": [
       [
         "10",
@@ -17233,7 +16954,6 @@
   },
   "Travel": {
     "text": "Travel",
-    "id": true,
     "$children": {
       "during Fast": {
         "$links": [
@@ -17375,7 +17095,6 @@
   },
   "Trustees": {
     "text": "Trustees",
-    "id": true,
     "$children": {
       "of the House of Justice": {
         "$seeAlso": [
@@ -17395,7 +17114,6 @@
   },
   "Trustworthiness": {
     "text": "Trustworthiness",
-    "id": true,
     "$links": [
       "16",
       "K120",
@@ -17406,7 +17124,6 @@
   },
   "Truth": {
     "text": "Truth",
-    "id": true,
     "$children": {
       "of Bahá'u'lláh's words": {
         "$links": [
@@ -17458,7 +17175,6 @@
   },
   "Truthfulness": {
     "text": "Truthfulness",
-    "id": true,
     "$links": [
       "16",
       "K120",
@@ -17481,7 +17197,6 @@
   },
   "Tyranny": {
     "text": "Tyranny",
-    "id": true,
     "$links": [
       "K86",
       "K89",
@@ -17526,7 +17241,6 @@
   },
   "Uncleanlinessritualabolished": {
     "text": "Uncleanliness, ritual concept abolished",
-    "id": true,
     "$links": [
       "K75",
       "158",
@@ -17537,7 +17251,6 @@
   },
   "Understanding": {
     "text": "Understanding",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Vision"
@@ -17577,7 +17290,6 @@
   },
   "Unity": {
     "text": "Unity",
-    "id": true,
     "$children": {
       "of Bahá'ís": {
         "$links": [
@@ -17637,7 +17349,6 @@
   },
   "Uprightness": {
     "text": "Uprightness",
-    "id": true,
     "$links": [
       "Q106"
     ]
@@ -17758,7 +17469,6 @@
   },
   "VersesHoly": {
     "text": "Verse(s), Holy",
-    "id": true,
     "$seeAlso": [
       {
         "id": "WritingsBahai",
@@ -17924,7 +17634,6 @@
   },
   "Virginity": {
     "text": "Virginity",
-    "id": true,
     "$children": {
       "and dowry": {
         "$links": [
@@ -17942,14 +17651,12 @@
   },
   "Virtue": {
     "text": "Virtue",
-    "id": true,
     "$links": [
       "K71"
     ]
   },
   "Vision": {
     "text": "Vision",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Understanding"
@@ -18005,7 +17712,6 @@
   },
   "WarningsofBahaullah": {
     "text": "Warnings of Bahá'u'lláh",
-    "id": true,
     "$links": [
       [
         "161",
@@ -18064,7 +17770,6 @@
   },
   "Washing": {
     "text": "Washing",
-    "id": true,
     "$links": [
       "K74",
       "K76",
@@ -18126,7 +17831,6 @@
   },
   "Water": {
     "text": "Water",
-    "id": true,
     "$links": [
       "K57",
       "K135",
@@ -18208,7 +17912,6 @@
   },
   "Wealth": {
     "text": "Wealth",
-    "id": true,
     "$links": [
       "K40",
       "K48"
@@ -18345,7 +18048,6 @@
   },
   "Wife": {
     "text": "Wife",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Divorce"
@@ -18366,7 +18068,6 @@
   },
   "Will": {
     "text": "Will",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Inheritance"
@@ -18428,7 +18129,6 @@
   },
   "WilliamIKingPrussia": {
     "text": "William I, King of Prussia",
-    "id": true,
     "$links": [
       "16",
       "K86",
@@ -18441,7 +18141,6 @@
   },
   "Wine": {
     "text": "Wine",
-    "id": true,
     "$links": [
       "15",
       "n144"
@@ -18467,7 +18166,6 @@
   },
   "Wisdom": {
     "text": "Wisdom",
-    "id": true,
     "$children": {
       "Divine": {
         "$links": [
@@ -18505,7 +18203,6 @@
   },
   "Witnessesjust": {
     "text": "Witnesses, just",
-    "id": true,
     "$children": {
       "definition": {
         "$links": [
@@ -18531,7 +18228,6 @@
   },
   "Women": {
     "text": "Women",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Betrothal"
@@ -18709,7 +18405,6 @@
   },
   "Work": {
     "text": "Work",
-    "id": true,
     "$children": {
       "exalted to rank of worship": {
         "$links": [
@@ -18856,7 +18551,6 @@
   },
   "Worship": {
     "text": "Worship",
-    "id": true,
     "$seeAlso": [
       {
         "id": "Fasting"
@@ -18930,7 +18624,6 @@
   },
   "Writing": {
     "text": "Writing, instruction in",
-    "id": true,
     "$links": [
       "K48",
       "n76"
@@ -18943,11 +18636,9 @@
   },
   "Writings": {
     "text": "Writings",
-    "id": true,
     "$children": {
       "WritingsBahai": {
         "text": "Bahá'í",
-        "id": true,
         "$seeAlso": [
           {
             "id": "AbdulBahaWritings",
@@ -19027,7 +18718,6 @@
   },
   "YayhaMirza": {
     "text": "Yahyá, Mírzá (Subh-i-Azal)",
-    "id": true,
     "$links": [
       "17",
       "K184",
@@ -19086,7 +18776,6 @@
   },
   "Zakat": {
     "text": "Zakát (Tithes)",
-    "id": true,
     "$links": [
       "K146",
       "Q107",
