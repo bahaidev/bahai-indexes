@@ -26,6 +26,14 @@ function iterateKeys (json, cbObj, basePath = '') {
   });
 }
 
+const isValidLink = (link) => {
+  return link.match(aqdasInternalLinksRegex) ||
+    [
+      // Could replace this with a Roman numeral regex
+      'viii', 'ix', 'vii'
+    ].includes(link);
+};
+
 // Todo: adapt as needed for loading and iterating index files to plugin,
 //    caching result to avoid rebuilding flattened structure on each load
 
@@ -51,17 +59,15 @@ iterateKeys(aqdas, {
      */
     function validateLink (link) {
       // Validate `links` are all numeric or with `[KQn]`
-      if (!link.match(aqdasInternalLinksRegex) &&
-        ![
-          // Could replace this with a Roman numeral regex
-          'viii', 'ix', 'vii'
-        ].includes(link)
-      ) {
+      if (!isValidLink(link)) {
         throw new Error('Unexpected link format: ' + link);
       }
     }
     links.forEach((link) => {
       if (Array.isArray(link)) {
+        if (link.length !== 2) {
+          throw new Error('Unexpected link length');
+        }
         link.forEach((lnk) => validateLink(lnk));
         return;
       }
@@ -81,6 +87,11 @@ iterateKeys(aqdas, {
       seeAlso = seeAlso && typeof seeAlso === 'object'
         ? seeAlso.headings
         : seeAlso;
+      // This might not be an error, but probably a good sanity check
+      //   until we see any such data
+      if (isValidLink(seeAlso)) {
+        throw new Error('Unexpected apparent link format');
+      }
       if (!indexEntryInfo.has(seeAlso) && !badSeeAlsos.includes(seeAlso)) {
         // throw new Error('Unexpected duplicate index entry: ' + indexName);
         badSeeAlsos.push(seeAlso);
