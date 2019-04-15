@@ -1,3 +1,6 @@
+const fs = require('fs');
+const {join} = require('path');
+
 const aqdas = require('../indexes/json/aqdas.json');
 
 const aqdasInternalLinksRegex = /^[KQn]?\d+$/u;
@@ -201,7 +204,11 @@ function arrangeByParagraph () {
   if (badFullLabels.length) {
     throw new Error('badFullLabels: ' + JSON.stringify(badFullLabels));
   }
-  console.log(paragraphToIndexEntries);
+  // console.log(paragraphToIndexEntries);
+  fs.writeFileSync(
+    join(__dirname, '/../indexes/json-flattened/aqdas.json'),
+    JSON.stringify(paragraphToIndexEntries, null, 2) + '\n'
+  );
 }
 
 validate();
