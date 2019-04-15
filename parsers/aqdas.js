@@ -213,7 +213,6 @@ function recurseList (ul, jsonIndexEntry) {
               );
             }
 
-            // Todo: Deal with "see-also" links at different levels and IDs
             const textContent = serializeLinkContents(l);
             if (rangeBegun) {
               rangeBegun = false;
