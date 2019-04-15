@@ -14,10 +14,10 @@ function iterateKeys (json, cbObj, basePath = '') {
       cbObj.keys(key, basePath, val);
     }
     if (cbObj.links) {
-      cbObj.links(val.$links, key, basePath);
+      cbObj.links(val.$links, key, basePath, val);
     }
     if (cbObj.seeAlso) {
-      cbObj.seeAlso(val.$seeAlso, key, basePath);
+      cbObj.seeAlso(val.$seeAlso, key, basePath, val);
     }
     if (!val.$children) {
       return;
@@ -45,7 +45,7 @@ function validate () {
   const indexEntryInfo = new Map();
   iterateKeys(aqdas, {
     keys (indexName, basePath, val) {
-      if (!val.text) { // A hierarchical entry, but not a target of links
+      if (!val.$text) { // A hierarchical entry, but not a target of links
         return;
       }
       if (indexEntryInfo.has(indexName)) {
@@ -115,4 +115,44 @@ function validate () {
   }
   console.log('Valid!');
 }
+
+/**
+ *
+ * @returns {void}
+ */
+function arrangeByParagraph () {
+  const paragraphToIndexEntries = {};
+  iterateKeys(aqdas, {
+    links (links, key, basePath, val) {
+      if (!links) {
+        return;
+      }
+      const paragraphLinkRegex = /^K\d+$/u;
+      const paragraphLink = function (lnk) {
+        return lnk.match(paragraphLinkRegex);
+      };
+      const paragraphLinks = links.filter((link) => {
+        if (Array.isArray(link)) {
+          // These should already be the same type
+          return paragraphLink(link[0]);
+        }
+        return paragraphLink(link);
+      });
+      const setInfo = (p) => {
+        const num = parseInt(p.slice(1));
+        paragraphToIndexEntries[num] = key; // val;
+      };
+      paragraphLinks.forEach((ps) => {
+        if (Array.isArray(ps)) {
+          ps.map((p) => setInfo(p));
+          return;
+        }
+        setInfo(ps);
+      });
+    }
+  });
+  console.log(paragraphToIndexEntries);
+}
+
 validate();
+arrangeByParagraph();
