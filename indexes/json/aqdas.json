@@ -452,13 +452,15 @@
       {
         "id": "Hunting"
       }
-    ]
-  },
-  "cruelty to, prohibited": {
-    "$links": [
-      "15",
-      "K187"
-    ]
+    ],
+    "$children": {
+      "cruelty to, prohibited": {
+        "$links": [
+          "15",
+          "K187"
+        ]
+      }
+    }
   },
   "Anniversaries, Bahá'í": {
     "$links": [
@@ -9304,7 +9306,7 @@
       }
     ]
   },
-  "lamentation": {
+  "Lamentation": {
     "$links": [
       "K43",
       "160"
@@ -10876,7 +10878,7 @@
       "n179"
     ]
   },
-  "nails, paring": {
+  "Nails, paring": {
     "$links": [
       "K106",
       "161"

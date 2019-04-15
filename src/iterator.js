@@ -6,23 +6,29 @@ const aqdasInternalLinksRegex = /^[KQn]?\d+$/u;
  * @param {Object} json
  * @param {Object} cbObj
  * @param {string} basePath
+ * @param {string} parents
  * @returns {void}
  */
-function iterateKeys (json, cbObj, basePath = '') {
+function iterateKeys (json, cbObj, basePath = '', parents = []) {
   Object.entries(json).forEach(([key, val]) => {
     if (cbObj.keys) {
-      cbObj.keys(key, basePath, val);
+      cbObj.keys(key, basePath, val, parents);
     }
     if (cbObj.links) {
-      cbObj.links(val.$links, key, basePath, val);
+      cbObj.links(val.$links, key, basePath, val, parents);
     }
     if (cbObj.seeAlso) {
-      cbObj.seeAlso(val.$seeAlso, key, basePath, val);
+      cbObj.seeAlso(val.$seeAlso, key, basePath, val, parents);
     }
     if (!val.$children) {
       return;
     }
-    iterateKeys(val.$children, cbObj, basePath + '/' + key);
+    iterateKeys(
+      val.$children,
+      cbObj,
+      basePath + '/' + key,
+      parents.concat([[key, val]])
+    );
   });
 }
 
@@ -33,9 +39,6 @@ const isValidLink = (link) => {
       'viii', 'ix', 'vii'
     ].includes(link);
 };
-
-// Todo: adapt as needed for loading and iterating index files to plugin,
-//    caching result to avoid rebuilding flattened structure on each load
 
 /**
  *
@@ -121,9 +124,10 @@ function validate () {
  * @returns {void}
  */
 function arrangeByParagraph () {
+  const badFullLabels = [];
   const paragraphToIndexEntries = {};
   iterateKeys(aqdas, {
-    links (links, key, basePath, val) {
+    links (links, key, basePath, val, parents) {
       if (!links) {
         return;
       }
@@ -131,21 +135,52 @@ function arrangeByParagraph () {
       const paragraphLink = function (lnk) {
         return lnk.match(paragraphLinkRegex);
       };
+      const nonparagraphLinks = [];
       const paragraphLinks = links.filter((link) => {
+        let ret;
         if (Array.isArray(link)) {
           // These should already be the same type
-          return paragraphLink(link[0]);
+          ret = paragraphLink(link[0]);
+        } else {
+          ret = paragraphLink(link);
         }
-        return paragraphLink(link);
+        if (!ret) {
+          nonparagraphLinks.push(link);
+        }
+        return ret;
       });
       const setInfo = (p) => {
         const num = parseInt(p.slice(1));
         if (!paragraphToIndexEntries[num]) {
           paragraphToIndexEntries[num] = [];
         }
-        paragraphToIndexEntries[num].push(val.$text || key);
+        const ancestorsLabel = parents.map(
+          ([k, v]) => (v.$text || k)
+        ).join(', ');
+        const childLabel = (val.$text || key);
+        const fullLabel = (ancestorsLabel ? (ancestorsLabel + ', ') : '') +
+          childLabel;
+        if (!fullLabel.charAt().match(/[`"A-Z]/u) && !badFullLabels.includes(fullLabel)) {
+          badFullLabels.push(fullLabel);
+        }
+        // Todo: Also resolve `see` links (if no links?)
+        paragraphToIndexEntries[num].push(
+          [
+            fullLabel,
+            // Todo: We could also check whether the seeAlso IDs exist at this
+            //   level, so indexes could reconstruct "see above"/"see below"
+
+            // val.$seeAlso ? '======' + JSON.stringify(val.$seeAlso) : '',
+            val.$seeAlso,
+            // JSON.stringify(paragraphLinks.filter((pl) => pl !== p)),
+            paragraphLinks.filter((pl) => pl !== p),
+            // JSON.stringify(nonparagraphLinks)
+            nonparagraphLinks
+          ]
+        );
       };
       paragraphLinks.forEach((ps) => {
+        // Todo: These are *ranges*; need to handle values within
         if (Array.isArray(ps)) {
           ps.map((p) => setInfo(p));
           return;
@@ -154,6 +189,9 @@ function arrangeByParagraph () {
       });
     }
   });
+  if (badFullLabels.length) {
+    throw new Error('badFullLabels: ' + JSON.stringify(badFullLabels));
+  }
   console.log(paragraphToIndexEntries);
 }
 
