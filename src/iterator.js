@@ -140,7 +140,10 @@ function arrangeByParagraph () {
       });
       const setInfo = (p) => {
         const num = parseInt(p.slice(1));
-        paragraphToIndexEntries[num] = key; // val;
+        if (!paragraphToIndexEntries[num]) {
+          paragraphToIndexEntries[num] = [];
+        }
+        paragraphToIndexEntries[num].push(val.$text || key);
       };
       paragraphLinks.forEach((ps) => {
         if (Array.isArray(ps)) {
