@@ -3,6 +3,12 @@ const {join} = require('path');
 const {JSDOM} = require('jsdom');
 const handleNode = require('handle-node');
 
+const letterLinkOnlyRegex = /^[nKQ]\d+$/u;
+const numbersOnlyRegex = /^\d+$/u;
+const romanNumeralsOnlyRegex = /^[mclxvi]+$/u;
+const decimalRangeRegex = /^\d+-\d+$/u;
+const romanNumeralRangeRegex = /^[mclxvi]+-[mclxvi]+$/u;
+
 const html = fs.readFileSync(
   join(__dirname, '/../indexes/html/aqdas.html'),
   'utf8'
@@ -105,12 +111,12 @@ function recurseList (ul, jsonIndexEntry) {
       if (links !== false) {
         let rangeBegun = false;
         const $links = [];
-        const letterLinkOnlyRegex = /^[nKQ]\d+$/u;
-        const numbersOnlyRegex = /^\d+$/u;
-        const romanNumeralsOnlyRegex = /^[mclxvi]+$/u;
-        const decimalRangeRegex = /^\d+-\d+$/u;
-        const romanNumeralRangeRegex = /^[mclxvi]+-[mclxvi]+$/u;
-        const sequenceDifference = (val) => {
+        /**
+         *
+         * @param {string} val
+         * @returns {false|integer}
+         */
+        const sequenceDifferenceSinceLast = (val) => {
           const lastRange = $links[$links.length - 1];
           if (!Array.isArray(lastRange)) {
             return false;
@@ -133,11 +139,13 @@ function recurseList (ul, jsonIndexEntry) {
           return false;
         };
         const isSequential = (val) => {
-          return sequenceDifference(val) === 1;
+          return sequenceDifferenceSinceLast(val) === 1;
         };
         const mergeSequential = (val) => {
           const lastRange = $links[$links.length - 1];
-          lastRange.pop();
+          if (lastRange.length > 1) {
+            lastRange.pop();
+          }
           lastRange.push(val);
         };
         const mergeIfSequential = (val) => {
@@ -147,130 +155,137 @@ function recurseList (ul, jsonIndexEntry) {
           }
           return false;
         };
-        childNodes.slice(links).some(
-          (l, j) => {
-            const {nodeType} = l;
-            switch (nodeType) {
-            case Node.TEXT_NODE: {
-              const txt = stripPunctuationAndWhitespace(l.nodeValue);
-              if (txt) {
-                if (txt !== '-') {
-                  throw new TypeError('Unexpected text node');
-                }
-                // Todo: Fix cases like
-                //   "protection and elevation of human station",
-                //   where such constructs as this:
-                /*
-                [
-                  "K123",
-                  "K124"
-                ],
-                "25"
-                // ...have the end of a range without the "K" or "n"/"Q"
-                */
-                if (!rangeBegun &&
-                  // Don't keep nesting if this accidentally lists as a range,
-                  //   e.g., K175-K176-K177
-                  !Array.isArray($links[$links.length - 1])
-                ) {
-                  rangeBegun = true;
-                  const val = $links.pop();
-                  // Check to see if value is contiguous with
-                  //   any range array just previous and merge instead of
-                  //   pushing
-                  if (mergeIfSequential(val)) {
-                    break;
-                  }
-                  $links.push([val]);
-                }
-              }
+        childNodes.slice(links).some((l, j) => {
+          const {nodeType} = l;
+          switch (nodeType) {
+          case Node.TEXT_NODE: {
+            const txt = stripPunctuationAndWhitespace(l.nodeValue);
+            if (!txt) {
+              rangeBegun = false;
               break;
             }
-            case Node.ELEMENT_NODE: {
-              const nodeName = l.nodeName.toLowerCase();
-              if (nodeName === 'br') {
+            if (txt !== '-') {
+              throw new TypeError('Unexpected text node');
+            }
+            rangeBegun = true;
+            if (!Array.isArray($links[$links.length - 1])) {
+              // Don't keep nesting if this accidentally lists as a range,
+              //   e.g., K175-K176-K177
+              const val = $links.pop();
+              // Check to see if value is contiguous with
+              //   any range array just previous and merge instead of
+              //   pushing
+              if (mergeIfSequential(val)) {
                 break;
               }
-              if (nodeName === 'i' &&
-                  [
-                    // These are used depending on whether other child
-                    //   content exists, but this can be detected and added
-                    //   programmatically
-                    'See also', 'see also', 'See', 'See also above'
-                  ].includes(l.textContent)
-              ) {
-                seeAlso = links + j + 1;
-                return true;
-              }
-              if (nodeName !== 'a') {
-                throw new TypeError(
-                  'Unexpected nodeName ' + nodeName + '::' + l.textContent
-                );
-              }
-
-              // Todo: Deal with "see-also" links at different levels and IDs
-              const textContent = serializeLinkContents(l);
-              if (rangeBegun) {
-                let val;
-                // Add missing letters to range endings
-                if ($links[$links.length - 1][0].match(letterLinkOnlyRegex) &&
-                  textContent.match(numbersOnlyRegex)
-                ) {
-                  const diff = $links[$links.length - 1][0].slice(1).length -
-                    textContent.length;
-                  val = $links[$links.length - 1][0].charAt() + (
-                    diff > 0
-                      // Programmatic fix if insufficiently
-                      //  padded (e.g., `02`)
-                      ? $links[$links.length - 1][0].slice(1, diff + 1) +
-                        textContent
-                      : textContent
-                  );
-                } else {
-                  val = textContent;
-                }
-                $links[$links.length - 1].push(val);
-                rangeBegun = false;
-              } else {
-                // Merge with last range array if still sequential
-                if (mergeIfSequential(textContent)) {
-                  break;
-                }
-                if (textContent.match(decimalRangeRegex)) {
-                  const [begin, end] = textContent.split('-');
-                  const diff = sequenceDifference(begin);
-                  if (diff === 0 || diff === 1) {
-                    mergeSequential(end);
-                  } else {
-                    $links.push([begin, end]);
-                  }
-                  break;
-                }
-                if (textContent.match(romanNumeralRangeRegex)
-                ) {
-                  // We thankfully don't need any merging of roman numerals
-                  $links.push(textContent.split('-'));
-                  break;
-                }
-                if (
-                  !textContent.match(letterLinkOnlyRegex) &&
-                  !textContent.match(numbersOnlyRegex) &&
-                  !textContent.match(romanNumeralsOnlyRegex)
-                ) {
-                  throw new Error('Unexpected link content');
-                }
-
-                $links.push(textContent);
-              }
+              $links.push([val]);
+            }
+            break;
+          }
+          case Node.ELEMENT_NODE: {
+            const nodeName = l.nodeName.toLowerCase();
+            if (nodeName === 'br') {
               break;
             }
-            default:
-              throw new TypeError('Unexpected `links` type ' + nodeType);
+            if (nodeName === 'i' &&
+                [
+                  // These are used depending on whether other child
+                  //   content exists, but this can be detected and added
+                  //   programmatically
+                  'See also', 'see also', 'See', 'See also above'
+                ].includes(l.textContent)
+            ) {
+              seeAlso = links + j + 1;
+              return true;
             }
-            return false;
-          },
-          []
-        );
+            if (nodeName !== 'a') {
+              throw new TypeError(
+                'Unexpected nodeName ' + nodeName + '::' + l.textContent
+              );
+            }
+
+            // Todo: Deal with "see-also" links at different levels and IDs
+            const textContent = serializeLinkContents(l);
+            if (rangeBegun) {
+              rangeBegun = false;
+              if (mergeIfSequential(textContent)) {
+                break;
+              }
+              let val = textContent;
+              // Add missing letters to range endings
+              const lastRange = $links[$links.length - 1];
+              const lastItem = lastRange[0];
+              if (lastItem.match(letterLinkOnlyRegex)) {
+                if (!val.match(letterLinkOnlyRegex)) {
+                  // If letter omitted from second part of range (and
+                  //   known to be indeed a range)
+                  val = lastItem.charAt() + val;
+                }
+                // If, e.g., K101-(K)03
+                const paddingDiff = lastItem.length - val.length;
+                if (paddingDiff > 0) {
+                  val = val.charAt() +
+                    lastItem.slice(1, 1 + paddingDiff) +
+                    val.slice(1);
+                }
+                if (
+                  (parseInt(val.slice(1)) -
+                    parseInt(lastItem.slice(1))
+                  ) <= 0
+                ) {
+                  throw new Error('Unexpected item mismatch');
+                }
+              }
+              $links[$links.length - 1].splice(1, 1, val);
+            } else {
+              // Merge with last range array if sequential despite
+              //   our not being in range mode (i.e., despite not
+              //   having a hyphen); but we can't safely do other
+              //   types of merges like K100 with 101, in case the
+              //   latter is a page number
+              if (mergeIfSequential(textContent)) {
+                break;
+              }
+              // If a range is specified within the link text
+              if (textContent.match(decimalRangeRegex)) {
+                const [begin, end] = textContent.split('-');
+                const diff = sequenceDifferenceSinceLast(begin);
+                // If begin is higher by one, merge the end; if the same,
+                //  also merge the end since our ending should still be after
+                if (diff === 0 || diff === 1) {
+                  mergeSequential(end);
+                } else {
+                  // Otherwise, start a new range
+                  $links.push([begin, end]);
+                }
+                break;
+              }
+              // Handle Roman numeral range text
+              if (textContent.match(romanNumeralRangeRegex)
+              ) {
+                // We thankfully don't need any merging of roman numerals
+                $links.push(textContent.split('-'));
+                break;
+              }
+              if (
+                !textContent.match(letterLinkOnlyRegex) &&
+                !textContent.match(numbersOnlyRegex) &&
+                !textContent.match(romanNumeralsOnlyRegex)
+              ) {
+                throw new Error('Unexpected link content');
+              }
+
+              // Just a lone link (or will be extracted into an
+              //   array later if followed by a range hyphen)
+              $links.push(textContent);
+            }
+            break;
+          }
+          default:
+            throw new TypeError('Unexpected `links` type ' + nodeType);
+          }
+          return false;
+        }, []);
         jsonIndexEntry[text].$links = $links;
       }
       if (seeAlso !== false) {
