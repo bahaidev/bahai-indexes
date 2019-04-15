@@ -115,7 +115,7 @@ function recurseList (ul, jsonIndexEntry) {
       if (id) {
         jsonIndexEntry[lastID] = {text, id: true};
       } else {
-        jsonIndexEntry[lastID] = {text};
+        jsonIndexEntry[lastID] = {};
       }
       if (links !== false) {
         let rangeBegun = false;
