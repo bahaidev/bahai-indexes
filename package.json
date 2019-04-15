@@ -1,6 +1,6 @@
 {
   "name": "bahai-indexes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Indexes to the Bahá'í Writings in JSON form",
   "main": "src/iterator.js",
   "scripts": {

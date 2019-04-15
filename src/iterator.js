@@ -209,6 +209,10 @@ function arrangeByParagraph () {
     join(__dirname, '/../indexes/json-flattened/aqdas.json'),
     JSON.stringify(paragraphToIndexEntries, null, 2) + '\n'
   );
+  fs.writeFileSync(
+    join(__dirname, '/../indexes/json-flattened/aqdas.js'),
+    'export default ' + JSON.stringify(paragraphToIndexEntries, null, 2) + ';\n'
+  );
 }
 
 validate();
