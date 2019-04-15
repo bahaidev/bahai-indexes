@@ -186,6 +186,8 @@ function arrangeByParagraph () {
         if (Array.isArray(ps)) {
           // eslint-disable-next-line prefer-const
           let [start, end] = ps.map((n) => parseInt(n.slice(1)));
+          // Todo: We could just do `start` and `end` if not
+          //    interested in interim
           while (start <= end) {
             setInfo('K' + start);
             start++;
