@@ -1242,7 +1242,9 @@
       },
       "Writings": {
         "$seeAlso": [
-          "Writings, Bahá'í"
+          {
+            "headings": "Writings, Bahá'í"
+          }
         ]
       }
     }

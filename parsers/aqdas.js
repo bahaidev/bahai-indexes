@@ -289,7 +289,7 @@ function recurseList (ul, jsonIndexEntry) {
         jsonIndexEntry[text].$links = $links;
       }
       if (seeAlso !== false) {
-        let additionalHeadings = false;
+        let headings = false;
         jsonIndexEntry[text].$seeAlso = childNodes.slice(seeAlso).reduce(
           (arr, l) => {
             const {nodeType} = l;
@@ -302,7 +302,7 @@ function recurseList (ul, jsonIndexEntry) {
               if (nodeName === 'a') {
                 const textContent = serializeLinkContents(l);
                 arr.push(
-                  additionalHeadings
+                  headings
                     // Here the `see-also` points to the *headings of*
                     //   an entry, not the entry itself
                     ? {headings: textContent}
@@ -318,7 +318,7 @@ function recurseList (ul, jsonIndexEntry) {
                   // These two are used depending on whether other child
                   //   content exists, but this can be detected and added
                   //   programmatically
-                  'See also', 'See', 'see', 'See headings under',
+                  'See also', 'See', 'see',
                   // "See above" and "See below" are used if the entry
                   //   were in the same level, but this can be detected
                   //   and added programmatically
@@ -327,10 +327,11 @@ function recurseList (ul, jsonIndexEntry) {
                   break;
                 }
                 if ([
+                  'See headings under',
                   'see additional headings under',
                   'See also additional headings under'
                 ].includes(l.textContent)) {
-                  additionalHeadings = true;
+                  headings = true;
                   break;
                 }
               }
