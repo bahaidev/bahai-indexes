@@ -11,5 +11,14 @@ tools to convert from the original (idiosyncratic) HTML versions.
 
 ## To-dos
 
-1. Add category mechanism
 1. Add JSON Schema for each schema and any fixed rules into an abstract schema
+1. Editing
+    1. Add category mechanism for adding categories (and categories for these
+        categories) to top-level index items (for a completely subject-based
+        sorting, as with
+        <http://bahai-library.com/hornby_lights_guidance#topicalcontents>).
+    1. Ability to mark-up any two entries as identical, e.g.,
+        "Hair, does not invalidate prayer" and
+        "Prayer, hair does not invalidate", so that could optionally avoid
+        showing duplicates (though admittedly not exactly duplicates based
+        on difference of emphasis)
