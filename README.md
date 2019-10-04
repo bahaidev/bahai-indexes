@@ -7,7 +7,9 @@ tools to convert from the original (idiosyncratic) HTML versions.
 
 ## Sources
 
--  *Kitáb-i-Aqdas* (`aqdas`) - From <http://bahai-library.com/writings/bahaullah/aqdas/aqdas2/aqdas-allindex.html>
+-  *Kitáb-i-Aqdas* (`aqdas`) - From <http://bahai-library.com/writings/bahaullah/aqdas/aqdas2/aqdas-allindex.html>;
+    view within queries against the following (currently Chrome only:
+    <https://bahai-browser.org/#lang=en-US&work=aqdas>).
 
 ## To-dos
 
