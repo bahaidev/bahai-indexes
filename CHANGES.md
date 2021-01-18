@@ -1,5 +1,17 @@
 # bahai-indexes CHANGES
 
+## 0.3.0
+
+- Breaking change; Require Node 12 (runs asynchronously)
+- Breaking change; Switch to ESM
+- Breaking change; Logs completion
+- Breaking change: Change parser and src file paths
+- Linting (ESLint): As per latest ash-nazg
+- Docs: Mention npm install and copyrights
+- Maintenance: Add `.editorconfig`
+- npm: Add script for `build`
+- npm: Update devDeps.
+
 ## 0.2.0
 
 - Enhancement: Provide flattened JSON export

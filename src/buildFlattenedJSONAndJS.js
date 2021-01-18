@@ -1,15 +1,96 @@
-const fs = require('fs');
-const {join} = require('path');
+// Todo: It would be ideal if this could be made generic to other books, but
+//        it would have to handle pecularities like parsing K paragraph vs.
+//        note links for the Aqdas
+import fsImport from 'fs';
+import {join, dirname} from 'path';
+import {fileURLToPath} from 'url';
 
-const aqdas = require('../indexes/json/aqdas.json');
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const {readFile, writeFile} = fsImport.promises;
 
 const aqdasInternalLinksRegex = /^[KQn]?\d+$/u;
 
 /**
- * @param {Object} json
- * @param {Object} cbObj
+* @callback KeysCallback
+* @param {string} key
+* @param {string} basePath
+* @param {WritingsMeta} val
+* @param {KeyValue[]} parents
+* @returns {void}
+*/
+
+/**
+* @callback LinksCallback
+* @param {LinksMeta} $links
+* @param {string} key
+* @param {string} basePath
+* @param {WritingsMeta} val
+* @param {KeyValue[]} parents
+* @returns {void}
+*/
+
+/**
+* @callback SeeAlsoCallback
+* @param {SeeAlsoMeta} $seeAlso
+* @param {string} key
+* @param {string} basePath
+* @param {WritingsMeta} val
+* @param {KeyValue[]} parents
+* @returns {void}
+*/
+
+/**
+* @typedef {PlainObject} IterateKeysCallbackObject
+* @property {KeysCallback} [keys]
+* @property {LinksCallback} [links]
+* @property {SeeAlsoCallback} [seeAlso]
+*/
+
+/**
+* @typedef {PlainObject} SeeAlsoMeta
+* @property {string} id
+* @property {string} [text]
+* @property {boolean} [headings]
+*/
+
+/**
+* @typedef {GenericArray} LinksMetaArray
+* @property {string} 0
+* @property {string} 1
+*/
+
+/**
+* @typedef {GenericArray} LinksMeta
+* @property {string|LinksMetaArray} *
+*/
+
+/**
+* @typedef {string} TextMeta
+*/
+
+/**
+ * @typedef {PlainObject} WritingsMeta
+ * @property {LinksMeta} [$links]
+ * @property {SeeAlsoMeta} [$seeAlso]
+ * @property {TextMeta} [$text]
+ * @property {WritingsMeta} [$children]
+ */
+
+/**
+ * @typedef {PlainObject<string, WritingsMeta>} WritingsJSON
+ */
+
+/**
+* @typedef {GenericArray} KeyValue
+* @property {string} 0 Key
+* @property {WritingsMeta} 1 Value
+*/
+
+/**
+ * @param {WritingsJSON} json
+ * @param {IterateKeysCallbackObject} cbObj
  * @param {string} basePath
- * @param {string} parents
+ * @param {KeyValue[]} parents
  * @returns {void}
  */
 function iterateKeys (json, cbObj, basePath = '', parents = []) {
@@ -36,7 +117,7 @@ function iterateKeys (json, cbObj, basePath = '', parents = []) {
 }
 
 const isValidLink = (link) => {
-  return link.match(aqdasInternalLinksRegex) ||
+  return aqdasInternalLinksRegex.test(link) ||
     [
       // Could replace this with a Roman numeral regex
       'viii', 'ix', 'vii'
@@ -44,12 +125,13 @@ const isValidLink = (link) => {
 };
 
 /**
- *
+ * @param {WritingsJSON} json
+ * @throws {Error}
  * @returns {void}
  */
-function validate () {
+function validate (json) {
   const indexEntryInfo = new Map();
-  iterateKeys(aqdas, {
+  iterateKeys(json, {
     keys (indexName, basePath, val) {
       if (!val.$text) { // A hierarchical entry, but not a target of links
         return;
@@ -68,6 +150,7 @@ function validate () {
       /**
        *
        * @param {string} link
+       * @throws {Error}
        * @returns {void}
        */
       function validateLink (link) {
@@ -90,7 +173,7 @@ function validate () {
   });
 
   const badSeeAlsos = [];
-  iterateKeys(aqdas, {
+  iterateKeys(json, {
     seeAlso (seeAlsos, indexName, basePath) {
       if (!seeAlsos) {
         return;
@@ -123,13 +206,14 @@ function validate () {
 }
 
 /**
- *
+ * @param {WritingsJSON} json
+ * @throws {Error}
  * @returns {void}
  */
-function arrangeByParagraph () {
+async function arrangeByParagraph (json) {
   const badFullLabels = [];
   const paragraphToIndexEntries = {};
-  iterateKeys(aqdas, {
+  iterateKeys(json, {
     links (links, key, basePath, val, parents) {
       if (!links) {
         return;
@@ -140,20 +224,18 @@ function arrangeByParagraph () {
       };
       const nonparagraphLinks = [];
       const paragraphLinks = links.filter((link) => {
-        let ret;
-        if (Array.isArray(link)) {
+        const ret = Array.isArray(link)
           // These should already be the same type
-          ret = paragraphLink(link[0]);
-        } else {
-          ret = paragraphLink(link);
-        }
+          ? paragraphLink(link[0])
+          : paragraphLink(link);
+
         if (!ret) {
           nonparagraphLinks.push(link);
         }
         return ret;
       });
       const setInfo = (p) => {
-        const num = parseInt(p.slice(1));
+        const num = Number.parseInt(p.slice(1));
         if (!paragraphToIndexEntries[num]) {
           paragraphToIndexEntries[num] = [];
         }
@@ -163,7 +245,7 @@ function arrangeByParagraph () {
         const childLabel = (val.$text || key);
         const fullLabel = (ancestorsLabel ? (ancestorsLabel + ', ') : '') +
           childLabel;
-        if (!fullLabel.charAt().match(/[`"A-Z]/u) && !badFullLabels.includes(fullLabel)) {
+        if (!(/[`"A-Z]/u).test(fullLabel.charAt()) && !badFullLabels.includes(fullLabel)) {
           badFullLabels.push(fullLabel);
         }
 
@@ -187,8 +269,7 @@ function arrangeByParagraph () {
       };
       paragraphLinks.forEach((ps) => {
         if (Array.isArray(ps)) {
-          // eslint-disable-next-line prefer-const
-          let [start, end] = ps.map((n) => parseInt(n.slice(1)));
+          let [start, end] = ps.map((n) => Number.parseInt(n.slice(1)));
           // Todo: We could just do `start` and `end` if not
           //    interested in interim
           while (start <= end) {
@@ -205,15 +286,24 @@ function arrangeByParagraph () {
     throw new Error('badFullLabels: ' + JSON.stringify(badFullLabels));
   }
   // console.log(paragraphToIndexEntries);
-  fs.writeFileSync(
-    join(__dirname, '/../indexes/json-flattened/aqdas.json'),
-    JSON.stringify(paragraphToIndexEntries, null, 2) + '\n'
-  );
-  fs.writeFileSync(
-    join(__dirname, '/../indexes/json-flattened/aqdas.js'),
-    'export default ' + JSON.stringify(paragraphToIndexEntries, null, 2) + ';\n'
-  );
+  const data = JSON.stringify(paragraphToIndexEntries, null, 2);
+  await Promise.all([
+    writeFile(
+      join(__dirname, '/../indexes/json-flattened/aqdas.json'),
+      data + '\n'
+    ),
+    writeFile(
+      join(__dirname, '/../indexes/json-flattened/aqdas.js'),
+      'export default ' + data + ';\n'
+    )
+  ]);
 }
 
-validate();
-arrangeByParagraph();
+(async () => {
+const aqdas = JSON.parse(
+  await readFile(new URL('../indexes/json/aqdas.json', import.meta.url))
+);
+validate(aqdas);
+await arrangeByParagraph(aqdas);
+console.log('Complete!');
+})();

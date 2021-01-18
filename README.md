@@ -3,6 +3,13 @@
 Indexes to the Bahá'í Writings in JSON format, along with some
 tools to convert from the original (idiosyncratic) HTML versions.
 
+```shell
+npm i bahai-indexes
+```
+
+Note that any copyright that applies for the original indexes follows its own
+copyright.
+
 **NOTE: This project only has an index for the following files at present!**
 
 ## Sources

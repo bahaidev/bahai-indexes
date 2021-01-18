@@ -1,34 +1,22 @@
-const fs = require('fs');
-const {join} = require('path');
-const {JSDOM} = require('jsdom');
-const handleNode = require('handle-node');
+/* eslint-disable unicorn/consistent-destructuring -- Too inconvenient here */
 
+import fsImport from 'fs';
+import {join, dirname} from 'path';
+import {fileURLToPath} from 'url';
+
+import JSDOM from 'jsdom';
+import handleNode from 'handle-node';
+
+let document, Node;
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const {readFile, writeFile} = fsImport.promises;
 const letterLinkOnlyRegex = /^[nKQ]\d+$/u;
 const numbersOnlyRegex = /^\d+$/u;
 const romanNumeralsOnlyRegex = /^[mclxvi]+$/u;
 const decimalRangeRegex = /^\d+-\d+$/u;
 const romanNumeralRangeRegex = /^[mclxvi]+-[mclxvi]+$/u;
-const endIndexLinkRegex = /^([A-Z]_EndIndex\.htm|about:blank)?#/u; // eslint-disable-line unicorn/no-unsafe-regex
-
-const html = fs.readFileSync(
-  join(__dirname, '/../indexes/html/aqdas.html'),
-  'utf8'
-);
-const {document, Node} = (new JSDOM(html)).window;
-// const $ = (s) => document.querySelector(s);
-const $$ = (s) => document.querySelectorAll(s);
-
-const letterSections = [...$$('a[name]')]
-  // Main letter sections
-  .filter((a) => (/^[A-Z]$/u).test(a.name))
-  // Followed by nested items
-  .filter(({parentElement: implicitPar}) => {
-    const ul = implicitPar && implicitPar.nextElementSibling;
-    return ul && ul.matches('ul');
-  });
-const topUls = letterSections.map((
-  {parentElement: {nextElementSibling: ul}}
-) => ul);
+const endIndexLinkRegex = /^(?:[A-Z]_EndIndex\.htm|about:blank)?#/u;
 
 /**
  *
@@ -36,7 +24,7 @@ const topUls = letterSections.map((
  * @returns {string}
  */
 function stripPunctuationAndWhitespace (s) {
-  return s.trim().replace(/\s(\s+)/gu, ' ').replace(/[.,;]$/gu, ''); // .replace(/\n/gu, '')
+  return s.trim().replace(/\s(?:\s+)/gu, ' ').replace(/[.,;]$/gu, ''); // .replace(/\n/gu, '')
 }
 
 const serializeLinkContents = (linkElem) => {
@@ -58,8 +46,8 @@ const serializeLinkContents = (linkElem) => {
 /**
  *
  * @param {HTMLUListElement} ul
- * @param {Object} jsonIndexEntry
- * @returns {undefined}
+ * @param {WritingsMeta} jsonIndexEntry
+ * @returns {void}
  */
 function recurseList (ul, jsonIndexEntry) {
   const {children: lisOrUls} = ul;
@@ -133,16 +121,17 @@ function recurseList (ul, jsonIndexEntry) {
           const lastItem = lastRange[lastRange.length - 1];
           if (lastItem.length === val.length) {
             // e.g., K101, K102
-            if (lastItem.match(letterLinkOnlyRegex) &&
-                val.match(letterLinkOnlyRegex)
+            if (letterLinkOnlyRegex.test(lastItem) &&
+                letterLinkOnlyRegex.test(val)
             ) {
-              return parseInt(val.slice(1)) - parseInt(lastItem.slice(1));
+              return Number.parseInt(val.slice(1)) -
+                Number.parseInt(lastItem.slice(1));
             }
             // e.g., 101, 102
-            if (lastItem.match(numbersOnlyRegex) &&
-                val.match(numbersOnlyRegex)
+            if (numbersOnlyRegex.test(lastItem) &&
+                numbersOnlyRegex.test(val)
             ) {
-              return parseInt(val) - parseInt(lastItem);
+              return Number.parseInt(val) - Number.parseInt(lastItem);
             }
           }
           return false;
@@ -223,8 +212,8 @@ function recurseList (ul, jsonIndexEntry) {
               // Add missing letters to range endings
               const lastRange = $links[$links.length - 1];
               const lastItem = lastRange[0];
-              if (lastItem.match(letterLinkOnlyRegex)) {
-                if (!val.match(letterLinkOnlyRegex)) {
+              if (letterLinkOnlyRegex.test(lastItem)) {
+                if (!letterLinkOnlyRegex.test(val)) {
                   // If letter omitted from second part of range (and
                   //   known to be indeed a range)
                   val = lastItem.charAt() + val;
@@ -237,8 +226,8 @@ function recurseList (ul, jsonIndexEntry) {
                     val.slice(1);
                 }
                 if (
-                  (parseInt(val.slice(1)) -
-                    parseInt(lastItem.slice(1))
+                  (Number.parseInt(val.slice(1)) -
+                    Number.parseInt(lastItem.slice(1))
                   ) <= 0
                 ) {
                   throw new Error('Unexpected item mismatch');
@@ -255,7 +244,7 @@ function recurseList (ul, jsonIndexEntry) {
                 break;
               }
               // If a range is specified within the link text
-              if (textContent.match(decimalRangeRegex)) {
+              if (decimalRangeRegex.test(textContent)) {
                 const [begin, end] = textContent.split('-');
                 const diff = sequenceDifferenceSinceLast(begin);
                 // If begin is higher by one, merge the end; if the same,
@@ -269,16 +258,16 @@ function recurseList (ul, jsonIndexEntry) {
                 break;
               }
               // Handle Roman numeral range text
-              if (textContent.match(romanNumeralRangeRegex)
+              if (romanNumeralRangeRegex.test(textContent)
               ) {
                 // We thankfully don't need any merging of roman numerals
                 $links.push(textContent.split('-'));
                 break;
               }
               if (
-                !textContent.match(letterLinkOnlyRegex) &&
-                !textContent.match(numbersOnlyRegex) &&
-                !textContent.match(romanNumeralsOnlyRegex)
+                !letterLinkOnlyRegex.test(textContent) &&
+                !numbersOnlyRegex.test(textContent) &&
+                !romanNumeralsOnlyRegex.test(textContent)
               ) {
                 throw new Error('Unexpected link content');
               }
@@ -293,7 +282,7 @@ function recurseList (ul, jsonIndexEntry) {
             throw new TypeError('Unexpected `links` type ' + nodeType);
           }
           return false;
-        }, []);
+        });
         jsonIndexEntry[lastID].$links = $links;
       }
       if (seeAlso !== false) {
@@ -309,18 +298,17 @@ function recurseList (ul, jsonIndexEntry) {
               const nodeName = l.nodeName.toLowerCase();
               if (nodeName === 'a') {
                 const textContent = serializeLinkContents(l);
-                if (!l.href.match(endIndexLinkRegex)) {
+                if (!endIndexLinkRegex.test(l.href)) {
                   throw new Error('Unexpected link format: ' + l.href);
                 }
                 const id = l.href.replace(endIndexLinkRegex, '');
-                // eslint-disable-next-line prefer-object-spread
-                const obj = Object.assign(
-                  {id},
-                  id === textContent ? {} : {text: textContent},
+                const obj = {
+                  id,
+                  ...(id === textContent ? {} : {text: textContent}),
                   // Here the `see-also` points to the *headings of*
                   //   an entry, not the entry itself
-                  headings ? {headings: true} : {}
-                );
+                  ...(headings ? {headings: true} : {})
+                };
                 arr.push(obj);
                 break;
               }
@@ -368,13 +356,38 @@ function recurseList (ul, jsonIndexEntry) {
   });
 }
 
+(async () => {
+const html = await readFile(
+  join(__dirname, '/../indexes/html/aqdas.html'),
+  'utf8'
+);
+({document, Node} = (new JSDOM.JSDOM(html)).window);
+
+// const $ = (s) => document.querySelector(s);
+const $$ = (s) => document.querySelectorAll(s);
+
+const letterSections = [...$$('a[name]')]
+  // Main letter sections
+  .filter((a) => (/^[A-Z]$/u).test(a.name))
+  // Followed by nested items
+  .filter(({parentElement: implicitPar}) => {
+    const ul = implicitPar && implicitPar.nextElementSibling;
+    return ul && ul.matches('ul');
+  });
+const topUls = letterSections.map((
+  {parentElement: {nextElementSibling: ul}}
+) => ul);
+
 const jsonIndex = {};
 
 topUls.forEach((ul) => {
   recurseList(ul, jsonIndex);
 });
 
-fs.writeFileSync(
-  join(__dirname, '/../indexes/json/aqdas.json'),
+const writePath = join(__dirname, '/../indexes/json/aqdas.json');
+await writeFile(
+  writePath,
   JSON.stringify(jsonIndex, null, 2) + '\n'
 );
+console.log(`Wrote to ${writePath}`);
+})();
