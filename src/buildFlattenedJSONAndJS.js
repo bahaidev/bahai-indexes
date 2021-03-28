@@ -111,7 +111,7 @@ function iterateKeys (json, cbObj, basePath = '', parents = []) {
       val.$children,
       cbObj,
       basePath + '/' + key,
-      parents.concat([[key, val]])
+      [...parents, [key, val]]
     );
   });
 }

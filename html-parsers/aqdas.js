@@ -1,5 +1,3 @@
-/* eslint-disable unicorn/consistent-destructuring -- Too inconvenient here */
-
 import fsImport from 'fs';
 import {join, dirname} from 'path';
 import {fileURLToPath} from 'url';

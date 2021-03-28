@@ -2,27 +2,11 @@
 
 module.exports = {
   extends: [
-    'ash-nazg/sauron-node'
+    'ash-nazg/sauron-node-overrides'
   ],
-  env: {
-    browser: false,
-    node: true
-  },
   parserOptions: {
     ecmaVersion: 2020
   },
-  overrides: [
-    {
-      files: '*.eslintrc.cjs',
-      extends: [
-        'ash-nazg/sauron-node',
-        'plugin:node/recommended-script'
-      ],
-      rules: {
-        'import/no-commonjs': 0
-      }
-    }
-  ],
   settings: {
     polyfills: [
       'Array.isArray',
@@ -56,23 +40,7 @@ module.exports = {
       'window.scrollX', 'window.scrollY',
       'XMLHttpRequest',
       'XMLSerializer'
-    ],
-    jsdoc: {
-      additionalTagNames: {
-        // In case we need to extend
-        customTags: []
-      },
-      tagNamePreference: {
-        arg: 'param',
-        return: 'returns'
-      },
-      allowOverrideWithoutParam: true,
-      allowImplementsWithoutParam: true,
-      allowAugmentsExtendsWithoutParam: true,
-      // For `jsdoc/check-examples` in `ash-nazg`
-      matchingFileName: 'dummy.md',
-      rejectExampleCodeRegex: '^`'
-    }
+    ]
   },
   rules: {
     // Override these `ash-nazg/sauron` rules which are difficult for us

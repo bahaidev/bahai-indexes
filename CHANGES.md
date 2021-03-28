@@ -1,5 +1,12 @@
 # bahai-indexes CHANGES
 
+## 0.4.0
+
+- Linting: Latest per ash-nazg
+- npm: Update devDeps. including peerDeps. of `eslint-config-ash-nazg`
+- npm: Switch to pnpm
+- npm: Update devDeps.
+
 ## 0.3.0
 
 - Breaking change; Require Node 12 (runs asynchronously)
