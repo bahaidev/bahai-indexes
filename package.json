@@ -6,9 +6,10 @@
   "main": "src/buildFlattenedJSONAndJS.js",
   "scripts": {
     "eslint": "eslint --ext=js,md,html .",
-    "build": "node --experimental-modules src/buildFlattenedJSONAndJS.js",
+    "lint": "npm run eslint --",
+    "build": "node src/buildFlattenedJSONAndJS.js",
     "parse": "npm run parse-aqdas",
-    "parse-aqdas": "node --experimental-modules html-parsers/aqdas.js",
+    "parse-aqdas": "node html-parsers/aqdas.js",
     "test": "npm run eslint && echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,25 +30,25 @@
     "node": ">=12"
   },
   "devDependencies": {
-    "@brettz9/eslint-plugin": "^1.0.3",
-    "eslint": "^7.23.0",
-    "eslint-config-ash-nazg": "^29.9.0",
-    "eslint-config-standard": "^16.0.2",
+    "@brettz9/eslint-plugin": "^1.0.4",
+    "eslint": "^8.11.0",
+    "eslint-config-ash-nazg": "^32.7.1",
+    "eslint-config-standard": "^16.0.3",
     "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-compat": "^3.9.0",
+    "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^32.3.0",
-    "eslint-plugin-markdown": "^2.0.0",
-    "eslint-plugin-no-unsanitized": "^3.1.4",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^38.0.6",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-no-unsanitized": "^4.0.1",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-radar": "^0.2.1",
     "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-unicorn": "^41.0.1",
     "handle-node": "^0.2.1",
-    "jsdom": "^16.5.1"
+    "jsdom": "^19.0.0"
   }
 }
