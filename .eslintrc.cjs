@@ -4,9 +4,26 @@ module.exports = {
   extends: [
     'ash-nazg/sauron-node-overrides'
   ],
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 2020
+    requireConfigFile: false,
+    ecmaVersion: 2021
   },
+  overrides: [
+    {
+      files: ['html-parsers/**', 'src/**'],
+      env: {
+        browser: false,
+        'shared-node-browser': false
+      },
+      globals: {
+        document: 'off'
+      },
+      rules: {
+        'no-console': 'off'
+      }
+    }
+  ],
   settings: {
     polyfills: [
       'Array.isArray',
@@ -28,6 +45,7 @@ module.exports = {
       'location.href',
       'location.origin',
       'MutationObserver',
+      'Number.parseInt',
       'Object.assign', 'Object.defineProperty', 'Object.defineProperties',
       'Object.getOwnPropertyDescriptor',
       'Object.entries', 'Object.keys', 'Object.values',
@@ -35,6 +53,7 @@ module.exports = {
       'Set',
       'Uint8Array',
       'URL',
+      'URLSearchParams',
       'window.getComputedStyle',
       'window.postMessage',
       'window.scrollX', 'window.scrollY',
@@ -43,12 +62,5 @@ module.exports = {
     ]
   },
   rules: {
-    // Override these `ash-nazg/sauron` rules which are difficult for us
-    //   to apply at this time
-    'import/unambiguous': 0,
-    'compat/compat': 0,
-    'no-sync': 0,
-    'no-shadow': 0,
-    'no-console': 0
   }
 };

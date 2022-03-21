@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Index search</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+
+    <script type="module" src="index.js" defer="defer"></script>
+  </head>
+  <body>
+    <h2>Index search</h2>
+    <form id="searchEntries">
+      <fieldset class="searchEntries">
+        <legend>Search entries</legend>
+        <label>Index term &nbsp;<input id="index-term" /></label>
+        <label><input type="checkbox" id="exact-match" /> Exact match</label>
+        <label><input type="checkbox" id="match-case" /> Match case</label>
+        <label><input type="checkbox" id="top-level-only" /> Top level only</label>
+        <br /><br />
+        <label>
+          <select id="entries-or-links">
+            <option value="both">Full index entries and page/paragraph links</option>
+            <option value="entries-only">Full index entries</option>
+            <option value="links-only">Only index entry title and page/paragraph links</option>
+          </select>
+        </label>
+        <!-- Todo: Unhide -->
+        <label hidden><input type="checkbox" id="merge-entries" /> Merge entries</label>
+        <label><input type="checkbox" id="merge-links" /> Merge links</label>
+        <br /><br />
+        <label><b>Book</b>:
+          <select id="books">
+            <option value="">(Any)</option>
+          </select>
+        </label>
+        <br /><br />
+        <hr />
+        <div id="searchEntriesResults"></div>
+      </fieldset>
+    </form>
+
+    <form id="searchEntriesPages">
+      <fieldset class="searchEntries">
+        <legend>Search Page/paragraph</legend>
+        <label>Page/paragraph &nbsp;<input id="index-page" /></label>
+        <br /><br />
+        <label>
+          <select id="entries-or-links-pages">
+            <option value="both">Full index entries and page/paragraph links</option>
+            <option value="entries-only">Full index entries</option>
+            <option value="links-only">Only index entry title and page/paragraph links</option>
+          </select>
+        </label>
+        <!-- Todo: Unhide -->
+        <label hidden><input type="checkbox" id="merge-entries-pages" /> Merge entries</label>
+        <label><input type="checkbox" id="merge-links-pages" /> Merge links</label>
+        <br /><br />
+        <label><b>Book</b>:
+          <select id="books-pages">
+            <option value="">(Any)</option>
+          </select>
+        </label>
+        <br /><br />
+        <hr />
+        <div id="searchEntriesPagesResults"></div>
+      </fieldset>
+    </form>
+  </body>
+</html>

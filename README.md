@@ -18,9 +18,14 @@ copyright.
     view within queries against the following (currently Chrome only:
     <https://bahai-browser.org/#lang=en-US&work=aqdas>).
 
-## To-dos
+## Higher priority to-dos
 
-1. Add JSON Schema for each schema and any fixed rules into an abstract schema
+1. Add books
+
+## Medium priority to-dos
+
+1. Merging of entries option
+1. Ideally add categories, even to each entry level, and allow merging
 1. Editing
     1. Add category mechanism for adding categories (and categories for these
         categories) to top-level index items (for a completely subject-based
@@ -31,3 +36,7 @@ copyright.
         "Prayer, hair does not invalidate", so that could optionally avoid
         showing duplicates (though admittedly not exactly duplicates based
         on difference of emphasis)
+
+## Lower priority to-dos
+
+1. Add JSON Schema for each schema and any fixed rules into an abstract schema

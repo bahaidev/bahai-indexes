@@ -45,20 +45,21 @@ const serializeLinkContents = (linkElem) => {
  *
  * @param {HTMLUListElement} ul
  * @param {WritingsMeta} jsonIndexEntry
+ * @param {boolean} topLevel
  * @returns {void}
  */
-function recurseList (ul, jsonIndexEntry) {
+function recurseList (ul, jsonIndexEntry, topLevel) {
   const {children: lisOrUls} = ul;
   // console.log(lisOrUls);
   let lastID;
-  [...lisOrUls].forEach((liOrUl, i) => {
+  [...lisOrUls].forEach((liOrUl) => {
     if (liOrUl.matches('li')) {
       let text = '';
       let seeAlso = false;
       let links = false;
       const childNodes = [...liOrUl.childNodes];
       let id;
-      childNodes.some((elem, i) => {
+      childNodes.some((elem, j) => {
         const {nodeType, nodeValue} = elem;
         switch (nodeType) {
         case Node.COMMENT_NODE: { // Ignore
@@ -75,14 +76,14 @@ function recurseList (ul, jsonIndexEntry) {
               'See', 'See also', 'See above', 'See below',
               'See headings under'
             ].includes(elem.textContent.trim())) {
-              seeAlso = i;
+              seeAlso = j;
               return true;
             }
             text += `<i>${stripPunctuationAndWhitespace(elem.textContent)}</i>`;
             break;
           }
           if (elem.matches('a[href]')) {
-            links = i;
+            links = j;
             return true;
           }
           if (elem.matches('a[name]')) {
@@ -98,11 +99,14 @@ function recurseList (ul, jsonIndexEntry) {
       });
       text = stripPunctuationAndWhitespace(text);
       lastID = id || text;
-      if (id) {
-        jsonIndexEntry[lastID] = {$text: text};
-      } else {
-        jsonIndexEntry[lastID] = {};
+      // if (id) {
+      jsonIndexEntry[lastID] = {$text: text};
+      if (topLevel) {
+        jsonIndexEntry[lastID].$book = 'Kitáb-i-Aqdas';
       }
+      // } else {
+      //   jsonIndexEntry[lastID] = {};
+      // }
       if (links !== false) {
         let rangeBegun = false;
         const $links = [];
@@ -299,10 +303,10 @@ function recurseList (ul, jsonIndexEntry) {
                 if (!endIndexLinkRegex.test(l.href)) {
                   throw new Error('Unexpected link format: ' + l.href);
                 }
-                const id = l.href.replace(endIndexLinkRegex, '');
+                const innerID = l.href.replace(endIndexLinkRegex, '');
                 const obj = {
-                  id,
-                  ...(id === textContent ? {} : {text: textContent}),
+                  id: innerID,
+                  ...(innerID === textContent ? {} : {text: textContent}),
                   // Here the `see-also` points to the *headings of*
                   //   an entry, not the entry itself
                   ...(headings ? {headings: true} : {})
@@ -356,7 +360,7 @@ function recurseList (ul, jsonIndexEntry) {
 
 (async () => {
 const html = await readFile(
-  join(__dirname, '/../indexes/html/aqdas.html'),
+  join(__dirname, '/../indexes/html/Kitáb-i-Aqdas.html'),
   'utf8'
 );
 ({document, Node} = (new JSDOM.JSDOM(html)).window);
@@ -379,10 +383,10 @@ const topUls = letterSections.map((
 const jsonIndex = {};
 
 topUls.forEach((ul) => {
-  recurseList(ul, jsonIndex);
+  recurseList(ul, jsonIndex, true);
 });
 
-const writePath = join(__dirname, '/../indexes/json/aqdas.json');
+const writePath = join(__dirname, '/../indexes/json/books/Kitáb-i-Aqdas.json');
 await writeFile(
   writePath,
   JSON.stringify(jsonIndex, null, 2) + '\n'

@@ -1,0 +1,156 @@
+/* eslint-disable no-unsanitized/property -- Source must be trusted as
+    we want its HTML */
+
+import {$, httpquery} from './utils.js';
+import {appendLinks, appendLinksToHolder} from './appendLinks.js';
+import traverse from './traverse.js';
+
+const resultsHolder = $('#searchEntriesPagesResults');
+
+/**
+ * @param {Event} e
+ * @returns {Promise<void>}
+ */
+async function searchEntriesFormPagesSubmit (e) {
+  e.preventDefault();
+  resultsHolder.innerHTML = '';
+
+  /**
+   * @param {IndexObject} obj
+   * @returns {boolean}
+   */
+  function isDirectMatch (obj) {
+    return (obj.$links || []).flat().find((link) => {
+      return link.toLowerCase() === target.toLowerCase();
+    });
+  }
+
+  /**
+   * @param {IndexObject} obj
+   * @returns {{directMatch: boolean, match: boolean}}
+   */
+  function isMatch (obj) {
+    const directMatch = isDirectMatch(obj);
+    return {
+      directMatch,
+      match: directMatch ||
+        Object.values(obj.$children || []).some((child) => {
+          return isMatch(child);
+        })
+    };
+  }
+
+  // const mergeEntries = $('#merge-entries').checked;
+  const mergeLinks = $('#merge-links-pages').checked;
+  const entriesOrLinks = $('#entries-or-links-pages').value;
+  const target = $('#index-page').value;
+  const book = $('#books-pages').value;
+  const jsonataBindings = {target};
+
+  const bookChoice = `*[${book ? `book="${book}"` : 'book'}].index.`;
+
+  const jsonataQuery = bookChoice +
+    '*[`$text`][$exists(' +
+      // Flatten array with reduce/append since some `$links` are nested
+      '$.**[$filter($reduce(`$links`, $append), function ($v) {' +
+        '$lowercase($v) = $lowercase($target)' +
+      '})])]';
+
+  const results = await httpquery(
+    'http://127.0.0.1:1337/books.json',
+    {
+      query: jsonataQuery,
+      bindings: jsonataBindings
+    }
+  );
+
+  console.log('results', results);
+
+  if (entriesOrLinks === 'links-only') {
+    const rootLinks = {};
+    results.forEach((result) => {
+      const links = [];
+
+      const addLink = (paths) => {
+        if (mergeLinks) {
+          if (!rootLinks[result.$book]) {
+            rootLinks[result.$book] = [];
+          }
+          rootLinks[result.$book].push(links);
+        } else {
+          const heading = document.createElement('h4');
+          heading.innerHTML =
+            (
+              book
+                ? paths
+                : [`(${result.$book})`, ...paths]
+            ).join(' > ');
+          resultsHolder.append(heading);
+          appendLinksToHolder(links, resultsHolder);
+          links.splice(0, links.length);
+        }
+
+        // RESET
+        // paths.splice(0, paths.length);
+      };
+      traverse(result, null, (obj, _lastResult, paths) => {
+        const {directMatch} = isMatch(obj);
+        if (directMatch) {
+          const totalLinks = obj.$links;
+          paths.push(obj.$text);
+          links.push(...totalLinks);
+          addLink(paths);
+        } else {
+          paths.push(obj.$text);
+        }
+      });
+    });
+    if (mergeLinks) {
+      Object.entries(rootLinks).forEach(([currentBook, links]) => {
+        if (!book) {
+          const bookHeading = document.createElement('b');
+          bookHeading.textContent = currentBook;
+          resultsHolder.append(bookHeading);
+        }
+        appendLinksToHolder(links, resultsHolder);
+      });
+    }
+  } else {
+    const ul = document.createElement('ul');
+    let bookUl;
+    results.forEach((result) => {
+      if (!book) {
+        bookUl = document.createElement('ul');
+        const bookLi = document.createElement('li');
+        const bold = document.createElement('b');
+        bold.textContent = `[${result.$book}]`;
+        bookLi.append(bold);
+        bookLi.append(ul);
+        bookUl.append(bookLi);
+      }
+      traverse(result, ul, (obj, parent) => {
+        const li = document.createElement('li');
+        li.innerHTML = obj.$text;
+        const links = obj.$links || [];
+
+        if (entriesOrLinks === 'both') {
+          if (links.length) {
+            li.append(' - ');
+            appendLinks(links, li);
+          }
+        }
+        parent.append(li);
+        if (obj.$children) {
+          const innerUl = document.createElement('ul');
+          li.append(innerUl);
+          return innerUl;
+        }
+        return li;
+      });
+    });
+
+    resultsHolder.append(bookUl || ul);
+  }
+}
+
+export default searchEntriesFormPagesSubmit;

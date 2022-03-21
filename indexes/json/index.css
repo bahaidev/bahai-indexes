@@ -1,0 +1,10 @@
+.searchEntries, .pageParagraph {
+  float: left;
+  height: 590px;
+  width: 45%;
+}
+
+#searchEntriesResults, #searchEntriesPagesResults {
+  height: 430px;
+  overflow: auto;
+}

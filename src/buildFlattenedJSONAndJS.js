@@ -137,7 +137,7 @@ function validate (json) {
         return;
       }
       if (indexEntryInfo.has(indexName)) {
-        throw new Error('Unexpected duplicate key: ' + indexName);
+        console.log('Duplicate key: ' + indexName);
       }
       indexEntryInfo.set(indexName, {
         children: val.$children, links: val.$links
@@ -289,7 +289,7 @@ async function arrangeByParagraph (json) {
   const data = JSON.stringify(paragraphToIndexEntries, null, 2);
   await Promise.all([
     writeFile(
-      join(__dirname, '/../indexes/json-flattened/aqdas.json'),
+      join(__dirname, '/../indexes/json-flattened/Kitáb-i-Aqdas.json'),
       data + '\n'
     ),
     writeFile(
@@ -301,7 +301,9 @@ async function arrangeByParagraph (json) {
 
 (async () => {
 const aqdas = JSON.parse(
-  await readFile(new URL('../indexes/json/aqdas.json', import.meta.url))
+  await readFile(
+    new URL('../indexes/json/books/Kitáb-i-Aqdas.json', import.meta.url)
+  )
 );
 validate(aqdas);
 await arrangeByParagraph(aqdas);

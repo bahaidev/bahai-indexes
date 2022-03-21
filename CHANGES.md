@@ -1,5 +1,13 @@
 # bahai-indexes CHANGES
 
+## 0.5.0
+
+- feat: add webapp for querying indexes (uses httpquery)
+- fix: avoid throwing when building flattened JSON
+- refactor: add `$text` on all entries
+- refactor: add `$book` on top-level items (for jsonata support)
+- chore: bump devDeps.
+
 ## 0.4.0
 
 - Linting: Latest per ash-nazg
