@@ -64,8 +64,6 @@ async function searchEntriesFormPagesSubmit (e) {
     }
   );
 
-  console.log('results', results);
-
   if (entriesOrLinks === 'links-only') {
     const rootLinks = {};
     results.forEach((result) => {
