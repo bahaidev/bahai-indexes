@@ -21518,5 +21518,2252 @@
         ]
       }
     }
+  },
+  {
+    "book": "Kitáb-i-Íqán",
+    "index": {
+      "Abel": {
+        "$text": "Abel",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "sacrifice of, as test of Muḥammad's Prophethood": {
+            "$text": "sacrifice of, as test of Muḥammad's Prophethood",
+            "$links": [
+              "148"
+            ]
+          }
+        }
+      },
+      "Abraham": {
+        "$text": "Abraham",
+        "$links": [
+          "G3"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "forerunner of": {
+            "$text": "forerunner of",
+            "$links": [
+              [
+                "62",
+                "63"
+              ]
+            ]
+          },
+          "as Friend of God": {
+            "$text": "as Friend of God",
+            "$links": [
+              "10",
+              "62"
+            ]
+          },
+          "as Manifestation following Húd, Noah, Ṣálih": {
+            "$text": "as Manifestation following Húd, Noah, Ṣálih",
+            "$links": [
+              "10"
+            ]
+          }
+        }
+      },
+      "Abú-'Abdi'lláh": {
+        "$text": "Abú-'Abdi'lláh",
+        "$links": [
+          "G4"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "describes character of Mihdí": {
+            "$text": "describes character of Mihdí",
+            "$links": [
+              "240"
+            ]
+          }
+        }
+      },
+      "Abu Jahl": {
+        "$text": "Abu Jahl",
+        "$links": [
+          "G6"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "condemned to damnation": {
+            "$text": "condemned to damnation",
+            "$links": [
+              "121"
+            ]
+          }
+        }
+      },
+      "Alchemy": {
+        "$text": "Alchemy",
+        "$links": [
+          "189"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "'Alí, Imám.": {
+        "$text": "'Alí, Imám.",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Alif": {
+        "$text": "Alif",
+        "$links": [
+          "202",
+          "G8"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Angels": {
+        "$text": "Angels",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              [
+                "78",
+                "80"
+              ]
+            ]
+          }
+        }
+      },
+      "Arba'in": {
+        "$text": "Arba'in",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "prophecies concerning Qá'im found in": {
+            "$text": "prophecies concerning Qá'im found in",
+            "$links": [
+              "242"
+            ]
+          }
+        }
+      },
+      "A<u>th</u>ím": {
+        "$text": "A<u>th</u>ím",
+        "$links": [
+          "190",
+          "G11"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "'Aválim": {
+        "$text": "'Aválim",
+        "$links": [
+          "G12"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "prophecies concerning Qa'im found in": {
+            "$text": "prophecies concerning Qa'im found in",
+            "$links": [
+              "242"
+            ]
+          }
+        }
+      },
+      "Báb": {
+        "$text": "Báb",
+        "$links": [
+          "G13"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "afflictions of followers of": {
+            "$text": "afflictions of followers of",
+            "$links": [
+              [
+                "235",
+                "236"
+              ]
+            ]
+          },
+          "constancy and fearlessness of": {
+            "$text": "constancy and fearlessness of",
+            "$links": [
+              "230"
+            ]
+          },
+          "forerunners of": {
+            "$text": "forerunners of",
+            "$links": [
+              [
+                "65",
+                "66"
+              ]
+            ]
+          },
+          "persecution of, by divines and dignitaries": {
+            "$text": "persecution of, by divines and dignitaries",
+            "$links": [
+              "234"
+            ]
+          },
+          "prophesies His own martyrdom": {
+            "$text": "prophesies His own martyrdom",
+            "$links": [
+              [
+                "231",
+                "232"
+              ]
+            ]
+          },
+          "sent Epistles to divines": {
+            "$text": "sent Epistles to divines",
+            "$links": [
+              "229"
+            ]
+          },
+          "steadfastness of": {
+            "$text": "steadfastness of",
+            "$links": [
+              [
+                "233",
+                "234"
+              ]
+            ]
+          },
+          "transcendent power of": {
+            "$text": "transcendent power of",
+            "$links": [
+              "234"
+            ]
+          },
+          "transmuting influence of": {
+            "$text": "transmuting influence of",
+            "$links": [
+              [
+                "234",
+                "235"
+              ]
+            ]
+          },
+          ".": {
+            "$text": ".",
+            "$links": [
+              "https://bahai-library.com/writings/bahaullah/iqan/iq-glos.htm#013"
+            ]
+          }
+        }
+      },
+      "Backbiting": {
+        "$text": "Backbiting",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "quenches light of heart and life of soul": {
+            "$text": "quenches light of heart and life of soul",
+            "$links": [
+              "193"
+            ]
+          }
+        }
+      },
+      "Ba<u>gh</u>dad": {
+        "$text": "Ba<u>gh</u>dad",
+        "$links": [
+          "G14"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "as \"Abode of Peace,\"": {
+            "$text": "as \"Abode of Peace,\"",
+            "$links": [
+              "22",
+              "174"
+            ]
+          }
+        }
+      },
+      "Bahá'u'lláh": {
+        "$text": "Bahá'u'lláh",
+        "$links": [
+          "G16"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "desire of, to be willing sacrifice to the Báb": {
+            "$text": "desire of, to be willing sacrifice to the Báb",
+            "$links": [
+              "252"
+            ]
+          },
+          "reason for retirement of, to Kurdistán": {
+            "$text": "reason for retirement of, to Kurdistán",
+            "$links": [
+              [
+                "250",
+                "251"
+              ]
+            ]
+          }
+        }
+      },
+      "Baní-Ha<u>sh</u>im": {
+        "$text": "Baní-Ha<u>sh</u>im",
+        "$links": [
+          "241",
+          "242",
+          "G17"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Bayán": {
+        "$text": "Bayán",
+        "$links": [
+          "G19"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "admonition to people of": {
+            "$text": "admonition to people of",
+            "$links": [
+              [
+                "92",
+                "93"
+              ],
+              "248",
+              [
+                "249",
+                "250"
+              ]
+            ]
+          },
+          "tabernacle of God raised in": {
+            "$text": "tabernacle of God raised in",
+            "$links": [
+              "3"
+            ]
+          },
+          "as Word of God": {
+            "$text": "as Word of God",
+            "$links": [
+              "199"
+            ]
+          }
+        }
+      },
+      "Beginning That Hath No Beginning": {
+        "$text": "Beginning That Hath No Beginning",
+        "$links": [
+          "161",
+          "163",
+          "167",
+          "168"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Biháru'l-Anvár": {
+        "$text": "Biháru'l-Anvár",
+        "$links": [
+          "G21"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "prophecies concerning Qá'im found in": {
+            "$text": "prophecies concerning Qá'im found in",
+            "$links": [
+              "243",
+              "254"
+            ]
+          }
+        }
+      },
+      "Certitude": {
+        "$text": "Certitude",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "city of": {
+            "$text": "city of",
+            "$links": [
+              [
+                "197",
+                "199"
+              ]
+            ]
+          }
+        }
+      },
+      "Christ.": {
+        "$text": "Christ.",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Clerics": {
+        "$text": "Clerics",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "as misleaders of people": {
+            "$text": "as misleaders of people",
+            "$links": [
+              [
+                "15",
+                "16"
+              ],
+              "82",
+              [
+                "164",
+                "165"
+              ],
+              "210"
+            ]
+          },
+          "as persecutors of Manifestations": {
+            "$text": "as persecutors of Manifestations",
+            "$links": [
+              [
+                "165",
+                "166"
+              ]
+            ]
+          },
+          ".": {
+            "$text": ".",
+            "$links": []
+          }
+        }
+      },
+      "Clouds": {
+        "$text": "Clouds",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              [
+                "71",
+                "75"
+              ]
+            ]
+          }
+        }
+      },
+      "Copper": {
+        "$text": "Copper",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "transmutation of, to gold": {
+            "$text": "transmutation of, to gold",
+            "$links": [
+              "157"
+            ]
+          }
+        }
+      },
+      "Creation": {
+        "$text": "Creation",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "purpose of": {
+            "$text": "purpose of",
+            "$links": [
+              "29"
+            ]
+          }
+        }
+      },
+      "David": {
+        "$text": "David",
+        "$links": [
+          "51"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Detachment": {
+        "$text": "Detachment",
+        "$links": [
+          "3",
+          "192"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Divines": {
+        "$text": "Divines",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "acceptance of this Dispensation by": {
+            "$text": "acceptance of this Dispensation by",
+            "$links": [
+              "222"
+            ]
+          },
+          "enmeshed by veils of learning": {
+            "$text": "enmeshed by veils of learning",
+            "$links": [
+              "214"
+            ]
+          },
+          "Epistles of the Báb addressed to": {
+            "$text": "Epistles of the Báb addressed to",
+            "$links": [
+              "229"
+            ]
+          },
+          "few, can bear allegiance to manifestation": {
+            "$text": "few, can bear allegiance to manifestation",
+            "$links": [
+              [
+                "228",
+                "229"
+              ]
+            ]
+          },
+          "interpret holy books according to own desires and limited understanding": {
+            "$text": "interpret holy books according to own desires and limited understanding",
+            "$links": [
+              [
+                "82",
+                "83"
+              ],
+              "182"
+            ]
+          },
+          "misunderstanding of Gospel by Christian": {
+            "$text": "misunderstanding of Gospel by Christian",
+            "$links": [
+              "26",
+              "213"
+            ]
+          },
+          "rejection of Muḥammad by Christian": {
+            "$text": "rejection of Muḥammad by Christian",
+            "$links": [
+              "26",
+              "213"
+            ]
+          },
+          "Sádiq's prophecy concerning wickedness of": {
+            "$text": "Sádiq's prophecy concerning wickedness of",
+            "$links": [
+              [
+                "247",
+                "248"
+              ]
+            ]
+          },
+          "scorn of, for followers of Manifestation": {
+            "$text": "scorn of, for followers of Manifestation",
+            "$links": [
+              "222"
+            ]
+          },
+          "as \"veils of glory,\"": {
+            "$text": "as \"veils of glory,\"",
+            "$links": [
+              "164"
+            ]
+          }
+        }
+      },
+      "Earth": {
+        "$text": "Earth",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              [
+                "46",
+                "48"
+              ]
+            ]
+          }
+        }
+      },
+      "End That Hath No End": {
+        "$text": "End That Hath No End",
+        "$links": [
+          "161",
+          "167",
+          "168"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Fasting": {
+        "$text": "Fasting",
+        "$links": [
+          "39"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Fáṭimih": {
+        "$text": "Fáṭimih",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "Tablet of.": {
+            "$text": "Tablet of.",
+            "$links": []
+          }
+        }
+      },
+      "Gabriel": {
+        "$text": "Gabriel",
+        "$links": [
+          "109",
+          "G30"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "God": {
+        "$text": "God",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "attaining Presence of": {
+            "$text": "attaining Presence of",
+            "$links": [
+              [
+                "141",
+                "143"
+              ],
+              [
+                "169",
+                "170"
+              ]
+            ]
+          },
+          "binding power of Word of": {
+            "$text": "binding power of Word of",
+            "$links": [
+              "112"
+            ]
+          },
+          "division caused by Word of": {
+            "$text": "division caused by Word of",
+            "$links": [
+              [
+                "111",
+                "112"
+              ]
+            ]
+          },
+          "Essence of, is unknowable": {
+            "$text": "Essence of, is unknowable",
+            "$links": [
+              "3",
+              [
+                "98",
+                "99"
+              ]
+            ]
+          },
+          "known through Manifestations": {
+            "$text": "known through Manifestations",
+            "$links": [
+              [
+                "99",
+                "100"
+              ],
+              [
+                "103",
+                "104"
+              ]
+            ]
+          },
+          "names and attributes of, evidenced by all things": {
+            "$text": "names and attributes of, evidenced by all things",
+            "$links": [
+              [
+                "100",
+                "102"
+              ]
+            ]
+          },
+          "tests men's faith": {
+            "$text": "tests men's faith",
+            "$links": [
+              [
+                "55",
+                "57"
+              ],
+              "58"
+            ]
+          },
+          "trust in": {
+            "$text": "trust in",
+            "$links": [
+              "3",
+              "192"
+            ]
+          }
+        }
+      },
+      "Gold": {
+        "$text": "Gold",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "transmutation of copper into": {
+            "$text": "transmutation of copper into",
+            "$links": [
+              "157"
+            ]
+          }
+        }
+      },
+      "Gospel": {
+        "$text": "Gospel",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "contains prophecies of future Manifestation": {
+            "$text": "contains prophecies of future Manifestation",
+            "$links": [
+              "22",
+              [
+                "24",
+                "25"
+              ],
+              "27"
+            ]
+          },
+          "misunderstood by Christian divines": {
+            "$text": "misunderstood by Christian divines",
+            "$links": [
+              "26",
+              "213"
+            ]
+          },
+          "as Word of God": {
+            "$text": "as Word of God",
+            "$links": [
+              "199"
+            ]
+          }
+        }
+      },
+      "Hamzih": {
+        "$text": "Hamzih",
+        "$links": [
+          "121",
+          "G33"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Heaven": {
+        "$text": "Heaven",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "44",
+              "62",
+              [
+                "66",
+                "68"
+              ],
+              "71"
+            ]
+          }
+        }
+      },
+      "Húd": {
+        "$text": "Húd",
+        "$links": [
+          "9",
+          "G36"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "Súrih of": {
+            "$text": "Súrih of",
+            "$links": [
+              "5"
+            ]
+          }
+        }
+      },
+      "Ḥusayn": {
+        "$text": "Ḥusayn",
+        "$links": [
+          "126",
+          "167",
+          "G37"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "martyrdom and sainthood of": {
+            "$text": "martyrdom and sainthood of",
+            "$links": [
+              [
+                "128",
+                "129"
+              ]
+            ]
+          },
+          "as \"Prince of Martyrs,\"": {
+            "$text": "as \"Prince of Martyrs,\"",
+            "$links": [
+              "225"
+            ]
+          }
+        }
+      },
+      "Ibn-i-Ṣúríyá": {
+        "$text": "Ibn-i-Ṣúríyá",
+        "$links": [
+          [
+            "84",
+            "86"
+          ],
+          "G38"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Imám 'Alí": {
+        "$text": "Imám 'Alí",
+        "$links": [
+          "166",
+          "G39"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "as Commander of Faithful": {
+            "$text": "as Commander of Faithful",
+            "$links": [
+              "119",
+              "164"
+            ]
+          },
+          "saying of, on heaven, hell, judgment, and resurrection": {
+            "$text": "saying of, on heaven, hell, judgment, and resurrection",
+            "$links": [
+              "119"
+            ]
+          }
+        }
+      },
+      "'Imrán": {
+        "$text": "'Imrán",
+        "$links": [
+          "53",
+          "G40"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Islám": {
+        "$text": "Islám",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "trials of early days of": {
+            "$text": "trials of early days of",
+            "$links": [
+              [
+                "217",
+                "218"
+              ]
+            ]
+          }
+        }
+      },
+      "Israel": {
+        "$text": "Israel",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "reason for chastisement of": {
+            "$text": "reason for chastisement of",
+            "$links": [
+              [
+                "18",
+                "19"
+              ],
+              [
+                "137",
+                "138"
+              ],
+              "139"
+            ]
+          }
+        }
+      },
+      "Jábir": {
+        "$text": "Jábir",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "tradition of": {
+            "$text": "tradition of",
+            "$links": [
+              "245"
+            ]
+          }
+        }
+      },
+      "Jesus": {
+        "$text": "Jesus",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "cause of, confired in Qur'án": {
+            "$text": "cause of, confired in Qur'án",
+            "$links": [
+              [
+                "20",
+                "21"
+              ]
+            ]
+          },
+          "Christian misinterpretation of prophecies of": {
+            "$text": "Christian misinterpretation of prophecies of",
+            "$links": [
+              [
+                "26",
+                "28"
+              ]
+            ]
+          },
+          "explanation of prophecies of": {
+            "$text": "explanation of prophecies of",
+            "$links": [
+              "29",
+              "33"
+            ]
+          },
+          "forerunner of": {
+            "$text": "forerunner of",
+            "$links": [
+              "64",
+              "66"
+            ]
+          },
+          "gives signs heralding his return": {
+            "$text": "gives signs heralding his return",
+            "$links": [
+              [
+                "24",
+                "25"
+              ]
+            ]
+          },
+          "and Law of Qiblih": {
+            "$text": "and Law of Qiblih",
+            "$links": [
+              "51"
+            ]
+          },
+          "opposition of Israel to": {
+            "$text": "opposition of Israel to",
+            "$links": [
+              "18"
+            ]
+          },
+          "power and sovereignty of": {
+            "$text": "power and sovereignty of",
+            "$links": [
+              [
+                "133",
+                "134"
+              ]
+            ]
+          },
+          "prophesies His return": {
+            "$text": "prophesies His return",
+            "$links": [
+              "20",
+              "21",
+              "22"
+            ]
+          },
+          "questioned before Pilate and Caiaphas": {
+            "$text": "questioned before Pilate and Caiaphas",
+            "$links": [
+              [
+                "132",
+                "133"
+              ]
+            ]
+          },
+          "riches concealed in abasement of": {
+            "$text": "riches concealed in abasement of",
+            "$links": [
+              [
+                "130",
+                "131"
+              ]
+            ]
+          },
+          "strengthened with Holy Spirit": {
+            "$text": "strengthened with Holy Spirit",
+            "$links": [
+              [
+                "176",
+                "177"
+              ]
+            ]
+          }
+        }
+      },
+      "Jews": {
+        "$text": "Jews",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "belief of, that Hand of God chained up": {
+            "$text": "belief of, that Hand of God chained up",
+            "$links": [
+              "136"
+            ]
+          },
+          "opposition of, to Jesus": {
+            "$text": "opposition of, to Jesus",
+            "$links": [
+              "18"
+            ]
+          },
+          "opposition of, to Muḥammad": {
+            "$text": "opposition of, to Muḥammad",
+            "$links": [
+              [
+                "135",
+                "138"
+              ]
+            ]
+          },
+          ".": {
+            "$text": ".",
+            "$links": []
+          }
+        }
+      },
+      "John the Baptist": {
+        "$text": "John the Baptist",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "as forerunner of Jesus": {
+            "$text": "as forerunner of Jesus",
+            "$links": [
+              [
+                "64",
+                "65"
+              ]
+            ]
+          }
+        }
+      },
+      "Joseph": {
+        "$text": "Joseph",
+        "$links": [
+          "212",
+          "254",
+          "G42"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Judgment": {
+        "$text": "Judgment",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "Day of": {
+            "$text": "Day of",
+            "$links": [
+              "111",
+              "114",
+              "116"
+            ]
+          }
+        }
+      },
+      "Káfí": {
+        "$text": "Káfí",
+        "$links": [
+          "245",
+          "246",
+          "G45"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Karim": {
+        "$text": "Karim",
+        "$links": [
+          "190",
+          "G47"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Karím <u>Kh</u>an": {
+        "$text": "Karím <u>Kh</u>an",
+        "$links": [
+          "184"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Knowledge": {
+        "$text": "Knowledge",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "acme of": {
+            "$text": "acme of",
+            "$links": [
+              "146"
+            ]
+          },
+          "as divine bestowal": {
+            "$text": "as divine bestowal",
+            "$links": [
+              "46",
+              "184"
+            ]
+          },
+          "human and divine": {
+            "$text": "human and divine",
+            "$links": [
+              [
+                "145",
+                "146"
+              ]
+            ]
+          },
+          "as most grievous of veils": {
+            "$text": "as most grievous of veils",
+            "$links": [
+              [
+                "187",
+                "188"
+              ],
+              "214"
+            ]
+          },
+          "as one point": {
+            "$text": "as one point",
+            "$links": [
+              "184"
+            ]
+          },
+          "revealed in Qur'án": {
+            "$text": "revealed in Qur'án",
+            "$links": [
+              "147"
+            ]
+          },
+          "seventy meanings of": {
+            "$text": "seventy meanings of",
+            "$links": [
+              "255"
+            ]
+          },
+          "trumpet blast of": {
+            "$text": "trumpet blast of",
+            "$links": [
+              "196"
+            ]
+          },
+          "twenty-seven letters of": {
+            "$text": "twenty-seven letters of",
+            "$links": [
+              [
+                "243",
+                "244"
+              ]
+            ]
+          },
+          "two kinds of": {
+            "$text": "two kinds of",
+            "$links": [
+              "46",
+              "69"
+            ]
+          }
+        }
+      },
+      "Lám": {
+        "$text": "Lám",
+        "$links": [
+          "202",
+          "G8"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Life": {
+        "$text": "Life",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "true": {
+            "$text": "true",
+            "$links": [
+              "114",
+              [
+                "120",
+                "121"
+              ]
+            ]
+          }
+        }
+      },
+      "Magi": {
+        "$text": "Magi",
+        "$links": [
+          "G53"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "search of, for Jesus": {
+            "$text": "search of, for Jesus",
+            "$links": [
+              "64"
+            ]
+          }
+        }
+      },
+      "Man": {
+        "$text": "Man",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "can potentially reveal all attributes of God": {
+            "$text": "can potentially reveal all attributes of God",
+            "$links": [
+              "101"
+            ]
+          },
+          "highest grace bestowed on": {
+            "$text": "highest grace bestowed on",
+            "$links": [
+              "138"
+            ]
+          }
+        }
+      },
+      "Manifestations": {
+        "$text": "Manifestations",
+        "$links": [
+          "G54"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "all live by operation of will of": {
+            "$text": "all live by operation of will of",
+            "$links": [
+              "103"
+            ]
+          },
+          "denial of": {
+            "$text": "denial of",
+            "$links": [
+              [
+                "4",
+                "6"
+              ],
+              [
+                "12",
+                "15"
+              ],
+              [
+                "148",
+                "149"
+              ],
+              "182,"
+            ]
+          }
+        }
+      },
+      "Mary": {
+        "$text": "Mary",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "grief of, at birth of Jesus": {
+            "$text": "grief of, at birth of Jesus",
+            "$links": [
+              [
+                "56",
+                "57"
+              ]
+            ]
+          }
+        }
+      },
+      "Mím": {
+        "$text": "Mím",
+        "$links": [
+          "202",
+          "G8"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Mi'ráj": {
+        "$text": "Mi'ráj",
+        "$links": [
+          [
+            "185",
+            "186"
+          ],
+          "187"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Moon": {
+        "$text": "Moon",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "33",
+              [
+                "35",
+                "36"
+              ],
+              [
+                "37",
+                "38"
+              ],
+              [
+                "39",
+                "42"
+              ]
+            ]
+          }
+        }
+      },
+      "Moses": {
+        "$text": "Moses",
+        "$links": [
+          "G58"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "and Burning Bush": {
+            "$text": "and Burning Bush",
+            "$links": [
+              [
+                "54",
+                "55"
+              ]
+            ]
+          },
+          "flight of, to Midian": {
+            "$text": "flight of, to Midian",
+            "$links": [
+              "54"
+            ]
+          },
+          "forerunner of": {
+            "$text": "forerunner of",
+            "$links": [
+              "63",
+              "66"
+            ]
+          },
+          "majesty and power of": {
+            "$text": "majesty and power of",
+            "$links": [
+              "11"
+            ]
+          },
+          "Pharaoh's kinsman a believer in": {
+            "$text": "Pharaoh's kinsman a believer in",
+            "$links": [
+              "12"
+            ]
+          },
+          "Pharaoh's opposition to": {
+            "$text": "Pharaoh's opposition to",
+            "$links": [
+              "11",
+              "55"
+            ]
+          },
+          "prophecies of advent of": {
+            "$text": "prophecies of advent of",
+            "$links": [
+              "63"
+            ]
+          }
+        }
+      },
+      "Muḥammad": {
+        "$text": "Muḥammad",
+        "$links": [
+          "G60"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "allegiance of nations to Faith of": {
+            "$text": "allegiance of nations to Faith of",
+            "$links": [
+              "110"
+            ]
+          },
+          "ascent of": {
+            "$text": "ascent of",
+            "$links": [
+              [
+                "185",
+                "186"
+              ],
+              "187"
+            ]
+          },
+          "Day of Resurrection ushered in by": {
+            "$text": "Day of Resurrection ushered in by",
+            "$links": [
+              "117"
+            ]
+          },
+          "forerunners of": {
+            "$text": "forerunners of",
+            "$links": [
+              "65",
+              "66"
+            ]
+          },
+          "opposition of Christians to": {
+            "$text": "opposition of Christians to",
+            "$links": [
+              "81",
+              "135"
+            ]
+          },
+          "opposition of Jews to": {
+            "$text": "opposition of Jews to",
+            "$links": [
+              [
+                "135",
+                "136"
+              ]
+            ]
+          },
+          "persecution of followers of": {
+            "$text": "persecution of followers of",
+            "$links": [
+              "218"
+            ]
+          },
+          "as \"Seal of the Prophets,\"": {
+            "$text": "as \"Seal of the Prophets,\"",
+            "$links": [
+              "162",
+              "169"
+            ]
+          },
+          "sovereignty of": {
+            "$text": "sovereignty of",
+            "$links": [
+              "108",
+              [
+                "110",
+                "111"
+              ]
+            ]
+          },
+          "sufferings of": {
+            "$text": "sufferings of",
+            "$links": [
+              [
+                "108",
+                "110"
+              ]
+            ]
+          },
+          "twin testimonies of": {
+            "$text": "twin testimonies of",
+            "$links": [
+              "201"
+            ]
+          },
+          "verdict of Last Day passed by": {
+            "$text": "verdict of Last Day passed by",
+            "$links": [
+              "114"
+            ]
+          }
+        }
+      },
+      "Mullá Ḥusayn": {
+        "$text": "Mullá Ḥusayn",
+        "$links": [
+          "G65"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "exalted sation of": {
+            "$text": "exalted sation of",
+            "$links": [
+              "223"
+            ]
+          }
+        }
+      },
+      "Mullás": {
+        "$text": "Mullás",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "list of, who recognized the Báb": {
+            "$text": "list of, who recognized the Báb",
+            "$links": [
+              "223"
+            ]
+          }
+        }
+      },
+      "Musta<u>gh</u>á<u>th</u>": {
+        "$text": "Musta<u>gh</u>á<u>th</u>",
+        "$links": [
+          "229",
+          "G70"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "warning to men of Bayán concerning": {
+            "$text": "warning to men of Bayán concerning",
+            "$links": [
+              "248"
+            ]
+          }
+        }
+      },
+      "Nimrod": {
+        "$text": "Nimrod",
+        "$links": [
+          "G73"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "dream of": {
+            "$text": "dream of",
+            "$links": [
+              "62"
+            ]
+          }
+        }
+      },
+      "Noah": {
+        "$text": "Noah",
+        "$links": [
+          "G74"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "afflictions of": {
+            "$text": "afflictions of",
+            "$links": [
+              [
+                "7",
+                "8"
+              ]
+            ]
+          },
+          "transformed by Spirit of God": {
+            "$text": "transformed by Spirit of God",
+            "$links": [
+              [
+                "154",
+                "155"
+              ]
+            ]
+          }
+        }
+      },
+      "Nubdih, Prayer of.": {
+        "$text": "Nubdih, Prayer of.",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Oppression": {
+        "$text": "Oppression",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              [
+                "31",
+                "32"
+              ]
+            ]
+          }
+        }
+      },
+      "Pentateuch": {
+        "$text": "Pentateuch",
+        "$links": [
+          "G78"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "perversion of": {
+            "$text": "perversion of",
+            "$links": [
+              [
+                "84",
+                "87"
+              ]
+            ]
+          },
+          "as Word of God": {
+            "$text": "as Word of God",
+            "$links": [
+              "199"
+            ]
+          }
+        }
+      },
+      "Persians": {
+        "$text": "Persians",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "tradition that, would slaughter Qá'im's followers": {
+            "$text": "tradition that, would slaughter Qá'im's followers",
+            "$links": [
+              "247"
+            ]
+          }
+        }
+      },
+      "Pharaoh": {
+        "$text": "Pharaoh",
+        "$links": [
+          "G79"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "kinsman of, believed in Moses": {
+            "$text": "kinsman of, believed in Moses",
+            "$links": [
+              "12"
+            ]
+          },
+          "opposition of, to Moses": {
+            "$text": "opposition of, to Moses",
+            "$links": [
+              "11",
+              "55"
+            ]
+          },
+          "warned of advent of Moses": {
+            "$text": "warned of advent of Moses",
+            "$links": [
+              "63"
+            ]
+          }
+        }
+      },
+      "Prayer": {
+        "$text": "Prayer",
+        "$links": [
+          "G75"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "law of, as fundamental element of Revelation": {
+            "$text": "law of, as fundamental element of Revelation",
+            "$links": [
+              "39"
+            ]
+          },
+          "of Nubdih": {
+            "$text": "of Nubdih",
+            "$links": [
+              "240"
+            ]
+          }
+        }
+      },
+      "Qá'im": {
+        "$text": "Qá'im",
+        "$links": [
+          "G83"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "attributes of": {
+            "$text": "attributes of",
+            "$links": [
+              "240",
+              "245",
+              "254"
+            ]
+          },
+          "persecution of followers of": {
+            "$text": "persecution of followers of",
+            "$links": [
+              "254"
+            ]
+          },
+          "rising of, marks Day of Resurrection": {
+            "$text": "rising of, marks Day of Resurrection",
+            "$links": [
+              "144"
+            ]
+          },
+          "sovereignty of": {
+            "$text": "sovereignty of",
+            "$links": [
+              [
+                "106",
+                "107"
+              ]
+            ]
+          },
+          "will excell all Prophets": {
+            "$text": "will excell all Prophets",
+            "$links": [
+              "244"
+            ]
+          },
+          "will reveal twenty-five remaining letters of knowledge": {
+            "$text": "will reveal twenty-five remaining letters of knowledge",
+            "$links": [
+              [
+                "243",
+                "244"
+              ]
+            ]
+          }
+        }
+      },
+      "Qayyúmu'l-Asmá": {
+        "$text": "Qayyúmu'l-Asmá",
+        "$links": [
+          "G84"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "prophesies martyrdom of the Báb": {
+            "$text": "prophesies martyrdom of the Báb",
+            "$links": [
+              "231"
+            ]
+          }
+        }
+      },
+      "Qiblih": {
+        "$text": "Qiblih",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "law of, unaltered by Manifestations": {
+            "$text": "law of, unaltered by Manifestations",
+            "$links": [
+              "51"
+            ]
+          },
+          "reasonwhy, changed by Muhammad": {
+            "$text": "reasonwhy, changed by Muhammad",
+            "$links": [
+              "52"
+            ]
+          }
+        }
+      },
+      "Qur'án": {
+        "$text": "Qur'án",
+        "$links": [
+          "G87"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "all enjoined to follow, until \"year sixty,\"": {
+            "$text": "all enjoined to follow, until \"year sixty,\"",
+            "$links": [
+              "201"
+            ]
+          },
+          "confirms Cause of Jesus": {
+            "$text": "confirms Cause of Jesus",
+            "$links": [
+              "20"
+            ]
+          },
+          "contains unerring guidance": {
+            "$text": "contains unerring guidance",
+            "$links": [
+              "201"
+            ]
+          },
+          "as guide until Day of Resurrection": {
+            "$text": "as guide until Day of Resurrection",
+            "$links": [
+              "203"
+            ]
+          },
+          "as impregnable stronghold": {
+            "$text": "as impregnable stronghold",
+            "$links": [
+              "200"
+            ]
+          },
+          "as one of twin testimonies of Muḥammad": {
+            "$text": "as one of twin testimonies of Muḥammad",
+            "$links": [
+              "202"
+            ]
+          },
+          "as testimony of God to both East and West": {
+            "$text": "as testimony of God to both East and West",
+            "$links": [
+              "210"
+            ]
+          },
+          "as Word of God": {
+            "$text": "as Word of God",
+            "$links": [
+              "199"
+            ]
+          }
+        }
+      },
+      "Rayy": {
+        "$text": "Rayy",
+        "$links": [
+          [
+            "246",
+            "247"
+          ],
+          "G88"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Resurrection": {
+        "$text": "Resurrection",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "Day of": {
+            "$text": "Day of",
+            "$links": [
+              "47",
+              [
+                "143",
+                "144"
+              ]
+            ]
+          },
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "116",
+              "118",
+              [
+                "144",
+                "145"
+              ],
+              "158",
+              "170"
+            ]
+          }
+        }
+      },
+      "Return": {
+        "$text": "Return",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "150",
+              "151",
+              "158",
+              "159",
+              "160",
+              "168"
+            ]
+          }
+        }
+      },
+      "Revelation": {
+        "$text": "Revelation",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "and attainment to Divine Presence": {
+            "$text": "and attainment to Divine Presence",
+            "$links": [
+              "139",
+              [
+                "141",
+                "143"
+              ]
+            ]
+          },
+          "creative power of": {
+            "$text": "creative power of",
+            "$links": [
+              [
+                "59",
+                "61"
+              ],
+              "140"
+            ]
+          }
+        }
+      },
+      "Rúz-bih": {
+        "$text": "Rúz-bih",
+        "$links": [
+          "65",
+          "G91"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Ṣádiq": {
+        "$text": "Ṣádiq",
+        "$links": [
+          "79",
+          "255",
+          "G92"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "discusses true wealth": {
+            "$text": "discusses true wealth",
+            "$links": [
+              [
+                "131",
+                "132"
+              ]
+            ]
+          },
+          "prophesies wickedness of divines": {
+            "$text": "prophesies wickedness of divines",
+            "$links": [
+              [
+                "247",
+                "248"
+              ]
+            ]
+          },
+          "prophesies \"year sixty,\"": {
+            "$text": "prophesies \"year sixty,\"",
+            "$links": [
+              [
+                "253",
+                "254"
+              ]
+            ]
+          }
+        }
+      },
+      "Ṣáliḥ": {
+        "$text": "Ṣáliḥ",
+        "$links": [
+          "G95"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "as Manifestation following Noah": {
+            "$text": "as Manifestation following Noah",
+            "$links": [
+              [
+                "9",
+                "10"
+              ]
+            ]
+          }
+        }
+      },
+      "Salmán": {
+        "$text": "Salmán",
+        "$links": [
+          "65",
+          "167"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Sámirí": {
+        "$text": "Sámirí",
+        "$links": [
+          "191",
+          "G97"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Seal of the Prophets": {
+        "$text": "Seal of the Prophets",
+        "$links": [
+          "G98"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "applies to all Manifestations": {
+            "$text": "applies to all Manifestations",
+            "$links": [
+              "179"
+            ]
+          },
+          "applies to Muḥammad": {
+            "$text": "applies to Muḥammad",
+            "$links": [
+              "162",
+              "169"
+            ]
+          },
+          "as veil to Muslims": {
+            "$text": "as veil to Muslims",
+            "$links": [
+              "213"
+            ]
+          }
+        }
+      },
+      "Seeker": {
+        "$text": "Seeker",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "attributes and rewards of true": {
+            "$text": "attributes and rewards of true",
+            "$links": [
+              [
+                "3",
+                "4"
+              ],
+              [
+                "192",
+                "197"
+              ]
+            ]
+          }
+        }
+      },
+      "Siyyid Yaḥyá": {
+        "$text": "Siyyid Yaḥyá",
+        "$links": [
+          "223",
+          "G108"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Smoke": {
+        "$text": "Smoke",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              [
+                "76",
+                "77"
+              ]
+            ]
+          }
+        }
+      },
+      "Son of Man": {
+        "$text": "Son of Man",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "explanation of coming of": {
+            "$text": "explanation of coming of",
+            "$links": [
+              [
+                "61",
+                "62"
+              ],
+              [
+                "66",
+                "67"
+              ]
+            ]
+          }
+        }
+      },
+      "Star": {
+        "$text": "Star",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "as herald of new Day": {
+            "$text": "as herald of new Day",
+            "$links": [
+              "62",
+              "63",
+              "64"
+            ]
+          },
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "36",
+              "37",
+              "38",
+              "66"
+            ]
+          }
+        }
+      },
+      "Steadfastness": {
+        "$text": "Steadfastness",
+        "$links": [
+          "233"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Sun": {
+        "$text": "Sun",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              [
+                "33",
+                "34"
+              ],
+              [
+                "35",
+                "36"
+              ],
+              [
+                "37",
+                "38"
+              ],
+              [
+                "39",
+                "42"
+              ],
+              "43",
+              "66"
+            ]
+          }
+        }
+      },
+      "Symbols": {
+        "$text": "Symbols",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "purpose of": {
+            "$text": "purpose of",
+            "$links": [
+              "49"
+            ]
+          }
+        }
+      },
+      "Tablet of Fáṭimih": {
+        "$text": "Tablet of Fáṭimih",
+        "$links": [
+          "245"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Trumpet": {
+        "$text": "Trumpet",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "116"
+            ]
+          }
+        }
+      },
+      "Unity": {
+        "$text": "Unity",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "bestowed by Word of God": {
+            "$text": "bestowed by Word of God",
+            "$links": [
+              "112",
+              "200"
+            ]
+          },
+          "as essential purpose of creation": {
+            "$text": "as essential purpose of creation",
+            "$links": [
+              "29"
+            ]
+          }
+        }
+      },
+      "'Urvatu'l -Vu<u>th</u>qá": {
+        "$text": "'Urvatu'l -Vu<u>th</u>qá",
+        "$links": [
+          "205",
+          "G115"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Veils of Glory": {
+        "$text": "Veils of Glory",
+        "$links": [],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "symbolic meaning of": {
+            "$text": "symbolic meaning of",
+            "$links": [
+              "164",
+              "166"
+            ]
+          }
+        }
+      },
+      "Yanbú'": {
+        "$text": "Yanbú'",
+        "$links": [
+          "243",
+          "G117"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Zaqqúm": {
+        "$text": "Zaqqúm",
+        "$links": [
+          "G120"
+        ],
+        "$book": "Kitáb-i-Íqán",
+        "$children": {
+          "tree of": {
+            "$text": "tree of",
+            "$links": [
+              "190"
+            ]
+          }
+        }
+      },
+      "Zawrá'": {
+        "$text": "Zawrá'",
+        "$links": [
+          [
+            "246",
+            "247"
+          ]
+        ],
+        "$book": "Kitáb-i-Íqán"
+      },
+      "Zíyárat": {
+        "$text": "Zíyárat",
+        "$links": [
+          "240",
+          "G121"
+        ],
+        "$book": "Kitáb-i-Íqán"
+      }
+    }
   }
 ]

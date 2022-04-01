@@ -1,4 +1,5 @@
 import {readFile, writeFile, readdir} from 'fs/promises';
+import writeJSON from '../html-parsers/utils/writeJSON.js';
 
 const books = await readdir('./indexes/json/books');
 
@@ -13,8 +14,8 @@ const compositeJson = await Promise.all(books.map(async (fileName) => {
   };
 }));
 
-await writeFile(
-  './indexes/json/books.json', JSON.stringify(compositeJson, null, 2) + '\n'
+await writeJSON(
+  './indexes/json/books.json', compositeJson
 );
 
 // eslint-disable-next-line no-console -- CLI

@@ -1,14 +1,12 @@
-import fsImport from 'fs';
 import {join, dirname} from 'path';
 import {fileURLToPath} from 'url';
 
-import JSDOM from 'jsdom';
 import handleNode from 'handle-node';
 
-let document, Node;
+import {getDomForFile} from './utils/getDom.js';
+import writeJSON from './utils/writeJSON.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const {readFile, writeFile} = fsImport.promises;
 const letterLinkOnlyRegex = /^[nKQ]\d+$/u;
 const numbersOnlyRegex = /^\d+$/u;
 const romanNumeralsOnlyRegex = /^[mclxvi]+$/u;
@@ -358,17 +356,11 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
   });
 }
 
-(async () => {
-const html = await readFile(
-  join(__dirname, '/../indexes/html/Kitáb-i-Aqdas.html'),
-  'utf8'
+const {Node, $$} = await getDomForFile(
+  join(__dirname, '/../indexes/html/Kitáb-i-Aqdas.html')
 );
-({document, Node} = (new JSDOM.JSDOM(html)).window);
 
-// const $ = (s) => document.querySelector(s);
-const $$ = (s) => document.querySelectorAll(s);
-
-const letterSections = [...$$('a[name]')]
+const letterSections = $$('a[name]')
   // Main letter sections
   .filter((a) => (/^[A-Z]$/u).test(a.name))
   // Followed by nested items
@@ -387,9 +379,5 @@ topUls.forEach((ul) => {
 });
 
 const writePath = join(__dirname, '/../indexes/json/books/Kitáb-i-Aqdas.json');
-await writeFile(
-  writePath,
-  JSON.stringify(jsonIndex, null, 2) + '\n'
-);
+await writeJSON(writePath, jsonIndex);
 console.log(`Wrote to ${writePath}`);
-})();
