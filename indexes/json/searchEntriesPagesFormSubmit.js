@@ -50,11 +50,34 @@ async function searchEntriesFormPagesSubmit (e) {
   const bookChoice = `*[${book ? `book="${book}"` : 'book'}].index.`;
 
   const jsonataQuery = bookChoice +
-    '*[`$text`][$exists(' +
-      // Flatten array with reduce/append since some `$links` are nested
-      '$.**[$filter($reduce(`$links`, $append), function ($v) {' +
-        '$lowercase($v) = $lowercase($target)' +
-      '})])]';
+  // `*[\`$text\`][$exists(
+  //   $.**[$filter($reduce(\`$links\`, $append), function ($v) {
+  //     $lowercase($v) = $lowercase($target)
+  //   })])]`.replace(/\n/gu, ' ');
+
+  `
+  $.**[$filter(\`$links\`, function ($v) {
+    (
+      $type($v) = "array" and (
+        (
+          $contains($v[0], /^\\d/) and
+          $contains($target, /^\\d/) and
+          $number($target) >= $number($v[0]) and
+          $number($target) <= $number($v[1])
+        ) or (
+          $contains($v[0], /^\\D/) and
+          $substring($v[0], 0, 1) = $substring($target, 0, 1) and
+          $number($substring($target, 1)) >=
+            $number($substring($v[0], 1)) and
+          $number($substring($target, 1)) <= $number($substring($v[1], 1))
+        )
+      )
+    ) or (
+      $type($v) = "string" and
+      $lowercase($v) = $lowercase($target)
+    )
+  })]
+  `.replace(/\n/gu, ' ');
 
   const results = await httpquery(
     'http://127.0.0.1:1337/books.json',

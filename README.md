@@ -20,9 +20,10 @@ copyright.
 
 ## Higher priority to-dos
 
-1. `$seeAlso` in Íqán parser
+1. Fix `undefined` showing for book in page search
+1. Fix link display for inner arrays as ranges
 1. Fix links to work for Íqán too
-1. Fix link search and display for inner arrays as ranges
+1. `$seeAlso` in Íqán parser
 1. Add books
 
 ## Medium priority to-dos
