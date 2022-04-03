@@ -20,7 +20,21 @@ async function searchEntriesFormPagesSubmit (e) {
    * @returns {boolean}
    */
   function isDirectMatch (obj) {
-    return (obj.$links || []).flat().find((link) => {
+    return (obj.$links || []).find((link) => {
+      if (Array.isArray(link)) {
+        return (
+          (/^\d/u).test(link[0]) && (/^\d/u).test(target) &&
+          Number.parseInt(target) >= Number.parseInt(link[0]) &&
+          Number.parseInt(target) <= Number.parseInt(link[1])
+        ) || (
+          (/^\D/u).test(link[0]) &&
+          link[0].charAt() === target.charAt() &&
+          Number.parseInt(target.slice(1)) >=
+            Number.parseInt(link[0].slice(1)) &&
+          Number.parseInt(target.slice(1)) <=
+            Number.parseInt(link[1].slice(1))
+        );
+      }
       return link.toLowerCase() === target.toLowerCase();
     });
   }
@@ -50,11 +64,6 @@ async function searchEntriesFormPagesSubmit (e) {
   const bookChoice = `*[${book ? `book="${book}"` : 'book'}].index.`;
 
   const jsonataQuery = bookChoice +
-  // `*[\`$text\`][$exists(
-  //   $.**[$filter($reduce(\`$links\`, $append), function ($v) {
-  //     $lowercase($v) = $lowercase($target)
-  //   })])]`.replace(/\n/gu, ' ');
-
   `
   *[$exists($.**[$filter(\`$links\`, function ($v) {
     (
