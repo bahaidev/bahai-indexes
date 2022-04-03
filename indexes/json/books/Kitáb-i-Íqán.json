@@ -83,7 +83,8 @@
   "'Alí, Imám": {
     "$text": "'Alí, Imám",
     "$links": [],
-    "$book": "Kitáb-i-Íqán"
+    "$book": "Kitáb-i-Íqán",
+    "$seeAlso": "I43"
   },
   "Alif": {
     "$text": "Alif",
@@ -371,7 +372,8 @@
   "Christ": {
     "$text": "Christ",
     "$links": [],
-    "$book": "Kitáb-i-Íqán"
+    "$book": "Kitáb-i-Íqán",
+    "$seeAlso": "I48"
   },
   "Clerics": {
     "$text": "Clerics",
@@ -406,7 +408,8 @@
         "$text": ".",
         "$links": []
       }
-    }
+    },
+    "$seeAlso": "I29"
   },
   "Clouds": {
     "$text": "Clouds",
@@ -585,7 +588,8 @@
         "$text": "Tablet of.",
         "$links": []
       }
-    }
+    },
+    "$seeAlso": "I101"
   },
   "Gabriel": {
     "$text": "Gabriel",
@@ -1018,7 +1022,8 @@
         "$text": ".",
         "$links": []
       }
-    }
+    },
+    "$seeAlso": "I46"
   },
   "John the Baptist": {
     "$text": "John the Baptist",
@@ -1558,7 +1563,8 @@
   "Nubdih, Prayer of": {
     "$text": "Nubdih, Prayer of",
     "$links": [],
-    "$book": "Kitáb-i-Íqán"
+    "$book": "Kitáb-i-Íqán",
+    "$seeAlso": "I78"
   },
   "Oppression": {
     "$text": "Oppression",

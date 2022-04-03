@@ -20,7 +20,7 @@ copyright.
 
 ## Higher priority to-dos
 
-1. `$seeAlso` in Íqán parser
+1. Put web app online and add link here
 1. Add books
 
 ## Medium priority to-dos

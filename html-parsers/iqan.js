@@ -70,8 +70,9 @@ bElems.forEach((b) => {
       if (!a) {
         console.log('node', node.parentNode.outerHTML);
       }
-      const aText = a.textContent.trim();
       if (a.matches('a[href]')) {
+        const aText = a.textContent.trim();
+
         if (!(/iq-[12]|iq-glos/u).test(a.href)) {
           throw new Error(`Unexpected link ${a.href}`);
         }
@@ -112,6 +113,9 @@ bElems.forEach((b) => {
         if (connecting.startsWith(',') || connecting.startsWith(';')) {
           parseIndex(connectingNode, obj, linksArray);
         }
+      } else if (a.matches('i')) {
+        const link = a.nextElementSibling;
+        obj.$seeAlso = 'I' + link.hash.slice(1).replace(/^0+/u, '');
       }
     } else {
       // 3. Otherwise, add recursively as descendants (except for "Glossary"
