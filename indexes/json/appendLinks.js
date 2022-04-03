@@ -30,13 +30,14 @@ function recursiveFlatten (items) {
 /**
  * @param {Links} links
  * @param {HTMLElement} linkHolder
+ * @param {string} book
  * @returns {void}
  */
-function appendLinks (links, linkHolder) {
+function appendLinks (links, linkHolder, book) {
   [...new Set(recursiveFlatten(links))].sort((a, b) => {
     return sortEntries(a, b);
   }).forEach((linkText) => {
-    const a = createLinkForIndexText(linkText);
+    const a = createLinkForIndexText(linkText, book);
     linkHolder.append(a, ' ');
   });
 }
@@ -44,12 +45,13 @@ function appendLinks (links, linkHolder) {
 /**
  * @param {Links} links
  * @param {HTMLElement} holder
+ * @param {string} book
  * @returns {void}
  */
-function appendLinksToHolder (links, holder) {
+function appendLinksToHolder (links, holder, book) {
   const linkHolder = document.createElement('div');
   linkHolder.style.margin = '10px';
-  appendLinks(links, linkHolder);
+  appendLinks(links, linkHolder, book);
   holder.append(linkHolder);
 }
 

@@ -129,7 +129,7 @@ async function searchEntriesFormSubmit (e) {
               : [`(${result.$book})`, ...indexPath]
           ).join(' > ');
         resultsHolder.append(heading);
-        appendLinksToHolder(links, resultsHolder);
+        appendLinksToHolder(links, resultsHolder, result.$book);
       }
     });
     if (mergeLinks) {
@@ -139,7 +139,7 @@ async function searchEntriesFormSubmit (e) {
           bookHeading.textContent = currentBook;
           resultsHolder.append(bookHeading);
         }
-        appendLinksToHolder(links, resultsHolder);
+        appendLinksToHolder(links, resultsHolder, currentBook);
       });
     }
   } else {
@@ -165,7 +165,7 @@ async function searchEntriesFormSubmit (e) {
         if (entriesOrLinks === 'both') {
           if (links.length) {
             li.append(' - ');
-            appendLinks(links, li);
+            appendLinks(links, li, result.$book);
           }
         }
         parent.append(li);
