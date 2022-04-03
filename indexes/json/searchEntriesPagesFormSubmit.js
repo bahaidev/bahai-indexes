@@ -85,7 +85,7 @@ async function searchEntriesFormPagesSubmit (e) {
       $type($v) = "string" and
       $lowercase($v) = $lowercase($target)
     )
-  })])]
+  })])][]
   `.replace(/\n/gu, ' ');
 
   const results = await httpquery(

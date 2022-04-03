@@ -17,7 +17,7 @@ function createLinkForIndexText (linkText, book) {
   const a = document.createElement('a');
   a.textContent = linkText;
   const firstChar = linkText.charAt();
-  const number = linkText.match(/\d+/u);
+  const number = linkText.match(/\d+/u)[0];
   switch (book) {
   case 'Kitáb-i-Aqdas':
     switch (firstChar) {
