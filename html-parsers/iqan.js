@@ -43,7 +43,7 @@ bElems.forEach((b) => {
   // const temp = obj;
   // 1. Strip : or ,
   // Keep `innerHTML` for underlining
-  const mainEntryText = b.innerHTML.replace(/[,:]\s*$/u, '');
+  const mainEntryText = b.innerHTML.replace(/[,:.]\s*$/u, '');
   const mainLinksArray = [];
   const mainEntriesObject = {
     $text: mainEntryText,

@@ -80,8 +80,8 @@
     ],
     "$book": "Kitáb-i-Íqán"
   },
-  "'Alí, Imám.": {
-    "$text": "'Alí, Imám.",
+  "'Alí, Imám": {
+    "$text": "'Alí, Imám",
     "$links": [],
     "$book": "Kitáb-i-Íqán"
   },
@@ -368,8 +368,8 @@
       }
     }
   },
-  "Christ.": {
-    "$text": "Christ.",
+  "Christ": {
+    "$text": "Christ",
     "$links": [],
     "$book": "Kitáb-i-Íqán"
   },
@@ -1555,8 +1555,8 @@
       }
     }
   },
-  "Nubdih, Prayer of.": {
-    "$text": "Nubdih, Prayer of.",
+  "Nubdih, Prayer of": {
+    "$text": "Nubdih, Prayer of",
     "$links": [],
     "$book": "Kitáb-i-Íqán"
   },
