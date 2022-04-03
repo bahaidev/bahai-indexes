@@ -56,7 +56,7 @@ async function searchEntriesFormPagesSubmit (e) {
   //   })])]`.replace(/\n/gu, ' ');
 
   `
-  $.**[$filter(\`$links\`, function ($v) {
+  *[$exists($.**[$filter(\`$links\`, function ($v) {
     (
       $type($v) = "array" and (
         (
@@ -76,7 +76,7 @@ async function searchEntriesFormPagesSubmit (e) {
       $type($v) = "string" and
       $lowercase($v) = $lowercase($target)
     )
-  })]
+  })])]
   `.replace(/\n/gu, ' ');
 
   const results = await httpquery(
