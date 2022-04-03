@@ -5,6 +5,15 @@
  * @returns {HTMLAnchorElement}
  */
 function createLinkForIndexText (linkText, book) {
+  if (Array.isArray(linkText)) {
+    const frag = document.createDocumentFragment();
+    frag.append(
+      createLinkForIndexText(linkText[0], book),
+      '-',
+      createLinkForIndexText(linkText[1], book)
+    );
+    return frag;
+  }
   const a = document.createElement('a');
   a.textContent = linkText;
   const firstChar = linkText.charAt();

@@ -2,24 +2,6 @@ import sortEntries from './sortEntries.js';
 import createLinkForIndexText from './createLinkForIndexText.js';
 
 /**
- * @param {any} items
- * @returns {any[]}
- */
-function recursiveFlatten (items) {
-  const flattened = [];
-
-  items.forEach((item) => {
-    if (Array.isArray(item)) {
-      flattened.push(...recursiveFlatten(item));
-    } else {
-      flattened.push(item);
-    }
-  });
-
-  return flattened;
-}
-
-/**
  * @typedef {string} Link
  */
 
@@ -34,7 +16,15 @@ function recursiveFlatten (items) {
  * @returns {void}
  */
 function appendLinks (links, linkHolder, book) {
-  [...new Set(recursiveFlatten(links))].sort((a, b) => {
+  const uniqueLinks = [...new Set(links)];
+  uniqueLinks.filter((link, idx) => {
+    // Remove array dupes
+    return !Array.isArray(link) ||
+      idx === uniqueLinks.findIndex((innerLink) => {
+        return link[0] === innerLink[0] &&
+          link[1] === innerLink[1];
+      });
+  }).sort((a, b) => {
     return sortEntries(a, b);
   }).forEach((linkText) => {
     const a = createLinkForIndexText(linkText, book);

@@ -20,7 +20,6 @@ copyright.
 
 ## Higher priority to-dos
 
-1. Fix link display for inner arrays as ranges
 1. `$seeAlso` in Íqán parser
 1. Add books
 

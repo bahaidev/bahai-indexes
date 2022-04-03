@@ -4,8 +4,10 @@
  * @returns {1|-1|0}
  */
 function sortEntries (a, b) {
-  const numA = Number.parseInt(a);
-  const numB = Number.parseInt(b);
+  const aFirst = Array.isArray(a) ? a[0] : a;
+  const bFirst = Array.isArray(b) ? b[0] : b;
+  const numA = Number.parseInt(aFirst);
+  const numB = Number.parseInt(bFirst);
   if (
     Number.isNaN(numA) && !Number.isNaN(numB)
   ) {
@@ -17,13 +19,13 @@ function sortEntries (a, b) {
     return -1;
   }
   if (Number.isNaN(numA)) { // Both are not numbers
-    const firstCharA = a.charAt();
-    const firstCharB = b.charAt();
+    const firstCharA = aFirst.charAt();
+    const firstCharB = bFirst.charAt();
     if (firstCharA !== firstCharB) {
       return firstCharA < firstCharB ? -1 : firstCharA > firstCharB ? 1 : 0;
     }
-    const numPartA = Number.parseInt(a.match(/\d+/u));
-    const numPartB = Number.parseInt(b.match(/\d+/u));
+    const numPartA = Number.parseInt(aFirst.match(/\d+/u));
+    const numPartB = Number.parseInt(bFirst.match(/\d+/u));
     return numPartA < numPartB ? -1 : numPartA > numPartB ? 1 : 0;
   }
 
