@@ -1,4 +1,4 @@
-import {readFile, writeFile, readdir} from 'fs/promises';
+import {readFile, readdir} from 'fs/promises';
 import writeJSON from '../html-parsers/utils/writeJSON.js';
 
 const books = await readdir('./indexes/json/books');
