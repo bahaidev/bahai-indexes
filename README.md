@@ -10,6 +10,8 @@ npm i bahai-indexes
 Note that any copyright that applies for the original indexes follows its own
 copyright.
 
+You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&entriesOrLinks=2).
+
 **NOTE: This project only has an index for the following files at present!**
 
 ## Sources
@@ -18,15 +20,18 @@ copyright.
     view within queries against the following (currently Chrome only:
     <https://bahai-browser.org/#lang=en-US&work=aqdas>).
 
+-  *Kitáb-i-Íqán* (`aqdas`) - From <https://bahai-library.com/writings/bahaullah/iqan/iq-indx.htm>.
+
 ## Higher priority to-dos
 
-1. Put web app online and add link here
-1. Add books
+1. Add more books
 
 ## Medium priority to-dos
 
 1. Delete unused URL params
 1. Merging of entries option
+1. Could make agnostic to application, with user supplying JSON as config
+    files.
 1. Ideally add categories, even to each entry level, and allow merging
 1. Editing
     1. Add category mechanism for adding categories (and categories for these
