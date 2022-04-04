@@ -25,6 +25,7 @@ copyright.
 
 ## Medium priority to-dos
 
+1. Delete unused URL params
 1. Merging of entries option
 1. Ideally add categories, even to each entry level, and allow merging
 1. Editing
