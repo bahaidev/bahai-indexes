@@ -24,7 +24,7 @@ You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&e
 
 ## Higher priority to-dos
 
-1. Add more books
+1. Add more books (see <https://bahai-library.com/zamir_temp_indexes>)
 
 ## Medium priority to-dos
 
