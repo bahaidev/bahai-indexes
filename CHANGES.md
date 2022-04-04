@@ -1,5 +1,9 @@
 # bahai-indexes CHANGES
 
+## 0.7.0
+
+- feat: provide redirect at `/indexes/` (for external use)
+
 ## 0.6.1
 
 - fix: issue with merge links
