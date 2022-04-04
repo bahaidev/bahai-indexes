@@ -13,21 +13,21 @@
     <form id="searchEntries">
       <fieldset class="searchEntries">
         <legend>Search entries</legend>
-        <label>Index term &nbsp;<input id="index-term" /></label>
-        <label><input type="checkbox" id="exact-match" /> Exact match</label>
-        <label><input type="checkbox" id="match-case" /> Match case</label>
-        <label><input type="checkbox" id="top-level-only" /> Top level only</label>
+        <label>Index term &nbsp;<input id="indexTerm" placeholder="e.g., &quot;God&quot;" /></label>
+        <label><input type="checkbox" id="exactMatch" /> Exact match</label>
+        <label><input type="checkbox" id="matchCase" /> Match case</label>
+        <label><input type="checkbox" id="topLevelOnly" /> Top level only</label>
         <br /><br />
         <label>
-          <select id="entries-or-links">
+          <select id="entriesOrLinks">
             <option value="both">Full index entries and page/paragraph links</option>
             <option value="entries-only">Full index entries</option>
             <option value="links-only">Only index entry title and page/paragraph links</option>
           </select>
         </label>
         <!-- Todo: Unhide -->
-        <label hidden><input type="checkbox" id="merge-entries" /> Merge entries</label>
-        <label><input type="checkbox" id="merge-links" /> Merge links</label>
+        <label hidden><input type="checkbox" id="mergeEntries" /> Merge entries</label>
+        <label><input type="checkbox" id="mergeLinks" /> Merge links</label>
         <br /><br />
         <label><b>Book</b>:
           <select id="books">
@@ -43,21 +43,21 @@
     <form id="searchEntriesPages">
       <fieldset class="searchEntries">
         <legend>Search Page/paragraph</legend>
-        <label>Page/paragraph &nbsp;<input id="index-page" /></label>
+        <label>Page/paragraph &nbsp;<input id="indexPage" placeholder="e.g., &quot;K6&quot;" /></label>
         <br /><br />
         <label>
-          <select id="entries-or-links-pages">
+          <select id="entriesOrLinksPages">
             <option value="both">Full index entries and page/paragraph links</option>
             <option value="entries-only">Full index entries</option>
             <option value="links-only">Only index entry title and page/paragraph links</option>
           </select>
         </label>
         <!-- Todo: Unhide -->
-        <label hidden><input type="checkbox" id="merge-entries-pages" /> Merge entries</label>
-        <label><input type="checkbox" id="merge-links-pages" /> Merge links</label>
+        <label hidden><input type="checkbox" id="mergeEntriesPages" /> Merge entries</label>
+        <label><input type="checkbox" id="mergeLinksPages" /> Merge links</label>
         <br /><br />
         <label><b>Book</b>:
-          <select id="books-pages">
+          <select id="booksPages">
             <option value="">(Any)</option>
           </select>
         </label>

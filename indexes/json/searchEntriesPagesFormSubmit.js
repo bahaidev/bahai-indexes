@@ -54,11 +54,11 @@ async function searchEntriesFormPagesSubmit (e) {
     };
   }
 
-  // const mergeEntries = $('#merge-entries').checked;
-  const mergeLinks = $('#merge-links-pages').checked;
-  const entriesOrLinks = $('#entries-or-links-pages').value;
-  const target = $('#index-page').value;
-  const book = $('#books-pages').value;
+  // const mergeEntries = $('#mergeEntries').checked;
+  const mergeLinks = $('#mergeLinksPages').checked;
+  const entriesOrLinks = $('#entriesOrLinksPages').value;
+  const target = $('#indexPage').value;
+  const book = $('#booksPages').value;
   const jsonataBindings = {target};
 
   const bookChoice = `*[${book ? `book="${book}"` : 'book'}].index.`;

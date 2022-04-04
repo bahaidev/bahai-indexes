@@ -2,20 +2,14 @@ import {$, httpquery} from './utils.js';
 import searchEntriesFormSubmit from './searchEntriesFormSubmit.js';
 import searchEntriesPagesFormSubmit from './searchEntriesPagesFormSubmit.js';
 
-const namespace = 'bahai-indexes-';
-
-const books = await httpquery(
-  'books.json',
-  {
-    query: '*.book[]',
-    bindings: '{}'
-  }
-);
-books.forEach((book) => {
+(await httpquery('books.json', {
+  query: '*.book[]',
+  bindings: '{}'
+})).forEach((book) => {
   const option = document.createElement('option');
   option.textContent = book;
   $('#books').append(option);
-  $('#books-pages').append(option.cloneNode(true));
+  $('#booksPages').append(option.cloneNode(true));
 });
 
 const searchEntriesForm = $('#searchEntries');
@@ -23,95 +17,124 @@ const searchEntriesForm = $('#searchEntries');
 const searchEntriesPagesForm = $('#searchEntriesPages');
 
 const selectMenus = [
-  'entries-or-links',
+  'entriesOrLinks',
   'books'
 ];
 const selectMenusPages = [
-  'entries-or-links-pages',
-  'books-pages'
+  'entriesOrLinksPages',
+  'booksPages'
 ];
 
 const checkboxes = [
-  'exact-match',
-  'match-case',
-  'top-level-only',
-  'merge-entries',
-  'merge-links'
+  'exactMatch',
+  'matchCase',
+  'topLevelOnly',
+  'mergeEntries',
+  'mergeLinks'
 ];
 const checkboxesPages = [
-  'merge-links-pages',
-  'merge-entries-pages'
+  'mergeLinksPages',
+  'mergeEntriesPages'
+];
+
+const inputs = [
+  'indexTerm'
+];
+const inputsPages = [
+  'indexPage'
 ];
 
 searchEntriesForm.addEventListener('submit', searchEntriesFormSubmit);
 searchEntriesPagesForm.addEventListener('submit', searchEntriesPagesFormSubmit);
 
+const storeInput = (id) => {
+  const newURL = new URL(location.href);
+
+  const [set, remove] = id === 'indexTerm'
+    ? ['indexTerm', 'indexPage']
+    : ['indexPage', 'indexTerm'];
+
+  newURL.searchParams.set(set, $('#' + id).value);
+  // Will interfere otherwise
+  newURL.searchParams.delete(remove);
+
+  return newURL.toString();
+};
+
 const storeSelect = (id) => {
-  localStorage.setItem(
-    namespace + id, $('#' + id).selectedIndex
-  );
+  const newURL = new URL(location.href);
+  newURL.searchParams.set(id, $('#' + id).selectedIndex);
+  return newURL.toString();
 };
 
 const storeCheckbox = (id) => {
-  localStorage.setItem(namespace + id, $('#' + id).checked);
+  const newURL = new URL(location.href);
+  newURL.searchParams.set(id, $('#' + id).checked ? '1' : '0');
+  return newURL.toString();
 };
 
-searchEntriesForm.addEventListener('change', () => {
-  selectMenus.forEach((id) => storeSelect(id));
-  checkboxes.forEach((id) => storeCheckbox(id));
+const changeSubmitter = ({target}) => {
+  const {type, id} = target;
 
-  searchEntriesFormSubmit(new Event('submit'));
-});
+  let newURL;
+  switch (type) {
+  case 'text':
+    newURL = storeInput(id);
+    break;
+  case 'checkbox':
+    newURL = storeCheckbox(id);
+    break;
+  case 'select-one':
+    newURL = storeSelect(id);
+    break;
+  default:
+    throw new TypeError('Unknown type' + target.outerHTML);
+  }
 
-searchEntriesPagesForm.addEventListener('change', () => {
-  selectMenusPages.forEach((id) => storeSelect(id));
-  checkboxesPages.forEach((id) => storeCheckbox(id));
+  location.href = newURL.toString();
+};
+searchEntriesForm.addEventListener('change', changeSubmitter);
+searchEntriesPagesForm.addEventListener('change', changeSubmitter);
 
-  searchEntriesPagesFormSubmit(new Event('submit'));
-});
+const indexTermInput = $('#indexTerm');
+const indexPageInput = $('#indexPage');
 
-const indexTermInput = $('#index-term');
-indexTermInput.addEventListener('change', (e) => {
-  const url = new URL(location.href);
-  url.searchParams.set('indexTerm', e.target.value);
-  url.searchParams.delete('indexPage');
-  location.href = url.toString();
-});
-indexTermInput.focus();
+const url = new URL(location.href);
 
-const indexPageInput = $('#index-page');
-indexPageInput.addEventListener('change', (e) => {
-  const url = new URL(location.href);
-  url.searchParams.set('indexPage', e.target.value);
-  url.searchParams.delete('indexTerm'); // Will interfere otherwise
-  location.href = url.toString();
-});
-
-const setMenu = (id) => {
-  $('#' + id).selectedIndex = localStorage.getItem(
-    namespace + id
-  );
+const setSelect = (id) => {
+  const param = url.searchParams.get(id);
+  $('#' + id).selectedIndex = Number.parseInt(param);
 };
 
 const setCheckbox = (id) => {
-  $('#' + id).checked = localStorage.getItem(
-    namespace + id
-  ) === 'true';
+  const param = url.searchParams.get(id);
+  $('#' + id).checked = param === '1';
 };
 
-selectMenus.forEach((id) => setMenu(id));
-selectMenusPages.forEach((id) => setMenu(id));
+const setInput = (id) => {
+  const param = url.searchParams.get(id);
+  const input = $('#' + id);
+  input.value = param;
+
+  if (!param) {
+    return;
+  }
+
+  if (id === 'indexTerm') {
+    searchEntriesFormSubmit(new Event('submit'));
+    indexTermInput.focus();
+  } else if (id === 'indexPage') {
+    searchEntriesPagesFormSubmit(new Event('submit'));
+    indexPageInput.focus();
+  }
+};
+
+// Default
+indexTermInput.focus();
+
+selectMenus.forEach((id) => setSelect(id));
+selectMenusPages.forEach((id) => setSelect(id));
 checkboxes.forEach((id) => setCheckbox(id));
 checkboxesPages.forEach((id) => setCheckbox(id));
-
-const indexTerm = new URL(location.href).searchParams.get('indexTerm');
-const indexPage = new URL(location.href).searchParams.get('indexPage');
-
-if (indexTerm) {
-  indexTermInput.value = indexTerm;
-  searchEntriesFormSubmit(new Event('submit'));
-} else if (indexPage) {
-  indexPageInput.value = indexPage;
-  searchEntriesPagesFormSubmit(new Event('submit'));
-  indexPageInput.focus();
-}
+inputs.forEach((id) => setInput(id));
+inputsPages.forEach((id) => setInput(id));

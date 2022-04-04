@@ -29,12 +29,12 @@ async function searchEntriesFormSubmit (e) {
         : obj.$text.toLowerCase().includes(target.toLowerCase());
   }
 
-  const mergeLinks = $('#merge-links').checked;
-  const exactMatch = $('#exact-match').checked;
-  const matchCase = $('#match-case').checked;
-  const topLevelOnly = $('#top-level-only').checked;
-  const entriesOrLinks = $('#entries-or-links').value;
-  const target = $('#index-term').value;
+  const mergeLinks = $('#mergeLinks').checked;
+  const exactMatch = $('#exactMatch').checked;
+  const matchCase = $('#matchCase').checked;
+  const topLevelOnly = $('#topLevelOnly').checked;
+  const entriesOrLinks = $('#entriesOrLinks').value;
+  const target = $('#indexTerm').value;
   const book = $('#books').value;
   const jsonataBindings = {target};
 
@@ -143,7 +143,7 @@ async function searchEntriesFormSubmit (e) {
       });
     }
   } else {
-    // const mergeEntries = $('#merge-entries').checked;
+    // const mergeEntries = $('#mergeEntries').checked;
 
     const ul = document.createElement('ul');
     let bookUl;
