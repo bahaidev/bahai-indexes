@@ -41,4 +41,5 @@ copyright.
 
 ## Lower priority to-dos
 
+1. Offline ability
 1. Add JSON Schema for each schema and any fixed rules into an abstract schema
