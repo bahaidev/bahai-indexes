@@ -5,7 +5,7 @@ import searchEntriesPagesFormSubmit from './searchEntriesPagesFormSubmit.js';
 const namespace = 'bahai-indexes-';
 
 const books = await httpquery(
-  'http://127.0.0.1:1337/books.json',
+  'books.json',
   {
     query: '*.book[]',
     bindings: '{}'

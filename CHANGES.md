@@ -1,5 +1,11 @@
 # bahai-indexes CHANGES
 
+## 0.6.0
+
+- fix: do not throw with text using Roman numerals
+- feat: avoid hard-coding URL
+- chore: update `httpquery` and devDeps.
+
 ## 0.5.0
 
 - feat: add webapp for querying indexes (uses httpquery)

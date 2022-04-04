@@ -1,7 +1,7 @@
 {
   "name": "bahai-indexes",
   "type": "module",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Indexes to the Bahá'í Writings in JSON form",
   "main": "src/buildFlattenedJSONAndJS.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "bugs": "https://bitbucket.org/brettz9/bahai-indexes/issues?status=new&status=open",
   "homepage": "https://bitbucket.org/brettz9/bahai-indexes#readme",
   "dependencies": {
-    "httpquery": "^0.7.0"
+    "httpquery": "^0.8.2"
   },
   "engines": {
     "node": ">=12"
@@ -46,7 +46,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsdoc": "^38.1.4",
+    "eslint-plugin-jsdoc": "^38.1.6",
     "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-no-unsanitized": "^4.0.1",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
@@ -54,7 +54,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-sonarjs": "^0.13.0",
     "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-unicorn": "^41.0.1",
+    "eslint-plugin-unicorn": "^42.0.0",
     "handle-node": "^0.2.1",
     "jsdom": "^19.0.0"
   }
