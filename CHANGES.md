@@ -1,5 +1,9 @@
 # bahai-indexes CHANGES
 
+## 0.6.1
+
+- fix: issue with merge links
+
 ## 0.6.0
 
 - fix: do not throw with text using Roman numerals

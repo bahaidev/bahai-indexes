@@ -106,7 +106,7 @@ async function searchEntriesFormPagesSubmit (e) {
           if (!rootLinks[result.$book]) {
             rootLinks[result.$book] = [];
           }
-          rootLinks[result.$book].push(links);
+          rootLinks[result.$book].push(...links);
         } else {
           const heading = document.createElement('h4');
           heading.innerHTML =
