@@ -1,4 +1,4 @@
-# bahai-indexes CHANGES
+# CHANGES to `bahai-indexes`
 
 ## 0.7.0
 
