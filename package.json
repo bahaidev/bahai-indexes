@@ -1,7 +1,7 @@
 {
   "name": "bahai-indexes",
   "type": "module",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Indexes to the Bahá'í Writings in JSON form",
   "main": "src/buildFlattenedJSONAndJS.js",
   "scripts": {

@@ -1,5 +1,10 @@
 # CHANGES to `bahai-indexes`
 
+## 0.8.0
+
+- feat: allow for URL param storage instead of local storage
+- feat: adds placeholders
+
 ## 0.7.0
 
 - feat: provide redirect at `/indexes/` (for external use)
