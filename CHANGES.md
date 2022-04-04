@@ -1,5 +1,9 @@
 # CHANGES to `bahai-indexes`
 
+## 0.8.1
+
+- docs: link to demo, to-dos
+
 ## 0.8.0
 
 - feat: allow for URL param storage instead of local storage
