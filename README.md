@@ -46,5 +46,5 @@ You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&e
 
 ## Lower priority to-dos
 
-1. Offline ability
+1. Offline ability (and reactive web components like uce(-template)?)
 1. Add JSON Schema for each schema and any fixed rules into an abstract schema
