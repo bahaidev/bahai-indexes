@@ -1,5 +1,9 @@
 # CHANGES to `bahai-indexes`
 
+## 0.8.3
+
+- fix: was not separating by book in multi-book view
+
 ## 0.8.2
 
 - fix: disable forms until ready

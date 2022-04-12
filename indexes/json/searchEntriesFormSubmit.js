@@ -146,18 +146,23 @@ async function searchEntriesFormSubmit (e) {
     // const mergeEntries = $('#mergeEntries').checked;
 
     const ul = document.createElement('ul');
-    let bookUl;
+    const bookUl = book ? null : document.createElement('ul');
+    const visited = {};
     results.forEach((result) => {
-      if (!book) {
-        bookUl = document.createElement('ul');
+      let bookUlInner;
+      if (!book && !visited[result.$book]) {
         const bookLi = document.createElement('li');
         const bold = document.createElement('b');
+        bookUlInner = document.createElement('ul');
         bold.textContent = `[${result.$book}]`;
         bookLi.append(bold);
-        bookLi.append(ul);
+        bookLi.append(bookUlInner);
         bookUl.append(bookLi);
+
+        resultsHolder.append(bookUl);
+        visited[result.$book] = true;
       }
-      traverse(result, ul, (obj, parent) => {
+      traverse(result, bookUlInner || ul, (obj, parent) => {
         const li = document.createElement('li');
         li.innerHTML = obj.$text;
         const links = obj.$links || [];
@@ -178,7 +183,7 @@ async function searchEntriesFormSubmit (e) {
       });
     });
 
-    resultsHolder.append(bookUl || ul);
+    if (!bookUl) resultsHolder.append(ul);
   }
 }
 
