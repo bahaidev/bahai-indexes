@@ -138,3 +138,9 @@ checkboxes.forEach((id) => setCheckbox(id));
 checkboxesPages.forEach((id) => setCheckbox(id));
 inputs.forEach((id) => setInput(id));
 inputsPages.forEach((id) => setInput(id));
+
+// Reenable
+const fieldsets = document.querySelectorAll('fieldset');
+fieldsets.forEach((fieldset) => {
+  fieldset.disabled = false;
+});

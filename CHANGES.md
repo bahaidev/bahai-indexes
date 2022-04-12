@@ -1,5 +1,9 @@
 # CHANGES to `bahai-indexes`
 
+## 0.8.2
+
+- fix: disable forms until ready
+
 ## 0.8.1
 
 - docs: link to demo, to-dos
