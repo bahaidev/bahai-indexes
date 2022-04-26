@@ -73,11 +73,20 @@ const storeCheckbox = (id) => {
   return newURL.toString();
 };
 
+const adjustCollapseState = (id) => {
+  const newURL = new URL(location.href);
+  newURL.searchParams.set('collapse', id);
+  return newURL.toString();
+};
+
 const changeSubmitter = ({target}) => {
   const {type, id} = target;
 
   let newURL;
   switch (type) {
+  case 'submit': // Button
+    newURL = adjustCollapseState(id);
+    break;
   case 'text':
     newURL = storeInput(id);
     break;
@@ -96,10 +105,47 @@ const changeSubmitter = ({target}) => {
 searchEntriesForm.addEventListener('change', changeSubmitter);
 searchEntriesPagesForm.addEventListener('change', changeSubmitter);
 
+const collapseSearchEntries = $('#collapseSearchEntries');
+const collapseSearchEntriesPages = $('#collapseSearchEntriesPages');
+const expandAll = $('#expandAll');
+
+expandAll.addEventListener('click', changeSubmitter);
+collapseSearchEntries.addEventListener('click', changeSubmitter);
+collapseSearchEntriesPages.addEventListener('click', changeSubmitter);
+
 const indexTermInput = $('#indexTerm');
 const indexPageInput = $('#indexPage');
 
 const url = new URL(location.href);
+
+const setCollapseState = () => {
+  const param = url.searchParams.get('collapse');
+
+  switch (param) {
+  case 'collapseSearchEntriesPages':
+    searchEntriesForm.hidden = false;
+    searchEntriesPagesForm.hidden = true;
+    collapseSearchEntries.style.display = 'block';
+    collapseSearchEntriesPages.style.display = 'none';
+    expandAll.hidden = false;
+    break;
+  case 'collapseSearchEntries':
+    searchEntriesForm.hidden = true;
+    searchEntriesPagesForm.hidden = false;
+    collapseSearchEntries.style.display = 'none';
+    collapseSearchEntriesPages.style.display = 'block';
+    expandAll.hidden = false;
+    break;
+  // case 'expandAll':
+  default:
+    searchEntriesForm.hidden = false;
+    searchEntriesPagesForm.hidden = false;
+    collapseSearchEntries.style.display = 'block';
+    collapseSearchEntriesPages.style.display = 'block';
+    expandAll.hidden = true;
+    break;
+  }
+};
 
 const setSelect = (id) => {
   const param = url.searchParams.get(id);
@@ -132,6 +178,7 @@ const setInput = (id) => {
 // Default
 indexTermInput.focus();
 
+setCollapseState();
 selectMenus.forEach((id) => setSelect(id));
 selectMenusPages.forEach((id) => setSelect(id));
 checkboxes.forEach((id) => setCheckbox(id));

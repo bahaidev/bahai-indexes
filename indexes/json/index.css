@@ -4,6 +4,25 @@
   width: 45%;
 }
 
+.indexSearch {
+  float: left;
+  width: 45%;
+}
+
+.clear {
+  clear: both;
+}
+
+#collapseSearchEntries, #collapseSearchEntriesPages {
+  display: inline;
+}
+
+.collapseButtons {
+  float: left;
+  margin-top: 10px;
+  width: 2%;
+}
+
 #searchEntriesResults, #searchEntriesPagesResults {
   height: 430px;
   overflow: auto;

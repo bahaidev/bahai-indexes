@@ -1,5 +1,9 @@
 # CHANGES to `bahai-indexes`
 
+## 0.9.0
+
+- feat: add collapse state buttons and parameter to activate
+
 ## 0.8.4
 
 - fix: regression in not showing full contents in all mode with full index

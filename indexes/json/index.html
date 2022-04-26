@@ -9,7 +9,13 @@
     <script type="module" src="index.js" defer="defer"></script>
   </head>
   <body>
-    <h2>Index search</h2>
+    <h2 class="indexSearch">Index search</h2>
+    <div class="collapseButtons">
+      <button id="expandAll" hidden>^</button>
+      <button id="collapseSearchEntriesPages">&lt;-</button>
+      <button id="collapseSearchEntries">-&gt;</button>
+    </div>
+    <br class="clear" />
     <form id="searchEntries">
       <fieldset class="searchEntries" disabled>
         <legend>Search entries</legend>
@@ -39,7 +45,6 @@
         <div id="searchEntriesResults"></div>
       </fieldset>
     </form>
-
     <form id="searchEntriesPages">
       <fieldset class="searchEntries" disabled>
         <legend>Search Page/paragraph</legend>
