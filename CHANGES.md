@@ -1,5 +1,10 @@
 # CHANGES to `bahai-indexes`
 
+## 0.8.4
+
+- fix: regression in not showing full contents in all mode with full index
+    entries
+
 ## 0.8.3
 
 - fix: was not separating by book in multi-book view

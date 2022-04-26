@@ -151,12 +151,15 @@ async function searchEntriesFormPagesSubmit (e) {
     const visited = {};
     results.forEach((result) => {
       let bookUlInner;
-      if (!book && !visited[result.$book]) {
+      if (!book) {
         const bookLi = document.createElement('li');
-        const bold = document.createElement('b');
+        bookLi.style.listStyleType = 'none';
+        if (!visited[result.$book]) {
+          const bold = document.createElement('b');
+          bold.textContent = `[${result.$book}]`;
+          bookLi.append(bold);
+        }
         bookUlInner = document.createElement('ul');
-        bold.textContent = `[${result.$book}]`;
-        bookLi.append(bold);
         bookLi.append(bookUlInner);
         bookUl.append(bookLi);
 
