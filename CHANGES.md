@@ -1,5 +1,9 @@
 # CHANGES to `bahai-indexes`
 
+## 0.9.1
+
+- fix: ensure display is 100% when a panel is collapsed
+
 ## 0.9.0
 
 - feat: add collapse state buttons and parameter to activate

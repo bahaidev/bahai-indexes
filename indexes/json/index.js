@@ -123,23 +123,29 @@ const setCollapseState = () => {
 
   switch (param) {
   case 'collapseSearchEntriesPages':
-    searchEntriesForm.hidden = false;
-    searchEntriesPagesForm.hidden = true;
+    searchEntriesForm.classList.remove('hidden');
+    searchEntriesForm.classList.add('shownAlone');
+    searchEntriesPagesForm.classList.add('hidden');
+    searchEntriesPagesForm.classList.remove('shownAlone');
     collapseSearchEntries.style.display = 'block';
     collapseSearchEntriesPages.style.display = 'none';
     expandAll.hidden = false;
     break;
   case 'collapseSearchEntries':
-    searchEntriesForm.hidden = true;
-    searchEntriesPagesForm.hidden = false;
+    searchEntriesForm.classList.remove('shownAlone');
+    searchEntriesForm.classList.add('hidden');
+    searchEntriesPagesForm.classList.add('shownAlone');
+    searchEntriesPagesForm.classList.remove('hidden');
     collapseSearchEntries.style.display = 'none';
     collapseSearchEntriesPages.style.display = 'block';
     expandAll.hidden = false;
     break;
   // case 'expandAll':
   default:
-    searchEntriesForm.hidden = false;
-    searchEntriesPagesForm.hidden = false;
+    searchEntriesForm.classList.remove('hidden');
+    searchEntriesForm.classList.remove('shownAlone');
+    searchEntriesPagesForm.classList.remove('hidden');
+    searchEntriesPagesForm.classList.remove('shownAlone');
     collapseSearchEntries.style.display = 'block';
     collapseSearchEntriesPages.style.display = 'block';
     expandAll.hidden = true;

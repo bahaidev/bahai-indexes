@@ -1,7 +1,19 @@
-.searchEntries, .pageParagraph {
+#searchEntries, #searchEntriesPages {
+  /* Hidden by default */
+}
+
+.hidden {
+  display: none;
+}
+
+.searchEntries, .searchEntriesPages {
   float: left;
   height: 590px;
   width: 45%;
+}
+
+.shownAlone .searchEntries, .shownAlone .searchEntriesPages {
+  width: 100%;
 }
 
 .indexSearch {
