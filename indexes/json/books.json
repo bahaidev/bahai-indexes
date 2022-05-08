@@ -9,14 +9,16 @@
             232,
             240
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "'Abdu'lláh-i-Ubayy": {
         "$text": "'Abdu'lláh-i-Ubayy",
         "$links": [
           25,
           83
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Abraham": {
         "$text": "Abraham",
@@ -24,13 +26,15 @@
           57,
           75,
           173
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Abu 'Ámir": {
         "$text": "Abu 'Ámir",
         "$links": [
           25
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Acquiescence": {
         "$text": "Acquiescence",
@@ -38,7 +42,8 @@
           133,
           290,
           299
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Adam": {
         "$text": "Adam",
@@ -48,32 +53,37 @@
           172,
           173,
           258
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Adrianople": {
         "$text": "Adrianople",
         "$links": [
           114
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Adversity": {
         "$text": "Adversity",
         "$links": [
           72,
           285
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Afnán, Tablet to": {
         "$text": "Afnán, Tablet to",
         "$links": [
           92
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "'Alí, Imám": {
         "$text": "'Alí, Imám",
         "$links": [
           51
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "'Alí, Tablet to": {
         "$text": "'Alí, Tablet to",
@@ -83,7 +93,8 @@
             308,
             312
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Angels": {
         "$text": "Angels",
@@ -98,27 +109,31 @@
           295,
           309,
           334
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Animals": {
         "$text": "Animals",
         "$links": [
           265,
           335
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Annas": {
         "$text": "Annas",
         "$links": [
           83
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Arabic": {
         "$text": "Arabic",
         "$links": [
           173,
           298
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ark of God": {
         "$text": "Ark of God",
@@ -128,7 +143,8 @@
           170,
           212,
           302
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Armaments": {
         "$text": "Armaments",
@@ -136,7 +152,8 @@
           249,
           250,
           254
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Arts, source of": {
         "$text": "Arts, source of",
@@ -146,13 +163,15 @@
           144,
           157,
           161
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ashraf, mother of": {
         "$text": "Ashraf, mother of",
         "$links": [
           135
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Atom": {
         "$text": "Atom",
@@ -164,14 +183,16 @@
           300,
           324,
           325
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Attacks on Cause to be refuted": {
         "$text": "Attacks on Cause to be refuted",
         "$links": [
           329,
           330
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Báb ('Alí-Muhammad)": {
         "$text": "Báb ('Alí-Muhammad)",
@@ -249,13 +270,15 @@
               ]
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Babel": {
         "$text": "Babel",
         "$links": [
           173
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Bábís, call to": {
         "$text": "Bábís, call to",
@@ -274,20 +297,23 @@
               294
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Backbiting": {
         "$text": "Backbiting",
         "$links": [
           265
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Baghdád": {
         "$text": "Baghdád",
         "$links": [
           229,
           230
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Baghdád House of Bahá'u'lláh": {
         "$text": "Baghdád House of Bahá'u'lláh",
@@ -331,7 +357,8 @@
               ]
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Bahá'ís": {
         "$text": "Bahá'ís",
@@ -339,7 +366,8 @@
           {
             "id": "Believers"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Bahá'u'lláh": {
         "$text": "Bahá'u'lláh",
@@ -810,13 +838,15 @@
               199
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Balál": {
         "$text": "Balál",
         "$links": [
           83
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Balance": {
         "$text": "Balance",
@@ -827,7 +857,8 @@
           236,
           281,
           292
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Bayán": {
         "$text": "Bayán",
@@ -855,7 +886,8 @@
               149
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Belief in God": {
         "$text": "Belief in God",
@@ -868,7 +900,8 @@
           200,
           324,
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Believers": {
         "$text": "Believers",
@@ -1200,13 +1233,15 @@
               343
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Birds of Darkness": {
         "$text": "Birds of Darkness",
         "$links": [
           340
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Blindness, spiritual": {
         "$text": "Blindness, spiritual",
@@ -1216,7 +1251,8 @@
           116,
           284,
           327
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Book, Mother": {
         "$text": "Book, Mother",
@@ -1224,7 +1260,8 @@
           34,
           99,
           199
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Book of Bahá'u'lláh": {
         "$text": "Book of Bahá'u'lláh",
@@ -1238,7 +1275,8 @@
           270,
           286,
           306
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Book of each Manifestation": {
         "$text": "Book of each Manifestation",
@@ -1248,7 +1286,8 @@
           74,
           173,
           290
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Book of God": {
         "$text": "Book of God",
@@ -1264,13 +1303,15 @@
           294,
           297,
           341
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Bread": {
         "$text": "Bread",
         "$links": [
           195
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Burning Bush": {
         "$text": "Burning Bush",
@@ -1281,13 +1322,15 @@
           199,
           269,
           271
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Caiaphas": {
         "$text": "Caiaphas",
         "$links": [
           83
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Calamities, prophesied": {
         "$text": "Calamities, prophesied",
@@ -1304,13 +1347,15 @@
           218,
           319,
           340
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Canaan": {
         "$text": "Canaan",
         "$links": [
           84
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Carmel": {
         "$text": "Carmel",
@@ -1320,7 +1365,8 @@
             16
           ],
           211
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Cause of God": {
         "$text": "Cause of God",
@@ -1328,14 +1374,16 @@
           {
             "id": "Revelation"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Celestial spheres": {
         "$text": "Celestial spheres",
         "$links": [
           162,
           163
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Certitude, City of": {
         "$text": "Certitude, City of",
@@ -1344,7 +1392,8 @@
             267,
             270
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Character": {
         "$text": "Character",
@@ -1352,14 +1401,16 @@
           {
             "id": "Believers"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Charity": {
         "$text": "Charity",
         "$links": [
           278,
           285
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Chastisement": {
         "$text": "Chastisement",
@@ -1371,7 +1422,8 @@
           325,
           339,
           346
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Chastity": {
         "$text": "Chastity",
@@ -1379,7 +1431,8 @@
           117,
           118,
           297
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Christ": {
         "$text": "Christ",
@@ -1387,19 +1440,22 @@
           {
             "id": "Jesus Christ"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Christendom, Tablet to Kings of": {
         "$text": "Christendom, Tablet to Kings of",
         "$links": [
           246
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Christians, call to": {
         "$text": "Christians, call to",
         "$links": [
           101
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "City of God": {
         "$text": "City of God",
@@ -1408,7 +1464,8 @@
             267,
             270
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Civilization": {
         "$text": "Civilization",
@@ -1417,7 +1474,8 @@
           216,
           342,
           343
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Clergy": {
         "$text": "Clergy",
@@ -1425,7 +1483,8 @@
           {
             "id": "Divines"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Clouds\"": {
         "$text": "\"Clouds\"",
@@ -1446,7 +1505,8 @@
           306,
           320,
           324
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Concourse": {
         "$text": "Concourse",
@@ -1466,7 +1526,8 @@
           307,
           315,
           330
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Conduct": {
         "$text": "Conduct",
@@ -1474,13 +1535,15 @@
           {
             "id": "Believers"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Consecration": {
         "$text": "Consecration",
         "$links": [
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Constantinople": {
         "$text": "Constantinople",
@@ -1496,7 +1559,8 @@
               125
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Contention, forbidden": {
         "$text": "Contention, forbidden",
@@ -1506,20 +1570,23 @@
           279,
           296,
           304
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Copper": {
         "$text": "Copper",
         "$links": [
           197,
           198
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Courtesy": {
         "$text": "Courtesy",
         "$links": [
           305
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Covenant of God": {
         "$text": "Covenant of God",
@@ -1528,14 +1595,16 @@
           128,
           328,
           331
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Covetousness": {
         "$text": "Covetousness",
         "$links": [
           169,
           323
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Creation": {
         "$text": "Creation",
@@ -1648,7 +1717,8 @@
               174
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Cycle, prophetic": {
         "$text": "Cycle, prophetic",
@@ -1656,7 +1726,8 @@
           60,
           62,
           75
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Day of God": {
         "$text": "Day of God",
@@ -1735,7 +1806,8 @@
               340
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Death": {
         "$text": "Death",
@@ -1785,7 +1857,8 @@
               213
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Deeds": {
         "$text": "Deeds",
@@ -1856,13 +1929,15 @@
               331
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Deluge": {
         "$text": "Deluge",
         "$links": [
           174
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Detachment": {
         "$text": "Detachment",
@@ -1896,13 +1971,15 @@
           326,
           334,
           339
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Dhábih, Tablet to": {
         "$text": "Dhábih, Tablet to",
         "$links": [
           240
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Disbelievers, untrustworthy": {
         "$text": "Disbelievers, untrustworthy",
@@ -1914,7 +1991,8 @@
           {
             "id": "Non-believers"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Dissension": {
         "$text": "Dissension",
@@ -1928,7 +2006,8 @@
           296,
           333,
           341
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divine Guidance": {
         "$text": "Divine Guidance",
@@ -1948,7 +2027,8 @@
           338,
           339,
           342
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divine Justice": {
         "$text": "Divine Justice",
@@ -1957,7 +2037,8 @@
           98,
           100,
           117
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divine Physician": {
         "$text": "Divine Physician",
@@ -1967,7 +2048,8 @@
           81,
           213,
           255
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divine Presence": {
         "$text": "Divine Presence",
@@ -1975,7 +2057,8 @@
           {
             "id": "Presence of God"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divine retribution": {
         "$text": "Divine retribution",
@@ -1983,7 +2066,8 @@
           {
             "id": "Retribution"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divine Unity": {
         "$text": "Divine Unity",
@@ -1991,7 +2075,8 @@
           {
             "id": "Unity"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Divines, influence of": {
         "$text": "Divines, influence of",
@@ -2005,14 +2090,16 @@
           179,
           180,
           215
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Dreams": {
         "$text": "Dreams",
         "$links": [
           152,
           162
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Duality": {
         "$text": "Duality",
@@ -2024,7 +2111,8 @@
             336,
             337
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Earth": {
         "$text": "Earth",
@@ -2045,7 +2133,8 @@
               322
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Education": {
         "$text": "Education",
@@ -2058,7 +2147,8 @@
           260,
           312,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Equity": {
         "$text": "Equity",
@@ -2067,7 +2157,8 @@
           203,
           204,
           236
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Everlasting Life": {
         "$text": "Everlasting Life",
@@ -2075,14 +2166,16 @@
           {
             "id": "Life"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Evil, source of": {
         "$text": "Evil, source of",
         "$links": [
           149,
           342
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Evil One": {
         "$text": "Evil One",
@@ -2095,13 +2188,15 @@
           168,
           275,
           284
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Eye, function of": {
         "$text": "Eye, function of",
         "$links": [
           160
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Faith": {
         "$text": "Faith",
@@ -2136,7 +2231,8 @@
               333
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Faithfulness": {
         "$text": "Faithfulness",
@@ -2144,39 +2240,45 @@
           91,
           161,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fanaticism, religious": {
         "$text": "Fanaticism, religious",
         "$links": [
           288
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fane, Frequented": {
         "$text": "Fane, Frequented",
         "$links": [
           292
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fashioner": {
         "$text": "Fashioner",
         "$links": [
           14,
           141
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fast, prayer for the": {
         "$text": "Fast, prayer for the",
         "$links": [
           299,
           337
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fate": {
         "$text": "Fate",
         "$links": [
           133
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fear God": {
         "$text": "Fear God",
@@ -2193,7 +2295,8 @@
           314,
           323,
           346
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Fellowship": {
         "$text": "Fellowship",
@@ -2211,7 +2314,8 @@
             333,
             334
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Force, prohibited in teaching": {
         "$text": "Force, prohibited in teaching",
@@ -2219,7 +2323,8 @@
           278,
           303,
           330
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Forgiveness": {
         "$text": "Forgiveness",
@@ -2233,7 +2338,8 @@
           309,
           310,
           311
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Free Will": {
         "$text": "Free Will",
@@ -2244,19 +2350,22 @@
           164,
           337,
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Freedom, true": {
         "$text": "Freedom, true",
         "$links": [
           78
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Gabriel": {
         "$text": "Gabriel",
         "$links": [
           103
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Generosity": {
         "$text": "Generosity",
@@ -2264,7 +2373,8 @@
           278,
           285,
           297
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "God": {
         "$text": "God",
@@ -2748,7 +2858,8 @@
               325
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Gold": {
         "$text": "Gold",
@@ -2756,14 +2867,16 @@
           197,
           198,
           200
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Gospel": {
         "$text": "Gospel",
         "$links": [
           270,
           294
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Governments": {
         "$text": "Governments",
@@ -2787,7 +2900,8 @@
               241
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Great Announcement": {
         "$text": "Great Announcement",
@@ -2795,7 +2909,8 @@
           40,
           116,
           308
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Guidance, Divine": {
         "$text": "Guidance, Divine",
@@ -2815,19 +2930,22 @@
           338,
           339,
           342
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Hakím, Tablet to": {
         "$text": "Hakím, Tablet to",
         "$links": [
           200
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Handmaids, prayer for": {
         "$text": "Handmaids, prayer for",
         "$links": [
           134
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Hearing": {
         "$text": "Hearing",
@@ -2835,7 +2953,8 @@
           164,
           195,
           340
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Heart": {
         "$text": "Heart",
@@ -2843,13 +2962,15 @@
           {
             "id": "Man"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Heathen": {
         "$text": "Heathen",
         "$links": [
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Heavens (of religions) rent": {
         "$text": "Heavens (of religions) rent",
@@ -2858,13 +2979,15 @@
           42,
           45,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Hebrew": {
         "$text": "Hebrew",
         "$links": [
           173
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Hell": {
         "$text": "Hell",
@@ -2873,25 +2996,29 @@
           45,
           158,
           209
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Herald": {
         "$text": "Herald",
         "$links": [
           43
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Him whom God will make manifest\"": {
         "$text": "\"Him whom God will make manifest\"",
         "$links": [
           270
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Holy Ghost": {
         "$text": "Holy Ghost",
         "$links": [
           103
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Holy Land, references to": {
         "$text": "Holy Land, references to",
@@ -2903,7 +3030,8 @@
           199,
           211,
           344
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Honesty": {
         "$text": "Honesty",
@@ -2912,7 +3040,8 @@
             297,
             299
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Honor": {
         "$text": "Honor",
@@ -2921,7 +3050,8 @@
           235,
           305,
           306
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Hour,\" appointed": {
         "$text": "\"Hour,\" appointed",
@@ -2935,7 +3065,8 @@
           204,
           211,
           214
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Humanity": {
         "$text": "Humanity",
@@ -2943,13 +3074,15 @@
           {
             "id": "Mankind"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Humiliation": {
         "$text": "Humiliation",
         "$links": [
           305
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Humility": {
         "$text": "Humility",
@@ -2957,7 +3090,8 @@
           7,
           8,
           9
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Husayn, Imám": {
         "$text": "Husayn, Imám",
@@ -2965,25 +3099,29 @@
           12,
           76,
           225
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Husayn, Tablet to": {
         "$text": "Husayn, Tablet to",
         "$links": [
           12
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Illiteracy": {
         "$text": "Illiteracy",
         "$links": [
           312
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Imám-'Alí": {
         "$text": "Imám-'Alí",
         "$links": [
           51
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Imám-Husayn": {
         "$text": "Imám-Husayn",
@@ -2991,13 +3129,15 @@
           12,
           76,
           225
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Imáms": {
         "$text": "Imáms",
         "$links": [
           51
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Immortality": {
         "$text": "Immortality",
@@ -3016,13 +3156,15 @@
           {
             "id": "Life"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Impostor": {
         "$text": "Impostor",
         "$links": [
           346
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Inequality of man": {
         "$text": "Inequality of man",
@@ -3032,13 +3174,15 @@
             187,
             189
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Infidels, condition at time of death": {
         "$text": "Infidels, condition at time of death",
         "$links": [
           170
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Injustice": {
         "$text": "Injustice",
@@ -3052,7 +3196,8 @@
           250,
           251,
           342
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Insight": {
         "$text": "Insight",
@@ -3065,7 +3210,8 @@
           ],
           298,
           331
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Intellectual pride": {
         "$text": "Intellectual pride",
@@ -3075,13 +3221,15 @@
           265,
           314,
           315
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Intercession": {
         "$text": "Intercession",
         "$links": [
           315
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "International Counsel enjoined": {
         "$text": "International Counsel enjoined",
@@ -3089,7 +3237,8 @@
           216,
           249,
           254
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Íqán, excerpts from": {
         "$text": "Íqán, excerpts from",
@@ -3112,7 +3261,8 @@
             264,
             270
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "'Iraq": {
         "$text": "'Iraq",
@@ -3127,7 +3277,8 @@
           230,
           240,
           339
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Irreligion, spread of": {
         "$text": "Irreligion, spread of",
@@ -3136,19 +3287,22 @@
           200,
           209,
           288
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Isaiah, prophecy of": {
         "$text": "Isaiah, prophecy of",
         "$links": [
           13
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ishmael": {
         "$text": "Ishmael",
         "$links": [
           75
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Islam": {
         "$text": "Islam",
@@ -3165,26 +3319,30 @@
               69
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Israel": {
         "$text": "Israel",
         "$links": [
           20
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Javád, Tablet to": {
         "$text": "Javád, Tablet to",
         "$links": [
           208
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Jerusalem": {
         "$text": "Jerusalem",
         "$links": [
           13,
           117
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Jesus Christ": {
         "$text": "Jesus Christ",
@@ -3239,7 +3397,8 @@
               20
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Jews": {
         "$text": "Jews",
@@ -3261,7 +3420,8 @@
               20
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Jordan": {
         "$text": "Jordan",
@@ -3275,7 +3435,8 @@
               117
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Judgment Day": {
         "$text": "Judgment Day",
@@ -3292,13 +3453,15 @@
           236,
           247,
           251
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Júk": {
         "$text": "Júk",
         "$links": [
           174
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Justice": {
         "$text": "Justice",
@@ -3328,7 +3491,8 @@
           305,
           306,
           342
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Justice, Divine": {
         "$text": "Justice, Divine",
@@ -3346,37 +3510,43 @@
               175
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Kaaba": {
         "$text": "Kaaba",
         "$links": [
           16
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ka'b-ibn-i-Ashraf": {
         "$text": "Ka'b-ibn-i-Ashraf",
         "$links": [
           25
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Kamál, Tablet to": {
         "$text": "Kamál, Tablet to",
         "$links": [
           214
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Karbilá": {
         "$text": "Karbilá",
         "$links": [
           89
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Khalíl, Tablet to": {
         "$text": "Khalíl, Tablet to",
         "$links": [
           295
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Kindliness": {
         "$text": "Kindliness",
@@ -3388,14 +3558,16 @@
           299,
           315,
           334
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "King who will arise, station of": {
         "$text": "King who will arise, station of",
         "$links": [
           207,
           212
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Kingdom is God's\", The": {
         "$text": "\"Kingdom is God's\", The",
@@ -3410,7 +3582,8 @@
           210,
           260,
           343
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Kings and Rulers": {
         "$text": "Kings and Rulers",
@@ -3526,7 +3699,8 @@
               255
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Knowledge": {
         "$text": "Knowledge",
@@ -3607,13 +3781,15 @@
               331
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Kumayl, tradition of": {
         "$text": "Kumayl, tradition of",
         "$links": [
           178
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Language": {
         "$text": "Language",
@@ -3630,13 +3806,15 @@
               249
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Languages, diversity of": {
         "$text": "Languages, diversity of",
         "$links": [
           173
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Laws, human": {
         "$text": "Laws, human",
@@ -3644,7 +3822,8 @@
           122,
           123,
           124
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Laws of God": {
         "$text": "Laws of God",
@@ -3735,31 +3914,36 @@
               175
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Laws of Manifestations, justice of": {
         "$text": "Laws of Manifestations, justice of",
         "$links": [
           175
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Leprosy": {
         "$text": "Leprosy",
         "$links": [
           86
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Lesser Peace": {
         "$text": "Lesser Peace",
         "$links": [
           254
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Letter of the Living, Tablet to": {
         "$text": "Letter of the Living, Tablet to",
         "$links": [
           291
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Liberty, true": {
         "$text": "Liberty, true",
@@ -3771,7 +3955,8 @@
           260,
           335,
           336
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Life": {
         "$text": "Life",
@@ -3821,19 +4006,22 @@
               328
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "\"Life to come,\" meaning of": {
         "$text": "\"Life to come,\" meaning of",
         "$links": [
           276
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Livelihood": {
         "$text": "Livelihood",
         "$links": [
           202
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Love of God": {
         "$text": "Love of God",
@@ -3842,7 +4030,8 @@
           288,
           304,
           325
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Love of humanity": {
         "$text": "Love of humanity",
@@ -3854,7 +4043,8 @@
           288,
           316,
           334
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Maids of Heaven": {
         "$text": "Maids of Heaven",
@@ -3866,7 +4056,8 @@
           282,
           284,
           327
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Man": {
         "$text": "Man",
@@ -4076,7 +4267,8 @@
               340
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Manifestations": {
         "$text": "Manifestations",
@@ -4502,7 +4694,8 @@
               66
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Mankind": {
         "$text": "Mankind",
@@ -4669,7 +4862,8 @@
               }
             }
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Martyrs": {
         "$text": "Martyrs",
@@ -4681,7 +4875,8 @@
             180,
             182
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Material possessions": {
         "$text": "Material possessions",
@@ -4689,19 +4884,22 @@
           {
             "id": "Possessions"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mecca and Medina": {
         "$text": "Mecca and Medina",
         "$links": [
           83
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Messiah still expected": {
         "$text": "Messiah still expected",
         "$links": [
           20
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Metals, transmutation of": {
         "$text": "Metals, transmutation of",
@@ -4709,13 +4907,15 @@
           197,
           198,
           200
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mihdí": {
         "$text": "Mihdí",
         "$links": [
           114
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mind": {
         "$text": "Mind",
@@ -4723,7 +4923,8 @@
           {
             "id": "Man"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Minister to Sháh, Tablet to": {
         "$text": "Minister to Sháh, Tablet to",
@@ -4732,13 +4933,15 @@
             219,
             231
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Miracle requested from Bahá'u'lláh": {
         "$text": "Miracle requested from Bahá'u'lláh",
         "$links": [
           131
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Moderation": {
         "$text": "Moderation",
@@ -4748,7 +4951,8 @@
           251,
           342,
           343
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Moses": {
         "$text": "Moses",
@@ -4769,7 +4973,8 @@
               19
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Most Great Name, power of": {
         "$text": "Most Great Name, power of",
@@ -4781,14 +4986,16 @@
           242,
           286,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Most Great Peace": {
         "$text": "Most Great Peace",
         "$links": [
           249,
           254
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mount Carmel": {
         "$text": "Mount Carmel",
@@ -4797,7 +5004,8 @@
           15,
           16,
           211
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Muhammad": {
         "$text": "Muhammad",
@@ -4850,49 +5058,57 @@
               162
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Muhammad, Tablet to": {
         "$text": "Muhammad, Tablet to",
         "$links": [
           111
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Muhammad-'Alí, Tablet to": {
         "$text": "Muhammad-'Alí, Tablet to",
         "$links": [
           119
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mustafá, Tablet to": {
         "$text": "Mustafá, Tablet to",
         "$links": [
           119
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mustagháth, time of": {
         "$text": "Mustagháth, time of",
         "$links": [
           73
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Mystics": {
         "$text": "Mystics",
         "$links": [
           317
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Nabíl-i-A'zam, Tablet to": {
         "$text": "Nabíl-i-A'zam, Tablet to",
         "$links": [
           302
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Nadr-ibn-i-Hárith": {
         "$text": "Nadr-ibn-i-Hárith",
         "$links": [
           25
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Name, Most Great": {
         "$text": "Name, Most Great",
@@ -4906,7 +5122,8 @@
           246,
           316,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Names of God": {
         "$text": "Names of God",
@@ -4915,20 +5132,23 @@
           274,
           293,
           319
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Nasír, Tablet to": {
         "$text": "Nasír, Tablet to",
         "$links": [
           107
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Nations, unity of": {
         "$text": "Nations, unity of",
         "$links": [
           95,
           249
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Nearness": {
         "$text": "Nearness",
@@ -4936,20 +5156,23 @@
           {
             "id": "Presence of God"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Nimrod": {
         "$text": "Nimrod",
         "$links": [
           88
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Noah": {
         "$text": "Noah",
         "$links": [
           51,
           84
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Non-believers": {
         "$text": "Non-believers",
@@ -4991,7 +5214,8 @@
               331
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Obedience": {
         "$text": "Obedience",
@@ -5013,7 +5237,8 @@
               }
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Oneness of humanity": {
         "$text": "Oneness of humanity",
@@ -5021,7 +5246,8 @@
           {
             "id": "Mankind"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Oneness of Prophets": {
         "$text": "Oneness of Prophets",
@@ -5029,7 +5255,8 @@
           {
             "id": "Manifestations"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Order, World": {
         "$text": "Order, World",
@@ -5040,7 +5267,8 @@
           313,
           331,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ordinances": {
         "$text": "Ordinances",
@@ -5054,7 +5282,8 @@
           {
             "id": "Laws of God"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Paradise, meaning of": {
         "$text": "Paradise, meaning of",
@@ -5069,13 +5298,15 @@
           303,
           319,
           341
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Párán": {
         "$text": "Párán",
         "$links": [
           19
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Partners with God\"": {
         "$text": "\"Partners with God\"",
@@ -5093,7 +5324,8 @@
           197,
           273,
           281
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Patience": {
         "$text": "Patience",
@@ -5105,7 +5337,8 @@
           265,
           290,
           296
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Patriorisai": {
         "$text": "Patriorisai",
@@ -5122,7 +5355,8 @@
               250
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Peace": {
         "$text": "Peace",
@@ -5161,13 +5395,15 @@
               250
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Pentateuch": {
         "$text": "Pentateuch",
         "$links": [
           270
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Persia": {
         "$text": "Persia",
@@ -5175,7 +5411,8 @@
           196,
           224,
           230
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Persuasion, means of teaching": {
         "$text": "Persuasion, means of teaching",
@@ -5184,7 +5421,8 @@
           279,
           303,
           329
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Pharaoh": {
         "$text": "Pharaoh",
@@ -5192,7 +5430,8 @@
           19,
           88,
           220
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Physician, Divine": {
         "$text": "Physician, Divine",
@@ -5202,19 +5441,22 @@
           81,
           213,
           255
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Planets": {
         "$text": "Planets",
         "$links": [
           163
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Poison": {
         "$text": "Poison",
         "$links": [
           189
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Poor, The": {
         "$text": "Poor, The",
@@ -5247,7 +5489,8 @@
               251
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Possessions": {
         "$text": "Possessions",
@@ -5269,7 +5512,8 @@
           323,
           332,
           334
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Prayer": {
         "$text": "Prayer",
@@ -5320,20 +5564,23 @@
               295
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Prayer for the Fast": {
         "$text": "Prayer for the Fast",
         "$links": [
           299,
           337
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Predestination": {
         "$text": "Predestination",
         "$links": [
           133
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Presence of God": {
         "$text": "Presence of God",
@@ -5355,7 +5602,8 @@
           276,
           313,
           323
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Pride": {
         "$text": "Pride",
@@ -5366,7 +5614,8 @@
           265,
           314,
           315
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Prison": {
         "$text": "Prison",
@@ -5379,7 +5628,8 @@
           241,
           306,
           342
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Promised One, The": {
         "$text": "Promised One, The",
@@ -5391,7 +5641,8 @@
           98,
           102,
           320
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Proof of Prophethood": {
         "$text": "Proof of Prophethood",
@@ -5402,7 +5653,8 @@
           220,
           259,
           302
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Prophecies": {
         "$text": "Prophecies",
@@ -5472,14 +5724,16 @@
               246
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Prophetic cycle ended": {
         "$text": "Prophetic cycle ended",
         "$links": [
           60,
           75
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Prophets": {
         "$text": "Prophets",
@@ -5487,14 +5741,16 @@
           {
             "id": "Manifestations"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Prophets, false": {
         "$text": "Prophets, false",
         "$links": [
           244,
           346
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Prosperity": {
         "$text": "Prosperity",
@@ -5505,7 +5761,8 @@
           {
             "id": "Possessions"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Protection by God": {
         "$text": "Protection by God",
@@ -5513,7 +5770,8 @@
           76,
           96,
           233
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Punishment": {
         "$text": "Punishment",
@@ -5524,13 +5782,15 @@
           226,
           339,
           346
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Qá'im": {
         "$text": "Qá'im",
         "$links": [
           12
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Qur'án": {
         "$text": "Qur'án",
@@ -5544,19 +5804,22 @@
           147,
           270,
           294
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Qayyúmu'l-Asmá'": {
         "$text": "Qayyúmu'l-Asmá'",
         "$links": [
           284
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ra'ís, Tablet to": {
         "$text": "Ra'ís, Tablet to",
         "$links": [
           39
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Rational faculty": {
         "$text": "Rational faculty",
@@ -5564,7 +5827,8 @@
           164,
           165,
           194
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Reality of Man": {
         "$text": "Reality of Man",
@@ -5572,7 +5836,8 @@
           {
             "id": "Man"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Rebirth": {
         "$text": "Rebirth",
@@ -5581,7 +5846,8 @@
           213,
           231,
           269
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Recompense": {
         "$text": "Recompense",
@@ -5591,7 +5857,8 @@
           46,
           129,
           278
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Records before Adam": {
         "$text": "Records before Adam",
@@ -5600,7 +5867,8 @@
             172,
             174
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Religion": {
         "$text": "Religion",
@@ -5642,7 +5910,8 @@
               288
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Remedy for world's ills": {
         "$text": "Remedy for world's ills",
@@ -5652,20 +5921,23 @@
           200,
           213,
           255
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Remoteness,\" meaning of": {
         "$text": "\"Remoteness,\" meaning of",
         "$links": [
           71
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Resignation": {
         "$text": "Resignation",
         "$links": [
           129,
           322
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Responsibility": {
         "$text": "Responsibility",
@@ -5673,7 +5945,8 @@
           {
             "id": "Man"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Resurrection": {
         "$text": "Resurrection",
@@ -5688,7 +5961,8 @@
               69
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Retribution, Divine": {
         "$text": "Retribution, Divine",
@@ -5703,7 +5977,8 @@
           226,
           252,
           346
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Return": {
         "$text": "Return",
@@ -5715,7 +5990,8 @@
           246,
           269,
           345
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Revelation": {
         "$text": "Revelation",
@@ -5826,7 +6102,8 @@
               260
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Revelation of Bahá'u'lláh": {
         "$text": "Revelation of Bahá'u'lláh",
@@ -6037,7 +6314,8 @@
               341
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Reward": {
         "$text": "Reward",
@@ -6050,7 +6328,8 @@
           167,
           219,
           339
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Rich, duty of the": {
         "$text": "Rich, duty of the",
@@ -6059,7 +6338,8 @@
           235,
           285,
           314
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Riches": {
         "$text": "Riches",
@@ -6067,13 +6347,15 @@
           {
             "id": "Possessions"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Ridván": {
         "$text": "Ridván",
         "$links": [
           31
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Righteousness": {
         "$text": "Righteousness",
@@ -6082,7 +6364,8 @@
           306,
           315,
           323
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Robbery": {
         "$text": "Robbery",
@@ -6090,7 +6373,8 @@
           297,
           298,
           299
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Rulers": {
         "$text": "Rulers",
@@ -6098,7 +6382,8 @@
           {
             "id": "Kings"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sacrifice": {
         "$text": "Sacrifice",
@@ -6131,7 +6416,8 @@
               85
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Sadratu'l-Muntahá": {
         "$text": "Sadratu'l-Muntahá",
@@ -6139,13 +6425,15 @@
           70,
           91,
           198
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Saints": {
         "$text": "Saints",
         "$links": [
           317
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Salmán, Tablet to": {
         "$text": "Salmán, Tablet to",
@@ -6153,7 +6441,8 @@
           49,
           317,
           329
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sciences, source of": {
         "$text": "Sciences, source of",
@@ -6161,13 +6450,15 @@
           142,
           157,
           161
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Scriptures in different languages": {
         "$text": "Scriptures in different languages",
         "$links": [
           173
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Scriptures prophesy Revelation of Bahá'u'lláh": {
         "$text": "Scriptures prophesy Revelation of Bahá'u'lláh",
@@ -6188,14 +6479,16 @@
           244,
           314,
           344
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Seal of the Prophets\"": {
         "$text": "\"Seal of the Prophets\"",
         "$links": [
           60,
           162
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Search, condition for": {
         "$text": "Search, condition for",
@@ -6203,19 +6496,22 @@
           264,
           323,
           326
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Security": {
         "$text": "Security",
         "$links": [
           331
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sedition": {
         "$text": "Sedition",
         "$links": [
           335
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Seeker, true": {
         "$text": "Seeker, true",
@@ -6226,7 +6522,8 @@
           ],
           323,
           326
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Self, knowledge of": {
         "$text": "Self, knowledge of",
@@ -6238,20 +6535,23 @@
             326,
             327
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Self, victory over": {
         "$text": "Self, victory over",
         "$links": [
           93
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Self-surrender, meaning of": {
         "$text": "Self-surrender, meaning of",
         "$links": [
           337,
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Senses, physical": {
         "$text": "Senses, physical",
@@ -6260,32 +6560,37 @@
           194,
           195,
           340
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Service, Day of": {
         "$text": "Service, Day of",
         "$links": [
           92,
           193
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Shaykh, Tablet to": {
         "$text": "Shaykh, Tablet to",
         "$links": [
           337
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Shí'ih Islám": {
         "$text": "Shí'ih Islám",
         "$links": [
           69
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sickness, effect upon soul": {
         "$text": "Sickness, effect upon soul",
         "$links": [
           154
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sight": {
         "$text": "Sight",
@@ -6294,7 +6599,8 @@
           194,
           195,
           340
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sinai": {
         "$text": "Sinai",
@@ -6304,26 +6610,30 @@
           211,
           282,
           325
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sleep": {
         "$text": "Sleep",
         "$links": [
           152,
           160
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Soliciting, how regarded": {
         "$text": "Soliciting, how regarded",
         "$links": [
           202
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"Soon will the present day order be rolled up\"": {
         "$text": "\"Soon will the present day order be rolled up\"",
         "$links": [
           7
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Soul": {
         "$text": "Soul",
@@ -6420,7 +6730,8 @@
               161
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Springtime, spiritual": {
         "$text": "Springtime, spiritual",
@@ -6429,13 +6740,15 @@
           84,
           94,
           167
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Stars": {
         "$text": "Stars",
         "$links": [
           163
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Steadfastness": {
         "$text": "Steadfastness",
@@ -6460,13 +6773,15 @@
           330,
           338,
           339
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Strife, effect of": {
         "$text": "Strife, effect of",
         "$links": [
           9
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Submission": {
         "$text": "Submission",
@@ -6475,7 +6790,8 @@
           8,
           9,
           322
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sultán 'Abdu'l-'Azíz, Tablet to": {
         "$text": "Sultán 'Abdu'l-'Azíz, Tablet to",
@@ -6484,7 +6800,8 @@
             232,
             240
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sun": {
         "$text": "Sun",
@@ -6493,26 +6810,30 @@
           154,
           155,
           188
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Sun of Truth": {
         "$text": "Sun of Truth",
         "$links": [
           88,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Súriy-i-Ra'ís": {
         "$text": "Súriy-i-Ra'ís",
         "$links": [
           39
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Syriac": {
         "$text": "Syriac",
         "$links": [
           173
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Tablet of Visitation to Baghdád House": {
         "$text": "Tablet of Visitation to Baghdád House",
@@ -6521,7 +6842,8 @@
             111,
             114
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Tablet to": {
         "$text": "Tablet to",
@@ -6686,20 +7008,23 @@
               ]
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Talisman": {
         "$text": "Talisman",
         "$links": [
           259
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Taxation": {
         "$text": "Taxation",
         "$links": [
           251,
           253
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Teachers": {
         "$text": "Teachers",
@@ -6752,7 +7077,8 @@
               334
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Teaching": {
         "$text": "Teaching",
@@ -6791,14 +7117,16 @@
               289
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Tests and trials": {
         "$text": "Tests and trials",
         "$links": [
           12,
           27
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Tihrán": {
         "$text": "Tihrán",
@@ -6853,20 +7181,23 @@
               121
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Torah": {
         "$text": "Torah",
         "$links": [
           294
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Traditions, meaning of": {
         "$text": "Traditions, meaning of",
         "$links": [
           171,
           174
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Tribulations assist Cause": {
         "$text": "Tribulations assist Cause",
@@ -6875,7 +7206,8 @@
           72,
           270,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Trustworthiness": {
         "$text": "Trustworthiness",
@@ -6887,7 +7219,8 @@
           285,
           290,
           299
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Truthfulness": {
         "$text": "Truthfulness",
@@ -6898,13 +7231,15 @@
           297,
           299,
           305
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Truths, beyond expression": {
         "$text": "Truths, beyond expression",
         "$links": [
           176
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Turkish Ministers, Tablet to": {
         "$text": "Turkish Ministers, Tablet to",
@@ -6913,7 +7248,8 @@
             122,
             125
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Unbelievers": {
         "$text": "Unbelievers",
@@ -6921,7 +7257,8 @@
           {
             "id": "Non-believers"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Understanding": {
         "$text": "Understanding",
@@ -6933,7 +7270,8 @@
           {
             "id": "Man, mind of"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Unity, Divine, meaning of": {
         "$text": "Unity, Divine, meaning of",
@@ -6945,7 +7283,8 @@
           167,
           187,
           191
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Unity of God": {
         "$text": "Unity of God",
@@ -6965,7 +7304,8 @@
           336,
           340,
           344
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Unity of Mankind": {
         "$text": "Unity of Mankind",
@@ -6973,7 +7313,8 @@
           {
             "id": "Mankind"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Vain imaginations": {
         "$text": "Vain imaginations",
@@ -6996,7 +7337,8 @@
           326,
           337,
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Victory": {
         "$text": "Victory",
@@ -7037,14 +7379,16 @@
               319
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Violence": {
         "$text": "Violence",
         "$links": [
           277,
           303
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Violence prohibited in teaching": {
         "$text": "Violence prohibited in teaching",
@@ -7052,7 +7396,8 @@
           278,
           303,
           330
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Wealth": {
         "$text": "Wealth",
@@ -7060,7 +7405,8 @@
           {
             "id": "Possessions"
           }
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Will, Divine": {
         "$text": "Will, Divine",
@@ -7075,14 +7421,16 @@
           324,
           329,
           338
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Will, Divine, known through Manifestations": {
         "$text": "Will, Divine, known through Manifestations",
         "$links": [
           59,
           167
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Will, free": {
         "$text": "Will, free",
@@ -7094,7 +7442,8 @@
             335,
             338
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Will, surrender of": {
         "$text": "Will, surrender of",
@@ -7103,13 +7452,15 @@
             336,
             338
           ]
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Wind": {
         "$text": "Wind",
         "$links": [
           339
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Word of God": {
         "$text": "Word of God",
@@ -7159,7 +7510,8 @@
               325
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Words": {
         "$text": "Words",
@@ -7176,13 +7528,15 @@
               93
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "Work, a duty": {
         "$text": "Work, a duty",
         "$links": [
           202
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "World": {
         "$text": "World",
@@ -7242,19 +7596,22 @@
               313
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "\"World,\" meaning of": {
         "$text": "\"World,\" meaning of",
         "$links": [
           276
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "\"World is in travail\"": {
         "$text": "\"World is in travail\"",
         "$links": [
           118
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "World Order": {
         "$text": "World Order",
@@ -7265,7 +7622,8 @@
           313,
           331,
           333
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Worlds": {
         "$text": "Worlds",
@@ -7296,13 +7654,15 @@
               161
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       },
       "World's equilibrium upset": {
         "$text": "World's equilibrium upset",
         "$links": [
           136
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Wrath of God": {
         "$text": "Wrath of God",
@@ -7313,19 +7673,22 @@
           208,
           257,
           325
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Writing to defend Cause": {
         "$text": "Writing to defend Cause",
         "$links": [
           330
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Zanján": {
         "$text": "Zanján",
         "$links": [
           135
-        ]
+        ],
+        "$book": "Gleanings"
       },
       "Zion": {
         "$text": "Zion",
@@ -7340,7 +7703,8 @@
               16
             ]
           }
-        }
+        },
+        "$book": "Gleanings"
       }
     }
   },

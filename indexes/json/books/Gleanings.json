@@ -1,173 +1,361 @@
 {
   "'Abdu'l-'Azíz, Sultán, Tablet to": {
     "$text": "'Abdu'l-'Azíz, Sultán, Tablet to",
-    "$links": [[232, 240]]
+    "$links": [
+      [
+        232,
+        240
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "'Abdu'lláh-i-Ubayy": {
     "$text": "'Abdu'lláh-i-Ubayy",
-    "$links": [25, 83]
+    "$links": [
+      25,
+      83
+    ],
+    "$book": "Gleanings"
   },
   "Abraham": {
     "$text": "Abraham",
-    "$links": [57, 75, 173]
+    "$links": [
+      57,
+      75,
+      173
+    ],
+    "$book": "Gleanings"
   },
   "Abu 'Ámir": {
     "$text": "Abu 'Ámir",
-    "$links": [25]
+    "$links": [
+      25
+    ],
+    "$book": "Gleanings"
   },
   "Acquiescence": {
     "$text": "Acquiescence",
-    "$links": [133, 290, 299]
+    "$links": [
+      133,
+      290,
+      299
+    ],
+    "$book": "Gleanings"
   },
   "Adam": {
     "$text": "Adam",
-    "$links": [51, 74, 172, 173, 258]
+    "$links": [
+      51,
+      74,
+      172,
+      173,
+      258
+    ],
+    "$book": "Gleanings"
   },
   "Adrianople": {
     "$text": "Adrianople",
-    "$links": [114]
+    "$links": [
+      114
+    ],
+    "$book": "Gleanings"
   },
   "Adversity": {
     "$text": "Adversity",
-    "$links": [72, 285]
+    "$links": [
+      72,
+      285
+    ],
+    "$book": "Gleanings"
   },
   "Afnán, Tablet to": {
     "$text": "Afnán, Tablet to",
-    "$links": [92]
+    "$links": [
+      92
+    ],
+    "$book": "Gleanings"
   },
   "'Alí, Imám": {
     "$text": "'Alí, Imám",
-    "$links": [51]
+    "$links": [
+      51
+    ],
+    "$book": "Gleanings"
   },
   "'Alí, Tablet to": {
     "$text": "'Alí, Tablet to",
-    "$links": [203, [308, 312]]
+    "$links": [
+      203,
+      [
+        308,
+        312
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Angels": {
     "$text": "Angels",
-    "$links": [16, 41, 45, 125, 136, 139, 277, 295, 309, 334]
+    "$links": [
+      16,
+      41,
+      45,
+      125,
+      136,
+      139,
+      277,
+      295,
+      309,
+      334
+    ],
+    "$book": "Gleanings"
   },
   "Animals": {
     "$text": "Animals",
-    "$links": [265, 335]
+    "$links": [
+      265,
+      335
+    ],
+    "$book": "Gleanings"
   },
   "Annas": {
     "$text": "Annas",
-    "$links": [83]
+    "$links": [
+      83
+    ],
+    "$book": "Gleanings"
   },
   "Arabic": {
     "$text": "Arabic",
-    "$links": [173, 298]
+    "$links": [
+      173,
+      298
+    ],
+    "$book": "Gleanings"
   },
   "Ark of God": {
     "$text": "Ark of God",
-    "$links": [16, 113, 170, 212, 302]
+    "$links": [
+      16,
+      113,
+      170,
+      212,
+      302
+    ],
+    "$book": "Gleanings"
   },
   "Armaments": {
     "$text": "Armaments",
-    "$links": [249, 250, 254]
+    "$links": [
+      249,
+      250,
+      254
+    ],
+    "$book": "Gleanings"
   },
   "Arts, source of": {
     "$text": "Arts, source of",
-    "$links": [85, 142, 144, 157, 161]
+    "$links": [
+      85,
+      142,
+      144,
+      157,
+      161
+    ],
+    "$book": "Gleanings"
   },
   "Ashraf, mother of": {
     "$text": "Ashraf, mother of",
-    "$links": [135]
+    "$links": [
+      135
+    ],
+    "$book": "Gleanings"
   },
   "Atom": {
     "$text": "Atom",
-    "$links": [16, 177, 192, 267, 300, 324, 325]
+    "$links": [
+      16,
+      177,
+      192,
+      267,
+      300,
+      324,
+      325
+    ],
+    "$book": "Gleanings"
   },
   "Attacks on Cause to be refuted": {
     "$text": "Attacks on Cause to be refuted",
-    "$links": [329, 330]
+    "$links": [
+      329,
+      330
+    ],
+    "$book": "Gleanings"
   },
   "Báb ('Alí-Muhammad)": {
     "$text": "Báb ('Alí-Muhammad)",
-    "$links": [73, 74, 101, 102, 259],
+    "$links": [
+      73,
+      74,
+      101,
+      102,
+      259
+    ],
     "$children": {
       "Ancient Beauty": {
         "$text": "Ancient Beauty",
-        "$links": [77]
+        "$links": [
+          77
+        ]
       },
       "Covenant of": {
         "$text": "Covenant of",
-        "$links": [147]
+        "$links": [
+          147
+        ]
       },
       "heralded Revelation of Bahá'u'lláh": {
         "$text": "heralded Revelation of Bahá'u'lláh",
-        "$links": [10, 96, 147, 294]
+        "$links": [
+          10,
+          96,
+          147,
+          294
+        ]
       },
       "identity with Bahá'u'lláh": {
         "$text": "identity with Bahá'u'lláh",
-        "$links": [147, 244, 293]
+        "$links": [
+          147,
+          244,
+          293
+        ]
       },
       "martyrdom of": {
         "$text": "martyrdom of",
-        "$links": [89, 146, 147, 221, 222]
+        "$links": [
+          89,
+          146,
+          147,
+          221,
+          222
+        ]
       },
       "mission of": {
         "$text": "mission of",
-        "$links": [146, 245, 291, [292, 294]]
+        "$links": [
+          146,
+          245,
+          291,
+          [
+            292,
+            294
+          ]
+        ]
       },
       "Mouthpiece of God": {
         "$text": "Mouthpiece of God",
-        "$links": [145]
+        "$links": [
+          145
+        ]
       },
       "words of": {
         "$text": "words of",
-        "$links": [[292, 294]]
+        "$links": [
+          [
+            292,
+            294
+          ]
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Babel": {
     "$text": "Babel",
-    "$links": [173]
+    "$links": [
+      173
+    ],
+    "$book": "Gleanings"
   },
   "Bábís, call to": {
     "$text": "Bábís, call to",
-    "$links": [102, 106],
+    "$links": [
+      102,
+      106
+    ],
     "$children": {
       "conduct of": {
         "$text": "conduct of",
-        "$links": [244, 273, 274, 293, 294]
+        "$links": [
+          244,
+          273,
+          274,
+          293,
+          294
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Backbiting": {
     "$text": "Backbiting",
-    "$links": [265]
+    "$links": [
+      265
+    ],
+    "$book": "Gleanings"
   },
   "Baghdád": {
     "$text": "Baghdád",
-    "$links": [229, 230]
+    "$links": [
+      229,
+      230
+    ],
+    "$book": "Gleanings"
   },
   "Baghdád House of Bahá'u'lláh": {
     "$text": "Baghdád House of Bahá'u'lláh",
-    "$links": [111],
+    "$links": [
+      111
+    ],
     "$children": {
       "blessing of pilgrimage to": {
         "$text": "blessing of pilgrimage to",
-        "$links": [114]
+        "$links": [
+          114
+        ]
       },
-    	"humiliation of, predicted": {
+      "humiliation of, predicted": {
         "$text": "humiliation of, predicted",
-        "$links": [114, 115]
+        "$links": [
+          114,
+          115
+        ]
       },
-    	"Shrine, future": {
+      "Shrine, future": {
         "$text": "Shrine, future",
-        "$links": [115]
+        "$links": [
+          115
+        ]
       },
-    	"Station of": {
+      "Station of": {
         "$text": "Station of",
-        "$links": [112, 113, 114]
+        "$links": [
+          112,
+          113,
+          114
+        ]
       },
-    	"Tablet of Visitation to": {
+      "Tablet of Visitation to": {
         "$text": "Tablet of Visitation to",
-        "$links": [[111, 114]]
+        "$links": [
+          [
+            111,
+            114
+          ]
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Bahá'ís": {
     "$text": "Bahá'ís",
@@ -175,38 +363,145 @@
       {
         "id": "Believers"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Bahá'u'lláh": {
     "$text": "Bahá'u'lláh",
     "$children": {
       "accepted gifts as token of grace to giver": {
         "$text": "accepted gifts as token of grace to giver",
-        "$links": [116, 201]
+        "$links": [
+          116,
+          201
+        ]
       },
       "afflictions of": {
         "$text": "afflictions of",
-        "$links": [37, 42, 58, 85, [88, 89], 90, [98, 100], 115, 116, 119, 120, 124, 129, 130, 148, 203, 219, [224, 226], 229, 238, 239, 240, 242, 244, 247, 270, 274, 286, 296, 298, 307, 313, 342, 344]
+        "$links": [
+          37,
+          42,
+          58,
+          85,
+          [
+            88,
+            89
+          ],
+          90,
+          [
+            98,
+            100
+          ],
+          115,
+          116,
+          119,
+          120,
+          124,
+          129,
+          130,
+          148,
+          203,
+          219,
+          [
+            224,
+            226
+          ],
+          229,
+          238,
+          239,
+          240,
+          242,
+          244,
+          247,
+          270,
+          274,
+          286,
+          296,
+          298,
+          307,
+          313,
+          342,
+          344
+        ]
       },
       "asked for a miracle": {
         "$text": "asked for a miracle",
-        "$links": [131, 132]
+        "$links": [
+          131,
+          132
+        ]
       },
       "authority of": {
         "$text": "authority of",
-        "$links": [[55, 56], 171, 176, 202]
+        "$links": [
+          [
+            55,
+            56
+          ],
+          171,
+          176,
+          202
+        ]
       },
       "Book of": {
         "$text": "Book of",
-        "$links": [69, 123, 127, 183, 198, 221, 270, 286, 306]
+        "$links": [
+          69,
+          123,
+          127,
+          183,
+          198,
+          221,
+          270,
+          286,
+          306
+        ]
       },
       "call to humanity‹to serve Cause": {
         "$text": "call to humanity‹to serve Cause",
-        "$links": [14, 37, 43, 84, 92, 137, 184, 196, 246, 281, 296, 308, 310]
+        "$links": [
+          14,
+          37,
+          43,
+          84,
+          92,
+          137,
+          184,
+          196,
+          246,
+          281,
+          296,
+          308,
+          310
+        ]
       },
       "call to mankind": {
         "$text": "call to mankind",
-        "$links": [38, 99, 104, 115, 127, 130, 163, 168, 171, 183, 205, 213, 217, 299, 316, [319, 322], 322, 332, 342, 345]
+        "$links": [
+          38,
+          99,
+          104,
+          115,
+          127,
+          130,
+          163,
+          168,
+          171,
+          183,
+          205,
+          213,
+          217,
+          299,
+          316,
+          [
+            319,
+            322
+          ],
+          322,
+          332,
+          342,
+          345
+        ]
       },
       "Cause of": {
         "$text": "Cause of",
@@ -218,63 +513,132 @@
       },
       "dependent only upon God": {
         "$text": "dependent only upon God",
-        "$links": [37, 38]
+        "$links": [
+          37,
+          38
+        ]
       },
       "ever-present": {
         "$text": "ever-present",
-        "$links": [137, 139, 316]
+        "$links": [
+          137,
+          139,
+          316
+        ]
       },
       "gives new power to words": {
         "$text": "gives new power to words",
-        "$links": [93]
+        "$links": [
+          93
+        ]
       },
       "identity with Báb": {
         "$text": "identity with Báb",
-        "$links": [147, 244, 293]
+        "$links": [
+          147,
+          244,
+          293
+        ]
       },
       "in Baghdád": {
         "$text": "in Baghdád",
-        "$links": [229]
+        "$links": [
+          229
+        ]
       },
       "in Constantinople": {
         "$text": "in Constantinople",
-        "$links": [122, 126]
+        "$links": [
+          122,
+          126
+        ]
       },
       "Justice of": {
         "$text": "Justice of",
-        "$links": [175]
+        "$links": [
+          175
+        ]
       },
       "Knowledge of": {
         "$text": "Knowledge of",
-        "$links": [58, 122, 131, 199]
+        "$links": [
+          58,
+          122,
+          131,
+          199
+        ]
       },
       "mission made known to Him": {
         "$text": "mission made known to Him",
-        "$links": [90, 99, 103]
+        "$links": [
+          90,
+          99,
+          103
+        ]
       },
       "mission of": {
         "$text": "mission of",
-        "$links": [85, 100, 108, 115, 130, 212, 217, 228, 238, 256, 286, 299]
+        "$links": [
+          85,
+          100,
+          108,
+          115,
+          130,
+          212,
+          217,
+          228,
+          238,
+          256,
+          286,
+          299
+        ]
       },
       "never hidden": {
         "$text": "never hidden",
-        "$links": [286, 344]
+        "$links": [
+          286,
+          344
+        ]
       },
       "oneness with all Prophets": {
         "$text": "oneness with all Prophets",
-        "$links": [[88, 89], [101, 102]]
+        "$links": [
+          [
+            88,
+            89
+          ],
+          [
+            101,
+            102
+          ]
+        ]
       },
       "opposition to": {
         "$text": "opposition to",
-        "$links": [58, 246, 256, 273]
+        "$links": [
+          58,
+          246,
+          256,
+          273
+        ]
       },
       "power of": {
         "$text": "power of",
-        "$links": [40, 72, 93, 137, 214, 219, 322]
+        "$links": [
+          40,
+          72,
+          93,
+          137,
+          214,
+          219,
+          322
+        ]
       },
       "Prayer of Thanksgiving": {
         "$text": "Prayer of Thanksgiving",
-        "$links": [88],
+        "$links": [
+          88
+        ],
         "$seeAlso": [
           {
             "id": "Prayer"
@@ -283,15 +647,27 @@
       },
       "prophecies of, fulfilled": {
         "$text": "prophecies of, fulfilled",
-        "$links": [58]
+        "$links": [
+          58
+        ]
       },
       "Prophethood, proof of": {
         "$text": "Prophethood, proof of",
-        "$links": [11, 49, 105, 179, 220, 259, 302]
+        "$links": [
+          11,
+          49,
+          105,
+          179,
+          220,
+          259,
+          302
+        ]
       },
       "refuge, sole": {
         "$text": "refuge, sole",
-        "$links": [203]
+        "$links": [
+          203
+        ]
       },
       "Revelation of": {
         "$text": "Revelation of",
@@ -303,181 +679,449 @@
       },
       "sacrifice of, for mankind": {
         "$text": "sacrifice of, for mankind",
-        "$links": [88, 99, 101, 307, 315]
+        "$links": [
+          88,
+          99,
+          101,
+          307,
+          315
+        ]
       },
       "sister of": {
         "$text": "sister of",
-        "$links": [109]
+        "$links": [
+          109
+        ]
       },
       "source of His sorrow": {
         "$text": "source of His sorrow",
-        "$links": [100, 117, 153, 244, [308, 310]]
+        "$links": [
+          100,
+          117,
+          153,
+          244,
+          [
+            308,
+            310
+          ]
+        ]
       },
       "speaks not of own volition": {
         "$text": "speaks not of own volition",
-        "$links": [90, 99, 103, 108, 126]
+        "$links": [
+          90,
+          99,
+          103,
+          108,
+          126
+        ]
       },
       "Station of": {
         "$text": "Station of",
-        "$links": [33, 36, 99, 101, 102, 228, 244]
+        "$links": [
+          33,
+          36,
+          99,
+          101,
+          102,
+          228,
+          244
+        ]
       },
       "Titles": {
         "$text": "Titles",
         "$children": {
           "Ancient Beauty": {
             "$text": "Ancient Beauty",
-            "$links": [99, 111, 119, 296, 298, 309]
+            "$links": [
+              99,
+              111,
+              119,
+              296,
+              298,
+              309
+            ]
           },
           "Ancient of Days": {
             "$text": "Ancient of Days",
-            "$links": [210, 241, 302, 306]
+            "$links": [
+              210,
+              241,
+              302,
+              306
+            ]
           },
           "Book of God": {
             "$text": "Book of God",
-            "$links": [104]
+            "$links": [
+              104
+            ]
           },
           "Concealer": {
             "$text": "Concealer",
-            "$links": [271, 309]
+            "$links": [
+              271,
+              309
+            ]
           },
           "Eternal Truth": {
             "$text": "Eternal Truth",
-            "$links": [60]
+            "$links": [
+              60
+            ]
           },
           "Great Announcement": {
             "$text": "Great Announcement",
-            "$links": [40, 116, 308]
+            "$links": [
+              40,
+              116,
+              308
+            ]
           },
           "Him Whom God will make manifest": {
             "$text": "Him Whom God will make manifest",
-            "$links": [270]
+            "$links": [
+              270
+            ]
           },
           "King of Kings": {
             "$text": "King of Kings",
-            "$links": [211]
+            "$links": [
+              211
+            ]
           },
           "Monarch of names of God": {
             "$text": "Monarch of names of God",
-            "$links": [258]
+            "$links": [
+              258
+            ]
           },
           "Mouthpiece of God": {
             "$text": "Mouthpiece of God",
-            "$links": [108]
+            "$links": [
+              108
+            ]
           },
           "Promised One": {
             "$text": "Promised One",
-            "$links": [6, 9, 10, 12]
+            "$links": [
+              6,
+              9,
+              10,
+              12
+            ]
           },
           "Trumpet": {
             "$text": "Trumpet",
-            "$links": [31, 40, 43, 44]
+            "$links": [
+              31,
+              40,
+              43,
+              44
+            ]
           },
           "Word of Truth": {
             "$text": "Word of Truth",
-            "$links": [316]
+            "$links": [
+              316
+            ]
           }
         }
       },
-      "\"unlettered One\"":{
+      "\"unlettered One\"": {
         "$text": "\"unlettered One\"",
-        "$links": [98, 199]
+        "$links": [
+          98,
+          199
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Balál": {
     "$text": "Balál",
-    "$links": [83]
+    "$links": [
+      83
+    ],
+    "$book": "Gleanings"
   },
   "Balance": {
     "$text": "Balance",
-    "$links": [40, 136, 198, 236, 281, 292]
+    "$links": [
+      40,
+      136,
+      198,
+      236,
+      281,
+      292
+    ],
+    "$book": "Gleanings"
   },
   "Bayán": {
     "$text": "Bayán",
-    "$links": [10, 44, 46, 101, 102, 244, 270, 292],
+    "$links": [
+      10,
+      44,
+      46,
+      101,
+      102,
+      244,
+      270,
+      292
+    ],
     "$children": {
       "blindness of people of": {
         "$text": "blindness of people of",
-        "$links": [106]
+        "$links": [
+          106
+        ]
       },
-    	"purpose of": {
+      "purpose of": {
         "$text": "purpose of",
-        "$links": [147, 149]
+        "$links": [
+          147,
+          149
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Belief in God": {
     "$text": "Belief in God",
-    "$links": [86, 105, 141, 143, 148, 200, 324, 338]
+    "$links": [
+      86,
+      105,
+      141,
+      143,
+      148,
+      200,
+      324,
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Believers": {
     "$text": "Believers",
     "$children": {
       "after death": {
         "$text": "after death",
-        "$links": [141, 153, [169, 171], 329, 345, 346]
+        "$links": [
+          141,
+          153,
+          [
+            169,
+            171
+          ],
+          329,
+          345,
+          346
+        ]
       },
-    	"call to": {
+      "call to": {
         "$text": "call to",
-        "$links": [94, 96, 97, 148, 183, 288, 319, 325]
+        "$links": [
+          94,
+          96,
+          97,
+          148,
+          183,
+          288,
+          319,
+          325
+        ]
       },
-    	"characteristics of": {
+      "characteristics of": {
         "$text": "characteristics of",
-        "$links": [7, 8, 13, 87, 100, 118, 242, 264, 268, 271, 272, 279, 285, 287, 289, 290, 296, 297, 298, 299, 304, 305, 307, 315, 323, 338]
+        "$links": [
+          7,
+          8,
+          13,
+          87,
+          100,
+          118,
+          242,
+          264,
+          268,
+          271,
+          272,
+          279,
+          285,
+          287,
+          289,
+          290,
+          296,
+          297,
+          298,
+          299,
+          304,
+          305,
+          307,
+          315,
+          323,
+          338
+        ]
       },
-    	"compared to bird": {
+      "compared to bird": {
         "$text": "compared to bird",
-        "$links": [327]
+        "$links": [
+          327
+        ]
       },
-    	"compared to wind": {
+      "compared to wind": {
         "$text": "compared to wind",
-        "$links": [339]
+        "$links": [
+          339
+        ]
       },
-    	"conduct of": {
+      "conduct of": {
         "$text": "conduct of",
-        "$links": [7, 94, 240, 243, 271, 272, 275, 277, 278, 287, 296, 305, 307, 315, 316, 343]
+        "$links": [
+          7,
+          94,
+          240,
+          243,
+          271,
+          272,
+          275,
+          277,
+          278,
+          287,
+          296,
+          305,
+          307,
+          315,
+          316,
+          343
+        ]
       },
-    	"duty to know and obey God": {
+      "duty to know and obey God": {
         "$text": "duty to know and obey God",
-        "$links": [5, 289, 290, [330, 331]]
+        "$links": [
+          5,
+          289,
+          290,
+          [
+            330,
+            331
+          ]
+        ]
       },
-    	"duty to proclaim Cause": {
+      "duty to proclaim Cause": {
         "$text": "duty to proclaim Cause",
-        "$links": [14, 201, 205, 276, 278, 280, 289, 296, 303, 312, 314, 316, 320, 330, 333, 338, 339]
+        "$links": [
+          14,
+          201,
+          205,
+          276,
+          278,
+          280,
+          289,
+          296,
+          303,
+          312,
+          314,
+          316,
+          320,
+          330,
+          333,
+          338,
+          339
+        ]
       },
-    	"education of": {
+      "education of": {
         "$text": "education of",
-        "$links": [190]
+        "$links": [
+          190
+        ]
       },
-    	"first, faith of": {
+      "first, faith of": {
         "$text": "first, faith of",
-        "$links": [179, 180]
+        "$links": [
+          179,
+          180
+        ]
       },
-    	"immortality of": {
+      "immortality of": {
         "$text": "immortality of",
-        "$links": [33, 74, 141, 148, 213, 345]
+        "$links": [
+          33,
+          74,
+          141,
+          148,
+          213,
+          345
+        ]
       },
-    	"knowledge of": {
+      "knowledge of": {
         "$text": "knowledge of",
-        "$links": [70, 84, 170, 263, [267, 269], 314, 331]
+        "$links": [
+          70,
+          84,
+          170,
+          263,
+          [
+            267,
+            269
+          ],
+          314,
+          331
+        ]
       },
-    	"love of humanity": {
+      "love of humanity": {
         "$text": "love of humanity",
-        "$links": [7, 95, 250, 260, 288, 316, 334]
+        "$links": [
+          7,
+          95,
+          250,
+          260,
+          288,
+          316,
+          334
+        ]
       },
-    	"loyalty to King who will arise": {
+      "loyalty to King who will arise": {
         "$text": "loyalty to King who will arise",
-        "$links": [207, 212]
+        "$links": [
+          207,
+          212
+        ]
       },
-    	"people of Bahá": {
+      "people of Bahá": {
         "$text": "people of Bahá",
-        "$links": [16, 32, 35, 46, 94, 100, 111, 117, 118, 169, 170, 212, 278, 288, 289, 304, 305, 333]
+        "$links": [
+          16,
+          32,
+          35,
+          46,
+          94,
+          100,
+          111,
+          117,
+          118,
+          169,
+          170,
+          212,
+          278,
+          288,
+          289,
+          304,
+          305,
+          333
+        ]
       },
-    	"power of": {
+      "power of": {
         "$text": "power of",
-        "$links": [93, 96, 137, 183, 287, 319, 330]
+        "$links": [
+          93,
+          96,
+          137,
+          183,
+          287,
+          319,
+          330
+        ]
       },
-    	"prayers for": {
+      "prayers for": {
         "$text": "prayers for",
         "$seeAlso": [
           {
@@ -485,15 +1129,49 @@
           }
         ]
       },
-    	"reward of": {
+      "reward of": {
         "$text": "reward of",
-        "$links": [36, 94, 117, 167, 219, 339]
+        "$links": [
+          36,
+          94,
+          117,
+          167,
+          219,
+          339
+        ]
       },
-    	"station of": {
+      "station of": {
         "$text": "station of",
-        "$links": [6, 9, 10, 34, 87, 107, 108, 110, 149, 159, 167, 190, 196, 197, 214, 246, 288, 317, [323, 324], 327, 330, 331, 340]
+        "$links": [
+          6,
+          9,
+          10,
+          34,
+          87,
+          107,
+          108,
+          110,
+          149,
+          159,
+          167,
+          190,
+          196,
+          197,
+          214,
+          246,
+          288,
+          317,
+          [
+            323,
+            324
+          ],
+          327,
+          330,
+          331,
+          340
+        ]
       },
-    	"teachers": {
+      "teachers": {
         "$text": "teachers",
         "$seeAlso": [
           {
@@ -501,19 +1179,38 @@
           }
         ]
       },
-    	"to refute attacks against Cause": {
+      "to refute attacks against Cause": {
         "$text": "to refute attacks against Cause",
-        "$links": [329, 330]
+        "$links": [
+          329,
+          330
+        ]
       },
-    	"tribulations of": {
+      "tribulations of": {
         "$text": "tribulations of",
-        "$links": [72, 116, 129, 305, 308, 313, 329]
+        "$links": [
+          72,
+          116,
+          129,
+          305,
+          308,
+          313,
+          329
+        ]
       },
-    	"unfaithful": {
+      "unfaithful": {
         "$text": "unfaithful",
-        "$links": [100, 118, 244, [308, 310]]
+        "$links": [
+          100,
+          118,
+          244,
+          [
+            308,
+            310
+          ]
+        ]
       },
-    	"victory of": {
+      "victory of": {
         "$text": "victory of",
         "$seeAlso": [
           {
@@ -521,63 +1218,152 @@
           }
         ]
       },
-    	"who clamorously assert their faith": {
+      "who clamorously assert their faith": {
         "$text": "who clamorously assert their faith",
-        "$links": [343]
+        "$links": [
+          343
+        ]
       },
-    	"who dissemble belief": {
+      "who dissemble belief": {
         "$text": "who dissemble belief",
-        "$links": [343]
+        "$links": [
+          343
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Birds of Darkness": {
     "$text": "Birds of Darkness",
-    "$links": [340]
+    "$links": [
+      340
+    ],
+    "$book": "Gleanings"
   },
   "Blindness, spiritual": {
     "$text": "Blindness, spiritual",
-    "$links": [106, 113, 116, 284, 327]
+    "$links": [
+      106,
+      113,
+      116,
+      284,
+      327
+    ],
+    "$book": "Gleanings"
   },
   "Book, Mother": {
     "$text": "Book, Mother",
-    "$links": [34, 99, 199]
+    "$links": [
+      34,
+      99,
+      199
+    ],
+    "$book": "Gleanings"
   },
   "Book of Bahá'u'lláh": {
     "$text": "Book of Bahá'u'lláh",
-    "$links": [69, 123, 127, 183, 198, 221, 270, 286, 306]
+    "$links": [
+      69,
+      123,
+      127,
+      183,
+      198,
+      221,
+      270,
+      286,
+      306
+    ],
+    "$book": "Gleanings"
   },
   "Book of each Manifestation": {
     "$text": "Book of each Manifestation",
-    "$links": [13, 21, 74, 173, 290]
+    "$links": [
+      13,
+      21,
+      74,
+      173,
+      290
+    ],
+    "$book": "Gleanings"
   },
   "Book of God": {
     "$text": "Book of God",
-    "$links": [13, 159, 225, 226, 227, 237, 247, 290, 294, 297, 341]
+    "$links": [
+      13,
+      159,
+      225,
+      226,
+      227,
+      237,
+      247,
+      290,
+      294,
+      297,
+      341
+    ],
+    "$book": "Gleanings"
   },
   "Bread": {
     "$text": "Bread",
-    "$links": [195]
+    "$links": [
+      195
+    ],
+    "$book": "Gleanings"
   },
   "Burning Bush": {
     "$text": "Burning Bush",
-    "$links": [16, 24, 96, 199, 269, 271]
+    "$links": [
+      16,
+      24,
+      96,
+      199,
+      269,
+      271
+    ],
+    "$book": "Gleanings"
   },
   "Caiaphas": {
     "$text": "Caiaphas",
-    "$links": [83]
+    "$links": [
+      83
+    ],
+    "$book": "Gleanings"
   },
   "Calamities, prophesied": {
     "$text": "Calamities, prophesied",
-    "$links": [39, [40, 42], 119, 169, 209, 216, 218, 319, 340]
+    "$links": [
+      39,
+      [
+        40,
+        42
+      ],
+      119,
+      169,
+      209,
+      216,
+      218,
+      319,
+      340
+    ],
+    "$book": "Gleanings"
   },
   "Canaan": {
     "$text": "Canaan",
-    "$links": [84]
+    "$links": [
+      84
+    ],
+    "$book": "Gleanings"
   },
   "Carmel": {
     "$text": "Carmel",
-    "$links": [[14, 16], 211]
+    "$links": [
+      [
+        14,
+        16
+      ],
+      211
+    ],
+    "$book": "Gleanings"
   },
   "Cause of God": {
     "$text": "Cause of God",
@@ -585,15 +1371,26 @@
       {
         "id": "Revelation"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Celestial spheres": {
     "$text": "Celestial spheres",
-    "$links": [162, 163]
+    "$links": [
+      162,
+      163
+    ],
+    "$book": "Gleanings"
   },
   "Certitude, City of": {
     "$text": "Certitude, City of",
-    "$links": [[267, 270]]
+    "$links": [
+      [
+        267,
+        270
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Character": {
     "$text": "Character",
@@ -601,19 +1398,38 @@
       {
         "id": "Believers"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Charity": {
     "$text": "Charity",
-    "$links": [278, 285]
+    "$links": [
+      278,
+      285
+    ],
+    "$book": "Gleanings"
   },
   "Chastisement": {
     "$text": "Chastisement",
-    "$links": [209, 214, 252, 297, 325, 339, 346]
+    "$links": [
+      209,
+      214,
+      252,
+      297,
+      325,
+      339,
+      346
+    ],
+    "$book": "Gleanings"
   },
   "Chastity": {
     "$text": "Chastity",
-    "$links": [117, 118, 297]
+    "$links": [
+      117,
+      118,
+      297
+    ],
+    "$book": "Gleanings"
   },
   "Christ": {
     "$text": "Christ",
@@ -621,23 +1437,42 @@
       {
         "id": "Jesus Christ"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Christendom, Tablet to Kings of": {
     "$text": "Christendom, Tablet to Kings of",
-    "$links": [246]
+    "$links": [
+      246
+    ],
+    "$book": "Gleanings"
   },
   "Christians, call to": {
     "$text": "Christians, call to",
-    "$links": [101]
+    "$links": [
+      101
+    ],
+    "$book": "Gleanings"
   },
   "City of God": {
     "$text": "City of God",
-    "$links": [[267, 270]]
+    "$links": [
+      [
+        267,
+        270
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Civilization": {
     "$text": "Civilization",
-    "$links": [215, 216, 342, 343]
+    "$links": [
+      215,
+      216,
+      342,
+      343
+    ],
+    "$book": "Gleanings"
   },
   "Clergy": {
     "$text": "Clergy",
@@ -645,15 +1480,51 @@
       {
         "id": "Divines"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "\"Clouds\"": {
     "$text": "\"Clouds\"",
-    "$links": [26, 27, 42, 45, 68, 92, 101, 167, 246, 258, 275, 282, 288, 306, 320, 324]
+    "$links": [
+      26,
+      27,
+      42,
+      45,
+      68,
+      92,
+      101,
+      167,
+      246,
+      258,
+      275,
+      282,
+      288,
+      306,
+      320,
+      324
+    ],
+    "$book": "Gleanings"
   },
   "Concourse": {
     "$text": "Concourse",
-    "$links": [14, 59, 91, 113, 118, 135, 139, 148, 266, 280, 284, 292, 307, 315, 330]
+    "$links": [
+      14,
+      59,
+      91,
+      113,
+      118,
+      135,
+      139,
+      148,
+      266,
+      280,
+      284,
+      292,
+      307,
+      315,
+      330
+    ],
+    "$book": "Gleanings"
   },
   "Conduct": {
     "$text": "Conduct",
@@ -661,66 +1532,144 @@
       {
         "id": "Believers"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Consecration": {
     "$text": "Consecration",
-    "$links": [338]
+    "$links": [
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Constantinople": {
     "$text": "Constantinople",
-    "$links": [122, 219, 235],
+    "$links": [
+      122,
+      219,
+      235
+    ],
     "$children": {
       "Tablet to": {
         "$text": "Tablet to",
-        "$links": [125]
+        "$links": [
+          125
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Contention, forbidden": {
     "$text": "Contention, forbidden",
-    "$links": [9, 277, 279, 296, 304]
+    "$links": [
+      9,
+      277,
+      279,
+      296,
+      304
+    ],
+    "$book": "Gleanings"
   },
   "Copper": {
     "$text": "Copper",
-    "$links": [197, 198]
+    "$links": [
+      197,
+      198
+    ],
+    "$book": "Gleanings"
   },
   "Courtesy": {
     "$text": "Courtesy",
-    "$links": [305]
+    "$links": [
+      305
+    ],
+    "$book": "Gleanings"
   },
   "Covenant of God": {
     "$text": "Covenant of God",
-    "$links": [57, 128, 328, 331]
+    "$links": [
+      57,
+      128,
+      328,
+      331
+    ],
+    "$book": "Gleanings"
   },
   "Covetousness": {
     "$text": "Covetousness",
-    "$links": [169, 323]
+    "$links": [
+      169,
+      323
+    ],
+    "$book": "Gleanings"
   },
   "Creation": {
     "$text": "Creation",
     "$children": {
       "affected by Manifestation": {
         "$text": "affected by Manifestation",
-        "$links": [6, 15, 16, 30, 32, 68, 77, 85, 93, 142, 190, 263, 292, 308, 324, 325, 328]
+        "$links": [
+          6,
+          15,
+          16,
+          30,
+          32,
+          68,
+          77,
+          85,
+          93,
+          142,
+          190,
+          263,
+          292,
+          308,
+          324,
+          325,
+          328
+        ]
       },
-    	"compared to mirage": {
+      "compared to mirage": {
         "$text": "compared to mirage",
-        "$links": [328]
+        "$links": [
+          328
+        ]
       },
-    	"incomprehensible": {
+      "incomprehensible": {
         "$text": "incomprehensible",
-        "$links": [62]
+        "$links": [
+          62
+        ]
       },
-    	"manifests attributes of God": {
+      "manifests attributes of God": {
         "$text": "manifests attributes of God",
-        "$links": [[61, 63], 65, 140, 160, 166, 177, 178, 184, 187, 189, 190, 262, 283]
+        "$links": [
+          [
+            61,
+            63
+          ],
+          65,
+          140,
+          160,
+          166,
+          177,
+          178,
+          184,
+          187,
+          189,
+          190,
+          262,
+          283
+        ]
       },
-    	"new": {
+      "new": {
         "$text": "new",
-        "$links": [19, 62, 93]
+        "$links": [
+          19,
+          62,
+          93
+        ]
       },
-    	"of man": {
+      "of man": {
         "$text": "of man",
         "$seeAlso": [
           {
@@ -728,49 +1677,134 @@
           }
         ]
       },
-    	"origin": {
+      "origin": {
         "$text": "origin",
-        "$links": [61, 65, 77, 150, 193, 318, 325]
+        "$links": [
+          61,
+          65,
+          77,
+          150,
+          193,
+          318,
+          325
+        ]
       },
-    	"purpose": {
+      "purpose": {
         "$text": "purpose",
-        "$links": [65, 141, 144, 318]
+        "$links": [
+          65,
+          141,
+          144,
+          318
+        ]
       },
-    	"transient": {
+      "transient": {
         "$text": "transient",
-        "$links": [29, 328]
+        "$links": [
+          29,
+          328
+        ]
       },
-    	"unending": {
+      "unending": {
         "$text": "unending",
-        "$links": [61, 150, 162, 174]
+        "$links": [
+          61,
+          150,
+          162,
+          174
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Cycle, prophetic": {
     "$text": "Cycle, prophetic",
-    "$links": [60, 62, 75]
+    "$links": [
+      60,
+      62,
+      75
+    ],
+    "$book": "Gleanings"
   },
   "Day of God": {
     "$text": "Day of God",
-    "$links": [29, 30, 38, 40, 43, 44, 58, 107, 151, 171, 205, 206, 257, 276, 316, 319, 320],
+    "$links": [
+      29,
+      30,
+      38,
+      40,
+      43,
+      44,
+      58,
+      107,
+      151,
+      171,
+      205,
+      206,
+      257,
+      276,
+      316,
+      319,
+      320
+    ],
     "$children": {
       "day of service": {
         "$text": "day of service",
-        "$links": [9, 92, 193]
+        "$links": [
+          9,
+          92,
+          193
+        ]
       },
       "end of prophetic cycle": {
         "$text": "end of prophetic cycle",
-        "$links": [60, 75]
+        "$links": [
+          60,
+          75
+        ]
       },
       "foretold in Scriptures": {
         "$text": "foretold in Scriptures",
-        "$links": [10, 11, 12, 17, 145, 163, 314, 340]
+        "$links": [
+          10,
+          11,
+          12,
+          17,
+          145,
+          163,
+          314,
+          340
+        ]
       },
       "greatness of": {
         "$text": "greatness of",
-        "$links": [6, 7, 11, 13, 14, 28, 35, 36, 39, 45, 59, 60, 108, 145, 168, 196, 197, 214, 245, 263, 287, 340]
+        "$links": [
+          6,
+          7,
+          11,
+          13,
+          14,
+          28,
+          35,
+          36,
+          39,
+          45,
+          59,
+          60,
+          108,
+          145,
+          168,
+          196,
+          197,
+          214,
+          245,
+          263,
+          287,
+          340
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Death": {
     "$text": "Death",
@@ -782,87 +1816,237 @@
     "$children": {
       "hour of": {
         "$text": "hour of",
-        "$links": [157, 266]
+        "$links": [
+          157,
+          266
+        ]
       },
-    	"life after": {
+      "life after": {
         "$text": "life after",
-        "$links": [141, [153, 157], 161, [169, 171], 329, 345]
+        "$links": [
+          141,
+          [
+            153,
+            157
+          ],
+          161,
+          [
+            169,
+            171
+          ],
+          329,
+          345
+        ]
       },
-    	"of infidels": {
+      "of infidels": {
         "$text": "of infidels",
-        "$links": [170]
+        "$links": [
+          170
+        ]
       },
-    	"spiritual": {
+      "spiritual": {
         "$text": "spiritual",
-        "$links": [44, 139, 169, 176, 213]
+        "$links": [
+          44,
+          139,
+          169,
+          176,
+          213
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Deeds": {
     "$text": "Deeds",
     "$children": {
       "evil": {
         "$text": "evil",
-        "$links": [240, 243, 244, 275, 297]
+        "$links": [
+          240,
+          243,
+          244,
+          275,
+          297
+        ]
       },
-    	"known by God": {
+      "known by God": {
         "$text": "known by God",
-        "$links": [45, 123, 204, 210]
+        "$links": [
+          45,
+          123,
+          204,
+          210
+        ]
       },
-    	"of martyrs": {
+      "of martyrs": {
         "$text": "of martyrs",
-        "$links": [[180, 182]]
+        "$links": [
+          [
+            180,
+            182
+          ]
+        ]
       },
-    	"righteous, power of": {
+      "righteous, power of": {
         "$text": "righteous, power of",
-        "$links": [94, 96, 241, 272, 287, 299, 305, 334]
+        "$links": [
+          94,
+          96,
+          241,
+          272,
+          287,
+          299,
+          305,
+          334
+        ]
       },
-    	"value known after death": {
+      "value known after death": {
         "$text": "value known after death",
-        "$links": [171]
+        "$links": [
+          171
+        ]
       },
-    	"when acceptable": {
+      "when acceptable": {
         "$text": "when acceptable",
-        "$links": [9, 39, 86, 105, 123, 206, 241, 250, 272, 278, 290, 293, 315, 331]
+        "$links": [
+          9,
+          39,
+          86,
+          105,
+          123,
+          206,
+          241,
+          250,
+          272,
+          278,
+          290,
+          293,
+          315,
+          331
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Deluge": {
     "$text": "Deluge",
-    "$links": [174]
+    "$links": [
+      174
+    ],
+    "$book": "Gleanings"
   },
   "Detachment": {
     "$text": "Detachment",
-    "$links": [34, 40, 84, 100, 118, 139, 149, 157, 161, 180, 202, 205, 241, 242, 257, 264, 272, 275, 276, 294, 304, 306, 314, 316, 319, 325, 326, 334, 339]
+    "$links": [
+      34,
+      40,
+      84,
+      100,
+      118,
+      139,
+      149,
+      157,
+      161,
+      180,
+      202,
+      205,
+      241,
+      242,
+      257,
+      264,
+      272,
+      275,
+      276,
+      294,
+      304,
+      306,
+      314,
+      316,
+      319,
+      325,
+      326,
+      334,
+      339
+    ],
+    "$book": "Gleanings"
   },
   "Dhábih, Tablet to": {
     "$text": "Dhábih, Tablet to",
-    "$links": [240]
+    "$links": [
+      240
+    ],
+    "$book": "Gleanings"
   },
   "Disbelievers, untrustworthy": {
     "$text": "Disbelievers, untrustworthy",
-    "$links": [232, 233],
+    "$links": [
+      232,
+      233
+    ],
     "$seeAlso": [
       {
         "id": "Non-believers"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Dissension": {
     "$text": "Dissension",
-    "$links": [9, 95, 196, 218, 250, 288, 296, 333, 341]
+    "$links": [
+      9,
+      95,
+      196,
+      218,
+      250,
+      288,
+      296,
+      333,
+      341
+    ],
+    "$book": "Gleanings"
   },
   "Divine Guidance": {
     "$text": "Divine Guidance",
-    "$links": [18, 28, 39, 50, 67, 68, 96, 179, 258, 268, 325, 328, 338, 339, 342]
+    "$links": [
+      18,
+      28,
+      39,
+      50,
+      67,
+      68,
+      96,
+      179,
+      258,
+      268,
+      325,
+      328,
+      338,
+      339,
+      342
+    ],
+    "$book": "Gleanings"
   },
   "Divine Justice": {
     "$text": "Divine Justice",
-    "$links": [17, 98, 100, 117]
+    "$links": [
+      17,
+      98,
+      100,
+      117
+    ],
+    "$book": "Gleanings"
   },
   "Divine Physician": {
     "$text": "Divine Physician",
-    "$links": [40, 80, 81, 213, 255]
+    "$links": [
+      40,
+      80,
+      81,
+      213,
+      255
+    ],
+    "$book": "Gleanings"
   },
   "Divine Presence": {
     "$text": "Divine Presence",
@@ -870,7 +2054,8 @@
       {
         "id": "Presence of God"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Divine retribution": {
     "$text": "Divine retribution",
@@ -878,7 +2063,8 @@
       {
         "id": "Retribution"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Divine Unity": {
     "$text": "Divine Unity",
@@ -886,40 +2072,90 @@
       {
         "id": "Unity"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Divines, influence of": {
     "$text": "Divines, influence of",
-    "$links": [18, 19, 22, 26, 81, 128, 179, 180, 215]
+    "$links": [
+      18,
+      19,
+      22,
+      26,
+      81,
+      128,
+      179,
+      180,
+      215
+    ],
+    "$book": "Gleanings"
   },
   "Dreams": {
     "$text": "Dreams",
-    "$links": [152, 162]
+    "$links": [
+      152,
+      162
+    ],
+    "$book": "Gleanings"
   },
   "Duality": {
     "$text": "Duality",
-    "$links": [166, 187, 192, [336, 337]]
+    "$links": [
+      166,
+      187,
+      192,
+      [
+        336,
+        337
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Earth": {
     "$text": "Earth",
     "$children": {
       "blessedness of": {
         "$text": "blessedness of",
-        "$links": [30]
+        "$links": [
+          30
+        ]
       },
-    	"submissiveness of": {
+      "submissiveness of": {
         "$text": "submissiveness of",
-        "$links": [[7, 8], 322]
+        "$links": [
+          [
+            7,
+            8
+          ],
+          322
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Education": {
     "$text": "Education",
-    "$links": [9, 95, 189, 190, 259, 260, 312, 333]
+    "$links": [
+      9,
+      95,
+      189,
+      190,
+      259,
+      260,
+      312,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Equity": {
     "$text": "Equity",
-    "$links": [92, 203, 204, 236]
+    "$links": [
+      92,
+      203,
+      204,
+      236
+    ],
+    "$book": "Gleanings"
   },
   "Everlasting Life": {
     "$text": "Everlasting Life",
@@ -927,104 +2163,247 @@
       {
         "id": "Life"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Evil, source of": {
     "$text": "Evil, source of",
-    "$links": [149, 342]
+    "$links": [
+      149,
+      342
+    ],
+    "$book": "Gleanings"
   },
   "Evil One": {
     "$text": "Evil One",
-    "$links": [41, 94, 118, 126, 146, 168, 275, 284]
+    "$links": [
+      41,
+      94,
+      118,
+      126,
+      146,
+      168,
+      275,
+      284
+    ],
+    "$book": "Gleanings"
   },
   "Eye, function of": {
     "$text": "Eye, function of",
-    "$links": [160]
+    "$links": [
+      160
+    ],
+    "$book": "Gleanings"
   },
   "Faith": {
     "$text": "Faith",
-    "$links": [141, 170, 171, 180, 205, 217, 293, 338],
+    "$links": [
+      141,
+      170,
+      171,
+      180,
+      205,
+      217,
+      293,
+      338
+    ],
     "$children": {
       "individual responsibility": {
         "$text": "individual responsibility",
-        "$links": [81, 105, 143, 262, 328]
+        "$links": [
+          81,
+          105,
+          143,
+          262,
+          328
+        ]
       },
-    	"one common": {
+      "one common": {
         "$text": "one common",
-        "$links": [136, 217, 255, 319, 333]
+        "$links": [
+          136,
+          217,
+          255,
+          319,
+          333
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Faithfulness": {
     "$text": "Faithfulness",
-    "$links": [91, 161, 333]
+    "$links": [
+      91,
+      161,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Fanaticism, religious": {
     "$text": "Fanaticism, religious",
-    "$links": [288]
+    "$links": [
+      288
+    ],
+    "$book": "Gleanings"
   },
   "Fane, Frequented": {
     "$text": "Fane, Frequented",
-    "$links": [292]
+    "$links": [
+      292
+    ],
+    "$book": "Gleanings"
   },
   "Fashioner": {
     "$text": "Fashioner",
-    "$links": [14, 141]
+    "$links": [
+      14,
+      141
+    ],
+    "$book": "Gleanings"
   },
   "Fast, prayer for the": {
     "$text": "Fast, prayer for the",
-    "$links": [299, 337]
+    "$links": [
+      299,
+      337
+    ],
+    "$book": "Gleanings"
   },
   "Fate": {
     "$text": "Fate",
-    "$links": [133]
+    "$links": [
+      133
+    ],
+    "$book": "Gleanings"
   },
   "Fear God": {
     "$text": "Fear God",
-    "$links": [38, 98, 104, 126, 128, 272, 275, 277, 291, 314, 323, 346]
+    "$links": [
+      38,
+      98,
+      104,
+      126,
+      128,
+      272,
+      275,
+      277,
+      291,
+      314,
+      323,
+      346
+    ],
+    "$book": "Gleanings"
   },
   "Fellowship": {
     "$text": "Fellowship",
-    "$links": [7, 95, 184, 196, 260, 288, 289, 315, 316, [333, 334]]
+    "$links": [
+      7,
+      95,
+      184,
+      196,
+      260,
+      288,
+      289,
+      315,
+      316,
+      [
+        333,
+        334
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Force, prohibited in teaching": {
     "$text": "Force, prohibited in teaching",
-    "$links": [278, 303, 330]
+    "$links": [
+      278,
+      303,
+      330
+    ],
+    "$book": "Gleanings"
   },
   "Forgiveness": {
     "$text": "Forgiveness",
-    "$links": [36, 105, 130, 271, 275, 301, 309, 310, 311]
+    "$links": [
+      36,
+      105,
+      130,
+      271,
+      275,
+      301,
+      309,
+      310,
+      311
+    ],
+    "$book": "Gleanings"
   },
   "Free Will": {
     "$text": "Free Will",
-    "$links": [71, 81, 149, 164, 337, 338]
+    "$links": [
+      71,
+      81,
+      149,
+      164,
+      337,
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Freedom, true": {
     "$text": "Freedom, true",
-    "$links": [78]
+    "$links": [
+      78
+    ],
+    "$book": "Gleanings"
   },
   "Gabriel": {
     "$text": "Gabriel",
-    "$links": [103]
+    "$links": [
+      103
+    ],
+    "$book": "Gleanings"
   },
   "Generosity": {
     "$text": "Generosity",
-    "$links": [278, 285, 297]
+    "$links": [
+      278,
+      285,
+      297
+    ],
+    "$book": "Gleanings"
   },
   "God": {
     "$text": "God",
     "$children": {
       "Absolute existence of": {
         "$text": "Absolute existence of",
-        "$links": [157]
+        "$links": [
+          157
+        ]
       },
       "All-knowing": {
         "$text": "All-knowing",
-        "$links": [9, 29, 45, 59, 104, 105, 129, 150, 186, 204, 207, 319]
+        "$links": [
+          9,
+          29,
+          45,
+          59,
+          104,
+          105,
+          129,
+          150,
+          186,
+          204,
+          207,
+          319
+        ]
       },
       "attributes of": {
         "$text": "attributes of",
-        "$links": [290],
+        "$links": [
+          290
+        ],
         "$seeAlso": [
           {
             "id": "Manifestations"
@@ -1033,15 +2412,38 @@
       },
       "Book of": {
         "$text": "Book of",
-        "$links": [13, 159, 221, 225, 226, 227, 237, 247, 290, 294, 297, 341]
+        "$links": [
+          13,
+          159,
+          221,
+          225,
+          226,
+          227,
+          237,
+          247,
+          290,
+          294,
+          297,
+          341
+        ]
       },
       "Concealer": {
         "$text": "Concealer",
-        "$links": [36, 204, 309, 310]
+        "$links": [
+          36,
+          204,
+          309,
+          310
+        ]
       },
       "Covenant of": {
         "$text": "Covenant of",
-        "$links": [57, 128, 328, 331]
+        "$links": [
+          57,
+          128,
+          328,
+          331
+        ]
       },
       "Creation manifests attributes of": {
         "$text": "Creation manifests attributes of",
@@ -1053,7 +2455,20 @@
       },
       "Creator": {
         "$text": "Creator",
-        "$links": [64, 65, 105, 150, 151, 162, 193, 220, 318, 330, 337, 339]
+        "$links": [
+          64,
+          65,
+          105,
+          150,
+          151,
+          162,
+          193,
+          220,
+          318,
+          330,
+          337,
+          339
+        ]
       },
       "Day of": {
         "$text": "Day of",
@@ -1065,51 +2480,150 @@
       },
       "Educator": {
         "$text": "Educator",
-        "$links": [189, 243]
+        "$links": [
+          189,
+          243
+        ]
       },
       "Everlasting": {
         "$text": "Everlasting",
-        "$links": [151, 162, 192, 261, 318]
+        "$links": [
+          151,
+          162,
+          192,
+          261,
+          318
+        ]
       },
       "Exalted above creation": {
         "$text": "Exalted above creation",
-        "$links": [166, 184, 185, 192]
+        "$links": [
+          166,
+          184,
+          185,
+          192
+        ]
       },
       "Exalted above description": {
         "$text": "Exalted above description",
-        "$links": [5, 151, 193, 220, 318]
+        "$links": [
+          5,
+          151,
+          193,
+          220,
+          318
+        ]
       },
       "Enalted above praise": {
         "$text": "Enalted above praise",
-        "$links": [3, 4, 5, 47, 60, 174, 262]
+        "$links": [
+          3,
+          4,
+          5,
+          47,
+          60,
+          174,
+          262
+        ]
       },
       "Fear of": {
         "$text": "Fear of",
-        "$links": [38, 98, 104, 126, 128, 272, 275, 277, 291, 314, 323, 346]
+        "$links": [
+          38,
+          98,
+          104,
+          126,
+          128,
+          272,
+          275,
+          277,
+          291,
+          314,
+          323,
+          346
+        ]
       },
       "Forgiver": {
         "$text": "Forgiver",
-        "$links": [36, 105, 130, 204]
+        "$links": [
+          36,
+          105,
+          130,
+          204
+        ]
       },
       "\"God was alone\"": {
         "$text": "\"God was alone\"",
-        "$links": [150, 151, 192]
+        "$links": [
+          150,
+          151,
+          192
+        ]
       },
       "Grace of": {
         "$text": "Grace of",
-        "$links": [6, 8, 33, 34, 37, 62, 65, 67, 68, 76, 84, 104, 105, 107, 130, 185, 190, 295, 297, 301, 303, 308, 312, 320, 323, 325, 326, 328, 332, 343]
+        "$links": [
+          6,
+          8,
+          33,
+          34,
+          37,
+          62,
+          65,
+          67,
+          68,
+          76,
+          84,
+          104,
+          105,
+          107,
+          130,
+          185,
+          190,
+          295,
+          297,
+          301,
+          303,
+          308,
+          312,
+          320,
+          323,
+          325,
+          326,
+          328,
+          332,
+          343
+        ]
       },
       "Inaccessible": {
         "$text": "Inaccessible",
-        "$links": [63, 64, 66, 193, 261, 318]
+        "$links": [
+          63,
+          64,
+          66,
+          193,
+          261,
+          318
+        ]
       },
       "Independent of all": {
         "$text": "Independent of all",
-        "$links": [85, 140, 148, 166, 192, 193, 260, 261]
+        "$links": [
+          85,
+          140,
+          148,
+          166,
+          192,
+          193,
+          260,
+          261
+        ]
       },
       "Judge": {
         "$text": "Judge",
-        "$links": [227]
+        "$links": [
+          227
+        ]
       },
       "known through Manifestations": {
         "$text": "known through Manifestations",
@@ -1129,55 +2643,150 @@
       },
       "Names of": {
         "$text": "Names of",
-        "$links": [258, 274, 293, 319]
+        "$links": [
+          258,
+          274,
+          293,
+          319
+        ]
       },
       "nearness to man": {
         "$text": "nearness to man",
-        "$links": [185, 186]
+        "$links": [
+          185,
+          186
+        ]
       },
       "Object of all knowledge": {
         "$text": "Object of all knowledge",
-        "$links": [5, 84, 85, 177, 199, 204, 291]
+        "$links": [
+          5,
+          84,
+          85,
+          177,
+          199,
+          204,
+          291
+        ]
       },
       "Omnipresent": {
         "$text": "Omnipresent",
-        "$links": [63, 186, 318, 326]
+        "$links": [
+          63,
+          186,
+          318,
+          326
+        ]
       },
       "Peerless (no Partner)": {
         "$text": "Peerless (no Partner)",
-        "$links": [12, 36, 64, 70, 98, 151, 166, 187, 192, 193, 273, 336, 338]
+        "$links": [
+          12,
+          36,
+          64,
+          70,
+          98,
+          151,
+          166,
+          187,
+          192,
+          193,
+          273,
+          336,
+          338
+        ]
       },
       "Power of": {
         "$text": "Power of",
-        "$links": [34, 61, 63, 73, 160, 184, 220, 224, 242, 243, 312, 341]
+        "$links": [
+          34,
+          61,
+          63,
+          73,
+          160,
+          184,
+          220,
+          224,
+          242,
+          243,
+          312,
+          341
+        ]
       },
       "praise of, a duty and bounty": {
         "$text": "praise of, a duty and bounty",
-        "$links": [4]
+        "$links": [
+          4
+        ]
       },
       "protects from harm": {
         "$text": "protects from harm",
-        "$links": [233]
+        "$links": [
+          233
+        ]
       },
       "purpose of": {
         "$text": "purpose of",
-        "$links": [71, 79, 116, 127, 153, 220, 243, 287, 299, 324, 336]
+        "$links": [
+          71,
+          79,
+          116,
+          127,
+          153,
+          220,
+          243,
+          287,
+          299,
+          324,
+          336
+        ]
       },
       "singleness of": {
         "$text": "singleness of",
-        "$links": [166, 190, 192, 193]
+        "$links": [
+          166,
+          190,
+          192,
+          193
+        ]
       },
       "source of knowledge": {
         "$text": "source of knowledge",
-        "$links": [5, 84, 176, 177, 199, 204, 312, 314]
+        "$links": [
+          5,
+          84,
+          176,
+          177,
+          199,
+          204,
+          312,
+          314
+        ]
       },
       "sovereignty of": {
         "$text": "sovereignty of",
-        "$links": [35, 42, 45, 61, 64, 73, 87, 166, 184, 235, 261, 295, 324]
+        "$links": [
+          35,
+          42,
+          45,
+          61,
+          64,
+          73,
+          87,
+          166,
+          184,
+          235,
+          261,
+          295,
+          324
+        ]
       },
       "Unity manifested by Manifestation": {
         "$text": "Unity manifested by Manifestation",
-        "$links": [21, 231]
+        "$links": [
+          21,
+          231
+        ]
       },
       "Unity of": {
         "$text": "Unity of",
@@ -1189,11 +2798,43 @@
       },
       "unknowable": {
         "$text": "unknowable",
-        "$links": [3, 4, 5, 29, 46, 47, 49, [60, 64], 150, 165, 174, 193, 220, 242, 261, 318, 336]
+        "$links": [
+          3,
+          4,
+          5,
+          29,
+          46,
+          47,
+          49,
+          [
+            60,
+            64
+          ],
+          150,
+          165,
+          174,
+          193,
+          220,
+          242,
+          261,
+          318,
+          336
+        ]
       },
       "Will of": {
         "$text": "Will of",
-        "$links": [5, 61, 65, 167, 209, 211, 318, 324, 329, 338]
+        "$links": [
+          5,
+          61,
+          65,
+          167,
+          209,
+          211,
+          318,
+          324,
+          329,
+          338
+        ]
       },
       "Word of": {
         "$text": "Word of",
@@ -1205,50 +2846,112 @@
       },
       "wrath of": {
         "$text": "wrath of",
-        "$links": [40, 130, 204, 208, 257, 325]
+        "$links": [
+          40,
+          130,
+          204,
+          208,
+          257,
+          325
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Gold": {
     "$text": "Gold",
-    "$links": [197, 198, 200]
+    "$links": [
+      197,
+      198,
+      200
+    ],
+    "$book": "Gleanings"
   },
   "Gospel": {
     "$text": "Gospel",
-    "$links": [270, 294]
+    "$links": [
+      270,
+      294
+    ],
+    "$book": "Gleanings"
   },
   "Governments": {
     "$text": "Governments",
     "$children": {
       "advancement of": {
         "$text": "advancement of",
-        "$links": [[94, 95], 216]
+        "$links": [
+          [
+            94,
+            95
+          ],
+          216
+        ]
       },
-    	"obedience to": {
+      "obedience to": {
         "$text": "obedience to",
-        "$links": [207, 229, 240, 241]
+        "$links": [
+          207,
+          229,
+          240,
+          241
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Great Announcement": {
     "$text": "Great Announcement",
-    "$links": [40, 116, 308]
+    "$links": [
+      40,
+      116,
+      308
+    ],
+    "$book": "Gleanings"
   },
   "Guidance, Divine": {
     "$text": "Guidance, Divine",
-    "$links": [18, 28, 39, 50, 67, 68, 96, 179, 258, 268, 325, 328, 338, 339, 342]
+    "$links": [
+      18,
+      28,
+      39,
+      50,
+      67,
+      68,
+      96,
+      179,
+      258,
+      268,
+      325,
+      328,
+      338,
+      339,
+      342
+    ],
+    "$book": "Gleanings"
   },
   "Hakím, Tablet to": {
     "$text": "Hakím, Tablet to",
-    "$links": [200]
+    "$links": [
+      200
+    ],
+    "$book": "Gleanings"
   },
   "Handmaids, prayer for": {
     "$text": "Handmaids, prayer for",
-    "$links": [134]
+    "$links": [
+      134
+    ],
+    "$book": "Gleanings"
   },
   "Hearing": {
     "$text": "Hearing",
-    "$links": [164, 195, 340]
+    "$links": [
+      164,
+      195,
+      340
+    ],
+    "$book": "Gleanings"
   },
   "Heart": {
     "$text": "Heart",
@@ -1256,51 +2959,111 @@
       {
         "id": "Man"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Heathen": {
     "$text": "Heathen",
-    "$links": [338]
+    "$links": [
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Heavens (of religions) rent": {
     "$text": "Heavens (of religions) rent",
-    "$links": [41, 42, 45, 333]
+    "$links": [
+      41,
+      42,
+      45,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Hebrew": {
     "$text": "Hebrew",
-    "$links": [173]
+    "$links": [
+      173
+    ],
+    "$book": "Gleanings"
   },
   "Hell": {
     "$text": "Hell",
-    "$links": [42, 45, 158, 209]
+    "$links": [
+      42,
+      45,
+      158,
+      209
+    ],
+    "$book": "Gleanings"
   },
   "Herald": {
     "$text": "Herald",
-    "$links": [43]
+    "$links": [
+      43
+    ],
+    "$book": "Gleanings"
   },
   "\"Him whom God will make manifest\"": {
     "$text": "\"Him whom God will make manifest\"",
-    "$links": [270]
+    "$links": [
+      270
+    ],
+    "$book": "Gleanings"
   },
   "Holy Ghost": {
     "$text": "Holy Ghost",
-    "$links": [103]
+    "$links": [
+      103
+    ],
+    "$book": "Gleanings"
   },
   "Holy Land, references to": {
     "$text": "Holy Land, references to",
-    "$links": [13, 14, 117, 173, 199, 211, 344]
+    "$links": [
+      13,
+      14,
+      117,
+      173,
+      199,
+      211,
+      344
+    ],
+    "$book": "Gleanings"
   },
   "Honesty": {
     "$text": "Honesty",
-    "$links": [[297, 299]]
+    "$links": [
+      [
+        297,
+        299
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Honor": {
     "$text": "Honor",
-    "$links": [202, 235, 305, 306]
+    "$links": [
+      202,
+      235,
+      305,
+      306
+    ],
+    "$book": "Gleanings"
   },
   "\"Hour,\" appointed": {
     "$text": "\"Hour,\" appointed",
-    "$links": [17, 43, 103, 119, 125, 151, 204, 211, 214]
+    "$links": [
+      17,
+      43,
+      103,
+      119,
+      125,
+      151,
+      204,
+      211,
+      214
+    ],
+    "$book": "Gleanings"
   },
   "Humanity": {
     "$text": "Humanity",
@@ -1308,436 +3071,990 @@
       {
         "id": "Mankind"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Humiliation": {
     "$text": "Humiliation",
-    "$links": [305]
+    "$links": [
+      305
+    ],
+    "$book": "Gleanings"
   },
   "Humility": {
     "$text": "Humility",
-    "$links": [7, 8, 9]
+    "$links": [
+      7,
+      8,
+      9
+    ],
+    "$book": "Gleanings"
   },
   "Husayn, Imám": {
     "$text": "Husayn, Imám",
-    "$links": [12, 76, 225]
+    "$links": [
+      12,
+      76,
+      225
+    ],
+    "$book": "Gleanings"
   },
   "Husayn, Tablet to": {
     "$text": "Husayn, Tablet to",
-    "$links": [12]
+    "$links": [
+      12
+    ],
+    "$book": "Gleanings"
   },
   "Illiteracy": {
     "$text": "Illiteracy",
-    "$links": [312]
+    "$links": [
+      312
+    ],
+    "$book": "Gleanings"
   },
   "Imám-'Alí": {
     "$text": "Imám-'Alí",
-    "$links": [51]
+    "$links": [
+      51
+    ],
+    "$book": "Gleanings"
   },
   "Imám-Husayn": {
     "$text": "Imám-Husayn",
-    "$links": [12, 76, 225]
+    "$links": [
+      12,
+      76,
+      225
+    ],
+    "$book": "Gleanings"
   },
   "Imáms": {
     "$text": "Imáms",
-    "$links": [51]
+    "$links": [
+      51
+    ],
+    "$book": "Gleanings"
   },
   "Immortality": {
     "$text": "Immortality",
-    "$links": [33, 74, 107, 141, 148, 157, 181, 269, 282],
+    "$links": [
+      33,
+      74,
+      107,
+      141,
+      148,
+      157,
+      181,
+      269,
+      282
+    ],
     "$seeAlso": [
       {
         "id": "Life"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Impostor": {
     "$text": "Impostor",
-    "$links": [346]
+    "$links": [
+      346
+    ],
+    "$book": "Gleanings"
   },
   "Inequality of man": {
     "$text": "Inequality of man",
-    "$links": [149, [187, 189]]
+    "$links": [
+      149,
+      [
+        187,
+        189
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Infidels, condition at time of death": {
     "$text": "Infidels, condition at time of death",
-    "$links": [170]
+    "$links": [
+      170
+    ],
+    "$book": "Gleanings"
   },
   "Injustice": {
     "$text": "Injustice",
-    "$links": [125, 130, 204, 216, 221, 230, 250, 251, 342]
+    "$links": [
+      125,
+      130,
+      204,
+      216,
+      221,
+      230,
+      250,
+      251,
+      342
+    ],
+    "$book": "Gleanings"
   },
   "Insight": {
     "$text": "Insight",
-    "$links": [36, 144, [267, 269], 298, 331]
+    "$links": [
+      36,
+      144,
+      [
+        267,
+        269
+      ],
+      298,
+      331
+    ],
+    "$book": "Gleanings"
   },
   "Intellectual pride": {
     "$text": "Intellectual pride",
-    "$links": [18, 211, 265, 314, 315]
+    "$links": [
+      18,
+      211,
+      265,
+      314,
+      315
+    ],
+    "$book": "Gleanings"
   },
   "Intercession": {
     "$text": "Intercession",
-    "$links": [315]
+    "$links": [
+      315
+    ],
+    "$book": "Gleanings"
   },
   "International Counsel enjoined": {
     "$text": "International Counsel enjoined",
-    "$links": [216, 249, 254]
+    "$links": [
+      216,
+      249,
+      254
+    ],
+    "$book": "Gleanings"
   },
   "Íqán, excerpts from": {
     "$text": "Íqán, excerpts from",
-    "$links": [[17, 27], [46, 49], [50, 56], 177, 179, [264, 270]]
+    "$links": [
+      [
+        17,
+        27
+      ],
+      [
+        46,
+        49
+      ],
+      [
+        50,
+        56
+      ],
+      177,
+      179,
+      [
+        264,
+        270
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "'Iraq": {
     "$text": "'Iraq",
-    "$links": [37, 118, 124, 131, 132, 228, 229, 230, 240, 339]
+    "$links": [
+      37,
+      118,
+      124,
+      131,
+      132,
+      228,
+      229,
+      230,
+      240,
+      339
+    ],
+    "$book": "Gleanings"
   },
   "Irreligion, spread of": {
     "$text": "Irreligion, spread of",
-    "$links": [171, 200, 209, 288]
+    "$links": [
+      171,
+      200,
+      209,
+      288
+    ],
+    "$book": "Gleanings"
   },
   "Isaiah, prophecy of": {
     "$text": "Isaiah, prophecy of",
-    "$links": [13]
+    "$links": [
+      13
+    ],
+    "$book": "Gleanings"
   },
   "Ishmael": {
     "$text": "Ishmael",
-    "$links": [75]
+    "$links": [
+      75
+    ],
+    "$book": "Gleanings"
   },
   "Islam": {
     "$text": "Islam",
     "$children": {
       "call to": {
         "$text": "call to",
-        "$links": [101]
+        "$links": [
+          101
+        ]
       },
-    	"Shí'ih, condition of": {
+      "Shí'ih, condition of": {
         "$text": "Shí'ih, condition of",
-        "$links": [69]
+        "$links": [
+          69
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Israel": {
     "$text": "Israel",
-    "$links": [20]
+    "$links": [
+      20
+    ],
+    "$book": "Gleanings"
   },
   "Javád, Tablet to": {
     "$text": "Javád, Tablet to",
-    "$links": [208]
+    "$links": [
+      208
+    ],
+    "$book": "Gleanings"
   },
   "Jerusalem": {
     "$text": "Jerusalem",
-    "$links": [13, 117]
+    "$links": [
+      13,
+      117
+    ],
+    "$book": "Gleanings"
   },
   "Jesus Christ": {
     "$text": "Jesus Christ",
-    "$links": [51, 52, 57, 62, 83, 101, 102, 270],
+    "$links": [
+      51,
+      52,
+      57,
+      62,
+      83,
+      101,
+      102,
+      270
+    ],
     "$children": {
       "Book of": {
         "$text": "Book of",
-        "$links": [21]
+        "$links": [
+          21
+        ]
       },
-    	"effect upon creation": {
+      "effect upon creation": {
         "$text": "effect upon creation",
-        "$links": [76, 85, 86]
+        "$links": [
+          76,
+          85,
+          86
+        ]
       },
-    	"oneness with Muhammad": {
+      "oneness with Muhammad": {
         "$text": "oneness with Muhammad",
-        "$links": [21]
+        "$links": [
+          21
+        ]
       },
-    	"\"return\"": {
+      "\"return\"": {
         "$text": "\"return\"",
-        "$links": [21, 22, 246]
+        "$links": [
+          21,
+          22,
+          246
+        ]
       },
-    	"Spirit of God": {
+      "Spirit of God": {
         "$text": "Spirit of God",
-        "$links": [101]
+        "$links": [
+          101
+        ]
       },
-    	"why opposed": {
+      "why opposed": {
         "$text": "why opposed",
-        "$links": [20]
+        "$links": [
+          20
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Jews": {
     "$text": "Jews",
-    "$links": [22, 23, 57],
+    "$links": [
+      22,
+      23,
+      57
+    ],
     "$children": {
       "call to": {
         "$text": "call to",
-        "$links": [101]
+        "$links": [
+          101
+        ]
       },
-    	"still expecting Messiah": {
+      "still expecting Messiah": {
         "$text": "still expecting Messiah",
-        "$links": [20]
+        "$links": [
+          20
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Jordan": {
     "$text": "Jordan",
-    "$links": [173],
+    "$links": [
+      173
+    ],
     "$children": {
       "prophecies about": {
         "$text": "prophecies about",
-        "$links": [117]
+        "$links": [
+          117
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Judgment Day": {
     "$text": "Judgment Day",
-    "$links": [11, 40, 41, 43, 125, 136, 137, 143, 226, 236, 247, 251]
+    "$links": [
+      11,
+      40,
+      41,
+      43,
+      125,
+      136,
+      137,
+      143,
+      226,
+      236,
+      247,
+      251
+    ],
+    "$book": "Gleanings"
   },
   "Júk": {
     "$text": "Júk",
-    "$links": [174]
+    "$links": [
+      174
+    ],
+    "$book": "Gleanings"
   },
   "Justice": {
     "$text": "Justice",
-    "$links": [81, 92, 98, 124, 128, 175, 204, 218, 219, 222, 230, [232, 237], 242, 247, 250, 251, 254, 278, 285, 305, 306, 342]
+    "$links": [
+      81,
+      92,
+      98,
+      124,
+      128,
+      175,
+      204,
+      218,
+      219,
+      222,
+      230,
+      [
+        232,
+        237
+      ],
+      242,
+      247,
+      250,
+      251,
+      254,
+      278,
+      285,
+      305,
+      306,
+      342
+    ],
+    "$book": "Gleanings"
   },
   "Justice, Divine": {
     "$text": "Justice, Divine",
-    "$links": [17, 98, 100, 117, 130],
+    "$links": [
+      17,
+      98,
+      100,
+      117,
+      130
+    ],
     "$children": {
       "standard revealed by Manifestation": {
         "$text": "standard revealed by Manifestation",
-        "$links": [175]
+        "$links": [
+          175
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Kaaba": {
     "$text": "Kaaba",
-    "$links": [16]
+    "$links": [
+      16
+    ],
+    "$book": "Gleanings"
   },
   "Ka'b-ibn-i-Ashraf": {
     "$text": "Ka'b-ibn-i-Ashraf",
-    "$links": [25]
+    "$links": [
+      25
+    ],
+    "$book": "Gleanings"
   },
   "Kamál, Tablet to": {
     "$text": "Kamál, Tablet to",
-    "$links": [214]
+    "$links": [
+      214
+    ],
+    "$book": "Gleanings"
   },
   "Karbilá": {
     "$text": "Karbilá",
-    "$links": [89]
+    "$links": [
+      89
+    ],
+    "$book": "Gleanings"
   },
   "Khalíl, Tablet to": {
     "$text": "Khalíl, Tablet to",
-    "$links": [295]
+    "$links": [
+      295
+    ],
+    "$book": "Gleanings"
   },
   "Kindliness": {
     "$text": "Kindliness",
-    "$links": [8, 33, 279, 289, 299, 315, 334]
+    "$links": [
+      8,
+      33,
+      279,
+      289,
+      299,
+      315,
+      334
+    ],
+    "$book": "Gleanings"
   },
   "King who will arise, station of": {
     "$text": "King who will arise, station of",
-    "$links": [207, 212]
+    "$links": [
+      207,
+      212
+    ],
+    "$book": "Gleanings"
   },
   "\"Kingdom is God's\", The": {
     "$text": "\"Kingdom is God's\", The",
-    "$links": [11, 31, 33, 35, 42, 44, 199, 210, 260, 343]
+    "$links": [
+      11,
+      31,
+      33,
+      35,
+      42,
+      44,
+      199,
+      210,
+      260,
+      343
+    ],
+    "$book": "Gleanings"
   },
   "Kings and Rulers": {
     "$text": "Kings and Rulers",
-    "$links": [206],
+    "$links": [
+      206
+    ],
     "$children": {
       "cause of impotence": {
         "$text": "cause of impotence",
-        "$links": [223, 255]
+        "$links": [
+          223,
+          255
+        ]
       },
       "duty of": {
         "$text": "duty of",
-        "$links": [216, 218, 232, 247, 249, 250, 254]
+        "$links": [
+          216,
+          218,
+          232,
+          247,
+          249,
+          250,
+          254
+        ]
       },
       "injustice of": {
         "$text": "injustice of",
-        "$links": [[222, 224], 229, 253]
+        "$links": [
+          [
+            222,
+            224
+          ],
+          229,
+          253
+        ]
       },
       "justice enjoined upon": {
         "$text": "justice enjoined upon",
-        "$links": [219, 222, 223, 247, 251, 252]
+        "$links": [
+          219,
+          222,
+          223,
+          247,
+          251,
+          252
+        ]
       },
       "obedience to": {
         "$text": "obedience to",
-        "$links": [207, 229, 240, 241]
+        "$links": [
+          207,
+          229,
+          240,
+          241
+        ]
       },
       "of Christendom, Tablet to": {
         "$text": "of Christendom, Tablet to",
-        "$links": [[246, 248]]
+        "$links": [
+          [
+            246,
+            248
+          ]
+        ]
       },
       "station of": {
         "$text": "station of",
-        "$links": [212, 218, 219, 241, 249, 251, 304]
+        "$links": [
+          212,
+          218,
+          219,
+          241,
+          249,
+          251,
+          304
+        ]
       },
       "station of one who will arise": {
         "$text": "station of one who will arise",
-        "$links": [111, 207, 212]
+        "$links": [
+          111,
+          207,
+          212
+        ]
       },
       "Tablet to": {
         "$text": "Tablet to",
-        "$links": [[210, 212], 253, 254]
+        "$links": [
+          [
+            210,
+            212
+          ],
+          253,
+          254
+        ]
       },
       "Tablet to Sultán 'Abdu'l-'Azíz": {
         "$text": "Tablet to Sultán 'Abdu'l-'Azíz",
-        "$links": [[232, 240]]
+        "$links": [
+          [
+            232,
+            240
+          ]
+        ]
       },
       "unity enjoined upon": {
         "$text": "unity enjoined upon",
-        "$links": [216, 249, 254, 255]
+        "$links": [
+          216,
+          249,
+          254,
+          255
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Knowledge": {
     "$text": "Knowledge",
     "$children": {
       "Object of": {
         "$text": "Object of",
-        "$links": [5, 84, 85, 177, 199, 204, 264, 291]
+        "$links": [
+          5,
+          84,
+          85,
+          177,
+          199,
+          204,
+          264,
+          291
+        ]
       },
-    	"of believers": {
+      "of believers": {
         "$text": "of believers",
-        "$links": [70, 84, 170, 263, [267, 269], 314, 331]
+        "$links": [
+          70,
+          84,
+          170,
+          263,
+          [
+            267,
+            269
+          ],
+          314,
+          331
+        ]
       },
-    	"of self": {
+      "of self": {
         "$text": "of self",
-        "$links": [178, 186, 205, 287, [326, 327]]
+        "$links": [
+          178,
+          186,
+          205,
+          287,
+          [
+            326,
+            327
+          ]
+        ]
       },
-    	"preparation for": {
+      "preparation for": {
         "$text": "preparation for",
-        "$links": [262, [264, 269], 326]
+        "$links": [
+          262,
+          [
+            264,
+            269
+          ],
+          326
+        ]
       },
-    	"Source of": {
+      "Source of": {
         "$text": "Source of",
-        "$links": [5, 84, 85, 142, 144, 157, 161, 176, 177, 199, 204, 217, [262, 264], 312, 314, 331]
+        "$links": [
+          5,
+          84,
+          85,
+          142,
+          144,
+          157,
+          161,
+          176,
+          177,
+          199,
+          204,
+          217,
+          [
+            262,
+            264
+          ],
+          312,
+          314,
+          331
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Kumayl, tradition of": {
     "$text": "Kumayl, tradition of",
-    "$links": [178]
+    "$links": [
+      178
+    ],
+    "$book": "Gleanings"
   },
   "Language": {
     "$text": "Language",
     "$children": {
       "before Adam": {
         "$text": "before Adam",
-        "$links": [172]
+        "$links": [
+          172
+        ]
       },
-    	"universal": {
+      "universal": {
         "$text": "universal",
-        "$links": [249]
+        "$links": [
+          249
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Languages, diversity of": {
     "$text": "Languages, diversity of",
-    "$links": [173]
+    "$links": [
+      173
+    ],
+    "$book": "Gleanings"
   },
   "Laws, human": {
     "$text": "Laws, human",
-    "$links": [122, 123, 124]
+    "$links": [
+      122,
+      123,
+      124
+    ],
+    "$book": "Gleanings"
   },
   "Laws of God": {
     "$text": "Laws of God",
     "$children": {
       "animating power for advancement": {
         "$text": "animating power for advancement",
-        "$links": [[93, 97], 287, 289, 291, 331]
+        "$links": [
+          [
+            93,
+            97
+          ],
+          287,
+          289,
+          291,
+          331
+        ]
       },
-    	"disobedience to": {
+      "disobedience to": {
         "$text": "disobedience to",
-        "$links": [87, 123, 124, 149, 254]
+        "$links": [
+          87,
+          123,
+          124,
+          149,
+          254
+        ]
       },
-    	"means of liberty": {
+      "means of liberty": {
         "$text": "means of liberty",
-        "$links": [336]
+        "$links": [
+          336
+        ]
       },
-    	"means of victory of Cause": {
+      "means of victory of Cause": {
         "$text": "means of victory of Cause",
-        "$links": [287, 332]
+        "$links": [
+          287,
+          332
+        ]
       },
-    	"means of world order": {
+      "means of world order": {
         "$text": "means of world order",
-        "$links": [93, 97, 331]
+        "$links": [
+          93,
+          97,
+          331
+        ]
       },
-    	"Most Great": {
+      "Most Great": {
         "$text": "Most Great",
-        "$links": [13, 211]
+        "$links": [
+          13,
+          211
+        ]
       },
-    	"obedience to": {
+      "obedience to": {
         "$text": "obedience to",
-        "$links": [5, 87, 123, 129, 240, 289, 290, 307, [330, 333], 336, 337]
+        "$links": [
+          5,
+          87,
+          123,
+          129,
+          240,
+          289,
+          290,
+          307,
+          [
+            330,
+            333
+          ],
+          336,
+          337
+        ]
       },
-    	"ordinances": {
+      "ordinances": {
         "$text": "ordinances",
-        "$links": [175, 217, 289, 337]
+        "$links": [
+          175,
+          217,
+          289,
+          337
+        ]
       },
-    	"source of justice": {
+      "source of justice": {
         "$text": "source of justice",
-        "$links": [117, 175]
+        "$links": [
+          117,
+          175
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Laws of Manifestations, justice of": {
     "$text": "Laws of Manifestations, justice of",
-    "$links": [175]
+    "$links": [
+      175
+    ],
+    "$book": "Gleanings"
   },
   "Leprosy": {
     "$text": "Leprosy",
-    "$links": [86]
+    "$links": [
+      86
+    ],
+    "$book": "Gleanings"
   },
   "Lesser Peace": {
     "$text": "Lesser Peace",
-    "$links": [254]
+    "$links": [
+      254
+    ],
+    "$book": "Gleanings"
   },
   "Letter of the Living, Tablet to": {
     "$text": "Letter of the Living, Tablet to",
-    "$links": [291]
+    "$links": [
+      291
+    ],
+    "$book": "Gleanings"
   },
   "Liberty, true": {
     "$text": "Liberty, true",
-    "$links": [92, 96, 99, 216, 260, 335, 336]
+    "$links": [
+      92,
+      96,
+      99,
+      216,
+      260,
+      335,
+      336
+    ],
+    "$book": "Gleanings"
   },
   "Life": {
     "$text": "Life",
     "$children": {
       "after death": {
         "$text": "after death",
-        "$links": [141, [153, 155], 157, 161, [169, 171], 329, 345]
+        "$links": [
+          141,
+          [
+            153,
+            155
+          ],
+          157,
+          161,
+          [
+            169,
+            171
+          ],
+          329,
+          345
+        ]
       },
-    	"everlasting": {
+      "everlasting": {
         "$text": "everlasting",
-        "$links": [34, 116, 145, 169, 183, 213, 338, 345],
+        "$links": [
+          34,
+          116,
+          145,
+          169,
+          183,
+          213,
+          338,
+          345
+        ],
         "$seeAlso": [
           {
             "id": "Immortality"
           }
         ]
       },
-    	"transient": {
+      "transient": {
         "$text": "transient",
-        "$links": [29, 125, 261, 328]
+        "$links": [
+          29,
+          125,
+          261,
+          328
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "\"Life to come,\" meaning of": {
     "$text": "\"Life to come,\" meaning of",
-    "$links": [276]
+    "$links": [
+      276
+    ],
+    "$book": "Gleanings"
   },
   "Livelihood": {
     "$text": "Livelihood",
-    "$links": [202]
+    "$links": [
+      202
+    ],
+    "$book": "Gleanings"
   },
   "Love of God": {
     "$text": "Love of God",
-    "$links": [261, 288, 304, 325]
+    "$links": [
+      261,
+      288,
+      304,
+      325
+    ],
+    "$book": "Gleanings"
   },
   "Love of humanity": {
     "$text": "Love of humanity",
-    "$links": [7, 95, 250, 260, 288, 316, 334]
+    "$links": [
+      7,
+      95,
+      250,
+      260,
+      288,
+      316,
+      334
+    ],
+    "$book": "Gleanings"
   },
   "Maids of Heaven": {
     "$text": "Maids of Heaven",
-    "$links": [32, 91, 136, 156, 282, 284, 327]
+    "$links": [
+      32,
+      91,
+      136,
+      156,
+      282,
+      284,
+      327
+    ],
+    "$book": "Gleanings"
   },
   "Man": {
     "$text": "Man",
@@ -1749,15 +4066,35 @@
     "$children": {
       "after death": {
         "$text": "after death",
-        "$links": [141, 153, 157, 159, 161, 169, 329, 345]
+        "$links": [
+          141,
+          153,
+          157,
+          159,
+          161,
+          169,
+          329,
+          345
+        ]
       },
       "attributes of": {
         "$text": "attributes of",
-        "$links": [165, 215]
+        "$links": [
+          165,
+          215
+        ]
       },
       "creation of": {
         "$text": "creation of",
-        "$links": [70, 144, 149, 215, 260, 314, 334]
+        "$links": [
+          70,
+          144,
+          149,
+          215,
+          260,
+          314,
+          334
+        ]
       },
       "deeds of": {
         "$text": "deeds of",
@@ -1769,222 +4106,593 @@
       },
       "education of": {
         "$text": "education of",
-        "$links": [9, 95, 189, 190, 259, 260, 333]
+        "$links": [
+          9,
+          95,
+          189,
+          190,
+          259,
+          260,
+          333
+        ]
       },
       "free will": {
         "$text": "free will",
-        "$links": [71, 149, 164, [355, 338]]
+        "$links": [
+          71,
+          149,
+          164,
+          [
+            355,
+            338
+          ]
+        ]
       },
       "has capacity to know God": {
         "$text": "has capacity to know God",
-        "$links": [65, 77, 105, 106, 143, 194, 291]
+        "$links": [
+          65,
+          77,
+          105,
+          106,
+          143,
+          194,
+          291
+        ]
       },
       "heart of, belongs to God": {
         "$text": "heart of, belongs to God",
-        "$links": [186, 206, 212, 241, 279, 297, 304]
+        "$links": [
+          186,
+          206,
+          212,
+          241,
+          279,
+          297,
+          304
+        ]
       },
       "latent powers of": {
         "$text": "latent powers of",
-        "$links": [65, 67, 68, 71, 77, 186, 260, 340]
+        "$links": [
+          65,
+          67,
+          68,
+          71,
+          77,
+          186,
+          260,
+          340
+        ]
       },
       "mind, limitation of": {
         "$text": "mind, limitation of",
-        "$links": [4, 62, 77, 151, 164, 165, 317, 318]
+        "$links": [
+          4,
+          62,
+          77,
+          151,
+          164,
+          165,
+          317,
+          318
+        ]
       },
       "\"Mystery of God\"": {
         "$text": "\"Mystery of God\"",
-        "$links": [177]
+        "$links": [
+          177
+        ]
       },
       "physical senses of": {
         "$text": "physical senses of",
-        "$links": [164, 194, 195, 340]
+        "$links": [
+          164,
+          194,
+          195,
+          340
+        ]
       },
       "purpose of": {
         "$text": "purpose of",
-        "$links": [65, 70, 144, 215, 314]
+        "$links": [
+          65,
+          70,
+          144,
+          215,
+          314
+        ]
       },
       "reality of": {
         "$text": "reality of",
-        "$links": [65, 77, 140, 158, 165, 177, 179, 185, 260, 326, 340]
+        "$links": [
+          65,
+          77,
+          140,
+          158,
+          165,
+          177,
+          179,
+          185,
+          260,
+          326,
+          340
+        ]
       },
       "reflects attributes of God": {
         "$text": "reflects attributes of God",
-        "$links": [65, 74, 77, 159, 177, 262, 322]
+        "$links": [
+          65,
+          74,
+          77,
+          159,
+          177,
+          262,
+          322
+        ]
       },
       "responsible for himself": {
         "$text": "responsible for himself",
-        "$links": [81, 105, 143, 149, 209, 262, 328]
+        "$links": [
+          81,
+          105,
+          143,
+          149,
+          209,
+          262,
+          328
+        ]
       },
       "Station of": {
         "$text": "Station of",
-        "$links": [5, 179, 188, 204, 206, 260, 296]
+        "$links": [
+          5,
+          179,
+          188,
+          204,
+          206,
+          260,
+          296
+        ]
       },
       "station to be attained": {
         "$text": "station to be attained",
-        "$links": [68, 214, 262, 340]
+        "$links": [
+          68,
+          214,
+          262,
+          340
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Manifestations": {
     "$text": "Manifestations",
     "$children": {
       "advent of, affects all creation": {
         "$text": "advent of, affects all creation",
-        "$links": [6, 15, 16, 30, 32, 62, 68, 77, 85, 93, 142, 190, 263, 292, 308, 324, 325, 328]
+        "$links": [
+          6,
+          15,
+          16,
+          30,
+          32,
+          62,
+          68,
+          77,
+          85,
+          93,
+          142,
+          190,
+          263,
+          292,
+          308,
+          324,
+          325,
+          328
+        ]
       },
       "afflictions of": {
         "$text": "afflictions of",
-        "$links": [57, 76, 101, 124, 129]
+        "$links": [
+          57,
+          76,
+          101,
+          124,
+          129
+        ]
       },
       "appeared in Holy Land": {
         "$text": "appeared in Holy Land",
-        "$links": [344]
+        "$links": [
+          344
+        ]
       },
       "attributes of God manifested by": {
         "$text": "attributes of God manifested by",
-        "$links": [30, [47, 50], 53, 54, 59, 70, 74, 140, 167, 179, 290]
+        "$links": [
+          30,
+          [
+            47,
+            50
+          ],
+          53,
+          54,
+          59,
+          70,
+          74,
+          140,
+          167,
+          179,
+          290
+        ]
       },
       "authority of": {
         "$text": "authority of",
-        "$links": [[55, 56], 66, [175, 176]]
+        "$links": [
+          [
+            55,
+            56
+          ],
+          66,
+          [
+            175,
+            176
+          ]
+        ]
       },
       "before Adam": {
         "$text": "before Adam",
-        "$links": [172]
+        "$links": [
+          172
+        ]
       },
       "Book of": {
         "$text": "Book of",
-        "$links": [13, 21, 74, 173, 290]
+        "$links": [
+          13,
+          21,
+          74,
+          173,
+          290
+        ]
       },
       "compared with days": {
         "$text": "compared with days",
-        "$links": [22]
+        "$links": [
+          22
+        ]
       },
       "compared with sun": {
         "$text": "compared with sun",
-        "$links": [22]
+        "$links": [
+          22
+        ]
       },
       "Days of, unique": {
         "$text": "Days of, unique",
-        "$links": [60, 263]
+        "$links": [
+          60,
+          263
+        ]
       },
       "descendants honored": {
         "$text": "descendants honored",
-        "$links": [223]
+        "$links": [
+          223
+        ]
       },
       "destitute of worldly powers": {
         "$text": "destitute of worldly powers",
-        "$links": [71]
+        "$links": [
+          71
+        ]
       },
       "Divine Physician": {
         "$text": "Divine Physician",
-        "$links": [40, 80, 81, 200, 213, 255]
+        "$links": [
+          40,
+          80,
+          81,
+          200,
+          213,
+          255
+        ]
       },
       "false claimants": {
         "$text": "false claimants",
-        "$links": [244, 274, 346]
+        "$links": [
+          244,
+          274,
+          346
+        ]
       },
       "first followers of": {
         "$text": "first followers of",
-        "$links": [179, 180]
+        "$links": [
+          179,
+          180
+        ]
       },
       "future": {
         "$text": "future",
-        "$links": [68, 73, 346]
+        "$links": [
+          68,
+          73,
+          346
+        ]
       },
       "hour of revelation": {
         "$text": "hour of revelation",
-        "$links": [151]
+        "$links": [
+          151
+        ]
       },
       "knowledge of": {
         "$text": "knowledge of",
-        "$links": [47, 158, 175, [176, 178], 199]
+        "$links": [
+          47,
+          158,
+          175,
+          [
+            176,
+            178
+          ],
+          199
+        ]
       },
       "laws of, justice of": {
         "$text": "laws of, justice of",
-        "$links": [175]
+        "$links": [
+          175
+        ]
       },
       "manifest unity of God": {
         "$text": "manifest unity of God",
-        "$links": [21, 59, 69, 167, 231]
+        "$links": [
+          21,
+          59,
+          69,
+          167,
+          231
+        ]
       },
       "mediator between God and man": {
         "$text": "mediator between God and man",
-        "$links": [50, 66, 67, 272]
+        "$links": [
+          50,
+          66,
+          67,
+          272
+        ]
       },
       "Mirrors": {
         "$text": "Mirrors",
-        "$links": [47, 48, 74]
+        "$links": [
+          47,
+          48,
+          74
+        ]
       },
       "mission of": {
         "$text": "mission of",
-        "$links": [18, 31, 47, 50, 51, 67, 68, 74, 79, 145, 174, 212]
+        "$links": [
+          18,
+          31,
+          47,
+          50,
+          51,
+          67,
+          68,
+          74,
+          79,
+          145,
+          174,
+          212
+        ]
       },
       "Mouthpiece of God": {
         "$text": "Mouthpiece of God",
-        "$links": [70, 158]
+        "$links": [
+          70,
+          158
+        ]
       },
       "necessity for": {
         "$text": "necessity for",
-        "$links": [67, 68, 179]
+        "$links": [
+          67,
+          68,
+          179
+        ]
       },
       "oneness of": {
         "$text": "oneness of",
-        "$links": [5, 26, 47, 50, 59, 74, 78, 88, 89, 94, 101, 104, 145, 174, 217, 224, 281, 287]
+        "$links": [
+          5,
+          26,
+          47,
+          50,
+          59,
+          74,
+          78,
+          88,
+          89,
+          94,
+          101,
+          104,
+          145,
+          174,
+          217,
+          224,
+          281,
+          287
+        ]
       },
       "oneness with God": {
         "$text": "oneness with God",
-        "$links": [17, 50, 67, 73, 167]
+        "$links": [
+          17,
+          50,
+          67,
+          73,
+          167
+        ]
       },
       "opposition to": {
         "$text": "opposition to",
-        "$links": [[56, 58], 81, [88, 89], 179, 218, 222]
+        "$links": [
+          [
+            56,
+            58
+          ],
+          81,
+          [
+            88,
+            89
+          ],
+          179,
+          218,
+          222
+        ]
       },
       "assists Cause": {
         "$text": "assists Cause",
-        "$links": [42, 71]
+        "$links": [
+          42,
+          71
+        ]
       },
       "basis of": {
         "$text": "basis of",
-        "$links": [[17, 27], 57, [71, 72], [82, 84], 179, 198]
+        "$links": [
+          [
+            17,
+            27
+          ],
+          57,
+          [
+            71,
+            72
+          ],
+          [
+            82,
+            84
+          ],
+          179,
+          198
+        ]
       },
       "power of": {
         "$text": "power of",
-        "$links": [47, 62, 68, 71]
+        "$links": [
+          47,
+          62,
+          68,
+          71
+        ]
       },
       "proof of": {
         "$text": "proof of",
-        "$links": [[17, 27], 49, 105, 259]
+        "$links": [
+          [
+            17,
+            27
+          ],
+          49,
+          105,
+          259
+        ]
       },
       "purpose of": {
         "$text": "purpose of",
-        "$links": [5, 68, 70, [78, 81], [156, 158]]
+        "$links": [
+          5,
+          68,
+          70,
+          [
+            78,
+            81
+          ],
+          [
+            156,
+            158
+          ]
+        ]
       },
       "reveal Will of God": {
         "$text": "reveal Will of God",
-        "$links": [59, 167]
+        "$links": [
+          59,
+          167
+        ]
       },
       "Revelation of, measure foreordained": {
         "$text": "Revelation of, measure foreordained",
-        "$links": [[74, 75], [76, 77], 79, 87, 103]
+        "$links": [
+          [
+            74,
+            75
+          ],
+          [
+            76,
+            77
+          ],
+          79,
+          87,
+          103
+        ]
       },
       "sovereignty of": {
         "$text": "sovereignty of",
-        "$links": [26, 31, 47, 67, [72, 73]]
+        "$links": [
+          26,
+          31,
+          47,
+          67,
+          [
+            72,
+            73
+          ]
+        ]
       },
       "station, two-fold": {
         "$text": "station, two-fold",
-        "$links": [22, 48, [50, 55], [66, 67]]
+        "$links": [
+          22,
+          48,
+          [
+            50,
+            55
+          ],
+          [
+            66,
+            67
+          ]
+        ]
       },
       "successive": {
         "$text": "successive",
-        "$links": [68, 73, 74, 91, 174, 269]
+        "$links": [
+          68,
+          73,
+          74,
+          91,
+          174,
+          269
+        ]
       },
       "Voice of God": {
         "$text": "Voice of God",
-        "$links": [50, 55, 66]
+        "$links": [
+          50,
+          55,
+          66
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Mankind": {
     "$text": "Mankind",
@@ -1999,66 +4707,173 @@
       },
       "condition of, today": {
         "$text": "condition of, today",
-        "$links": [[39, 45], 81, 136, 137, 196, 213, 216, 218, 255]
+        "$links": [
+          [
+            39,
+            45
+          ],
+          81,
+          136,
+          137,
+          196,
+          213,
+          216,
+          218,
+          255
+        ]
       },
       "creation of": {
         "$text": "creation of",
-        "$links": [231]
+        "$links": [
+          231
+        ]
       },
       "dependent upon Manifestation": {
         "$text": "dependent upon Manifestation",
-        "$links": [66, 67, 179]
+        "$links": [
+          66,
+          67,
+          179
+        ]
       },
       "duties of": {
         "$text": "duties of",
-        "$links": [4, 5, 8, 14, 94, 105, 261, 289, 290, [330, 331]]
+        "$links": [
+          4,
+          5,
+          8,
+          14,
+          94,
+          105,
+          261,
+          289,
+          290,
+          [
+            330,
+            331
+          ]
+        ]
       },
       "in Day of God": {
         "$text": "in Day of God",
-        "$links": [263]
+        "$links": [
+          263
+        ]
       },
       "inequality of": {
         "$text": "inequality of",
-        "$links": [149, [187, 189]]
+        "$links": [
+          149,
+          [
+            187,
+            189
+          ]
+        ]
       },
       "maturity": {
         "$text": "maturity",
-        "$links": [77]
+        "$links": [
+          77
+        ]
       },
       "oneness of": {
         "$text": "oneness of",
-        "$links": [81, 95, 140, 214, 217, 250, 255, 260, 288, 334]
+        "$links": [
+          81,
+          95,
+          140,
+          214,
+          217,
+          250,
+          255,
+          260,
+          288,
+          334
+        ]
       },
       "regenerated by Word of God": {
         "$text": "regenerated by Word of God",
-        "$links": [68, [84, 85], 97, 136, 137, 141, 196, 313]
+        "$links": [
+          68,
+          [
+            84,
+            85
+          ],
+          97,
+          136,
+          137,
+          141,
+          196,
+          313
+        ]
       },
       "unity of": {
         "$text": "unity of",
         "$children": {
           "enjoined": {
             "$text": "enjoined",
-            "$links": [6, 9, 11, 95, 96, 140, 196, 203, 215, 217, 218, 249, 254, 315, 334]
+            "$links": [
+              6,
+              9,
+              11,
+              95,
+              96,
+              140,
+              196,
+              203,
+              215,
+              217,
+              218,
+              249,
+              254,
+              315,
+              334
+            ]
           },
           "meaning of": {
             "$text": "meaning of",
-            "$links": [338]
+            "$links": [
+              338
+            ]
           },
           "power of": {
             "$text": "power of",
-            "$links": [288]
+            "$links": [
+              288
+            ]
           },
           "through Revelation of Bahá'u'lláh": {
             "$text": "through Revelation of Bahá'u'lláh",
-            "$links": [97, 243, 255, 286, [287, 288], 316, 333]
+            "$links": [
+              97,
+              243,
+              255,
+              286,
+              [
+                287,
+                288
+              ],
+              316,
+              333
+            ]
           }
         }
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Martyrs": {
     "$text": "Martyrs",
-    "$links": [109, 121, 135, [180, 182]]
+    "$links": [
+      109,
+      121,
+      135,
+      [
+        180,
+        182
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Material possessions": {
     "$text": "Material possessions",
@@ -2066,23 +4881,38 @@
       {
         "id": "Possessions"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Mecca and Medina": {
     "$text": "Mecca and Medina",
-    "$links": [83]
+    "$links": [
+      83
+    ],
+    "$book": "Gleanings"
   },
   "Messiah still expected": {
     "$text": "Messiah still expected",
-    "$links": [20]
+    "$links": [
+      20
+    ],
+    "$book": "Gleanings"
   },
   "Metals, transmutation of": {
     "$text": "Metals, transmutation of",
-    "$links": [197, 198, 200]
+    "$links": [
+      197,
+      198,
+      200
+    ],
+    "$book": "Gleanings"
   },
   "Mihdí": {
     "$text": "Mihdí",
-    "$links": [114]
+    "$links": [
+      114
+    ],
+    "$book": "Gleanings"
   },
   "Mind": {
     "$text": "Mind",
@@ -2090,111 +4920,232 @@
       {
         "id": "Man"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Minister to Sháh, Tablet to": {
     "$text": "Minister to Sháh, Tablet to",
-    "$links": [[219, 231]]
+    "$links": [
+      [
+        219,
+        231
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Miracle requested from Bahá'u'lláh": {
     "$text": "Miracle requested from Bahá'u'lláh",
-    "$links": [131]
+    "$links": [
+      131
+    ],
+    "$book": "Gleanings"
   },
   "Moderation": {
     "$text": "Moderation",
-    "$links": [216, 235, 251, 342, 343]
+    "$links": [
+      216,
+      235,
+      251,
+      342,
+      343
+    ],
+    "$book": "Gleanings"
   },
   "Moses": {
     "$text": "Moses",
-    "$links": [20, 23, 51, 57, 62, 88, 221, 270],
+    "$links": [
+      20,
+      23,
+      51,
+      57,
+      62,
+      88,
+      221,
+      270
+    ],
     "$children": {
       "opposition to": {
         "$text": "opposition to",
-        "$links": [19]
+        "$links": [
+          19
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Most Great Name, power of": {
     "$text": "Most Great Name, power of",
-    "$links": [28, 34, 121, 189, 242, 286, 333]
+    "$links": [
+      28,
+      34,
+      121,
+      189,
+      242,
+      286,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Most Great Peace": {
     "$text": "Most Great Peace",
-    "$links": [249, 254]
+    "$links": [
+      249,
+      254
+    ],
+    "$book": "Gleanings"
   },
   "Mount Carmel": {
     "$text": "Mount Carmel",
-    "$links": [14, 15, 16, 211]
+    "$links": [
+      14,
+      15,
+      16,
+      211
+    ],
+    "$book": "Gleanings"
   },
   "Muhammad": {
     "$text": "Muhammad",
-    "$links": [51, 67, 69, 76, 77, 83, 101, 102, 270],
+    "$links": [
+      51,
+      67,
+      69,
+      76,
+      77,
+      83,
+      101,
+      102,
+      270
+    ],
     "$children": {
       "afflictions of": {
         "$text": "afflictions of",
-        "$links": [24, 25]
+        "$links": [
+          24,
+          25
+        ]
       },
       "oneness with Christ": {
         "$text": "oneness with Christ",
-        "$links": [21]
+        "$links": [
+          21
+        ]
       },
       "sovereignty established": {
         "$text": "sovereignty established",
-        "$links": [24, 26]
+        "$links": [
+          24,
+          26
+        ]
       },
       "why opposed by Jews": {
         "$text": "why opposed by Jews",
-        "$links": [22, 23, 24, 57]
+        "$links": [
+          22,
+          23,
+          24,
+          57
+        ]
       },
       "words of": {
         "$text": "words of",
-        "$links": [21, 25, 162]
+        "$links": [
+          21,
+          25,
+          162
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Muhammad, Tablet to": {
     "$text": "Muhammad, Tablet to",
-    "$links": [111]
+    "$links": [
+      111
+    ],
+    "$book": "Gleanings"
   },
   "Muhammad-'Alí, Tablet to": {
     "$text": "Muhammad-'Alí, Tablet to",
-    "$links": [119]
+    "$links": [
+      119
+    ],
+    "$book": "Gleanings"
   },
   "Mustafá, Tablet to": {
     "$text": "Mustafá, Tablet to",
-    "$links": [119]
+    "$links": [
+      119
+    ],
+    "$book": "Gleanings"
   },
   "Mustagháth, time of": {
     "$text": "Mustagháth, time of",
-    "$links": [73]
+    "$links": [
+      73
+    ],
+    "$book": "Gleanings"
   },
   "Mystics": {
     "$text": "Mystics",
-    "$links": [317]
+    "$links": [
+      317
+    ],
+    "$book": "Gleanings"
   },
   "Nabíl-i-A'zam, Tablet to": {
     "$text": "Nabíl-i-A'zam, Tablet to",
-    "$links": [302]
+    "$links": [
+      302
+    ],
+    "$book": "Gleanings"
   },
   "Nadr-ibn-i-Hárith": {
     "$text": "Nadr-ibn-i-Hárith",
-    "$links": [25]
+    "$links": [
+      25
+    ],
+    "$book": "Gleanings"
   },
   "Name, Most Great": {
     "$text": "Name, Most Great",
-    "$links": [28, 121, 189, 190, 203, 242, 246, 316, 333]
+    "$links": [
+      28,
+      121,
+      189,
+      190,
+      203,
+      242,
+      246,
+      316,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Names of God": {
     "$text": "Names of God",
-    "$links": [258, 274, 293, 319]
+    "$links": [
+      258,
+      274,
+      293,
+      319
+    ],
+    "$book": "Gleanings"
   },
   "Nasír, Tablet to": {
     "$text": "Nasír, Tablet to",
-    "$links": [107]
+    "$links": [
+      107
+    ],
+    "$book": "Gleanings"
   },
   "Nations, unity of": {
     "$text": "Nations, unity of",
-    "$links": [95, 249]
+    "$links": [
+      95,
+      249
+    ],
+    "$book": "Gleanings"
   },
   "Nearness": {
     "$text": "Nearness",
@@ -2202,41 +5153,80 @@
       {
         "id": "Presence of God"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Nimrod": {
     "$text": "Nimrod",
-    "$links": [88]
+    "$links": [
+      88
+    ],
+    "$book": "Gleanings"
   },
   "Noah": {
     "$text": "Noah",
-    "$links": [51, 84]
+    "$links": [
+      51,
+      84
+    ],
+    "$book": "Gleanings"
   },
   "Non-believers": {
     "$text": "Non-believers",
     "$children": {
       "afflictions of": {
         "$text": "afflictions of",
-        "$links": [169, 209, 214, 339]
+        "$links": [
+          169,
+          209,
+          214,
+          339
+        ]
       },
-    	"character of": {
+      "character of": {
         "$text": "character of",
-        "$links": [169, 181, 183, 232, 233]
+        "$links": [
+          169,
+          181,
+          183,
+          232,
+          233
+        ]
       },
-    	"condition of": {
+      "condition of": {
         "$text": "condition of",
-        "$links": [71, 87, 136, [145, 148], 168, 190, 191, 284, 293, 331]
+        "$links": [
+          71,
+          87,
+          136,
+          [
+            145,
+            148
+          ],
+          168,
+          190,
+          191,
+          284,
+          293,
+          331
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Obedience": {
     "$text": "Obedience",
     "$children": {
       "to governments": {
         "$text": "to governments",
-        "$links": [207, 229, 240, 241]
+        "$links": [
+          207,
+          229,
+          240,
+          241
+        ]
       },
-    	"to Laws of God": {
+      "to Laws of God": {
         "$text": "to Laws of God",
         "$seeAlso": [
           {
@@ -2244,7 +5234,8 @@
           }
         ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Oneness of humanity": {
     "$text": "Oneness of humanity",
@@ -2252,7 +5243,8 @@
       {
         "id": "Mankind"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Oneness of Prophets": {
     "$text": "Oneness of Prophets",
@@ -2260,208 +5252,485 @@
       {
         "id": "Manifestations"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Order, World": {
     "$text": "Order, World",
-    "$links": [7, 136, 219, 313, 331, 333]
+    "$links": [
+      7,
+      136,
+      219,
+      313,
+      331,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Ordinances": {
     "$text": "Ordinances",
-    "$links": [175, 217, 289, 337],
+    "$links": [
+      175,
+      217,
+      289,
+      337
+    ],
     "$seeAlso": [
       {
         "id": "Laws of God"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Paradise, meaning of": {
     "$text": "Paradise, meaning of",
-    "$links": [31, 32, 45, 70, 107, 116, 158, 303, 319, 341]
+    "$links": [
+      31,
+      32,
+      45,
+      70,
+      107,
+      116,
+      158,
+      303,
+      319,
+      341
+    ],
+    "$book": "Gleanings"
   },
   "Párán": {
     "$text": "Párán",
-    "$links": [19]
+    "$links": [
+      19
+    ],
+    "$book": "Gleanings"
   },
   "\"Partners with God\"": {
     "$text": "\"Partners with God\"",
-    "$links": [12, 36, 69, 100, 151, 166, 187, 191, 192, 193, 197, 273, 281]
+    "$links": [
+      12,
+      36,
+      69,
+      100,
+      151,
+      166,
+      187,
+      191,
+      192,
+      193,
+      197,
+      273,
+      281
+    ],
+    "$book": "Gleanings"
   },
   "Patience": {
     "$text": "Patience",
-    "$links": [8, 129, 202, 239, 265, 290, 296]
+    "$links": [
+      8,
+      129,
+      202,
+      239,
+      265,
+      290,
+      296
+    ],
+    "$book": "Gleanings"
   },
   "Patriorisai": {
     "$text": "Patriorisai",
     "$children": {
       "true": {
         "$text": "true",
-        "$links": [95]
+        "$links": [
+          95
+        ]
       },
-    	"universal": {
+      "universal": {
         "$text": "universal",
-        "$links": [250]
+        "$links": [
+          250
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Peace": {
     "$text": "Peace",
-    "$links": [6, 97, 219, 253, 260, 286],
+    "$links": [
+      6,
+      97,
+      219,
+      253,
+      260,
+      286
+    ],
     "$children": {
       "ensured through Manifestation": {
         "$text": "ensured through Manifestation",
-        "$links": [80]
+        "$links": [
+          80
+        ]
       },
-    	"Lesser": {
+      "Lesser": {
         "$text": "Lesser",
-        "$links": [254]
+        "$links": [
+          254
+        ]
       },
-    	"Most Great": {
+      "Most Great": {
         "$text": "Most Great",
-        "$links": [249, 254]
+        "$links": [
+          249,
+          254
+        ]
       },
-    	"prerequisites of": {
+      "prerequisites of": {
         "$text": "prerequisites of",
-        "$links": [249, 250]
+        "$links": [
+          249,
+          250
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Pentateuch": {
     "$text": "Pentateuch",
-    "$links": [270]
+    "$links": [
+      270
+    ],
+    "$book": "Gleanings"
   },
   "Persia": {
     "$text": "Persia",
-    "$links": [196, 224, 230]
+    "$links": [
+      196,
+      224,
+      230
+    ],
+    "$book": "Gleanings"
   },
   "Persuasion, means of teaching": {
     "$text": "Persuasion, means of teaching",
-    "$links": [278, 279, 303, 329]
+    "$links": [
+      278,
+      279,
+      303,
+      329
+    ],
+    "$book": "Gleanings"
   },
   "Pharaoh": {
     "$text": "Pharaoh",
-    "$links": [19, 88, 220]
+    "$links": [
+      19,
+      88,
+      220
+    ],
+    "$book": "Gleanings"
   },
   "Physician, Divine": {
     "$text": "Physician, Divine",
-    "$links": [40, 80, 81, 213, 255]
+    "$links": [
+      40,
+      80,
+      81,
+      213,
+      255
+    ],
+    "$book": "Gleanings"
   },
   "Planets": {
     "$text": "Planets",
-    "$links": [163]
+    "$links": [
+      163
+    ],
+    "$book": "Gleanings"
   },
   "Poison": {
     "$text": "Poison",
-    "$links": [189]
+    "$links": [
+      189
+    ],
+    "$book": "Gleanings"
   },
   "Poor, The": {
     "$text": "Poor, The",
-    "$links": [235, 323],
+    "$links": [
+      235,
+      323
+    ],
     "$children": {
       "regard for": {
         "$text": "regard for",
-        "$links": [202, 236, 253, 278, 285, 314]
+        "$links": [
+          202,
+          236,
+          253,
+          278,
+          285,
+          314
+        ]
       },
-    	"steadfast, blessings of": {
+      "steadfast, blessings of": {
         "$text": "steadfast, blessings of",
-        "$links": [202]
+        "$links": [
+          202
+        ]
       },
-    	"the trust of God": {
+      "the trust of God": {
         "$text": "the trust of God",
-        "$links": [236, 251]
+        "$links": [
+          236,
+          251
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Possessions": {
     "$text": "Possessions",
-    "$links": [116, 137, 138, 202, 209, 234, 235, 252, 272, 276, 298, 304, 314, 316, 323, 332, 334]
+    "$links": [
+      116,
+      137,
+      138,
+      202,
+      209,
+      234,
+      235,
+      252,
+      272,
+      276,
+      298,
+      304,
+      314,
+      316,
+      323,
+      332,
+      334
+    ],
+    "$book": "Gleanings"
   },
   "Prayer": {
     "$text": "Prayer",
-    "$links": [38, 265, 280, 289, 290, 291],
+    "$links": [
+      38,
+      265,
+      280,
+      289,
+      290,
+      291
+    ],
     "$children": {
       "for believers": {
         "$text": "for believers",
-        "$links": [59, [133, 134], 243, 274, 299, 310, 313]
+        "$links": [
+          59,
+          [
+            133,
+            134
+          ],
+          243,
+          274,
+          299,
+          310,
+          313
+        ]
       },
       "for forgiveness": {
         "$text": "for forgiveness",
-        "$links": [105, [310, 311]]
+        "$links": [
+          105,
+          [
+            310,
+            311
+          ]
+        ]
       },
       "for handmaid": {
         "$text": "for handmaid",
-        "$links": [134]
+        "$links": [
+          134
+        ]
       },
       "power of": {
         "$text": "power of",
-        "$links": [133, 295]
+        "$links": [
+          133,
+          295
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Prayer for the Fast": {
     "$text": "Prayer for the Fast",
-    "$links": [299, 337]
+    "$links": [
+      299,
+      337
+    ],
+    "$book": "Gleanings"
   },
   "Predestination": {
     "$text": "Predestination",
-    "$links": [133]
+    "$links": [
+      133
+    ],
+    "$book": "Gleanings"
   },
   "Presence of God": {
     "$text": "Presence of God",
-    "$links": [32, 33, 63, 64, 70, 71, 137, 145, 155, 157, 179, 180, 186, 236, 276, 313, 323]
+    "$links": [
+      32,
+      33,
+      63,
+      64,
+      70,
+      71,
+      137,
+      145,
+      155,
+      157,
+      179,
+      180,
+      186,
+      236,
+      276,
+      313,
+      323
+    ],
+    "$book": "Gleanings"
   },
   "Pride": {
     "$text": "Pride",
-    "$links": [18, 211, 231, 265, 314, 315]
+    "$links": [
+      18,
+      211,
+      231,
+      265,
+      314,
+      315
+    ],
+    "$book": "Gleanings"
   },
   "Prison": {
     "$text": "Prison",
-    "$links": [42, 58, 85, 116, 200, 241, 306, 342]
+    "$links": [
+      42,
+      58,
+      85,
+      116,
+      200,
+      241,
+      306,
+      342
+    ],
+    "$book": "Gleanings"
   },
   "Promised One, The": {
     "$text": "Promised One, The",
-    "$links": [6, 9, 10, 12, 98, 102, 320]
+    "$links": [
+      6,
+      9,
+      10,
+      12,
+      98,
+      102,
+      320
+    ],
+    "$book": "Gleanings"
   },
   "Proof of Prophethood": {
     "$text": "Proof of Prophethood",
-    "$links": [49, 105, 179, 220, 259, 302]
+    "$links": [
+      49,
+      105,
+      179,
+      220,
+      259,
+      302
+    ],
+    "$book": "Gleanings"
   },
   "Prophecies": {
     "$text": "Prophecies",
     "$children": {
       "about land of Jordan": {
         "$text": "about land of Jordan",
-        "$links": [117]
+        "$links": [
+          117
+        ]
       },
-    	"fulfillment of": {
+      "fulfillment of": {
         "$text": "fulfillment of",
-        "$links": [5, 11, 12, 13, 16, 17, 22, 39, 40, 43, 102, 110, 118, 163, 168, 211, 314, 340, 344]
+        "$links": [
+          5,
+          11,
+          12,
+          13,
+          16,
+          17,
+          22,
+          39,
+          40,
+          43,
+          102,
+          110,
+          118,
+          163,
+          168,
+          211,
+          314,
+          340,
+          344
+        ]
       },
-    	"misunderstood": {
+      "misunderstood": {
         "$text": "misunderstood",
-        "$links": [[17, 27]]
+        "$links": [
+          [
+            17,
+            27
+          ]
+        ]
       },
-    	"of Bahá'u'lláh, fulfilled": {
+      "of Bahá'u'lláh, fulfilled": {
         "$text": "of Bahá'u'lláh, fulfilled",
-        "$links": [58]
+        "$links": [
+          58
+        ]
       },
-    	"of future just ruler": {
+      "of future just ruler": {
         "$text": "of future just ruler",
-        "$links": [110, 111, 212]
+        "$links": [
+          110,
+          111,
+          212
+        ]
       },
-    	"of Isaiah": {
+      "of Isaiah": {
         "$text": "of Isaiah",
-        "$links": [13]
+        "$links": [
+          13
+        ]
       },
-    	"return of Christ": {
+      "return of Christ": {
         "$text": "return of Christ",
-        "$links": [246]
+        "$links": [
+          246
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Prophetic cycle ended": {
     "$text": "Prophetic cycle ended",
-    "$links": [60, 75]
+    "$links": [
+      60,
+      75
+    ],
+    "$book": "Gleanings"
   },
   "Prophets": {
     "$text": "Prophets",
@@ -2469,48 +5738,94 @@
       {
         "id": "Manifestations"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Prophets, false": {
     "$text": "Prophets, false",
-    "$links": [244, 346]
+    "$links": [
+      244,
+      346
+    ],
+    "$book": "Gleanings"
   },
   "Prosperity": {
     "$text": "Prosperity",
-    "$links": [285],
+    "$links": [
+      285
+    ],
     "$seeAlso": [
       {
         "id": "Possessions"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Protection by God": {
     "$text": "Protection by God",
-    "$links": [76, 96, 233]
+    "$links": [
+      76,
+      96,
+      233
+    ],
+    "$book": "Gleanings"
   },
   "Punishment": {
     "$text": "Punishment",
-    "$links": [76, 158, 219, 226, 339, 346]
+    "$links": [
+      76,
+      158,
+      219,
+      226,
+      339,
+      346
+    ],
+    "$book": "Gleanings"
   },
   "Qá'im": {
     "$text": "Qá'im",
-    "$links": [12]
+    "$links": [
+      12
+    ],
+    "$book": "Gleanings"
   },
   "Qur'án": {
     "$text": "Qur'án",
-    "$links": [21, 23, 25, 44, 46, 51, 147, 270, 294]
+    "$links": [
+      21,
+      23,
+      25,
+      44,
+      46,
+      51,
+      147,
+      270,
+      294
+    ],
+    "$book": "Gleanings"
   },
   "Qayyúmu'l-Asmá'": {
     "$text": "Qayyúmu'l-Asmá'",
-    "$links": [284]
+    "$links": [
+      284
+    ],
+    "$book": "Gleanings"
   },
   "Ra'ís, Tablet to": {
     "$text": "Ra'ís, Tablet to",
-    "$links": [39]
+    "$links": [
+      39
+    ],
+    "$book": "Gleanings"
   },
   "Rational faculty": {
     "$text": "Rational faculty",
-    "$links": [164, 165, 194]
+    "$links": [
+      164,
+      165,
+      194
+    ],
+    "$book": "Gleanings"
   },
   "Reality of Man": {
     "$text": "Reality of Man",
@@ -2518,56 +5833,108 @@
       {
         "id": "Man"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Rebirth": {
     "$text": "Rebirth",
-    "$links": [196, 213, 231, 269]
+    "$links": [
+      196,
+      213,
+      231,
+      269
+    ],
+    "$book": "Gleanings"
   },
   "Recompense": {
     "$text": "Recompense",
-    "$links": [6, 36, 46, 129, 278]
+    "$links": [
+      6,
+      36,
+      46,
+      129,
+      278
+    ],
+    "$book": "Gleanings"
   },
   "Records before Adam": {
     "$text": "Records before Adam",
-    "$links": [[172, 174]]
+    "$links": [
+      [
+        172,
+        174
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Religion": {
     "$text": "Religion",
     "$children": {
       "differences explained": {
         "$text": "differences explained",
-        "$links": [287, 288]
+        "$links": [
+          287,
+          288
+        ]
       },
-    	"fanaticism": {
+      "fanaticism": {
         "$text": "fanaticism",
-        "$links": [288]
+        "$links": [
+          288
+        ]
       },
-    	"nature of": {
+      "nature of": {
         "$text": "nature of",
-        "$links": [81]
+        "$links": [
+          81
+        ]
       },
-    	"oneness of": {
+      "oneness of": {
         "$text": "oneness of",
-        "$links": [78, 95, 217, 287]
+        "$links": [
+          78,
+          95,
+          217,
+          287
+        ]
       },
-    	"waning": {
+      "waning": {
         "$text": "waning",
-        "$links": [171, 200, 209, 288]
+        "$links": [
+          171,
+          200,
+          209,
+          288
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Remedy for world's ills": {
     "$text": "Remedy for world's ills",
-    "$links": [40, 183, 200, 213, 255]
+    "$links": [
+      40,
+      183,
+      200,
+      213,
+      255
+    ],
+    "$book": "Gleanings"
   },
   "\"Remoteness,\" meaning of": {
     "$text": "\"Remoteness,\" meaning of",
-    "$links": [71]
+    "$links": [
+      71
+    ],
+    "$book": "Gleanings"
   },
   "Resignation": {
     "$text": "Resignation",
-    "$links": [129, 322]
+    "$links": [
+      129,
+      322
+    ],
+    "$book": "Gleanings"
   },
   "Responsibility": {
     "$text": "Responsibility",
@@ -2575,167 +5942,401 @@
       {
         "id": "Man"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Resurrection": {
     "$text": "Resurrection",
-    "$links": [31, 97],
+    "$links": [
+      31,
+      97
+    ],
     "$children": {
       "Day of": {
         "$text": "Day of",
-        "$links": [69]
+        "$links": [
+          69
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Retribution, Divine": {
     "$text": "Retribution, Divine",
-    "$links": [20, [123, 125], 130, 210, 226, 252, 346]
+    "$links": [
+      20,
+      [
+        123,
+        125
+      ],
+      130,
+      210,
+      226,
+      252,
+      346
+    ],
+    "$book": "Gleanings"
   },
   "Return": {
     "$text": "Return",
-    "$links": [21, 22, 52, 231, 246, 269, 345]
+    "$links": [
+      21,
+      22,
+      52,
+      231,
+      246,
+      269,
+      345
+    ],
+    "$book": "Gleanings"
   },
   "Revelation": {
     "$text": "Revelation",
     "$children": {
       "according to capacity of man": {
         "$text": "according to capacity of man",
-        "$links": [87, 99, 176, 214]
+        "$links": [
+          87,
+          99,
+          176,
+          214
+        ]
       },
-    	"according to requirements of age": {
+      "according to requirements of age": {
         "$text": "according to requirements of age",
-        "$links": [79, 80, 81]
+        "$links": [
+          79,
+          80,
+          81
+        ]
       },
-    	"Compared with moon": {
+      "Compared with moon": {
         "$text": "Compared with moon",
-        "$links": [79]
+        "$links": [
+          79
+        ]
       },
-    	"compared with sun": {
+      "compared with sun": {
         "$text": "compared with sun",
-        "$links": [87]
+        "$links": [
+          87
+        ]
       },
-    	"ever-enduring": {
+      "ever-enduring": {
         "$text": "ever-enduring",
-        "$links": [82]
+        "$links": [
+          82
+        ]
       },
-    	"greatest gift to man": {
+      "greatest gift to man": {
         "$text": "greatest gift to man",
-        "$links": [195]
+        "$links": [
+          195
+        ]
       },
-    	"hour of": {
+      "hour of": {
         "$text": "hour of",
-        "$links": [151]
+        "$links": [
+          151
+        ]
       },
-    	"in different languages": {
+      "in different languages": {
         "$text": "in different languages",
-        "$links": [173]
+        "$links": [
+          173
+        ]
       },
-    	"measure of, foreordained": {
+      "measure of, foreordained": {
         "$text": "measure of, foreordained",
-        "$links": [[74, 77], 79, 263]
+        "$links": [
+          [
+            74,
+            77
+          ],
+          79,
+          263
+        ]
       },
-    	"oneness of": {
+      "oneness of": {
         "$text": "oneness of",
-        "$links": [78, 217, 287]
+        "$links": [
+          78,
+          217,
+          287
+        ]
       },
-    	"power of": {
+      "power of": {
         "$text": "power of",
-        "$links": [183, 189, 197, 200]
+        "$links": [
+          183,
+          189,
+          197,
+          200
+        ]
       },
-    	"progressive": {
+      "progressive": {
         "$text": "progressive",
-        "$links": [74, 75, 76, 79, 91, 269]
+        "$links": [
+          74,
+          75,
+          76,
+          79,
+          91,
+          269
+        ]
       },
-    	"proofs of": {
+      "proofs of": {
         "$text": "proofs of",
-        "$links": [179]
+        "$links": [
+          179
+        ]
       },
-    	"purpose of": {
+      "purpose of": {
         "$text": "purpose of",
-        "$links": [157, 175, 260]
+        "$links": [
+          157,
+          175,
+          260
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Revelation of Bahá'u'lláh": {
     "$text": "Revelation of Bahá'u'lláh",
     "$children": {
       "attacks to be refuted": {
         "$text": "attacks to be refuted",
-        "$links": [329, 330]
+        "$links": [
+          329,
+          330
+        ]
       },
       "basis of unity of mankind": {
         "$text": "basis of unity of mankind",
-        "$links": [97, 215, 286, 316, 333]
+        "$links": [
+          97,
+          215,
+          286,
+          316,
+          333
+        ]
       },
       "compared to an ocean": {
         "$text": "compared to an ocean",
-        "$links": [[326, 327]]
+        "$links": [
+          [
+            326,
+            327
+          ]
+        ]
       },
       "consummation of all Dispensations": {
         "$text": "consummation of all Dispensations",
-        "$links": [244, 340]
+        "$links": [
+          244,
+          340
+        ]
       },
       "Faith of God": {
         "$text": "Faith of God",
-        "$links": [136, 217, 255, 293, 312, 319, 333]
+        "$links": [
+          136,
+          217,
+          255,
+          293,
+          312,
+          319,
+          333
+        ]
       },
       "foretold by Báb": {
         "$text": "foretold by Báb",
-        "$links": [10, 96, 146, 147, 294]
+        "$links": [
+          10,
+          96,
+          146,
+          147,
+          294
+        ]
       },
       "greatness of": {
         "$text": "greatness of",
-        "$links": [10, 13, 37, 75, 77, 95, 99, 105, 106, 163, 245, 255, 319, 320, 321, 326, 328]
+        "$links": [
+          10,
+          13,
+          37,
+          75,
+          77,
+          95,
+          99,
+          105,
+          106,
+          163,
+          245,
+          255,
+          319,
+          320,
+          321,
+          326,
+          328
+        ]
       },
       "power of": {
         "$text": "power of",
-        "$links": [93, 96, 136, 140, 141, 189, 190, 197, 219, 286, 292, 319, 328, 332]
+        "$links": [
+          93,
+          96,
+          136,
+          140,
+          141,
+          189,
+          190,
+          197,
+          219,
+          286,
+          292,
+          319,
+          328,
+          332
+        ]
       },
       "promotion by force forbidden": {
         "$text": "promotion by force forbidden",
-        "$links": [278, 303, 330]
+        "$links": [
+          278,
+          303,
+          330
+        ]
       },
       "proofs of": {
         "$text": "proofs of",
-        "$links": [49, 105, 179, 220, 259]
+        "$links": [
+          49,
+          105,
+          179,
+          220,
+          259
+        ]
       },
       "prophesied in Scriptures": {
         "$text": "prophesied in Scriptures",
-        "$links": [5, 11, 13, 16, 22, 39, 40, 43, 98, 102, 118, 163, 211, 244, 314, 344]
+        "$links": [
+          5,
+          11,
+          13,
+          16,
+          22,
+          39,
+          40,
+          43,
+          98,
+          102,
+          118,
+          163,
+          211,
+          244,
+          314,
+          344
+        ]
       },
       "purpose of": {
         "$text": "purpose of",
-        "$links": [43, 85, 95, 144, 206, 215]
+        "$links": [
+          43,
+          85,
+          95,
+          144,
+          206,
+          215
+        ]
       },
       "refused": {
         "$text": "refused",
-        "$links": [11, 39, 42, 58, 72, 90, 179, 221, 246, 256, 294, 324]
+        "$links": [
+          11,
+          39,
+          42,
+          58,
+          72,
+          90,
+          179,
+          221,
+          246,
+          256,
+          294,
+          324
+        ]
       },
       "revolutionized mankind": {
         "$text": "revolutionized mankind",
-        "$links": [136, 139, 196]
+        "$links": [
+          136,
+          139,
+          196
+        ]
       },
       "tribulations, value of": {
         "$text": "tribulations, value of",
-        "$links": [42, 72, 270, 333]
+        "$links": [
+          42,
+          72,
+          270,
+          333
+        ]
       },
       "universality of": {
         "$text": "universality of",
-        "$links": [92, 96, 189, [256, 259], 273, 282]
+        "$links": [
+          92,
+          96,
+          189,
+          [
+            256,
+            259
+          ],
+          273,
+          282
+        ]
       },
       "victory of, foreordained": {
         "$text": "victory of, foreordained",
-        "$links": [248, 272, 287, 306, 319, 332, 341]
+        "$links": [
+          248,
+          272,
+          287,
+          306,
+          319,
+          332,
+          341
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Reward": {
     "$text": "Reward",
-    "$links": [36, 94, 117, 129, 158, 167, 219, 339]
+    "$links": [
+      36,
+      94,
+      117,
+      129,
+      158,
+      167,
+      219,
+      339
+    ],
+    "$book": "Gleanings"
   },
   "Rich, duty of the": {
     "$text": "Rich, duty of the",
-    "$links": [202, 235, 285, 314]
+    "$links": [
+      202,
+      235,
+      285,
+      314
+    ],
+    "$book": "Gleanings"
   },
   "Riches": {
     "$text": "Riches",
@@ -2743,19 +6344,34 @@
       {
         "id": "Possessions"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Ridván": {
     "$text": "Ridván",
-    "$links": [31]
+    "$links": [
+      31
+    ],
+    "$book": "Gleanings"
   },
   "Righteousness": {
     "$text": "Righteousness",
-    "$links": [287, 306, 315, 323]
+    "$links": [
+      287,
+      306,
+      315,
+      323
+    ],
+    "$book": "Gleanings"
   },
   "Robbery": {
     "$text": "Robbery",
-    "$links": [297, 298, 299]
+    "$links": [
+      297,
+      298,
+      299
+    ],
+    "$book": "Gleanings"
   },
   "Rulers": {
     "$text": "Rulers",
@@ -2763,166 +6379,340 @@
       {
         "id": "Kings"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Sacrifice": {
     "$text": "Sacrifice",
-    "$links": [265],
+    "$links": [
+      265
+    ],
     "$children": {
       "of Ashraf": {
         "$text": "of Ashraf",
-        "$links": [135]
+        "$links": [
+          135
+        ]
       },
-    	"of Husayn": {
+      "of Husayn": {
         "$text": "of Husayn",
-        "$links": [76]
+        "$links": [
+          76
+        ]
       },
-    	"of Ishmael": {
+      "of Ishmael": {
         "$text": "of Ishmael",
-        "$links": [75]
+        "$links": [
+          75
+        ]
       },
-    	"of Jesus": {
+      "of Jesus": {
         "$text": "of Jesus",
-        "$links": [76, 85]
+        "$links": [
+          76,
+          85
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Sadratu'l-Muntahá": {
     "$text": "Sadratu'l-Muntahá",
-    "$links": [70, 91, 198]
+    "$links": [
+      70,
+      91,
+      198
+    ],
+    "$book": "Gleanings"
   },
   "Saints": {
     "$text": "Saints",
-    "$links": [317]
+    "$links": [
+      317
+    ],
+    "$book": "Gleanings"
   },
   "Salmán, Tablet to": {
     "$text": "Salmán, Tablet to",
-    "$links": [49, 317, 329]
+    "$links": [
+      49,
+      317,
+      329
+    ],
+    "$book": "Gleanings"
   },
   "Sciences, source of": {
     "$text": "Sciences, source of",
-    "$links": [142, 157, 161]
+    "$links": [
+      142,
+      157,
+      161
+    ],
+    "$book": "Gleanings"
   },
   "Scriptures in different languages": {
     "$text": "Scriptures in different languages",
-    "$links": [173]
+    "$links": [
+      173
+    ],
+    "$book": "Gleanings"
   },
   "Scriptures prophesy Revelation of Bahá'u'lláh": {
     "$text": "Scriptures prophesy Revelation of Bahá'u'lláh",
-    "$links": [5, 11, 13, 16, 22, 39, 40, 43, 98, 102, 118, 163, 211, 244, 314, 344]
+    "$links": [
+      5,
+      11,
+      13,
+      16,
+      22,
+      39,
+      40,
+      43,
+      98,
+      102,
+      118,
+      163,
+      211,
+      244,
+      314,
+      344
+    ],
+    "$book": "Gleanings"
   },
   "\"Seal of the Prophets\"": {
     "$text": "\"Seal of the Prophets\"",
-    "$links": [60, 162]
+    "$links": [
+      60,
+      162
+    ],
+    "$book": "Gleanings"
   },
   "Search, condition for": {
     "$text": "Search, condition for",
-    "$links": [264, 323, 326]
+    "$links": [
+      264,
+      323,
+      326
+    ],
+    "$book": "Gleanings"
   },
   "Security": {
     "$text": "Security",
-    "$links": [331]
+    "$links": [
+      331
+    ],
+    "$book": "Gleanings"
   },
   "Sedition": {
     "$text": "Sedition",
-    "$links": [335]
+    "$links": [
+      335
+    ],
+    "$book": "Gleanings"
   },
   "Seeker, true": {
     "$text": "Seeker, true",
-    "$links": [[264, 269], 323, 326]
+    "$links": [
+      [
+        264,
+        269
+      ],
+      323,
+      326
+    ],
+    "$book": "Gleanings"
   },
   "Self, knowledge of": {
     "$text": "Self, knowledge of",
-    "$links": [178, 186, 287, [326, 327]]
+    "$links": [
+      178,
+      186,
+      287,
+      [
+        326,
+        327
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Self, victory over": {
     "$text": "Self, victory over",
-    "$links": [93]
+    "$links": [
+      93
+    ],
+    "$book": "Gleanings"
   },
   "Self-surrender, meaning of": {
     "$text": "Self-surrender, meaning of",
-    "$links": [337, 338]
+    "$links": [
+      337,
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Senses, physical": {
     "$text": "Senses, physical",
-    "$links": [164, 194, 195, 340]
+    "$links": [
+      164,
+      194,
+      195,
+      340
+    ],
+    "$book": "Gleanings"
   },
   "Service, Day of": {
     "$text": "Service, Day of",
-    "$links": [92, 193]
+    "$links": [
+      92,
+      193
+    ],
+    "$book": "Gleanings"
   },
   "Shaykh, Tablet to": {
     "$text": "Shaykh, Tablet to",
-    "$links": [337]
+    "$links": [
+      337
+    ],
+    "$book": "Gleanings"
   },
   "Shí'ih Islám": {
     "$text": "Shí'ih Islám",
-    "$links": [69]
+    "$links": [
+      69
+    ],
+    "$book": "Gleanings"
   },
   "Sickness, effect upon soul": {
     "$text": "Sickness, effect upon soul",
-    "$links": [154]
+    "$links": [
+      154
+    ],
+    "$book": "Gleanings"
   },
   "Sight": {
     "$text": "Sight",
-    "$links": [164, 194, 195, 340]
+    "$links": [
+      164,
+      194,
+      195,
+      340
+    ],
+    "$book": "Gleanings"
   },
   "Sinai": {
     "$text": "Sinai",
-    "$links": [16, 19, 211, 282, 325]
+    "$links": [
+      16,
+      19,
+      211,
+      282,
+      325
+    ],
+    "$book": "Gleanings"
   },
   "Sleep": {
     "$text": "Sleep",
-    "$links": [152, 160]
+    "$links": [
+      152,
+      160
+    ],
+    "$book": "Gleanings"
   },
   "Soliciting, how regarded": {
     "$text": "Soliciting, how regarded",
-    "$links": [202]
+    "$links": [
+      202
+    ],
+    "$book": "Gleanings"
   },
   "\"Soon will the present day order be rolled up\"": {
     "$text": "\"Soon will the present day order be rolled up\"",
-    "$links": [7]
+    "$links": [
+      7
+    ],
+    "$book": "Gleanings"
   },
   "Soul": {
     "$text": "Soul",
     "$children": {
       "a sign of God": {
         "$text": "a sign of God",
-        "$links": [158, 160]
+        "$links": [
+          158,
+          160
+        ]
       },
-    	"after death": {
+      "after death": {
         "$text": "after death",
-        "$links": [141, 153, [155, 157], 161, [169, 171], 329, 345, 346]
+        "$links": [
+          141,
+          153,
+          [
+            155,
+            157
+          ],
+          161,
+          [
+            169,
+            171
+          ],
+          329,
+          345,
+          346
+        ]
       },
-    	"companionship of, after death": {
+      "companionship of, after death": {
         "$text": "companionship of, after death",
-        "$links": [156]
+        "$links": [
+          156
+        ]
       },
-    	"compared with fruit of trees": {
+      "compared with fruit of trees": {
         "$text": "compared with fruit of trees",
-        "$links": [155]
+        "$links": [
+          155
+        ]
       },
-    	"compared with sun": {
+      "compared with sun": {
         "$text": "compared with sun",
-        "$links": [154, 155]
+        "$links": [
+          154,
+          155
+        ]
       },
-    	"continuous progress of": {
+      "continuous progress of": {
         "$text": "continuous progress of",
-        "$links": [155]
+        "$links": [
+          155
+        ]
       },
-    	"has capacity to know God": {
+      "has capacity to know God": {
         "$text": "has capacity to know God",
-        "$links": [65, 77, 105, 106, 143, 194, 291]
+        "$links": [
+          65,
+          77,
+          105,
+          106,
+          143,
+          194,
+          291
+        ]
       },
-    	"independent of physical body": {
+      "independent of physical body": {
         "$text": "independent of physical body",
-        "$links": [154]
+        "$links": [
+          154
+        ]
       },
-    	"power of, after death": {
+      "power of, after death": {
         "$text": "power of, after death",
-        "$links": [154, 157, 161]
+        "$links": [
+          154,
+          157,
+          161
+        ]
       },
-    	"reality of": {
+      "reality of": {
         "$text": "reality of",
         "$seeAlso": [
           {
@@ -2930,276 +6720,533 @@
           }
         ]
       },
-    	"stages of development": {
+      "stages of development": {
         "$text": "stages of development",
-        "$links": [159, 161]
+        "$links": [
+          159,
+          161
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Springtime, spiritual": {
     "$text": "Springtime, spiritual",
-    "$links": [27, 84, 94, 167]
+    "$links": [
+      27,
+      84,
+      94,
+      167
+    ],
+    "$book": "Gleanings"
   },
   "Stars": {
     "$text": "Stars",
-    "$links": [163]
+    "$links": [
+      163
+    ],
+    "$book": "Gleanings"
   },
   "Steadfastness": {
     "$text": "Steadfastness",
-    "$links": [13, 75, 76, 129, 167, 170, 202, 245, 246, 253, 289, 290, 291, 312, 319, 323, 325, 330, 338, 339]
+    "$links": [
+      13,
+      75,
+      76,
+      129,
+      167,
+      170,
+      202,
+      245,
+      246,
+      253,
+      289,
+      290,
+      291,
+      312,
+      319,
+      323,
+      325,
+      330,
+      338,
+      339
+    ],
+    "$book": "Gleanings"
   },
   "Strife, effect of": {
     "$text": "Strife, effect of",
-    "$links": [9]
+    "$links": [
+      9
+    ],
+    "$book": "Gleanings"
   },
   "Submission": {
     "$text": "Submission",
-    "$links": [7, 8, 9, 322]
+    "$links": [
+      7,
+      8,
+      9,
+      322
+    ],
+    "$book": "Gleanings"
   },
   "Sultán 'Abdu'l-'Azíz, Tablet to": {
     "$text": "Sultán 'Abdu'l-'Azíz, Tablet to",
-    "$links": [[232, 240]]
+    "$links": [
+      [
+        232,
+        240
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Sun": {
     "$text": "Sun",
-    "$links": [87, 154, 155, 188]
+    "$links": [
+      87,
+      154,
+      155,
+      188
+    ],
+    "$book": "Gleanings"
   },
   "Sun of Truth": {
     "$text": "Sun of Truth",
-    "$links": [88, 333]
+    "$links": [
+      88,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Súriy-i-Ra'ís": {
     "$text": "Súriy-i-Ra'ís",
-    "$links": [39]
+    "$links": [
+      39
+    ],
+    "$book": "Gleanings"
   },
   "Syriac": {
     "$text": "Syriac",
-    "$links": [173]
+    "$links": [
+      173
+    ],
+    "$book": "Gleanings"
   },
   "Tablet of Visitation to Baghdád House": {
     "$text": "Tablet of Visitation to Baghdád House",
-    "$links": [[111, 114]]
+    "$links": [
+      [
+        111,
+        114
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Tablet to": {
     "$text": "Tablet to",
     "$children": {
       "'Abdu'l-'Azíz, Sultán": {
         "$text": "'Abdu'l-'Azíz, Sultán",
-        "$links": [[232, 240]]
+        "$links": [
+          [
+            232,
+            240
+          ]
+        ]
       },
-    	"Afnán": {
+      "Afnán": {
         "$text": "Afnán",
-        "$links": [92]
+        "$links": [
+          92
+        ]
       },
-    	"'Alí": {
+      "'Alí": {
         "$text": "'Alí",
-        "$links": [203, 308]
+        "$links": [
+          203,
+          308
+        ]
       },
-    	"Constantinople": {
+      "Constantinople": {
         "$text": "Constantinople",
-        "$links": [125]
+        "$links": [
+          125
+        ]
       },
-    	"Dhábih": {
+      "Dhábih": {
         "$text": "Dhábih",
-        "$links": [240]
+        "$links": [
+          240
+        ]
       },
-    	"Hakím": {
+      "Hakím": {
         "$text": "Hakím",
-        "$links": [200]
+        "$links": [
+          200
+        ]
       },
-    	"Husayn": {
+      "Husayn": {
         "$text": "Husayn",
-        "$links": [12]
+        "$links": [
+          12
+        ]
       },
-    	"Javád": {
+      "Javád": {
         "$text": "Javád",
-        "$links": [208]
+        "$links": [
+          208
+        ]
       },
-    	"Kamál": {
+      "Kamál": {
         "$text": "Kamál",
-        "$links": [214]
+        "$links": [
+          214
+        ]
       },
-    	"Khalíl": {
+      "Khalíl": {
         "$text": "Khalíl",
-        "$links": [295]
+        "$links": [
+          295
+        ]
       },
-    	"Kings": {
+      "Kings": {
         "$text": "Kings",
-        "$links": [210, 253]
+        "$links": [
+          210,
+          253
+        ]
       },
-    	"Kings of Christendom": {
+      "Kings of Christendom": {
         "$text": "Kings of Christendom",
-        "$links": [246]
+        "$links": [
+          246
+        ]
       },
-    	"Letter of the Living": {
+      "Letter of the Living": {
         "$text": "Letter of the Living",
-        "$links": [291]
+        "$links": [
+          291
+        ]
       },
-    	"Minister of Sháh": {
+      "Minister of Sháh": {
         "$text": "Minister of Sháh",
-        "$links": [[219, 231]]
+        "$links": [
+          [
+            219,
+            231
+          ]
+        ]
       },
-    	"Muhammad": {
+      "Muhammad": {
         "$text": "Muhammad",
-        "$links": [111]
+        "$links": [
+          111
+        ]
       },
-    	"Muhammad-'Alí": {
+      "Muhammad-'Alí": {
         "$text": "Muhammad-'Alí",
-        "$links": [305]
+        "$links": [
+          305
+        ]
       },
-    	"Mustafá": {
+      "Mustafá": {
         "$text": "Mustafá",
-        "$links": [119]
+        "$links": [
+          119
+        ]
       },
-    	"Nabíl-i-A'zam": {
+      "Nabíl-i-A'zam": {
         "$text": "Nabíl-i-A'zam",
-        "$links": [302]
+        "$links": [
+          302
+        ]
       },
-    	"Nasír": {
+      "Nasír": {
         "$text": "Nasír",
-        "$links": [107]
+        "$links": [
+          107
+        ]
       },
-    	"Ra'ís": {
+      "Ra'ís": {
         "$text": "Ra'ís",
-        "$links": [39]
+        "$links": [
+          39
+        ]
       },
-    	"Salmán": {
+      "Salmán": {
         "$text": "Salmán",
-        "$links": [49, 317, 329]
+        "$links": [
+          49,
+          317,
+          329
+        ]
       },
-    	"Shaykh": {
+      "Shaykh": {
         "$text": "Shaykh",
-        "$links": [337]
+        "$links": [
+          337
+        ]
       },
-    	"Tihrán": {
+      "Tihrán": {
         "$text": "Tihrán",
-        "$links": [109, 110, 120, 121]
+        "$links": [
+          109,
+          110,
+          120,
+          121
+        ]
       },
-    	"Turkish Ministers": {
+      "Turkish Ministers": {
         "$text": "Turkish Ministers",
-        "$links": [[122, 125]]
+        "$links": [
+          [
+            122,
+            125
+          ]
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Talisman": {
     "$text": "Talisman",
-    "$links": [259]
+    "$links": [
+      259
+    ],
+    "$book": "Gleanings"
   },
   "Taxation": {
     "$text": "Taxation",
-    "$links": [251, 253]
+    "$links": [
+      251,
+      253
+    ],
+    "$book": "Gleanings"
   },
   "Teachers": {
     "$text": "Teachers",
     "$children": {
       "assistance of": {
         "$text": "assistance of",
-        "$links": [280, 314]
+        "$links": [
+          280,
+          314
+        ]
       },
-    	"character of": {
+      "character of": {
         "$text": "character of",
-        "$links": [201, 277, 278, 335]
+        "$links": [
+          201,
+          277,
+          278,
+          335
+        ]
       },
-    	"influence of": {
+      "influence of": {
         "$text": "influence of",
-        "$links": [277, [334, 335]]
+        "$links": [
+          277,
+          [
+            334,
+            335
+          ]
+        ]
       },
-    	"preparation of": {
+      "preparation of": {
         "$text": "preparation of",
-        "$links": [201, 277, 334, 335, 339]
+        "$links": [
+          201,
+          277,
+          334,
+          335,
+          339
+        ]
       },
-    	"success due to Word of God": {
+      "success due to Word of God": {
         "$text": "success due to Word of God",
-        "$links": [277]
+        "$links": [
+          277
+        ]
       },
-    	"traveling": {
+      "traveling": {
         "$text": "traveling",
-        "$links": [334]
+        "$links": [
+          334
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Teaching": {
     "$text": "Teaching",
     "$children": {
       "enjoined": {
         "$text": "enjoined",
-        "$links": [38, 196, 197, 205, 276, 278, 280, 281, 296, 303, 314, 330, 335]
+        "$links": [
+          38,
+          196,
+          197,
+          205,
+          276,
+          278,
+          280,
+          281,
+          296,
+          303,
+          314,
+          330,
+          335
+        ]
       },
-    	"through words, not violence": {
+      "through words, not violence": {
         "$text": "through words, not violence",
-        "$links": [278, 303, 330]
+        "$links": [
+          278,
+          303,
+          330
+        ]
       },
-    	"with kindness": {
+      "with kindness": {
         "$text": "with kindness",
-        "$links": [8, 279, 289]
+        "$links": [
+          8,
+          279,
+          289
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Tests and trials": {
     "$text": "Tests and trials",
-    "$links": [12, 27]
+    "$links": [
+      12,
+      27
+    ],
+    "$book": "Gleanings"
   },
   "Tihrán": {
     "$text": "Tihrán",
-    "$links": [228],
+    "$links": [
+      228
+    ],
     "$children": {
       "believers of": {
         "$text": "believers of",
-        "$links": [122]
+        "$links": [
+          122
+        ]
       },
-    	"blessing of pilgrimage to": {
+      "blessing of pilgrimage to": {
         "$text": "blessing of pilgrimage to",
-        "$links": [121, 122]
+        "$links": [
+          121,
+          122
+        ]
       },
-    	"future of": {
+      "future of": {
         "$text": "future of",
-        "$links": [111]
+        "$links": [
+          111
+        ]
       },
-    	"martyrs of": {
+      "martyrs of": {
         "$text": "martyrs of",
-        "$links": [109, 121]
+        "$links": [
+          109,
+          121
+        ]
       },
-    	"station of": {
+      "station of": {
         "$text": "station of",
-        "$links": [120, 121]
+        "$links": [
+          120,
+          121
+        ]
       },
-    	"Tablet regarding visit to": {
+      "Tablet regarding visit to": {
         "$text": "Tablet regarding visit to",
-        "$links": [120]
+        "$links": [
+          120
+        ]
       },
-    	"Tablet to": {
+      "Tablet to": {
         "$text": "Tablet to",
-        "$links": [109, 110, 121]
+        "$links": [
+          109,
+          110,
+          121
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Torah": {
     "$text": "Torah",
-    "$links": [294]
+    "$links": [
+      294
+    ],
+    "$book": "Gleanings"
   },
   "Traditions, meaning of": {
     "$text": "Traditions, meaning of",
-    "$links": [171, 174]
+    "$links": [
+      171,
+      174
+    ],
+    "$book": "Gleanings"
   },
   "Tribulations assist Cause": {
     "$text": "Tribulations assist Cause",
-    "$links": [42, 72, 270, 333]
+    "$links": [
+      42,
+      72,
+      270,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Trustworthiness": {
     "$text": "Trustworthiness",
-    "$links": [232, 233, 266, 278, 285, 290, 299]
+    "$links": [
+      232,
+      233,
+      266,
+      278,
+      285,
+      290,
+      299
+    ],
+    "$book": "Gleanings"
   },
   "Truthfulness": {
     "$text": "Truthfulness",
-    "$links": [232, 271, 290, 297, 299, 305]
+    "$links": [
+      232,
+      271,
+      290,
+      297,
+      299,
+      305
+    ],
+    "$book": "Gleanings"
   },
   "Truths, beyond expression": {
     "$text": "Truths, beyond expression",
-    "$links": [176]
+    "$links": [
+      176
+    ],
+    "$book": "Gleanings"
   },
   "Turkish Ministers, Tablet to": {
     "$text": "Turkish Ministers, Tablet to",
-    "$links": [[122, 125]]
+    "$links": [
+      [
+        122,
+        125
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Unbelievers": {
     "$text": "Unbelievers",
@@ -3207,24 +7254,55 @@
       {
         "id": "Non-believers"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Understanding": {
     "$text": "Understanding",
-    "$links": [132, 194],
+    "$links": [
+      132,
+      194
+    ],
     "$seeAlso": [
       {
         "id": "Man, mind of"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Unity, Divine, meaning of": {
     "$text": "Unity, Divine, meaning of",
-    "$links": [59, 69, 70, 166, 167, 187, 191]
+    "$links": [
+      59,
+      69,
+      70,
+      166,
+      167,
+      187,
+      191
+    ],
+    "$book": "Gleanings"
   },
   "Unity of God": {
     "$text": "Unity of God",
-    "$links": [21, 59, 64, 143, 162, 167, [189, 193], 231, 261, 336, 340, 344]
+    "$links": [
+      21,
+      59,
+      64,
+      143,
+      162,
+      167,
+      [
+        189,
+        193
+      ],
+      231,
+      261,
+      336,
+      340,
+      344
+    ],
+    "$book": "Gleanings"
   },
   "Unity of Mankind": {
     "$text": "Unity of Mankind",
@@ -3232,44 +7310,91 @@
       {
         "id": "Mankind"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Vain imaginations": {
     "$text": "Vain imaginations",
-    "$links": [6, 12, 34, 42, 82, 83, 93, 156, 196, 203, 204, 219, 291, 307, 324, 326, 337, 338]
+    "$links": [
+      6,
+      12,
+      34,
+      42,
+      82,
+      83,
+      93,
+      156,
+      196,
+      203,
+      204,
+      219,
+      291,
+      307,
+      324,
+      326,
+      337,
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Victory": {
     "$text": "Victory",
     "$children": {
       "dependent upon obedience": {
         "$text": "dependent upon obedience",
-        "$links": [289]
+        "$links": [
+          289
+        ]
       },
-    	"of Cause": {
+      "of Cause": {
         "$text": "of Cause",
-        "$links": [43, 248, 287, 306, 332, 334, 341]
+        "$links": [
+          43,
+          248,
+          287,
+          306,
+          332,
+          334,
+          341
+        ]
       },
-    	"over self": {
+      "over self": {
         "$text": "over self",
-        "$links": [93]
+        "$links": [
+          93
+        ]
       },
-    	"through fear of God": {
+      "through fear of God": {
         "$text": "through fear of God",
-        "$links": [272]
+        "$links": [
+          272
+        ]
       },
-    	"time of": {
+      "time of": {
         "$text": "time of",
-        "$links": [319]
+        "$links": [
+          319
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Violence": {
     "$text": "Violence",
-    "$links": [277, 303]
+    "$links": [
+      277,
+      303
+    ],
+    "$book": "Gleanings"
   },
   "Violence prohibited in teaching": {
     "$text": "Violence prohibited in teaching",
-    "$links": [278, 303, 330]
+    "$links": [
+      278,
+      303,
+      330
+    ],
+    "$book": "Gleanings"
   },
   "Wealth": {
     "$text": "Wealth",
@@ -3277,157 +7402,305 @@
       {
         "id": "Possessions"
       }
-    ]
+    ],
+    "$book": "Gleanings"
   },
   "Will, Divine": {
     "$text": "Will, Divine",
-    "$links": [5, 61, 65, 209, 211, 217, 318, 324, 329, 338]
+    "$links": [
+      5,
+      61,
+      65,
+      209,
+      211,
+      217,
+      318,
+      324,
+      329,
+      338
+    ],
+    "$book": "Gleanings"
   },
   "Will, Divine, known through Manifestations": {
     "$text": "Will, Divine, known through Manifestations",
-    "$links": [59, 167]
+    "$links": [
+      59,
+      167
+    ],
+    "$book": "Gleanings"
   },
   "Will, free": {
     "$text": "Will, free",
-    "$links": [71, 149, 164, [335, 338]]
+    "$links": [
+      71,
+      149,
+      164,
+      [
+        335,
+        338
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Will, surrender of": {
     "$text": "Will, surrender of",
-    "$links": [[336, 338]]
+    "$links": [
+      [
+        336,
+        338
+      ]
+    ],
+    "$book": "Gleanings"
   },
   "Wind": {
     "$text": "Wind",
-    "$links": [339]
+    "$links": [
+      339
+    ],
+    "$book": "Gleanings"
   },
   "Word of God": {
     "$text": "Word of God",
     "$children": {
       "compared to tree": {
         "$text": "compared to tree",
-        "$links": [97]
+        "$links": [
+          97
+        ]
       },
-    	"everlasting": {
+      "everlasting": {
         "$text": "everlasting",
-        "$links": [175]
+        "$links": [
+          175
+        ]
       },
-    	"known only by Manifestations": {
+      "known only by Manifestations": {
         "$text": "known only by Manifestations",
-        "$links": [158, 175]
+        "$links": [
+          158,
+          175
+        ]
       },
-    	"power from reciting": {
+      "power from reciting": {
         "$text": "power from reciting",
-        "$links": [295]
+        "$links": [
+          295
+        ]
       },
-    	"power of": {
+      "power of": {
         "$text": "power of",
-        "$links": [29, 35, 76, 86, 87, 104, 141, 142, 175, 200, 270, 277, 286, 316, 325]
+        "$links": [
+          29,
+          35,
+          76,
+          86,
+          87,
+          104,
+          141,
+          142,
+          175,
+          200,
+          270,
+          277,
+          286,
+          316,
+          325
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Words": {
     "$text": "Words",
     "$children": {
       "limitations of": {
         "$text": "limitations of",
-        "$links": [176]
+        "$links": [
+          176
+        ]
       },
-    	"vitalized by Bahá'u'lláh": {
+      "vitalized by Bahá'u'lláh": {
         "$text": "vitalized by Bahá'u'lláh",
-        "$links": [93]
+        "$links": [
+          93
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "Work, a duty": {
     "$text": "Work, a duty",
-    "$links": [202]
+    "$links": [
+      202
+    ],
+    "$book": "Gleanings"
   },
   "World": {
     "$text": "World",
-    "$links": [162],
+    "$links": [
+      162
+    ],
     "$children": {
       "animating power of": {
         "$text": "animating power of",
-        "$links": [93, 157]
+        "$links": [
+          93,
+          157
+        ]
       },
       "compared with body of man": {
         "$text": "compared with body of man",
-        "$links": [81, 254, 255]
+        "$links": [
+          81,
+          254,
+          255
+        ]
       },
       "compared with mirage": {
         "$text": "compared with mirage",
-        "$links": [328]
+        "$links": [
+          328
+        ]
       },
       "condition of, today": {
         "$text": "condition of, today",
-        "$links": [97, 118, 136, 200, 213, 218, 255]
+        "$links": [
+          97,
+          118,
+          136,
+          200,
+          213,
+          218,
+          255
+        ]
       },
       "of dreams": {
         "$text": "of dreams",
-        "$links": [152, 162]
+        "$links": [
+          152,
+          162
+        ]
       },
       "one": {
         "$text": "one",
-        "$links": [334]
+        "$links": [
+          334
+        ]
       },
-    	"\"rolled up\"": {
+      "\"rolled up\"": {
         "$text": "\"rolled up\"",
-        "$links": [313]
+        "$links": [
+          313
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "\"World,\" meaning of": {
     "$text": "\"World,\" meaning of",
-    "$links": [276]
+    "$links": [
+      276
+    ],
+    "$book": "Gleanings"
   },
   "\"World is in travail\"": {
     "$text": "\"World is in travail\"",
-    "$links": [118]
+    "$links": [
+      118
+    ],
+    "$book": "Gleanings"
   },
   "World Order": {
     "$text": "World Order",
-    "$links": [7, 136, 219, 313, 331, 333]
+    "$links": [
+      7,
+      136,
+      219,
+      313,
+      331,
+      333
+    ],
+    "$book": "Gleanings"
   },
   "Worlds": {
     "$text": "Worlds",
     "$children": {
       "beyond this": {
         "$text": "beyond this",
-        "$links": [157, 158, 161, 329]
+        "$links": [
+          157,
+          158,
+          161,
+          329
+        ]
       },
-    	"innumerable": {
+      "innumerable": {
         "$text": "innumerable",
-        "$links": [104, 151, 152]
+        "$links": [
+          104,
+          151,
+          152
+        ]
       },
-    	"of God": {
+      "of God": {
         "$text": "of God",
-        "$links": [151, 158, 160, 161]
+        "$links": [
+          151,
+          158,
+          160,
+          161
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   },
   "World's equilibrium upset": {
     "$text": "World's equilibrium upset",
-    "$links": [136]
+    "$links": [
+      136
+    ],
+    "$book": "Gleanings"
   },
   "Wrath of God": {
     "$text": "Wrath of God",
-    "$links": [40, 130, 204, 208, 257, 325]
+    "$links": [
+      40,
+      130,
+      204,
+      208,
+      257,
+      325
+    ],
+    "$book": "Gleanings"
   },
   "Writing to defend Cause": {
     "$text": "Writing to defend Cause",
-    "$links": [330]
+    "$links": [
+      330
+    ],
+    "$book": "Gleanings"
   },
   "Zanján": {
     "$text": "Zanján",
-    "$links": [135]
+    "$links": [
+      135
+    ],
+    "$book": "Gleanings"
   },
   "Zion": {
     "$text": "Zion",
-    "$links": [13, 211],
+    "$links": [
+      13,
+      211
+    ],
     "$children": {
       "call to": {
         "$text": "call to",
-        "$links": [16]
+        "$links": [
+          16
+        ]
       }
-    }
+    },
+    "$book": "Gleanings"
   }
 }

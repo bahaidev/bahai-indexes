@@ -5,6 +5,7 @@
   "description": "Indexes to the Bahá'í Writings in JSON form",
   "main": "src/buildFlattenedJSONAndJS.js",
   "scripts": {
+    "addBook": "node indexes/addBook.js",
     "start": "httpquery --path=indexes/json --debug",
     "eslint": "eslint --ext=js,md,html .",
     "lint": "npm run eslint --",
