@@ -10,4 +10,9 @@ Object.entries(bookJSON).forEach(([key, value]) => {
   value.$book = book;
 });
 
-await writeFile(path, JSON.stringify(bookJSON, null, 2));
+await writeFile(path, JSON.stringify(bookJSON, (k, v) => {
+  if (typeof v === 'number') {
+    return String(v);
+  }
+  return v;
+}, 2));

@@ -19,6 +19,10 @@ function createLinkForIndexText (linkText, book) {
   const firstChar = linkText.charAt();
   const number = linkText.match(/\d+/u)?.[0];
   switch (book) {
+  case 'Gleanings':
+    a.href = 'https://bahai-library.com/writings/bahaullah/' +
+      'gwb/gleaningsall.html#' + number;
+    break;
   case 'Kitáb-i-Aqdas':
     switch (firstChar) {
     case 'n':
