@@ -1,5 +1,9 @@
 # CHANGES to `bahai-indexes`
 
+## 0.10.0
+
+- feat: add Gleanings
+
 ## 0.9.1
 
 - fix: ensure display is 100% when a panel is collapsed
