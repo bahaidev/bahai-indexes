@@ -25,6 +25,7 @@ You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&e
 ## Higher priority to-dos
 
 1. Add more books (see <https://bahai-library.com/zamir_temp_indexes>)
+1. Option to search word boundaries
 
 ## Medium priority to-dos
 
