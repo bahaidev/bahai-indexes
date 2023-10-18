@@ -11,7 +11,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['html-parsers/**', 'src/**'],
+      files: ['parsers/**', 'src/**'],
       env: {
         browser: false,
         'shared-node-browser': false

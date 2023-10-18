@@ -1,6 +1,6 @@
 .idea
 
 # Exposing this would call for jsdom (and handle-node) dependencies
-html-parsers
+parsers
 pnpm-lock.yaml
 indexes/books.js

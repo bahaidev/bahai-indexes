@@ -12,8 +12,8 @@
     "build-books": "node indexes/books.js",
     "build": "node src/buildFlattenedJSONAndJS.js",
     "parse": "npm run parse-aqdas",
-    "parse-aqdas": "node html-parsers/aqdas.js",
-    "parse-iqan": "node html-parsers/iqan.js",
+    "parse-aqdas": "node parsers/html/aqdas.js",
+    "parse-iqan": "node parsers/html/iqan.js",
     "test": "npm run eslint && echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
