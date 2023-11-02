@@ -1,5 +1,25 @@
+/*
 #searchEntries, #searchEntriesPages {
-  /* Hidden by default */
+  // Hidden by default
+}
+*/
+
+#linkList {
+  float: left;
+  width: 20%;
+}
+
+#indexViewHolder {
+  float: left;
+  width: 75%;
+
+  height: 600px;
+  overflow: auto;
+}
+
+.selected-link {
+  font-style: italic;
+  font-weight: bold;
 }
 
 .hidden {
@@ -32,7 +52,7 @@
 .collapseButtons {
   float: left;
   margin-top: 10px;
-  width: 2%;
+  width: 3%;
 }
 
 #searchEntriesResults, #searchEntriesPagesResults {

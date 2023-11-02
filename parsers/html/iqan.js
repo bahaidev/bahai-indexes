@@ -6,7 +6,7 @@ import writeJSON from './utils/writeJSON.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const {$$, $, Node} = await getDomForFile(
-  join(__dirname, '/../indexes/html/Kitáb-i-Íqán.html')
+  join(__dirname, '/../../indexes/html/Kitáb-i-Íqán.html')
 );
 
 const rootObj = {};
@@ -62,7 +62,7 @@ bElems.forEach((b) => {
   function parseIndex (node, obj, linksArray) {
     // (We replace for ; for subsequent iterations)
     let subEntry = node.nodeValue
-      .trim().replace(/^[;,]\s*/u, '').replace(/,$/u, '').replace(/\n/gu, ' ');
+      .trim().replace(/^[;,]\s*/u, '').replace(/,$/u, '').replaceAll('\n', ' ');
 
     if (!subEntry) {
       // 2. If no intervening non-whitespace text, add subsequent links to self
@@ -115,7 +115,9 @@ bElems.forEach((b) => {
         }
       } else if (a.matches('i')) {
         const link = a.nextElementSibling;
-        obj.$seeAlso = 'I' + link.hash.slice(1).replace(/^0+/u, '');
+        obj.$seeAlso = [{
+          id: link.textContent.replaceAll('\n', ' ')
+        }];
       }
     } else {
       // 3. Otherwise, add recursively as descendants (except for "Glossary"
@@ -161,6 +163,8 @@ bElems.forEach((b) => {
   }
 });
 
-const writePath = join(__dirname, '/../indexes/json/books/Kitáb-i-Íqán.json');
+const writePath = join(
+  __dirname, '/../../indexes/json/books/Kitáb-i-Íqán.json'
+);
 await writeJSON(writePath, rootObj);
 console.log(`Wrote to ${writePath}`);

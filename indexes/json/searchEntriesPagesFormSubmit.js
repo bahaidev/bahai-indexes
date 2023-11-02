@@ -86,7 +86,7 @@ async function searchEntriesFormPagesSubmit (e) {
       $lowercase($v) = $lowercase($target)
     )
   })])][]
-  `.replace(/\n/gu, ' ');
+  `.replaceAll('\n', ' ');
 
   const results = await httpquery(
     'books.json',

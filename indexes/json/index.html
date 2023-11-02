@@ -11,11 +11,19 @@
   <body>
     <h2 class="indexSearch">Index search</h2>
     <div class="collapseButtons">
+      <button id="openLinkList">🔗</button>
       <button id="expandAll" hidden>^</button>
       <button id="collapseSearchEntriesPages">&lt;-</button>
       <button id="collapseSearchEntries">-&gt;</button>
     </div>
     <br class="clear" />
+    <div id="linkViewer" class="hidden">
+      <ul id="linkList"></ul>
+      <div id="indexViewHolder">
+        <h2 id="chosenIndex"></h2>
+        <div id="indexView"></div>
+      </div>
+    </div>
     <form id="searchEntries" class="hidden">
       <fieldset class="searchEntries" disabled>
         <legend>Search entries</legend>

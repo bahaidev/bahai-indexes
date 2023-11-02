@@ -7745,6 +7745,74 @@
           "253"
         ],
         "$children": {
+          "Appointment as successor to Bahá'u'lláh": {
+            "$text": "Appointment as successor to Bahá'u'lláh",
+            "$links": [
+              "3",
+              "14",
+              "K121",
+              "K174",
+              "141",
+              "n1"
+            ]
+          },
+          "Center of Covenant": {
+            "$text": "Center of Covenant",
+            "$links": [
+              "n66",
+              "n125"
+            ]
+          },
+          "He Whom God hath purposed": {
+            "$text": "He Whom God hath purposed",
+            "$links": [
+              "K121",
+              "n145"
+            ]
+          },
+          "Interpreter of Word of God": {
+            "$text": "Interpreter of Word of God",
+            "$links": [
+              "K174",
+              "n130",
+              "n184"
+            ]
+          },
+          "Most Mighty Branch": {
+            "$text": "Most Mighty Branch",
+            "$links": [
+              "n145"
+            ]
+          },
+          "appoints Shoghi Effendi as Guardian": {
+            "$text": "appoints Shoghi Effendi as Guardian",
+            "$links": [
+              "3",
+              "n66",
+              "n130"
+            ]
+          },
+          "Divine Plan of": {
+            "$text": "Divine Plan of",
+            "$links": [
+              "4"
+            ]
+          },
+          "Exemplar": {
+            "$text": "Exemplar",
+            "$links": [
+              "3"
+            ]
+          },
+          "successors to": {
+            "$text": "successors to",
+            "$links": [
+              [
+                "3",
+                "4"
+              ]
+            ]
+          },
           "AbdulBahaWritings": {
             "$text": "Writings (Tablets) individual works",
             "$children": {
@@ -29316,7 +29384,11 @@
         "$text": "'Alí, Imám",
         "$links": [],
         "$book": "Kitáb-i-Íqán",
-        "$seeAlso": "I43"
+        "$seeAlso": [
+          {
+            "id": "Imám 'Alí"
+          }
+        ]
       },
       "Alif": {
         "$text": "Alif",
@@ -29605,7 +29677,11 @@
         "$text": "Christ",
         "$links": [],
         "$book": "Kitáb-i-Íqán",
-        "$seeAlso": "I48"
+        "$seeAlso": [
+          {
+            "id": "Jesus"
+          }
+        ]
       },
       "Clerics": {
         "$text": "Clerics",
@@ -29641,7 +29717,11 @@
             "$links": []
           }
         },
-        "$seeAlso": "I29"
+        "$seeAlso": [
+          {
+            "id": "Divines"
+          }
+        ]
       },
       "Clouds": {
         "$text": "Clouds",
@@ -29821,7 +29901,11 @@
             "$links": []
           }
         },
-        "$seeAlso": "I101"
+        "$seeAlso": [
+          {
+            "id": "Tablet of Faṭimih"
+          }
+        ]
       },
       "Gabriel": {
         "$text": "Gabriel",
@@ -30255,7 +30339,11 @@
             "$links": []
           }
         },
-        "$seeAlso": "I46"
+        "$seeAlso": [
+          {
+            "id": "Israel"
+          }
+        ]
       },
       "John the Baptist": {
         "$text": "John the Baptist",
@@ -30796,7 +30884,11 @@
         "$text": "Nubdih, Prayer of",
         "$links": [],
         "$book": "Kitáb-i-Íqán",
-        "$seeAlso": "I78"
+        "$seeAlso": [
+          {
+            "id": "Prayer"
+          }
+        ]
       },
       "Oppression": {
         "$text": "Oppression",

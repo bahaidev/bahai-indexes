@@ -31,7 +31,7 @@ const aqdasInternalLinksRegex = /^[KQn]?\d+$/u;
 
 /**
 * @callback SeeAlsoCallback
-* @param {SeeAlsoMeta} $seeAlso
+* @param {SeeAlsoMeta[]} $seeAlso
 * @param {string} key
 * @param {string} basePath
 * @param {WritingsMeta} val
@@ -40,44 +40,47 @@ const aqdasInternalLinksRegex = /^[KQn]?\d+$/u;
 */
 
 /**
-* @typedef {PlainObject} IterateKeysCallbackObject
+* @typedef {object} IterateKeysCallbackObject
 * @property {KeysCallback} [keys]
 * @property {LinksCallback} [links]
 * @property {SeeAlsoCallback} [seeAlso]
 */
 
 /**
-* @typedef {PlainObject} SeeAlsoMeta
-* @property {string} id
-* @property {string} [text]
-* @property {boolean} [headings]
-*/
+ * @typedef {object} SeeAlsoMeta
+ * @property {string} id Refers to `WritingsJSON` key
+ * @property {string} [text] The full text of the index entry
+ * @property {boolean} [headings] Whether this meta to be shown as
+ *   "See additional headings under"
+ */
 
 /**
-* @typedef {GenericArray} LinksMetaArray
-* @property {string} 0
-* @property {string} 1
-*/
+ * A range of pages/paragraphs/verses.
+ * @typedef {GenericArray} LinksMetaArray
+ * @property {string} 0
+ * @property {string} 1
+ */
 
 /**
-* @typedef {GenericArray} LinksMeta
-* @property {string|LinksMetaArray} *
-*/
+ * @typedef {GenericArray} LinksMeta
+ * @property {string|LinksMetaArray} *
+ */
 
 /**
-* @typedef {string} TextMeta
-*/
+ * @typedef {string} TextMeta
+ */
 
 /**
- * @typedef {PlainObject} WritingsMeta
+ * @typedef {object} WritingsMeta
  * @property {LinksMeta} [$links]
- * @property {SeeAlsoMeta} [$seeAlso]
+ * @property {SeeAlsoMeta[]} [$seeAlso]
  * @property {TextMeta} [$text]
  * @property {WritingsMeta} [$children]
  */
 
 /**
- * @typedef {PlainObject<string, WritingsMeta>} WritingsJSON
+ * Keyed by id.
+ * @typedef {Object<string, WritingsMeta>} WritingsJSON
  */
 
 /**
@@ -299,7 +302,6 @@ async function arrangeByParagraph (json) {
   ]);
 }
 
-(async () => {
 const aqdas = JSON.parse(
   await readFile(
     new URL('../indexes/json/books/Kitáb-i-Aqdas.json', import.meta.url)
@@ -308,4 +310,3 @@ const aqdas = JSON.parse(
 validate(aqdas);
 await arrangeByParagraph(aqdas);
 console.log('Complete!');
-})();

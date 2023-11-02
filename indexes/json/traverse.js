@@ -1,5 +1,5 @@
 /**
- * @typedef {PlainObject} IndexObject
+ * @typedef {object} IndexObject
  * @property {string} $text
  * @property {Object<string,IndexObject>} $children
  */
@@ -11,10 +11,14 @@
  */
 
 /**
+ * @typedef {any} AnyResult
+ */
+
+/**
  * @param {IndexObject} obj
- * @param {any} lastResult
+ * @param {AnyResult} lastResult
  * @param {IndexHandler} handler
- * @param {string[]} [paths=[]]
+ * @param {string[]} [paths]
  * @returns {void}
  */
 const traverse = (obj, lastResult, handler, paths = []) => {

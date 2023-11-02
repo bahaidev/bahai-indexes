@@ -1,7 +1,7 @@
 {
   "name": "bahai-indexes",
   "type": "module",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Indexes to the Bahá'í Writings in JSON form",
   "main": "src/buildFlattenedJSONAndJS.js",
   "scripts": {
@@ -30,33 +30,33 @@
   "bugs": "https://bitbucket.org/brettz9/bahai-indexes/issues?status=new&status=open",
   "homepage": "https://bitbucket.org/brettz9/bahai-indexes#readme",
   "dependencies": {
-    "httpquery": "^0.8.2"
+    "httpquery": "^0.8.3"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/eslint-parser": "^7.17.0",
+    "@babel/core": "^7.23.2",
+    "@babel/eslint-parser": "^7.22.15",
     "@brettz9/eslint-plugin": "^1.0.4",
-    "eslint": "^8.12.0",
-    "eslint-config-ash-nazg": "^32.7.1",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-array-func": "^3.1.7",
-    "eslint-plugin-compat": "^4.0.2",
+    "eslint": "^8.52.0",
+    "eslint-config-ash-nazg": "^34.18.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-array-func": "^4.0.0",
+    "eslint-plugin-compat": "^4.2.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^6.2.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsdoc": "^38.1.6",
-    "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-no-unsanitized": "^4.0.1",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsdoc": "^46.8.2",
+    "eslint-plugin-markdown": "^3.0.1",
+    "eslint-plugin-no-unsanitized": "^4.0.2",
     "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.22.0",
     "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-unicorn": "^42.0.0",
+    "eslint-plugin-unicorn": "^49.0.0",
     "handle-node": "^0.2.1",
-    "jsdom": "^19.0.0"
+    "jsdom": "^22.1.0"
   }
 }

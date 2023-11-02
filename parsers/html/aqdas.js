@@ -20,7 +20,7 @@ const endIndexLinkRegex = /^(?:[A-Z]_EndIndex\.htm|about:blank)?#/u;
  * @returns {string}
  */
 function stripPunctuationAndWhitespace (s) {
-  return s.trim().replace(/\s(?:\s+)/gu, ' ').replace(/[.,;]$/gu, ''); // .replace(/\n/gu, '')
+  return s.trim().replaceAll(/\s(?:\s+)/gu, ' ').replaceAll(/[.,;]$/gu, ''); // .replace(/\n/gu, '')
 }
 
 const serializeLinkContents = (linkElem) => {
@@ -114,11 +114,11 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
          * @returns {false|integer}
          */
         const sequenceDifferenceSinceLast = (val) => {
-          const lastRange = $links[$links.length - 1];
+          const lastRange = $links.at(-1);
           if (!Array.isArray(lastRange)) {
             return false;
           }
-          const lastItem = lastRange[lastRange.length - 1];
+          const lastItem = lastRange.at(-1);
           if (lastItem.length === val.length) {
             // e.g., K101, K102
             if (letterLinkOnlyRegex.test(lastItem) &&
@@ -140,7 +140,7 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
           return sequenceDifferenceSinceLast(val) === 1;
         };
         const mergeSequential = (val) => {
-          const lastRange = $links[$links.length - 1];
+          const lastRange = $links.at(-1);
           if (lastRange.length > 1) {
             lastRange.pop();
           }
@@ -166,7 +166,7 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
               throw new TypeError('Unexpected text node');
             }
             rangeBegun = true;
-            if (!Array.isArray($links[$links.length - 1])) {
+            if (!Array.isArray($links.at(-1))) {
               // Don't keep nesting if this accidentally lists as a range,
               //   e.g., K175-K176-K177
               const val = $links.pop();
@@ -210,7 +210,7 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
               }
               let val = textContent;
               // Add missing letters to range endings
-              const lastRange = $links[$links.length - 1];
+              const lastRange = $links.at(-1);
               const lastItem = lastRange[0];
               if (letterLinkOnlyRegex.test(lastItem)) {
                 if (!letterLinkOnlyRegex.test(val)) {
@@ -233,7 +233,7 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
                   throw new Error('Unexpected item mismatch');
                 }
               }
-              $links[$links.length - 1].splice(1, 1, val);
+              $links.at(-1).splice(1, 1, val);
             } else {
               // Merge with last range array if sequential despite
               //   our not being in range mode (i.e., despite not
@@ -350,14 +350,16 @@ function recurseList (ul, jsonIndexEntry, topLevel) {
         );
       }
     } else if (liOrUl.matches('ul')) {
-      jsonIndexEntry[lastID].$children = {};
+      if (!jsonIndexEntry[lastID].$children) {
+        jsonIndexEntry[lastID].$children = {};
+      }
       recurseList(liOrUl, jsonIndexEntry[lastID].$children);
     }
   });
 }
 
 const {Node, $$} = await getDomForFile(
-  join(__dirname, '/../indexes/html/Kitáb-i-Aqdas.html')
+  join(__dirname, '/../../indexes/html/Kitáb-i-Aqdas.html')
 );
 
 const letterSections = $$('a[name]')
@@ -378,6 +380,8 @@ topUls.forEach((ul) => {
   recurseList(ul, jsonIndex, true);
 });
 
-const writePath = join(__dirname, '/../indexes/json/books/Kitáb-i-Aqdas.json');
+const writePath = join(
+  __dirname, '/../../indexes/json/books/Kitáb-i-Aqdas.json'
+);
 await writeJSON(writePath, jsonIndex);
 console.log(`Wrote to ${writePath}`);

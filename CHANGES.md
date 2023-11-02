@@ -1,5 +1,17 @@
 # CHANGES to `bahai-indexes`
 
+## 0.11.0
+
+BREAKING: Requires Node 14
+
+- feat: index links
+- fix: bug with Aqdas index parsing
+- fix: bug with Iqan seeAlso
+- fix: parser paths
+- fix: button width
+- chore: update `httpquery`, devDeps and lint
+- docs: add missing index
+
 ## 0.10.0
 
 - feat: add Gleanings

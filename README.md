@@ -16,11 +16,13 @@ You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&e
 
 ## Sources
 
--  *Kitáb-i-Aqdas* (`aqdas`) - From <http://bahai-library.com/writings/bahaullah/aqdas/aqdas2/aqdas-allindex.html>;
+-  *Kitáb-i-Aqdas* - From <http://bahai-library.com/writings/bahaullah/aqdas/aqdas2/aqdas-allindex.html>;
     view within queries against the following (currently Chrome only:
     <https://bahai-browser.org/#lang=en-US&work=aqdas>).
 
--  *Kitáb-i-Íqán* (`aqdas`) - From <https://bahai-library.com/writings/bahaullah/iqan/iq-indx.htm>.
+-  *Kitáb-i-Íqán* - From <https://bahai-library.com/writings/bahaullah/iqan/iq-indx.htm>.
+
+- *Gleanings* - From <https://bahai-library.com/zamir/indexes/gleaningsindex.html>.
 
 ## Higher priority to-dos
 
@@ -30,6 +32,7 @@ You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&e
 ## Medium priority to-dos
 
 1. Delete unused URL params
+1. Fix individual broken "See also" entries
 1. Merging of entries option
 1. Could make agnostic to application, with user supplying JSON as config
     files.

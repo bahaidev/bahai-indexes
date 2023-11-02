@@ -1,8 +1,8 @@
 /* eslint-disable no-unsanitized/property -- Source must be trusted as
     we want its HTML */
 
-import {$, httpquery} from './utils.js';
-import {appendLinks, appendLinksToHolder} from './appendLinks.js';
+import {$, httpquery, populateFullIndex} from './utils.js';
+import {appendLinksToHolder} from './appendLinks.js';
 import traverse from './traverse.js';
 
 const resultsHolder = $('#searchEntriesResults');
@@ -146,6 +146,18 @@ async function searchEntriesFormSubmit (e) {
     // const mergeEntries = $('#mergeEntries').checked;
 
     const ul = document.createElement('ul');
+
+    resultsHolder.addEventListener('click', (ev) => {
+      if (ev.target.nodeName.toLowerCase() !== 'a' || !ev.target.dataset.id) {
+        return;
+      }
+      ev.preventDefault();
+      const a = ev.target;
+      location.href = `./?collapse=openLinkList&book=${
+        a.dataset.book
+      }&entry=${a.dataset.id}`;
+    }, true);
+
     const bookUl = book ? null : document.createElement('ul');
     const visited = {};
     results.forEach((result) => {
@@ -165,28 +177,16 @@ async function searchEntriesFormSubmit (e) {
         resultsHolder.append(bookUl);
         visited[result.$book] = true;
       }
-      traverse(result, bookUlInner || ul, (obj, parent) => {
-        const li = document.createElement('li');
-        li.innerHTML = obj.$text;
-        const links = obj.$links || [];
 
-        if (entriesOrLinks === 'both') {
-          if (links.length) {
-            li.append(' - ');
-            appendLinks(links, li, result.$book);
-          }
-        }
-        parent.append(li);
-        if (obj.$children) {
-          const innerUl = document.createElement('ul');
-          li.append(innerUl);
-          return innerUl;
-        }
-        return li;
+      populateFullIndex({
+        result,
+        ul: bookUlInner || ul
       });
     });
 
-    if (!bookUl) resultsHolder.append(ul);
+    if (!bookUl) {
+      resultsHolder.append(ul);
+    }
   }
 }
 

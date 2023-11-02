@@ -1,15 +1,92 @@
-import {$, httpquery} from './utils.js';
+import {$, $$, httpquery, populateFullIndex} from './utils.js';
 import searchEntriesFormSubmit from './searchEntriesFormSubmit.js';
 import searchEntriesPagesFormSubmit from './searchEntriesPagesFormSubmit.js';
+
+/**
+ * @param {Event} e
+ * @returns {void}
+ */
+async function linkOpener (e) {
+  e.preventDefault();
+  $$('#linkList a').forEach((a) => {
+    a.classList.remove('selected-link');
+  });
+  e.target.classList.add('selected-link');
+
+  const book = e.target.textContent;
+  $('#chosenIndex').textContent = book;
+
+  if (e.manuallyTriggered !== false) {
+    const queryParams = new URLSearchParams(location.search);
+    queryParams.delete('entry');
+    queryParams.set('book', book);
+    history.pushState(null, null, '?' + queryParams.toString());
+  }
+
+  const jsonataQuery = `*[${`book="${book}"`}].index`;
+  const results = await httpquery(
+    'books.json',
+    {
+      query: jsonataQuery,
+      bindings: {}
+    }
+  );
+
+  const resultsHolder = $('#indexView');
+  resultsHolder.textContent = '';
+  const newResultsHolder = resultsHolder.cloneNode(true);
+  resultsHolder.replaceWith(newResultsHolder);
+
+  newResultsHolder.addEventListener('click', (ev) => {
+    if (ev.target.nodeName.toLowerCase() !== 'a' || !ev.target.dataset.id) {
+      return;
+    }
+
+    ev.preventDefault();
+    const targetedEntry = $('#' + CSS.escape(ev.target.dataset.id));
+
+    if (e.manuallyTriggered !== false) {
+      const params = new URLSearchParams(location.search);
+      params.set('entry', ev.target.dataset.id);
+      history.pushState(null, null, '?' + params.toString());
+    }
+
+    targetedEntry.scrollIntoView();
+  });
+  const ul = document.createElement('ul');
+  Object.entries(results).forEach(([
+    id,
+    result
+    /* {
+      $links,
+      $seeAlso,
+      $text,
+      $children
+    } */
+  ]) => {
+    populateFullIndex({result, ul, id});
+  });
+  newResultsHolder.append(ul);
+}
 
 (await httpquery('books.json', {
   query: '*.book[]',
   bindings: '{}'
 })).forEach((book) => {
+  // OPTIONS
   const option = document.createElement('option');
   option.textContent = book;
   $('#books').append(option);
   $('#booksPages').append(option.cloneNode(true));
+
+  // LINKS
+  const a = document.createElement('a');
+  a.href = '#';
+  a.addEventListener('click', linkOpener);
+  a.textContent = book;
+  const li = document.createElement('li');
+  li.append(a);
+  $('#linkList').append(li);
 });
 
 const searchEntriesForm = $('#searchEntries');
@@ -110,22 +187,61 @@ const collapseSearchEntriesPages = $('#collapseSearchEntriesPages');
 const expandAll = $('#expandAll');
 
 expandAll.addEventListener('click', changeSubmitter);
+
+const linkViewer = $('#linkViewer');
+const openLinkList = $('#openLinkList');
+
+openLinkList.addEventListener('click', changeSubmitter);
+
 collapseSearchEntries.addEventListener('click', changeSubmitter);
 collapseSearchEntriesPages.addEventListener('click', changeSubmitter);
 
 const indexTermInput = $('#indexTerm');
 const indexPageInput = $('#indexPage');
 
-const url = new URL(location.href);
+let url = new URL(location.href);
 
-const setCollapseState = () => {
+const setCollapseState = async () => {
   const param = url.searchParams.get('collapse');
 
   switch (param) {
-  case 'collapseSearchEntriesPages':
+  case 'openLinkList': {
+    searchEntriesPagesForm.classList.add('hidden');
+    searchEntriesForm.classList.add('hidden');
+    linkViewer.classList.remove('hidden');
+    const book = url.searchParams.get('book');
+    if (book) {
+      let lastA;
+      if ($$('#linkList a').some((a) => {
+        if (a.textContent === book) {
+          lastA = a;
+          return true;
+        }
+        return false;
+      })) {
+        await linkOpener({
+          manuallyTriggered: false,
+          preventDefault () {
+            // Dummy
+          },
+          target: lastA
+        });
+
+        const entry = url.searchParams.get('entry');
+        if (entry) {
+          const targetedEntry = $('#' + CSS.escape(entry));
+          if (targetedEntry) {
+            targetedEntry.scrollIntoView();
+          }
+        }
+      }
+    }
+    break;
+  } case 'collapseSearchEntriesPages':
     searchEntriesForm.classList.remove('hidden');
     searchEntriesForm.classList.add('shownAlone');
     searchEntriesPagesForm.classList.add('hidden');
+    linkViewer.classList.add('hidden');
     searchEntriesPagesForm.classList.remove('shownAlone');
     collapseSearchEntries.style.display = 'block';
     collapseSearchEntriesPages.style.display = 'none';
@@ -134,6 +250,7 @@ const setCollapseState = () => {
   case 'collapseSearchEntries':
     searchEntriesForm.classList.remove('shownAlone');
     searchEntriesForm.classList.add('hidden');
+    linkViewer.classList.add('hidden');
     searchEntriesPagesForm.classList.add('shownAlone');
     searchEntriesPagesForm.classList.remove('hidden');
     collapseSearchEntries.style.display = 'none';
@@ -184,7 +301,7 @@ const setInput = (id) => {
 // Default
 indexTermInput.focus();
 
-setCollapseState();
+await setCollapseState();
 selectMenus.forEach((id) => setSelect(id));
 selectMenusPages.forEach((id) => setSelect(id));
 checkboxes.forEach((id) => setCheckbox(id));
@@ -196,4 +313,12 @@ inputsPages.forEach((id) => setInput(id));
 const fieldsets = document.querySelectorAll('fieldset');
 fieldsets.forEach((fieldset) => {
   fieldset.disabled = false;
+});
+
+window.addEventListener('popstate', (e) => {
+  // Use fresh copy of location as will otherwise use stale info
+  url = new URL(location.href);
+  setTimeout(async () => {
+    await setCollapseState();
+  });
 });
