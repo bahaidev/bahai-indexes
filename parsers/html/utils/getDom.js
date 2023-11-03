@@ -10,7 +10,7 @@ import JSDOM from 'jsdom';
  * @returns {DomInfo}
  */
 function getDomForHtml (html) {
-  const {document, Node} = new JSDOM.JSDOM(html).window;
+  const {document, Node, XMLSerializer} = new JSDOM.JSDOM(html).window;
 
   /**
    * @callback $
@@ -30,7 +30,7 @@ function getDomForHtml (html) {
   /** @type {$$} */
   const $$ = (s) => [...document.querySelectorAll(s)];
 
-  return {$, $$, document, Node};
+  return {$, $$, document, Node, XMLSerializer};
 }
 
 /**

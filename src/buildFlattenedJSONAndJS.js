@@ -56,14 +56,11 @@ const aqdasInternalLinksRegex = /^[KQn]?\d+$/u;
 
 /**
  * A range of pages/paragraphs/verses.
- * @typedef {GenericArray} LinksMetaArray
- * @property {string} 0
- * @property {string} 1
+ * @typedef {[string, string]} LinksMetaArray
  */
 
 /**
- * @typedef {GenericArray} LinksMeta
- * @property {string|LinksMetaArray} *
+ * @typedef {(string|LinksMetaArray)[]} LinksMeta
  */
 
 /**
