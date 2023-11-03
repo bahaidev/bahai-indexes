@@ -1,5 +1,10 @@
 # CHANGES to `bahai-indexes`
 
+## 0.12.0
+
+- feat: adds SAQ index
+- fix: bug with entry clicks
+
 ## 0.11.0
 
 BREAKING: Requires Node 14

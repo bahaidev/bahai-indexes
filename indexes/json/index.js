@@ -45,11 +45,9 @@ async function linkOpener (e) {
     ev.preventDefault();
     const targetedEntry = $('#' + CSS.escape(ev.target.dataset.id));
 
-    if (e.manuallyTriggered !== false) {
-      const params = new URLSearchParams(location.search);
-      params.set('entry', ev.target.dataset.id);
-      history.pushState(null, null, '?' + params.toString());
-    }
+    const params = new URLSearchParams(location.search);
+    params.set('entry', ev.target.dataset.id);
+    history.pushState(null, null, '?' + params.toString());
 
     targetedEntry.scrollIntoView();
   });
@@ -122,7 +120,9 @@ const inputsPages = [
 ];
 
 searchEntriesForm.addEventListener('submit', searchEntriesFormSubmit);
-searchEntriesPagesForm.addEventListener('submit', searchEntriesPagesFormSubmit);
+searchEntriesPagesForm.addEventListener(
+  'submit', searchEntriesPagesFormSubmit
+);
 
 const storeInput = (id) => {
   const newURL = new URL(location.href);

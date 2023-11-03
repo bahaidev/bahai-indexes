@@ -19,7 +19,39 @@ function createLinkForIndexText (linkText, book) {
   const firstChar = linkText.charAt();
   const number = linkText.match(/\d+/u)?.[0];
   switch (book) {
-  case 'Gleanings':
+  case 'Some Answered Questions': {
+    // There are also Roman numeral links to detect, but our online
+    //  copy doesn't have those page anchors apparently
+
+    // CHAPTER+PARAGRAPH
+    let {groups: {num, par}} = linkText.match(
+      /^(?<num>\d+)\.(?<par>\d+)$/u
+    ) || {groups: {}};
+    if (num) {
+      a.href = 'https://bahai-library.com/abdul-baha_some_answered_questions#par' +
+                num + '-' + par;
+    } else {
+      // CHAPTER ONLY
+      ({groups: {num}} = linkText.match(
+        /^(?<num>\d+)$/u
+      ) || {groups: {}});
+      if (num) {
+        a.href = 'https://bahai-library.com/abdul-baha_some_answered_questions#chapter' +
+                  num;
+      } else {
+        // FOOTNOTE
+        const {groups: {footnote}} = linkText.match(
+          /^(?<num>\d+)\.(?<par>\d+)n(?<footnote>\d+)$/u
+        ) || {groups: {}};
+        if (footnote) {
+          a.href = 'https://bahai-library.com/abdul-baha_some_answered_questions#endnote-body-' +
+          footnote;
+        }
+      }
+    }
+
+    break;
+  } case 'Gleanings':
     a.href = 'https://bahai-library.com/writings/bahaullah/' +
       'gwb/gleaningsall.html#' + number;
     break;

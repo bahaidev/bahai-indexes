@@ -62,9 +62,15 @@ async function httpquery (url, {
  * @returns {void}
  */
 function populateFullIndex ({result, ul, id, entriesOrLinks = 'both'}) {
-  traverse(result, ul, (obj, parent) => {
+  traverse(result, ul, (obj, parent, paths) => {
     const li = document.createElement('li');
-    li.id = id;
+    const currentId = id === obj.$text
+      ? id
+      : `${paths.join(', ')}, ${obj.$text}`;
+    li.id = currentId;
+
+    paths.push(obj.$text);
+
     li.innerHTML = obj.$text;
     const links = obj.$links || [];
 
