@@ -31574,6 +31574,6636 @@
     }
   },
   {
+    "book": "Lights of Guidance",
+    "index": {
+      "'Abdu'l-Bahá": {
+        "$text": "'Abdu'l-Bahá",
+        "$links": [
+          "10",
+          "1493",
+          "1567",
+          [
+            "1614",
+            "1630"
+          ],
+          "1779",
+          "1802",
+          "1829",
+          "1830",
+          "2089"
+        ],
+        "$children": {
+          "photos of": {
+            "$text": "photos of",
+            "$links": [
+              [
+                "1623",
+                "1624"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Ablutions": {
+        "$text": "Ablutions",
+        "$links": [
+          [
+            "1537",
+            "1539"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Aborigines": {
+        "$text": "Aborigines",
+        "$links": [
+          "1775"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Abortion": {
+        "$text": "Abortion",
+        "$links": [
+          "982",
+          "1154",
+          "1155"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Abraham": {
+        "$text": "Abraham",
+        "$links": [
+          "1559",
+          "1567",
+          "1690"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Abstaining (in voting)": {
+        "$text": "Abstaining (in voting)",
+        "$links": [
+          "168",
+          "584"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Abu'l Fazl": {
+        "$text": "Abu'l Fazl",
+        "$links": [
+          "1620"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Adam": {
+        "$text": "Adam",
+        "$links": [
+          "1550"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Adamic Cycle": {
+        "$text": "Adamic Cycle",
+        "$links": [
+          "1683"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Administration of Assemblies": {
+        "$text": "Administration of Assemblies",
+        "$seeAlso": [
+          {
+            "id": "Spiritual Assemblies"
+          }
+        ],
+        "$children": {
+          "authority": {
+            "$text": "authority",
+            "$links": [
+              [
+                "120",
+                "122"
+              ],
+              "130",
+              "132"
+            ]
+          },
+          "Auxiliary Board": {
+            "$text": "Auxiliary Board",
+            "$links": [
+              [
+                "145",
+                "147"
+              ]
+            ]
+          },
+          "communication": {
+            "$text": "communication",
+            "$links": [
+              "582",
+              "140",
+              [
+                "1972",
+                "1975"
+              ]
+            ]
+          },
+          "confidentiality": {
+            "$text": "confidentiality",
+            "$links": [
+              "123",
+              [
+                "162",
+                "164"
+              ]
+            ]
+          },
+          "counsellors": {
+            "$text": "counsellors",
+            "$links": [
+              "145"
+            ]
+          },
+          "deepening of Assembly": {
+            "$text": "deepening of Assembly",
+            "$links": [
+              "152"
+            ]
+          },
+          "deprivation of voting rights": {
+            "$text": "deprivation of voting rights",
+            "$links": [
+              [
+                "178",
+                "202"
+              ],
+              [
+                "206",
+                "217"
+              ],
+              "471"
+            ]
+          },
+          "diversity": {
+            "$text": "diversity",
+            "$links": [
+              "133",
+              "137"
+            ]
+          },
+          "Divine Institution": {
+            "$text": "Divine Institution",
+            "$links": [
+              "125"
+            ]
+          },
+          "duties of members": {
+            "$text": "duties of members",
+            "$links": [
+              "167"
+            ]
+          },
+          "election of members": {
+            "$text": "election of members",
+            "$seeAlso": [
+              {
+                "id": "Elections"
+              }
+            ]
+          },
+          "election of officers": {
+            "$text": "election of officers",
+            "$links": [
+              [
+                "96",
+                "116"
+              ]
+            ]
+          },
+          "expulsion": {
+            "$text": "expulsion",
+            "$links": [
+              "198"
+            ]
+          },
+          "function and duties of Representatives": {
+            "$text": "function and duties of Representatives",
+            "$links": [
+              "117",
+              "129"
+            ]
+          },
+          "fundamentals of administration": {
+            "$text": "fundamentals of administration",
+            "$links": [
+              "133",
+              "135"
+            ]
+          },
+          "justice": {
+            "$text": "justice",
+            "$links": [
+              "118",
+              "119"
+            ]
+          },
+          "legal standing": {
+            "$text": "legal standing",
+            "$links": [
+              "141"
+            ]
+          },
+          "minimum standards": {
+            "$text": "minimum standards",
+            "$links": [
+              "149"
+            ]
+          },
+          "obedience to N.S.A.": {
+            "$text": "obedience to N.S.A.",
+            "$links": [
+              "127"
+            ]
+          },
+          "objectives": {
+            "$text": "objectives",
+            "$links": [
+              "149"
+            ]
+          },
+          "prominent people, relations with": {
+            "$text": "prominent people, relations with",
+            "$links": [
+              "150",
+              "151",
+              [
+                "1969",
+                "1971"
+              ]
+            ]
+          },
+          "quorum": {
+            "$text": "quorum",
+            "$links": [
+              "165",
+              "166"
+            ]
+          },
+          "responsibilities": {
+            "$text": "responsibilities",
+            "$links": [
+              "153"
+            ]
+          },
+          "role of N.S.A.": {
+            "$text": "role of N.S.A.",
+            "$links": [
+              "126",
+              "134",
+              [
+                "136",
+                "138"
+              ],
+              "193"
+            ]
+          },
+          "teaching": {
+            "$text": "teaching",
+            "$links": [
+              "118",
+              "131",
+              [
+                "142",
+                "144"
+              ],
+              "148"
+            ]
+          },
+          "trust": {
+            "$text": "trust",
+            "$links": [
+              "123"
+            ]
+          },
+          "unity": {
+            "$text": "unity",
+            "$links": [
+              "127",
+              "128",
+              "148"
+            ]
+          },
+          "withdrawal": {
+            "$text": "withdrawal",
+            "$links": [
+              [
+                "203",
+                "205"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Administrative Committees": {
+        "$text": "Administrative Committees",
+        "$links": [
+          "169"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Administrative Order": {
+        "$text": "Administrative Order",
+        "$links": [
+          "426"
+        ],
+        "$children": {
+          "aristocratic form": {
+            "$text": "aristocratic form",
+            "$links": [
+              [
+                "1",
+                "6"
+              ],
+              "426"
+            ]
+          },
+          "autocratic": {
+            "$text": "autocratic",
+            "$links": [
+              "2"
+            ]
+          },
+          "petty details": {
+            "$text": "petty details",
+            "$links": [
+              "545"
+            ]
+          },
+          "perfect form": {
+            "$text": "perfect form",
+            "$links": [
+              "3"
+            ]
+          },
+          "relationship of Cause to": {
+            "$text": "relationship of Cause to",
+            "$links": [
+              "6"
+            ]
+          },
+          "social order": {
+            "$text": "social order",
+            "$links": [
+              "5"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Administrative rights": {
+        "$text": "Administrative rights",
+        "$links": [
+          [
+            "178",
+            "217"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Administrators": {
+        "$text": "Administrators",
+        "$links": [
+          [
+            "117",
+            "153"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Adoption": {
+        "$text": "Adoption",
+        "$links": [
+          [
+            "467",
+            "472"
+          ],
+          [
+            "1250",
+            "1252"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Adultery": {
+        "$text": "Adultery",
+        "$links": [
+          [
+            "1156",
+            "1159"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Advertising": {
+        "$text": "Advertising",
+        "$links": [
+          "1475"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Afro-Americans": {
+        "$text": "Afro-Americans",
+        "$links": [
+          "1778"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Agriculture": {
+        "$text": "Agriculture",
+        "$links": [
+          [
+            "1857",
+            "1859"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ahmad, Tablet of": {
+        "$text": "Ahmad, Tablet of",
+        "$links": [
+          "1608"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Alcohol": {
+        "$text": "Alcohol",
+        "$links": [
+          "181",
+          "253",
+          "1151",
+          "1159",
+          "1171",
+          "1188"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "'Alí, appointment of": {
+        "$text": "'Alí, appointment of",
+        "$links": [
+          "1665"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Alimony": {
+        "$text": "Alimony",
+        "$links": [
+          [
+            "1335",
+            "1337"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "America": {
+        "$text": "America",
+        "$links": [
+          "1"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ancestors": {
+        "$text": "Ancestors",
+        "$links": [
+          "699",
+          "760",
+          "761"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Animals": {
+        "$text": "Animals",
+        "$links": [
+          "527",
+          [
+            "893",
+            "895"
+          ],
+          "1006",
+          "1110",
+          "1111"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Annulment": {
+        "$text": "Annulment",
+        "$links": [
+          "1332"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Apartheid": {
+        "$text": "Apartheid",
+        "$links": [
+          "1805"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Appeals": {
+        "$text": "Appeals",
+        "$links": [
+          [
+            "218",
+            "223"
+          ],
+          "230"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Arbitration": {
+        "$text": "Arbitration",
+        "$links": [
+          "1061",
+          "1076"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Archives": {
+        "$text": "Archives",
+        "$links": [
+          "95",
+          "97",
+          [
+            "326",
+            "333"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ark": {
+        "$text": "Ark",
+        "$links": [
+          "1716"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Arson": {
+        "$text": "Arson",
+        "$links": [
+          "1198"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Art": {
+        "$text": "Art",
+        "$links": [
+          "334",
+          "2110",
+          "337",
+          "338"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Artificial insemination": {
+        "$text": "Artificial insemination",
+        "$links": [
+          "973",
+          "1188"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Arts and Crafts": {
+        "$text": "Arts and Crafts",
+        "$links": [
+          "1881"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Assemblies": {
+        "$text": "Assemblies",
+        "$links": [
+          [
+            "7",
+            "51"
+          ],
+          "66",
+          "548",
+          "65",
+          "72"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Assistance": {
+        "$text": "Assistance",
+        "$links": [
+          "406"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Astrology": {
+        "$text": "Astrology",
+        "$links": [
+          [
+            "1746",
+            "1752"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Astronomy": {
+        "$text": "Astronomy",
+        "$links": [
+          "1285"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Atheists": {
+        "$text": "Atheists",
+        "$links": [
+          "1285"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Atomic energy": {
+        "$text": "Atomic energy",
+        "$links": [
+          "1585"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Auctions, raffles": {
+        "$text": "Auctions, raffles",
+        "$links": [
+          "849",
+          "851",
+          "852",
+          "1201",
+          "1202",
+          "1204"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Authors": {
+        "$text": "Authors",
+        "$links": [
+          [
+            "346",
+            "359"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Automatic writing": {
+        "$text": "Automatic writing",
+        "$links": [
+          "1753"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Auxiliary Board": {
+        "$text": "Auxiliary Board",
+        "$links": [
+          "1078",
+          "1081",
+          "1088",
+          "1092",
+          "1099",
+          "1100",
+          "1101",
+          [
+            "1103",
+            "1127"
+          ],
+          [
+            "1129",
+            "1136"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ayyám-i-Há": {
+        "$text": "Ayyám-i-Há",
+        "$links": [
+          "1023"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Báb, the": {
+        "$text": "Báb, the",
+        "$links": [
+          "779",
+          [
+            "1540",
+            "1549"
+          ],
+          "1567"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Backbiting": {
+        "$text": "Backbiting",
+        "$links": [
+          [
+            "304",
+            "306"
+          ],
+          "309",
+          [
+            "312",
+            "314"
+          ],
+          "325",
+          "326"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Bahá'í Faith": {
+        "$text": "Bahá'í Faith",
+        "$children": {
+          "cycle": {
+            "$text": "cycle",
+            "$links": [
+              "1565",
+              "1566"
+            ]
+          },
+          "designation": {
+            "$text": "designation",
+            "$links": [
+              "374"
+            ]
+          },
+          "dispensation": {
+            "$text": "dispensation",
+            "$links": [
+              "1540",
+              "1557",
+              "1558"
+            ]
+          },
+          "funds": {
+            "$text": "funds",
+            "$links": [
+              [
+                "835",
+                "891"
+              ]
+            ]
+          },
+          "responsibility of the Bahá'ís": {
+            "$text": "responsibility of the Bahá'ís",
+            "$links": [
+              "64",
+              "331",
+              "351",
+              [
+                "835",
+                "842"
+              ]
+            ]
+          },
+          "symbol": {
+            "$text": "symbol",
+            "$links": [
+              "395"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Bahá'í Institutions": {
+        "$text": "Bahá'í Institutions",
+        "$links": [
+          "1031",
+          [
+            "1046",
+            "1136"
+          ]
+        ],
+        "$children": {
+          "Definition of": {
+            "$text": "Definition of",
+            "$links": [
+              "1045"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Bahá'í Life": {
+        "$text": "Bahá'í Life",
+        "$links": [
+          [
+            "376",
+            "385"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Bahá'u'lláh": {
+        "$text": "Bahá'u'lláh",
+        "$links": [
+          "779",
+          [
+            "1550",
+            "1573"
+          ],
+          "1715",
+          "1833"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Baptism": {
+        "$text": "Baptism",
+        "$links": [
+          [
+            "461",
+            "463"
+          ],
+          "466"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Bayán, the": {
+        "$text": "Bayán, the",
+        "$links": [
+          "1543",
+          "1544"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Begging": {
+        "$text": "Begging",
+        "$links": [
+          "409",
+          "410",
+          "2105",
+          "2106"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Betrothal; engagement": {
+        "$text": "Betrothal; engagement",
+        "$links": [
+          [
+            "1255",
+            "1261"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Bible": {
+        "$text": "Bible",
+        "$seeAlso": [
+          {
+            "id": "Jesus Christ"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Bigamy": {
+        "$text": "Bigamy",
+        "$links": [
+          "1280"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Birth control": {
+        "$text": "Birth control",
+        "$links": [
+          "982",
+          [
+            "1160",
+            "1170"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Blacks": {
+        "$text": "Blacks",
+        "$links": [
+          [
+            "1778",
+            "1798"
+          ],
+          [
+            "1809",
+            "1811"
+          ],
+          "1814",
+          "1816"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Buddha": {
+        "$text": "Buddha",
+        "$links": [
+          "1684",
+          "1696"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Buddhism": {
+        "$text": "Buddhism",
+        "$links": [
+          "1696"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Burial": {
+        "$text": "Burial",
+        "$seeAlso": [
+          {
+            "id": "Death"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Business Ventures": {
+        "$text": "Business Ventures",
+        "$links": [
+          "853",
+          "1874"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "By-elections": {
+        "$text": "By-elections",
+        "$links": [
+          "174"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "By-laws": {
+        "$text": "By-laws",
+        "$links": [
+          [
+            "224",
+            "231"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Calamities": {
+        "$text": "Calamities",
+        "$links": [
+          [
+            "422",
+            "459"
+          ],
+          "529"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Calendar": {
+        "$text": "Calendar",
+        "$links": [
+          "372",
+          "373"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Cancer": {
+        "$text": "Cancer",
+        "$links": [
+          "978",
+          "979"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Capital punishment": {
+        "$text": "Capital punishment",
+        "$links": [
+          "1199"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Carmel": {
+        "$text": "Carmel",
+        "$links": [
+          "423"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Catastrophe": {
+        "$text": "Catastrophe",
+        "$links": [
+          [
+            "422",
+            "459"
+          ],
+          "529"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Cemeteries": {
+        "$text": "Cemeteries",
+        "$links": [
+          "646",
+          "648",
+          "649",
+          [
+            "652",
+            "656"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ceremonies": {
+        "$text": "Ceremonies",
+        "$links": [
+          [
+            "460",
+            "466"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Charity": {
+        "$text": "Charity",
+        "$links": [
+          [
+            "411",
+            "418"
+          ],
+          "1030",
+          ""
+        ],
+        "$seeAlso": [
+          {
+            "id": "Begging"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Chastity": {
+        "$text": "Chastity",
+        "$links": [
+          [
+            "1205",
+            "1220"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Child abuse": {
+        "$text": "Child abuse",
+        "$links": [
+          "484",
+          "487",
+          "488",
+          "509",
+          "511",
+          ""
+        ],
+        "$seeAlso": [
+          {
+            "id": "Paederasty"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Child out of wedlock": {
+        "$text": "Child out of wedlock",
+        "$links": [
+          "206",
+          "1217",
+          "1218"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Children": {
+        "$text": "Children",
+        "$links": [
+          "262",
+          [
+            "467",
+            "529"
+          ],
+          [
+            "762",
+            "774"
+          ],
+          [
+            "998",
+            "1002"
+          ],
+          "1515"
+        ],
+        "$children": {
+          "adopted; orphans": {
+            "$text": "adopted; orphans",
+            "$links": [
+              [
+                "467",
+                "472"
+              ]
+            ]
+          },
+          "education of": {
+            "$text": "education of",
+            "$links": [
+              [
+                "479",
+                "511"
+              ],
+              [
+                "997",
+                "1002"
+              ]
+            ]
+          },
+          "godparents; co-parenthood": {
+            "$text": "godparents; co-parenthood",
+            "$links": [
+              [
+                "473",
+                "478"
+              ]
+            ]
+          },
+          "registration of": {
+            "$text": "registration of",
+            "$links": [
+              "262",
+              [
+                "512",
+                "522"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Chiropractic": {
+        "$text": "Chiropractic",
+        "$links": [
+          "980"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Chosen ones": {
+        "$text": "Chosen ones",
+        "$links": [
+          "454",
+          "457",
+          "1674"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Christ": {
+        "$text": "Christ",
+        "$seeAlso": [
+          {
+            "id": "Jesus Christ"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Christian holidays": {
+        "$text": "Christian holidays",
+        "$links": [
+          "1029"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Christianity": {
+        "$text": "Christianity",
+        "$links": [
+          "1653",
+          "1664",
+          "1670"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Churches": {
+        "$text": "Churches",
+        "$links": [
+          [
+            "530",
+            "542"
+          ],
+          "1383",
+          "1387",
+          "1389",
+          "1398"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Circumcision": {
+        "$text": "Circumcision",
+        "$links": [
+          "981"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Class consciousness": {
+        "$text": "Class consciousness",
+        "$links": [
+          "143",
+          ""
+        ],
+        "$seeAlso": [
+          {
+            "id": "Races"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Clergy": {
+        "$text": "Clergy",
+        "$links": [
+          "534",
+          "1383"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Committees": {
+        "$text": "Committees",
+        "$links": [
+          [
+            "543",
+            "576"
+          ]
+        ],
+        "$children": {
+          "election of Officers": {
+            "$text": "election of Officers",
+            "$links": [
+              "522",
+              "553"
+            ]
+          },
+          "emergency committee": {
+            "$text": "emergency committee",
+            "$links": [
+              [
+                "562",
+                "565"
+              ]
+            ]
+          },
+          "membership": {
+            "$text": "membership",
+            "$links": [
+              "558"
+            ]
+          },
+          "structure; function": {
+            "$text": "structure; function",
+            "$links": [
+              [
+                "554",
+                "558"
+              ],
+              "576"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Communication": {
+        "$text": "Communication",
+        "$links": [
+          [
+            "1972",
+            "1975"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Companionate marriage": {
+        "$text": "Companionate marriage",
+        "$links": [
+          [
+            "1269",
+            "1275"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Confession": {
+        "$text": "Confession",
+        "$links": [
+          "589"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Confucius": {
+        "$text": "Confucius",
+        "$links": [
+          "1685"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Congregational prayer": {
+        "$text": "Congregational prayer",
+        "$links": [
+          "1503"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Consolidation": {
+        "$text": "Consolidation",
+        "$links": [
+          [
+            "2006",
+            "2012"
+          ],
+          "2025"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Consultation": {
+        "$text": "Consultation",
+        "$links": [
+          "59",
+          "65",
+          "168",
+          [
+            "577",
+            "592"
+          ],
+          "734",
+          "825"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Continental Board of Counsellors": {
+        "$text": "Continental Board of Counsellors",
+        "$links": [
+          "1078",
+          "1084",
+          [
+            "1087",
+            "1102"
+          ],
+          "1118",
+          "1124",
+          "1128",
+          "1129",
+          "1132",
+          "1134",
+          "1135"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Continental Fund": {
+        "$text": "Continental Fund",
+        "$links": [
+          "873"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Contraceptive agents": {
+        "$text": "Contraceptive agents",
+        "$links": [
+          [
+            "1169",
+            "1170"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Conventions": {
+        "$text": "Conventions",
+        "$children": {
+          "delegates to": {
+            "$text": "delegates to",
+            "$links": [
+              [
+                "52",
+                "55"
+              ],
+              [
+                "57",
+                "59"
+              ],
+              "61",
+              "62",
+              "65",
+              "67",
+              "74"
+            ]
+          },
+          "national": {
+            "$text": "national",
+            "$links": [
+              [
+                "52",
+                "79"
+              ]
+            ]
+          },
+          "unit": {
+            "$text": "unit",
+            "$links": [
+              [
+                "58",
+                "65"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Co-parenting; godparents": {
+        "$text": "Co-parenting; godparents",
+        "$links": [
+          [
+            "473",
+            "478"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Copyright": {
+        "$text": "Copyright",
+        "$links": [
+          "363"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Courtesy": {
+        "$text": "Courtesy",
+        "$links": [
+          "1097"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Courts": {
+        "$text": "Courts",
+        "$links": [
+          "1323",
+          "1325",
+          "1335",
+          "1337",
+          "1464",
+          "1466"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Covenant": {
+        "$text": "Covenant",
+        "$links": [
+          [
+            "593",
+            "600"
+          ],
+          "1069",
+          "1841"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Covenant-breakers": {
+        "$text": "Covenant-breakers",
+        "$links": [
+          [
+            "601",
+            "629"
+          ],
+          "1083",
+          "1901"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Crafts": {
+        "$text": "Crafts",
+        "$links": [
+          "1881",
+          "1901"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Cremation": {
+        "$text": "Cremation",
+        "$links": [
+          [
+            "666",
+            "670"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Criminals": {
+        "$text": "Criminals",
+        "$links": [
+          "187",
+          "263",
+          [
+            "1194",
+            "1200"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Crises": {
+        "$text": "Crises",
+        "$links": [
+          [
+            "422",
+            "459"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Criticism": {
+        "$text": "Criticism",
+        "$links": [
+          "288",
+          "290",
+          [
+            "304",
+            "325"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Cross": {
+        "$text": "Cross",
+        "$links": [
+          "718"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Crucifixion": {
+        "$text": "Crucifixion",
+        "$links": [
+          "1646",
+          "1648"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Daily obligations": {
+        "$text": "Daily obligations",
+        "$links": [
+          "1526",
+          "1538",
+          "1913"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dancing": {
+        "$text": "Dancing",
+        "$links": [
+          "336",
+          "913",
+          "914",
+          "1898"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Daniel": {
+        "$text": "Daniel",
+        "$links": [
+          "1414",
+          "1686"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "David": {
+        "$text": "David",
+        "$links": [
+          "1687"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Day of the Ascension": {
+        "$text": "Day of the Ascension",
+        "$links": [
+          "1619"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Day of the Covenant": {
+        "$text": "Day of the Covenant",
+        "$links": [
+          "1619"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Day of rest-Friday": {
+        "$text": "Day of rest-Friday",
+        "$links": [
+          "372"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Days, reckoning of": {
+        "$text": "Days, reckoning of",
+        "$links": [
+          "1558"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dayspring": {
+        "$text": "Dayspring",
+        "$links": [
+          "1582"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Death": {
+        "$text": "Death",
+        "$links": [
+          [
+            "630",
+            "651"
+          ]
+        ],
+        "$children": {
+          "burial": {
+            "$text": "burial",
+            "$links": [
+              [
+                "637",
+                "651"
+              ]
+            ]
+          },
+          "cemeteries": {
+            "$text": "cemeteries",
+            "$links": [
+              [
+                "652",
+                "656"
+              ],
+              [
+                "671",
+                "673"
+              ]
+            ]
+          },
+          "cremation": {
+            "$text": "cremation",
+            "$links": [
+              "642",
+              [
+                "666",
+                "670"
+              ]
+            ]
+          },
+          "funerals": {
+            "$text": "funerals",
+            "$links": [
+              [
+                "657",
+                "665"
+              ]
+            ]
+          },
+          "life after death": {
+            "$text": "life after death",
+            "$links": [
+              [
+                "679",
+                "705"
+              ]
+            ]
+          },
+          "suicide": {
+            "$text": "suicide",
+            "$links": [
+              [
+                "674",
+                "678"
+              ],
+              "1200"
+            ]
+          },
+          "tombstones": {
+            "$text": "tombstones",
+            "$links": [
+              "899"
+            ]
+          },
+          "wills": {
+            "$text": "wills",
+            "$links": [
+              [
+                "630",
+                "636"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Declaration": {
+        "$text": "Declaration",
+        "$links": [
+          [
+            "232",
+            "266"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Deepening": {
+        "$text": "Deepening",
+        "$links": [
+          "249",
+          "250",
+          [
+            "1913",
+            "1933"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Delegates": {
+        "$text": "Delegates",
+        "$seeAlso": [
+          {
+            "id": "Conventions"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Democracy": {
+        "$text": "Democracy",
+        "$links": [
+          "2"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Designation of the Faith": {
+        "$text": "Designation of the Faith",
+        "$links": [
+          "374"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Diet": {
+        "$text": "Diet",
+        "$links": [
+          [
+            "1003",
+            "1017"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Diplomas": {
+        "$text": "Diplomas",
+        "$links": [
+          "194"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Disabled": {
+        "$text": "Disabled",
+        "$links": [
+          "409",
+          "2106",
+          "2115"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Discipline of children": {
+        "$text": "Discipline of children",
+        "$links": [
+          [
+            "505",
+            "511"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Disownment": {
+        "$text": "Disownment",
+        "$links": [
+          "1244"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dispensation": {
+        "$text": "Dispensation",
+        "$links": [
+          [
+            "1557",
+            "1558"
+          ],
+          [
+            "1561",
+            "1562"
+          ],
+          "1565",
+          "1629",
+          "1664"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dispersion": {
+        "$text": "Dispersion",
+        "$links": [
+          "1962"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dissection": {
+        "$text": "Dissection",
+        "$links": [
+          "986"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Divine Plan, Tablets of": {
+        "$text": "Divine Plan, Tablets of",
+        "$links": [
+          "1627",
+          "1628",
+          "1776"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Divorce": {
+        "$text": "Divorce",
+        "$links": [
+          "182",
+          [
+            "1302",
+            "1338"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Doctors": {
+        "$text": "Doctors",
+        "$seeAlso": [
+          {
+            "id": "Physicians"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dogma": {
+        "$text": "Dogma",
+        "$links": [
+          "1573"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Drama": {
+        "$text": "Drama",
+        "$links": [
+          [
+            "334",
+            "345"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Dreams": {
+        "$text": "Dreams",
+        "$links": [
+          "1739",
+          "1745"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Drugs": {
+        "$text": "Drugs",
+        "$links": [
+          "253",
+          "260",
+          [
+            "1183",
+            "1191"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Earmarked funds": {
+        "$text": "Earmarked funds",
+        "$links": [
+          [
+            "882",
+            "891"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Economic development": {
+        "$text": "Economic development",
+        "$links": [
+          [
+            "1846",
+            "1856"
+          ],
+          "1873",
+          "1890"
+        ],
+        "$seeAlso": [
+          {
+            "id": "Social and Economic Development"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Economics": {
+        "$text": "Economics",
+        "$links": [
+          "1858",
+          [
+            "1860",
+            "1872"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Education": {
+        "$text": "Education",
+        "$links": [
+          [
+            "706",
+            "721"
+          ],
+          "997",
+          "1883",
+          [
+            "1886",
+            "1890"
+          ]
+        ],
+        "$children": {
+          "academic": {
+            "$text": "academic",
+            "$links": [
+              [
+                "706",
+                "713"
+              ]
+            ]
+          },
+          "physical": {
+            "$text": "physical",
+            "$links": [
+              [
+                "997",
+                "1002"
+              ]
+            ]
+          },
+          "spiritual": {
+            "$text": "spiritual",
+            "$links": [
+              [
+                "706",
+                "713"
+              ]
+            ]
+          },
+          "summer schools": {
+            "$text": "summer schools",
+            "$links": [
+              [
+                "1891",
+                "1912"
+              ]
+            ]
+          },
+          "universities and colleges": {
+            "$text": "universities and colleges",
+            "$links": [
+              [
+                "714",
+                "721"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Education of children": {
+        "$text": "Education of children",
+        "$links": [
+          [
+            "479",
+            "522"
+          ],
+          "752",
+          [
+            "998",
+            "1002"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ego": {
+        "$text": "Ego",
+        "$links": [
+          [
+            "386",
+            "397"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Elders, four and twenty": {
+        "$text": "Elders, four and twenty",
+        "$links": [
+          "1713"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Elections": {
+        "$text": "Elections",
+        "$links": [
+          "21",
+          [
+            "25",
+            "51"
+          ],
+          "63",
+          "64",
+          [
+            "80",
+            "94"
+          ]
+        ],
+        "$children": {
+          "absentee voting": {
+            "$text": "absentee voting",
+            "$links": [
+              "49"
+            ]
+          },
+          "ballots": {
+            "$text": "ballots",
+            "$links": [
+              "82",
+              "93",
+              "94"
+            ]
+          },
+          "by-elections": {
+            "$text": "by-elections",
+            "$links": [
+              "48"
+            ]
+          },
+          "by mail": {
+            "$text": "by mail",
+            "$links": [
+              "40"
+            ]
+          },
+          "canvassing": {
+            "$text": "canvassing",
+            "$links": [
+              "35"
+            ]
+          },
+          "conditions beyond control": {
+            "$text": "conditions beyond control",
+            "$links": [
+              "50"
+            ]
+          },
+          "confidentiality": {
+            "$text": "confidentiality",
+            "$links": [
+              "44"
+            ]
+          },
+          "electoral procedure": {
+            "$text": "electoral procedure",
+            "$links": [
+              "32"
+            ]
+          },
+          "intrigue": {
+            "$text": "intrigue",
+            "$links": [
+              "37"
+            ]
+          },
+          "joint declaration": {
+            "$text": "joint declaration",
+            "$links": [
+              "18",
+              "19",
+              "21"
+            ]
+          },
+          "minorities": {
+            "$text": "minorities",
+            "$links": [
+              [
+                "83",
+                "85"
+              ]
+            ]
+          },
+          "nominations": {
+            "$text": "nominations",
+            "$links": [
+              [
+                "31",
+                "34"
+              ],
+              "39"
+            ]
+          },
+          "personalities": {
+            "$text": "personalities",
+            "$links": [
+              "33",
+              "36"
+            ]
+          },
+          "political": {
+            "$text": "political",
+            "$links": [
+              "1443"
+            ]
+          },
+          "quorum": {
+            "$text": "quorum",
+            "$links": [
+              "41"
+            ]
+          },
+          "re-voting": {
+            "$text": "re-voting",
+            "$links": [
+              "85"
+            ]
+          },
+          "secret ballot": {
+            "$text": "secret ballot",
+            "$links": [
+              "45"
+            ]
+          },
+          "tellers": {
+            "$text": "tellers",
+            "$links": [
+              "80",
+              "81"
+            ]
+          },
+          "tie votes": {
+            "$text": "tie votes",
+            "$links": [
+              "47",
+              [
+                "85",
+                "87"
+              ],
+              "90"
+            ]
+          },
+          "unity": {
+            "$text": "unity",
+            "$links": [
+              "46"
+            ]
+          },
+          "voting for oneself": {
+            "$text": "voting for oneself",
+            "$links": [
+              "43"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Embracing; kissing": {
+        "$text": "Embracing; kissing",
+        "$links": [
+          "1438"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Emerson": {
+        "$text": "Emerson",
+        "$links": [
+          "1719",
+          "1723"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Endowments": {
+        "$text": "Endowments",
+        "$links": [
+          [
+            "722",
+            "728"
+          ],
+          "1054"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Enemies of the Cause": {
+        "$text": "Enemies of the Cause",
+        "$links": [
+          "612",
+          "616",
+          "627"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Engagement, betrothal": {
+        "$text": "Engagement, betrothal",
+        "$links": [
+          [
+            "1255",
+            "1261"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Enrollment": {
+        "$text": "Enrollment",
+        "$links": [
+          [
+            "232",
+            "266"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Equality": {
+        "$text": "Equality",
+        "$links": [
+          "1865",
+          "1866"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Equality of men and women": {
+        "$text": "Equality of men and women",
+        "$links": [
+          "492"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Esperanto": {
+        "$text": "Esperanto",
+        "$links": [
+          "1140",
+          "1142"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ethics": {
+        "$text": "Ethics",
+        "$links": [
+          "1905"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Euthanasia": {
+        "$text": "Euthanasia",
+        "$links": [
+          "982",
+          "985",
+          "987"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Evil": {
+        "$text": "Evil",
+        "$links": [
+          [
+            "1730",
+            "1734"
+          ],
+          "1738",
+          [
+            "1768",
+            "1770"
+          ],
+          "1772"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Evil Spirits": {
+        "$text": "Evil Spirits",
+        "$links": [
+          [
+            "1731",
+            "1733"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Example": {
+        "$text": "Example",
+        "$links": [
+          "380",
+          "394"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ex-communication": {
+        "$text": "Ex-communication",
+        "$links": [
+          "14",
+          "140",
+          "198",
+          [
+            "605",
+            "612"
+          ],
+          "621",
+          "623",
+          "1083"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Existence": {
+        "$text": "Existence",
+        "$links": [
+          "1697",
+          "1699"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Family": {
+        "$text": "Family",
+        "$links": [
+          [
+            "729",
+            "774"
+          ]
+        ],
+        "$children": {
+          "ancestors": {
+            "$text": "ancestors",
+            "$links": [
+              "760",
+              "761"
+            ]
+          },
+          "family relationships": {
+            "$text": "family relationships",
+            "$links": [
+              [
+                "729",
+                "747"
+              ]
+            ]
+          },
+          "husband and wife": {
+            "$text": "husband and wife",
+            "$links": [
+              [
+                "748",
+                "759"
+              ],
+              "1338",
+              "1381"
+            ]
+          },
+          "parents and children": {
+            "$text": "parents and children",
+            "$links": [
+              [
+                "762",
+                "774"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Fasting": {
+        "$text": "Fasting",
+        "$links": [
+          [
+            "775",
+            "784"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Fear": {
+        "$text": "Fear",
+        "$links": [
+          [
+            "785",
+            "795"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Fear of God": {
+        "$text": "Fear of God",
+        "$links": [
+          "785",
+          "789"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Feast, Nineteen Day": {
+        "$text": "Feast, Nineteen Day",
+        "$links": [
+          [
+            "796",
+            "827"
+          ]
+        ],
+        "$children": {
+          "nature and function": {
+            "$text": "nature and function",
+            "$links": [
+              [
+                "796",
+                "811"
+              ]
+            ]
+          },
+          "program": {
+            "$text": "program",
+            "$links": [
+              [
+                "817",
+                "827"
+              ]
+            ]
+          },
+          "time of": {
+            "$text": "time of",
+            "$links": [
+              [
+                "812",
+                "816"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Films": {
+        "$text": "Films",
+        "$links": [
+          [
+            "340",
+            "341"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Financial Assistance": {
+        "$text": "Financial Assistance",
+        "$links": [
+          "411",
+          "417",
+          [
+            "418",
+            "420"
+          ],
+          [
+            "1990",
+            "1994"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Firesides": {
+        "$text": "Firesides",
+        "$links": [
+          [
+            "825",
+            "834"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Flood": {
+        "$text": "Flood",
+        "$links": [
+          "1716"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Food": {
+        "$text": "Food",
+        "$links": [
+          [
+            "1003",
+            "1017"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Foreign service": {
+        "$text": "Foreign service",
+        "$links": [
+          "1457"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Fourth dimension": {
+        "$text": "Fourth dimension",
+        "$links": [
+          "1736"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Freemasonry": {
+        "$text": "Freemasonry",
+        "$links": [
+          [
+            "1387",
+            "1391"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Fund": {
+        "$text": "Fund",
+        "$links": [
+          "528",
+          [
+            "835",
+            "891"
+          ],
+          "1108",
+          "1976"
+        ],
+        "$children": {
+          "earmarked funds": {
+            "$text": "earmarked funds",
+            "$links": [
+              [
+                "882",
+                "891"
+              ]
+            ]
+          },
+          "eligibility": {
+            "$text": "eligibility",
+            "$links": [
+              [
+                "843",
+                "856"
+              ]
+            ]
+          },
+          "responsibility of Bahá'ís": {
+            "$text": "responsibility of Bahá'ís",
+            "$links": [
+              [
+                "835",
+                "842"
+              ]
+            ]
+          },
+          "treasurer": {
+            "$text": "treasurer",
+            "$links": [
+              [
+                "857",
+                "881"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Funerals": {
+        "$text": "Funerals",
+        "$links": [
+          [
+            "657",
+            "665"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Gambling": {
+        "$text": "Gambling",
+        "$links": [
+          "852",
+          [
+            "1201",
+            "1204"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Games, playing of": {
+        "$text": "Games, playing of",
+        "$links": [
+          "1002"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Genesis": {
+        "$text": "Genesis",
+        "$links": [
+          "1656",
+          "1658"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Gifts": {
+        "$text": "Gifts",
+        "$links": [
+          "915"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Gnostics": {
+        "$text": "Gnostics",
+        "$links": [
+          "1724"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Goals": {
+        "$text": "Goals",
+        "$links": [
+          "149",
+          "159"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "God": {
+        "$text": "God",
+        "$links": [
+          "1553",
+          "1574",
+          "1583"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Godparents; co-parenting": {
+        "$text": "Godparents; co-parenting",
+        "$links": [
+          [
+            "473",
+            "478"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Gold": {
+        "$text": "Gold",
+        "$links": [
+          "1580"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Gossip": {
+        "$text": "Gossip",
+        "$links": [
+          "211",
+          [
+            "304",
+            "325"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Government": {
+        "$text": "Government",
+        "$links": [
+          [
+            "1440",
+            "1471"
+          ],
+          "2071"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Government employees": {
+        "$text": "Government employees",
+        "$links": [
+          [
+            "1472",
+            "1478"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Grace": {
+        "$text": "Grace",
+        "$links": [
+          "1501"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Greatest Name": {
+        "$text": "Greatest Name",
+        "$links": [
+          [
+            "892",
+            "911"
+          ],
+          "925",
+          "1369",
+          "1538",
+          "1539",
+          "1553",
+          "1930"
+        ],
+        "$children": {
+          "reciting daily": {
+            "$text": "reciting daily",
+            "$links": [
+              "905",
+              "1538",
+              "1539"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Growth of the Faith": {
+        "$text": "Growth of the Faith",
+        "$links": [
+          "278"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Guardianship": {
+        "$text": "Guardianship",
+        "$links": [
+          [
+            "1046",
+            "1058"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Guidance": {
+        "$text": "Guidance",
+        "$links": [
+          "424",
+          "1482",
+          "1483",
+          "1508",
+          "1519"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Handicapped": {
+        "$text": "Handicapped",
+        "$seeAlso": [
+          {
+            "id": "Disabled"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hands of the Cause": {
+        "$text": "Hands of the Cause",
+        "$links": [
+          [
+            "621",
+            "623"
+          ],
+          [
+            "1078",
+            "1086"
+          ],
+          "1094"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hazíratu'l-Quds": {
+        "$text": "Hazíratu'l-Quds",
+        "$links": [
+          [
+            "912",
+            "922"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Healing": {
+        "$text": "Healing",
+        "$links": [
+          [
+            "923",
+            "1017"
+          ],
+          "1506",
+          "1507"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Health": {
+        "$text": "Health",
+        "$links": [
+          [
+            "923",
+            "1017"
+          ]
+        ],
+        "$children": {
+          "protection of": {
+            "$text": "protection of",
+            "$links": [
+              "291"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Hearing": {
+        "$text": "Hearing",
+        "$links": [
+          "1825"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hearsay": {
+        "$text": "Hearsay",
+        "$links": [
+          "1433",
+          [
+            "1435",
+            "1437"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Heaven": {
+        "$text": "Heaven",
+        "$links": [
+          [
+            "679",
+            "705"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hell": {
+        "$text": "Hell",
+        "$links": [
+          "703"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Heroism": {
+        "$text": "Heroism",
+        "$links": [
+          "401",
+          "408",
+          "1939"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hidden Words": {
+        "$text": "Hidden Words",
+        "$links": [
+          "1601",
+          [
+            "1631",
+            "1635"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hindu": {
+        "$text": "Hindu",
+        "$links": [
+          "1692",
+          "1693",
+          "1696",
+          "1773"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "History": {
+        "$text": "History",
+        "$links": [
+          "1910"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Holy days": {
+        "$text": "Holy days",
+        "$links": [
+          [
+            "1018",
+            "1030"
+          ],
+          "2070"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Homosexuality": {
+        "$text": "Homosexuality",
+        "$links": [
+          "185",
+          [
+            "1221",
+            "1230"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Horoscopes": {
+        "$text": "Horoscopes",
+        "$links": [
+          "1748"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Huqúqu'lláh": {
+        "$text": "Huqúqu'lláh",
+        "$links": [
+          [
+            "1031",
+            "1044"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Husayn": {
+        "$text": "Husayn",
+        "$seeAlso": [
+          {
+            "id": "Imám Husayn"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Hypnotism": {
+        "$text": "Hypnotism",
+        "$links": [
+          "976",
+          "977",
+          "1762"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Humility": {
+        "$text": "Humility",
+        "$links": [
+          "120",
+          [
+            "386",
+            "397"
+          ],
+          "718"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Illiteracy": {
+        "$text": "Illiteracy",
+        "$links": [
+          "2013",
+          "2014"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Imám Husayn": {
+        "$text": "Imám Husayn",
+        "$links": [
+          "1567",
+          "1665",
+          "1673"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Immorality": {
+        "$text": "Immorality",
+        "$links": [
+          "185",
+          "186",
+          "188",
+          "189",
+          "261",
+          "377",
+          "1221",
+          "1223",
+          "1224",
+          "1230",
+          "1275"
+        ],
+        "$seeAlso": [
+          {
+            "id": "Lying"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Immortality": {
+        "$text": "Immortality",
+        "$links": [
+          [
+            "679",
+            "705"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Inactive believers": {
+        "$text": "Inactive believers",
+        "$links": [
+          [
+            "293",
+            "303"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Incorporation": {
+        "$text": "Incorporation",
+        "$links": [
+          "231"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "India": {
+        "$text": "India",
+        "$links": [
+          "1692"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Indians, American": {
+        "$text": "Indians, American",
+        "$links": [
+          "1576",
+          [
+            "1775",
+            "1778"
+          ],
+          "1796",
+          "1802",
+          "1803",
+          "2029"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Individual": {
+        "$text": "Individual",
+        "$links": [
+          "273",
+          "792",
+          "2018",
+          "2020"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Infallibility": {
+        "$text": "Infallibility",
+        "$links": [
+          "1050",
+          "1055",
+          "1064",
+          "1065",
+          "1572",
+          "1844"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Inheritance": {
+        "$text": "Inheritance",
+        "$links": [
+          [
+            "630",
+            "632"
+          ],
+          [
+            "634",
+            "636"
+          ],
+          "1859",
+          "2106"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Institutes": {
+        "$text": "Institutes",
+        "$links": [
+          [
+            "1908",
+            "1912"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Institutions": {
+        "$text": "Institutions",
+        "$links": [
+          [
+            "1045",
+            "1136"
+          ]
+        ],
+        "$children": {
+          "definition": {
+            "$text": "definition",
+            "$links": [
+              "1036",
+              "1045",
+              "1046"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Intercalary Days": {
+        "$text": "Intercalary Days",
+        "$links": [
+          "814"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Intercession": {
+        "$text": "Intercession",
+        "$links": [
+          "1606"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Intermarriage": {
+        "$text": "Intermarriage",
+        "$links": [
+          "1288",
+          "1788",
+          "1803",
+          "1816"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "International Executive": {
+        "$text": "International Executive",
+        "$links": [
+          "1077"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "International Fund": {
+        "$text": "International Fund",
+        "$links": [
+          "872",
+          "882"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "International Teaching Centre": {
+        "$text": "International Teaching Centre",
+        "$links": [
+          "1087"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Interpretation": {
+        "$text": "Interpretation",
+        "$links": [
+          "1052",
+          "1053",
+          "1056",
+          "1062",
+          "1064",
+          "1066"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Intrigue": {
+        "$text": "Intrigue",
+        "$links": [
+          "37"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Intuition": {
+        "$text": "Intuition",
+        "$links": [
+          "1735",
+          "1741",
+          "1743",
+          "1745",
+          "1754"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Íqán": {
+        "$text": "Íqán",
+        "$links": [
+          "1544"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ishmael": {
+        "$text": "Ishmael",
+        "$links": [
+          "1688"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Islám": {
+        "$text": "Islám",
+        "$links": [
+          "1653",
+          [
+            "1661",
+            "1673"
+          ],
+          "1903",
+          "1904"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Israel": {
+        "$text": "Israel",
+        "$links": [
+          [
+            "1674",
+            "1682"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Japanese": {
+        "$text": "Japanese",
+        "$links": [
+          "1796"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Jerusalem": {
+        "$text": "Jerusalem",
+        "$links": [
+          "1675"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Jesse": {
+        "$text": "Jesse",
+        "$links": [
+          "1559"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Jesus Christ": {
+        "$text": "Jesus Christ",
+        "$links": [
+          "542",
+          "779",
+          "1560",
+          "1564",
+          "1567",
+          "1572",
+          [
+            "1635",
+            "1640"
+          ],
+          [
+            "1642",
+            "1650"
+          ],
+          "1652",
+          "1653",
+          "1660",
+          "1669",
+          "1671",
+          "1715",
+          "1725",
+          "2053",
+          "2104"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Jewish Faith": {
+        "$text": "Jewish Faith",
+        "$links": [
+          "535",
+          "1559",
+          [
+            "1817",
+            "1819"
+          ]
+        ],
+        "$seeAlso": [
+          {
+            "id": "Israel"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Jews, destiny": {
+        "$text": "Jews, destiny",
+        "$links": [
+          "1677",
+          "1681"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "John": {
+        "$text": "John",
+        "$links": [
+          "1578"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "John the Baptist": {
+        "$text": "John the Baptist",
+        "$links": [
+          "1567"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Joint Declaration": {
+        "$text": "Joint Declaration",
+        "$links": [
+          "18",
+          "19",
+          "21"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Joseph": {
+        "$text": "Joseph",
+        "$links": [
+          "1567",
+          "1611",
+          "1665"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Joseph Smith": {
+        "$text": "Joseph Smith",
+        "$links": [
+          "1611",
+          "1727",
+          "1728",
+          "1753"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Joshua": {
+        "$text": "Joshua",
+        "$links": [
+          "1678"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Judah": {
+        "$text": "Judah",
+        "$links": [
+          "1679"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Judaism": {
+        "$text": "Judaism",
+        "$links": [
+          [
+            "1674",
+            "1682"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Judas Iscariot": {
+        "$text": "Judas Iscariot",
+        "$links": [
+          "1377"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Judgment Day": {
+        "$text": "Judgment Day",
+        "$links": [
+          "1693"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Justice": {
+        "$text": "Justice",
+        "$links": [
+          [
+            "118",
+            "19"
+          ],
+          "121",
+          "693"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Kindness to animals": {
+        "$text": "Kindness to animals",
+        "$seeAlso": [
+          {
+            "id": "Animals"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Kings": {
+        "$text": "Kings",
+        "$links": [
+          "1470"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Kissing; embracing": {
+        "$text": "Kissing; embracing",
+        "$links": [
+          "1438"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Kitáb-i-Aqdas": {
+        "$text": "Kitáb-i-Aqdas",
+        "$links": [
+          "821",
+          "1145",
+          "1148",
+          "1198",
+          "1256",
+          "1978",
+          "2109"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Kitáb-i-Íqán": {
+        "$text": "Kitáb-i-Íqán",
+        "$links": [
+          "1541",
+          "1544",
+          "1580",
+          "1602",
+          "1639"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Koran": {
+        "$text": "Koran",
+        "$seeAlso": [
+          {
+            "id": "Qur'án"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Krishna": {
+        "$text": "Krishna",
+        "$links": [
+          "1696"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Language": {
+        "$text": "Language",
+        "$links": [
+          [
+            "1137",
+            "1142"
+          ]
+        ],
+        "$children": {
+          "Persian": {
+            "$text": "Persian",
+            "$links": [
+              "1143"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Lao-Tse": {
+        "$text": "Lao-Tse",
+        "$links": [
+          "1694"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Laws": {
+        "$text": "Laws",
+        "$links": [
+          "3",
+          [
+            "1144",
+            "1338"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Lesser Peace": {
+        "$text": "Lesser Peace",
+        "$links": [
+          "1047",
+          "1411",
+          "1412",
+          "1425",
+          "1428",
+          "1430"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Library": {
+        "$text": "Library",
+        "$links": [
+          "628"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Life after death": {
+        "$text": "Life after death",
+        "$links": [
+          [
+            "679",
+            "705"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Life support": {
+        "$text": "Life support",
+        "$links": [
+          "987"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Lot": {
+        "$text": "Lot",
+        "$links": [
+          "1689"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Lottery": {
+        "$text": "Lottery",
+        "$links": [
+          "1201"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Love": {
+        "$text": "Love",
+        "$links": [
+          [
+            "1339",
+            "1360"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Loyalty": {
+        "$text": "Loyalty",
+        "$links": [
+          "276"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Lying": {
+        "$text": "Lying",
+        "$links": [
+          [
+            "304",
+            "325"
+          ],
+          "2043"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Manifestations of God": {
+        "$text": "Manifestations of God",
+        "$links": [
+          [
+            "469",
+            "498"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Marriage": {
+        "$text": "Marriage",
+        "$links": [
+          "190",
+          "199",
+          "208",
+          [
+            "748",
+            "759"
+          ],
+          "1263",
+          "1301"
+        ],
+        "$children": {
+          "common law": {
+            "$text": "common law",
+            "$links": [
+              [
+                "1269",
+                "1275"
+              ]
+            ]
+          },
+          "consumation of": {
+            "$text": "consumation of",
+            "$links": [
+              "1299"
+            ]
+          },
+          "divine institution": {
+            "$text": "divine institution",
+            "$links": [
+              "1262"
+            ]
+          },
+          "engagement; betrothal": {
+            "$text": "engagement; betrothal",
+            "$links": [
+              "516",
+              [
+                "1255",
+                "1261"
+              ]
+            ]
+          },
+          "foundation of society": {
+            "$text": "foundation of society",
+            "$links": [
+              "1224",
+              "1236",
+              "1263"
+            ]
+          },
+          "knowledge of character": {
+            "$text": "knowledge of character",
+            "$links": [
+              [
+                "1231",
+                "1232"
+              ]
+            ]
+          },
+          "moral duty": {
+            "$text": "moral duty",
+            "$links": [
+              "167"
+            ]
+          },
+          "parental consent": {
+            "$text": "parental consent",
+            "$links": [
+              "1231",
+              "1235"
+            ]
+          },
+          "responsibility for": {
+            "$text": "responsibility for",
+            "$links": [
+              "1231"
+            ]
+          },
+          "trial marriage": {
+            "$text": "trial marriage",
+            "$links": [
+              "1269"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Marriage Tablet": {
+        "$text": "Marriage Tablet",
+        "$links": [
+          "1291"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Martyrs": {
+        "$text": "Martyrs",
+        "$links": [
+          "1982"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mary": {
+        "$text": "Mary",
+        "$links": [
+          "1641",
+          "1643"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mary Magdalene": {
+        "$text": "Mary Magdalene",
+        "$links": [
+          "2104"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mashriqu'l-Adhkár": {
+        "$text": "Mashriqu'l-Adhkár",
+        "$links": [
+          "1884",
+          [
+            "2051",
+            "2071"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Masons": {
+        "$text": "Masons",
+        "$links": [
+          [
+            "1387",
+            "1391"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mass teaching": {
+        "$text": "Mass teaching",
+        "$links": [
+          [
+            "2002",
+            "2036"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Masturbation": {
+        "$text": "Masturbation",
+        "$links": [
+          "1220"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Materialism": {
+        "$text": "Materialism",
+        "$seeAlso": [
+          {
+            "id": "Calamities"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Maturity": {
+        "$text": "Maturity",
+        "$links": [
+          "516"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Medical science": {
+        "$text": "Medical science",
+        "$links": [
+          [
+            "972",
+            "996"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Meditation": {
+        "$text": "Meditation",
+        "$links": [
+          [
+            "1479",
+            "1520"
+          ],
+          [
+            "1836",
+            "1838"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Meetings": {
+        "$text": "Meetings",
+        "$links": [
+          [
+            "154",
+            "169"
+          ],
+          "298",
+          [
+            "577",
+            "592"
+          ],
+          "1518"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Men of Justice": {
+        "$text": "Men of Justice",
+        "$links": [
+          "2076"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mental illness": {
+        "$text": "Mental illness",
+        "$links": [
+          [
+            "193",
+            "195"
+          ],
+          "253",
+          "259",
+          "260",
+          [
+            "947",
+            "957"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mental tests": {
+        "$text": "Mental tests",
+        "$links": [
+          "450"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mercy": {
+        "$text": "Mercy",
+        "$links": [
+          "121"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mercy killing": {
+        "$text": "Mercy killing",
+        "$seeAlso": [
+          {
+            "id": "Euthanasia"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Military service": {
+        "$text": "Military service",
+        "$links": [
+          [
+            "1351",
+            "1359"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Minorities": {
+        "$text": "Minorities",
+        "$links": [
+          [
+            "1775",
+            "1819"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Minorities in America": {
+        "$text": "Minorities in America",
+        "$children": {
+          "Aboriginals": {
+            "$text": "Aboriginals",
+            "$links": [
+              "1775"
+            ]
+          },
+          "Afro-Americans": {
+            "$text": "Afro-Americans",
+            "$links": [
+              [
+                "1778",
+                "1790"
+              ],
+              "1793",
+              [
+                "1809",
+                "1811"
+              ],
+              "1814",
+              "1816"
+            ]
+          },
+          "Amerindians": {
+            "$text": "Amerindians",
+            "$links": [
+              "1778"
+            ]
+          },
+          "Czechoslovakians": {
+            "$text": "Czechoslovakians",
+            "$links": [
+              "1806"
+            ]
+          },
+          "Chinese": {
+            "$text": "Chinese",
+            "$links": [
+              "1796"
+            ]
+          },
+          "Indians": {
+            "$text": "Indians",
+            "$links": [
+              "1776",
+              "1777",
+              "1802",
+              "2029"
+            ]
+          },
+          "Italians": {
+            "$text": "Italians",
+            "$links": [
+              "1806"
+            ]
+          },
+          "Japanese": {
+            "$text": "Japanese",
+            "$links": [
+              "1796"
+            ]
+          },
+          "Jews": {
+            "$text": "Jews",
+            "$links": [
+              "1806",
+              "1817",
+              "1818"
+            ]
+          },
+          "Mexicans": {
+            "$text": "Mexicans",
+            "$links": [
+              "1796"
+            ]
+          },
+          "Polish": {
+            "$text": "Polish",
+            "$links": [
+              "1806"
+            ]
+          },
+          "Russians": {
+            "$text": "Russians",
+            "$links": [
+              "1806"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Miracles": {
+        "$text": "Miracles",
+        "$links": [
+          "1637",
+          "1638",
+          "1649",
+          "1663",
+          "1674"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Moderation": {
+        "$text": "Moderation",
+        "$links": [
+          "996"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Monogamy": {
+        "$text": "Monogamy",
+        "$links": [
+          [
+            "1156",
+            "1159"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Morality": {
+        "$text": "Morality",
+        "$links": [
+          "1221",
+          "1905"
+        ],
+        "$seeAlso": [
+          {
+            "id": "Chastity"
+          },
+          {
+            "id": "Immorality"
+          },
+          {
+            "id": "Lying"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Moral responsibility": {
+        "$text": "Moral responsibility",
+        "$links": [
+          "320"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Mormons": {
+        "$text": "Mormons",
+        "$links": [
+          [
+            "1727",
+            "1729"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Moses": {
+        "$text": "Moses",
+        "$links": [
+          "779",
+          "1552",
+          "1567",
+          "2053"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Moslems": {
+        "$text": "Moslems",
+        "$seeAlso": [
+          {
+            "id": "Muslims"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Most Great Peace": {
+        "$text": "Most Great Peace",
+        "$links": [
+          "1430"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Muhammad": {
+        "$text": "Muhammad",
+        "$links": [
+          "779",
+          "1572",
+          [
+            "1661",
+            "1662"
+          ],
+          "1664",
+          "1669",
+          [
+            "1671",
+            "1672"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Music": {
+        "$text": "Music",
+        "$links": [
+          [
+            "1360",
+            "1371"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Muslims": {
+        "$text": "Muslims",
+        "$links": [
+          "1405",
+          [
+            "1407",
+            "1410"
+          ],
+          "1592",
+          "2030"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "National Convention": {
+        "$text": "National Convention",
+        "$links": [
+          [
+            "52",
+            "79"
+          ]
+        ],
+        "$children": {
+          "attendance": {
+            "$text": "attendance",
+            "$links": [
+              "61"
+            ]
+          },
+          "Auxiliary Board Members": {
+            "$text": "Auxiliary Board Members",
+            "$links": [
+              "77",
+              "78",
+              [
+                "90",
+                "92"
+              ]
+            ]
+          },
+          "Continental Board of Counsellors": {
+            "$text": "Continental Board of Counsellors",
+            "$links": [
+              "78",
+              "79"
+            ]
+          },
+          "convening of": {
+            "$text": "convening of",
+            "$links": [
+              "69"
+            ]
+          },
+          "delegates": {
+            "$text": "delegates",
+            "$links": [
+              [
+                "53",
+                "55"
+              ]
+            ],
+            "$children": {
+              "consultation": {
+                "$text": "consultation",
+                "$links": [
+                  "53",
+                  "59",
+                  "65",
+                  "66",
+                  "74"
+                ]
+              },
+              "election": {
+                "$text": "election",
+                "$links": [
+                  [
+                    "53",
+                    "55"
+                  ]
+                ]
+              },
+              "replacement": {
+                "$text": "replacement",
+                "$links": [
+                  "57"
+                ]
+              },
+              "reports": {
+                "$text": "reports",
+                "$links": [
+                  "95"
+                ]
+              },
+              "voting": {
+                "$text": "voting",
+                "$links": [
+                  [
+                    "67",
+                    "68"
+                  ]
+                ]
+              }
+            }
+          },
+          "details of": {
+            "$text": "details of",
+            "$links": [
+              "58"
+            ]
+          },
+          "election of NSA": {
+            "$text": "election of NSA",
+            "$links": [
+              "70",
+              "72"
+            ]
+          },
+          "expenses of delegates": {
+            "$text": "expenses of delegates",
+            "$links": [
+              "62"
+            ]
+          },
+          "function, advisory": {
+            "$text": "function, advisory",
+            "$links": [
+              "52"
+            ]
+          },
+          "Hands of the Cause": {
+            "$text": "Hands of the Cause",
+            "$links": [
+              "78"
+            ]
+          },
+          "Nat'l Teaching Conference": {
+            "$text": "Nat'l Teaching Conference",
+            "$links": [
+              "71"
+            ]
+          },
+          "non-delegates": {
+            "$text": "non-delegates",
+            "$links": [
+              "75"
+            ]
+          },
+          "renewal of NSA": {
+            "$text": "renewal of NSA",
+            "$links": [
+              "63",
+              "64"
+            ]
+          },
+          "status of NSA": {
+            "$text": "status of NSA",
+            "$links": [
+              "60"
+            ]
+          },
+          "voting list": {
+            "$text": "voting list",
+            "$links": [
+              "56"
+            ]
+          },
+          "workshops": {
+            "$text": "workshops",
+            "$links": [
+              "73"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Naw-Rúz": {
+        "$text": "Naw-Rúz",
+        "$links": [
+          [
+            "1025",
+            "1028"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Negroes": {
+        "$text": "Negroes",
+        "$seeAlso": [
+          {
+            "id": "Minorities in America"
+          },
+          {
+            "id": "Afro-Americans"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "New believers": {
+        "$text": "New believers",
+        "$links": [
+          [
+            "232",
+            "266"
+          ],
+          "1924"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Nine-pointed star": {
+        "$text": "Nine-pointed star",
+        "$links": [
+          "671"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Nineteen Day Feast": {
+        "$text": "Nineteen Day Feast",
+        "$seeAlso": [
+          {
+            "id": "Feast, Nineteen Day"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Noah": {
+        "$text": "Noah",
+        "$links": [
+          "1659"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Non-Bahá'í Organizations": {
+        "$text": "Non-Bahá'í Organizations",
+        "$links": [
+          [
+            "1384",
+            "1404"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Nuclear disarmament": {
+        "$text": "Nuclear disarmament",
+        "$links": [
+          "1427"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Number Nine": {
+        "$text": "Number Nine",
+        "$links": [
+          [
+            "1372",
+            "1377"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Number Thirteen": {
+        "$text": "Number Thirteen",
+        "$links": [
+          "1377"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Numerology": {
+        "$text": "Numerology",
+        "$links": [
+          "1751",
+          "1752",
+          "1757"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Nutrition": {
+        "$text": "Nutrition",
+        "$links": [
+          [
+            "1003",
+            "1017"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Oaths": {
+        "$text": "Oaths",
+        "$links": [
+          "1464"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Obedience": {
+        "$text": "Obedience",
+        "$links": [
+          "276",
+          [
+            "281",
+            "284"
+          ],
+          "289",
+          "291",
+          "1144",
+          "1150"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Obedience to government": {
+        "$text": "Obedience to government",
+        "$links": [
+          [
+            "1453",
+            "1456"
+          ],
+          "1458",
+          "1462",
+          "1463",
+          "1465"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Obligatory prayer": {
+        "$text": "Obligatory prayer",
+        "$links": [
+          [
+            "1521",
+            "1539"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Officers of assemblies": {
+        "$text": "Officers of assemblies",
+        "$links": [
+          [
+            "96",
+            "116"
+          ]
+        ],
+        "$children": {
+          "absentee members": {
+            "$text": "absentee members",
+            "$links": [
+              "101"
+            ]
+          },
+          "Chairman": {
+            "$text": "Chairman",
+            "$links": [
+              "102"
+            ]
+          },
+          "dismissal of officers": {
+            "$text": "dismissal of officers",
+            "$links": [
+              "116"
+            ]
+          },
+          "election": {
+            "$text": "election",
+            "$links": [
+              [
+                "96",
+                "101"
+              ]
+            ]
+          },
+          "full-time service": {
+            "$text": "full-time service",
+            "$links": [
+              "114"
+            ]
+          },
+          "minutes": {
+            "$text": "minutes",
+            "$links": [
+              "110"
+            ]
+          },
+          "National secretary": {
+            "$text": "National secretary",
+            "$links": [
+              [
+                "104",
+                "109"
+              ]
+            ]
+          },
+          "resignation": {
+            "$text": "resignation",
+            "$links": [
+              "115",
+              [
+                "170",
+                "173"
+              ]
+            ]
+          },
+          "Secretary": {
+            "$text": "Secretary",
+            "$links": [
+              "104",
+              "111"
+            ]
+          },
+          "temporary officers": {
+            "$text": "temporary officers",
+            "$links": [
+              "101"
+            ]
+          },
+          "Treasurer": {
+            "$text": "Treasurer",
+            "$links": [
+              "112",
+              "113"
+            ]
+          },
+          "Vice-chairman": {
+            "$text": "Vice-chairman",
+            "$links": [
+              "103"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Oneness of mankind": {
+        "$text": "Oneness of mankind",
+        "$links": [
+          "1589",
+          "1590"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Opium": {
+        "$text": "Opium",
+        "$seeAlso": [
+          {
+            "id": "Drugs"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Opposition": {
+        "$text": "Opposition",
+        "$links": [
+          [
+            "1378",
+            "1383"
+          ],
+          "1394"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Organizations": {
+        "$text": "Organizations",
+        "$links": [
+          [
+            "1384",
+            "1404"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Orientals": {
+        "$text": "Orientals",
+        "$links": [
+          [
+            "1405",
+            "1410"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Orphans": {
+        "$text": "Orphans",
+        "$links": [
+          [
+            "467",
+            "472"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pacifists, Bahá'í's are not": {
+        "$text": "Pacifists, Bahá'í's are not",
+        "$links": [
+          "1429"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Paederasty": {
+        "$text": "Paederasty",
+        "$links": [
+          "1224"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Palestine": {
+        "$text": "Palestine",
+        "$seeAlso": [
+          {
+            "id": "Israel"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Parental consent": {
+        "$text": "Parental consent",
+        "$links": [
+          "208",
+          "469",
+          [
+            "1231",
+            "1254"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Peace": {
+        "$text": "Peace",
+        "$links": [
+          [
+            "1411",
+            "1430"
+          ],
+          [
+            "2089",
+            "2092"
+          ],
+          "2096",
+          "2097",
+          "2101",
+          "2104"
+        ],
+        "$seeAlso": [
+          {
+            "id": "Lesser Peace"
+          },
+          {
+            "id": "Most Great Peace"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Persecution": {
+        "$text": "Persecution",
+        "$links": [
+          "215"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Persians": {
+        "$text": "Persians",
+        "$links": [
+          "1257",
+          "1405",
+          "1944",
+          "1945",
+          "1948"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Personalities": {
+        "$text": "Personalities",
+        "$links": [
+          "36",
+          "142"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Peter": {
+        "$text": "Peter",
+        "$links": [
+          "542",
+          "1643",
+          "1650"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Philosophers, Greek": {
+        "$text": "Philosophers, Greek",
+        "$links": [
+          "1682"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Photographs": {
+        "$text": "Photographs",
+        "$links": [
+          "1623",
+          "1624"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Physical Education": {
+        "$text": "Physical Education",
+        "$links": [
+          [
+            "997",
+            "1002"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Physicians": {
+        "$text": "Physicians",
+        "$links": [
+          "923",
+          "926",
+          "927",
+          "930",
+          "938",
+          "939",
+          "945",
+          "952",
+          "953",
+          "956",
+          [
+            "958",
+            "971"
+          ],
+          "989"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Physiognomy": {
+        "$text": "Physiognomy",
+        "$links": [
+          "1757"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pilgrims' notes": {
+        "$text": "Pilgrims' notes",
+        "$links": [
+          [
+            "1431",
+            "1439"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pioneers, pioneering": {
+        "$text": "Pioneers, pioneering",
+        "$links": [
+          "773",
+          "774",
+          [
+            "1934",
+            "1966"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Planets": {
+        "$text": "Planets",
+        "$links": [
+          "1581",
+          "1594"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pledge forms": {
+        "$text": "Pledge forms",
+        "$links": [
+          "874"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Politics": {
+        "$text": "Politics",
+        "$links": [
+          "37",
+          "183",
+          "184",
+          [
+            "1440",
+            "1478"
+          ],
+          "1805"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Poor": {
+        "$text": "Poor",
+        "$links": [
+          "417",
+          [
+            "419",
+            "421"
+          ],
+          "2015"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pork": {
+        "$text": "Pork",
+        "$links": [
+          "1012"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Possession": {
+        "$text": "Possession",
+        "$links": [
+          "1738",
+          "1753"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Prayer": {
+        "$text": "Prayer",
+        "$links": [
+          [
+            "1479",
+            "1539"
+          ],
+          "1621",
+          "1622",
+          "1835",
+          "1836",
+          "1840",
+          "1845"
+        ],
+        "$children": {
+          "congregational for dead": {
+            "$text": "congregational for dead",
+            "$links": [
+              "1502",
+              "1504"
+            ]
+          },
+          "five steps of": {
+            "$text": "five steps of",
+            "$links": [
+              "1510"
+            ]
+          },
+          "for moments of danger": {
+            "$text": "for moments of danger",
+            "$links": [
+              "1520"
+            ]
+          },
+          "indispensable": {
+            "$text": "indispensable",
+            "$links": [
+              "1845"
+            ]
+          },
+          "meditation and": {
+            "$text": "meditation and",
+            "$links": [
+              "1519"
+            ]
+          },
+          "Obligatory": {
+            "$text": "Obligatory",
+            "$links": [
+              [
+                "1521",
+                "1527"
+              ],
+              [
+                "1529",
+                "1539"
+              ]
+            ],
+            "$children": {
+              "ablutions for": {
+                "$text": "ablutions for",
+                "$links": [
+                  "1538"
+                ]
+              }
+            }
+          },
+          "physical symbol of inner reality": {
+            "$text": "physical symbol of inner reality",
+            "$links": [
+              "1523"
+            ]
+          },
+          "quotations from": {
+            "$text": "quotations from",
+            "$links": [
+              "1497"
+            ]
+          },
+          "repitition": {
+            "$text": "repitition",
+            "$links": [
+              "1517",
+              "1527"
+            ]
+          },
+          "specific time for": {
+            "$text": "specific time for",
+            "$links": [
+              "1498"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Prayer for the dead": {
+        "$text": "Prayer for the dead",
+        "$links": [
+          "1504"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pre-existence": {
+        "$text": "Pre-existence",
+        "$seeAlso": [
+          {
+            "id": "Existence"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Prejudice": {
+        "$text": "Prejudice",
+        "$links": [
+          "1347",
+          [
+            "1794",
+            "1799"
+          ],
+          "1801",
+          "1804",
+          "1807",
+          "1810",
+          "1812",
+          "1813",
+          "1816",
+          "2156"
+        ],
+        "$children": {
+          "Aboriginals": {
+            "$text": "Aboriginals",
+            "$links": [
+              "1775"
+            ]
+          },
+          "Afro-Americans": {
+            "$text": "Afro-Americans",
+            "$links": [
+              "1778"
+            ]
+          },
+          "Amerindians": {
+            "$text": "Amerindians",
+            "$links": [
+              "1778"
+            ]
+          },
+          "Negroes": {
+            "$text": "Negroes",
+            "$links": [
+              [
+                "1779",
+                "1816"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Prisoners": {
+        "$text": "Prisoners",
+        "$links": [
+          "251",
+          "263",
+          "711",
+          [
+            "1194",
+            "1199"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Proclamation": {
+        "$text": "Proclamation",
+        "$links": [
+          [
+            "1967",
+            "1971"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Profit sharing": {
+        "$text": "Profit sharing",
+        "$links": [
+          "1869"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Projects": {
+        "$text": "Projects",
+        "$links": [
+          [
+            "1873",
+            "1879"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Promiscuity": {
+        "$text": "Promiscuity",
+        "$seeAlso": [
+          {
+            "id": "Adultery"
+          },
+          {
+            "id": "Chastity"
+          },
+          {
+            "id": "Homosexuality"
+          },
+          {
+            "id": "Immorality"
+          },
+          {
+            "id": "Paederasty"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Propagation": {
+        "$text": "Propagation",
+        "$links": [
+          [
+            "1103",
+            "1105"
+          ],
+          "1114"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Property maintenance": {
+        "$text": "Property maintenance",
+        "$links": [
+          "916",
+          "917"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Prophecy/Prophets": {
+        "$text": "Prophecy/Prophets",
+        "$links": [
+          [
+            "1540",
+            "1613"
+          ],
+          [
+            "1683",
+            "1729"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Protection": {
+        "$text": "Protection",
+        "$links": [
+          [
+            "601",
+            "629"
+          ],
+          "1063",
+          "1070",
+          "1082",
+          "1083",
+          [
+            "1103",
+            "1105"
+          ],
+          "1112",
+          "1132"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Psychiatry": {
+        "$text": "Psychiatry",
+        "$links": [
+          [
+            "951",
+            "957"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Psychic arts": {
+        "$text": "Psychic arts",
+        "$links": [
+          "1735",
+          [
+            "1768",
+            "1774"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Psychic phenomena": {
+        "$text": "Psychic phenomena",
+        "$links": [
+          [
+            "1730",
+            "1774"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Psychic powers": {
+        "$text": "Psychic powers",
+        "$links": [
+          "1735"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Psychotherapy": {
+        "$text": "Psychotherapy",
+        "$links": [
+          "953"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Publications": {
+        "$text": "Publications",
+        "$links": [
+          [
+            "360",
+            "371"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Publicity": {
+        "$text": "Publicity",
+        "$links": [
+          [
+            "349",
+            "351"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Punishment": {
+        "$text": "Punishment",
+        "$links": [
+          "1148",
+          "1149"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Purgation": {
+        "$text": "Purgation",
+        "$links": [
+          "447"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Pyramids": {
+        "$text": "Pyramids",
+        "$links": [
+          "1764",
+          "1765"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Qur'án": {
+        "$text": "Qur'án",
+        "$links": [
+          "1652",
+          "1666",
+          "1667",
+          "1672",
+          "1688",
+          "1904"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Races": {
+        "$text": "Races",
+        "$links": [
+          [
+            "1775",
+            "1819"
+          ]
+        ],
+        "$children": {
+          "aboriginal inhabitants": {
+            "$text": "aboriginal inhabitants",
+            "$links": [
+              "1775"
+            ]
+          },
+          "coloured": {
+            "$text": "coloured",
+            "$links": [
+              "1798"
+            ]
+          },
+          "down-trodden races": {
+            "$text": "down-trodden races",
+            "$links": [
+              "1798"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Radio": {
+        "$text": "Radio",
+        "$links": [
+          [
+            "1972",
+            "1976"
+          ]
+        ],
+        "$children": {
+          "reading prayers on": {
+            "$text": "reading prayers on",
+            "$links": [
+              "1514"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Raffles": {
+        "$text": "Raffles",
+        "$links": [
+          "852",
+          "1202",
+          "1204"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Reading the Writings": {
+        "$text": "Reading the Writings",
+        "$links": [
+          "1835",
+          "1840",
+          "1913"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Reformation": {
+        "$text": "Reformation",
+        "$links": [
+          "1653"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Registration of children": {
+        "$text": "Registration of children",
+        "$links": [
+          [
+            "512",
+            "522"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Reincarnation": {
+        "$text": "Reincarnation",
+        "$links": [
+          [
+            "1820",
+            "1827"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Relics": {
+        "$text": "Relics",
+        "$links": [
+          "1625",
+          "1711"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Religion": {
+        "$text": "Religion",
+        "$links": [
+          "1543",
+          [
+            "1683",
+            "1729"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Removal from membership roster": {
+        "$text": "Removal from membership roster",
+        "$links": [
+          "1543"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Renaissance, the": {
+        "$text": "Renaissance, the",
+        "$links": [
+          "1664"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Resignations": {
+        "$text": "Resignations",
+        "$links": [
+          "88",
+          "115"
+        ],
+        "$seeAlso": [
+          {
+            "id": "Spiritual Assemblies"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Resurrection": {
+        "$text": "Resurrection",
+        "$links": [
+          "1593"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Restoration of rights": {
+        "$text": "Restoration of rights",
+        "$links": [
+          "208"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Retirement": {
+        "$text": "Retirement",
+        "$links": [
+          "2114",
+          "2115"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Reverence": {
+        "$text": "Reverence",
+        "$links": [
+          [
+            "1828",
+            "1833"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Reviews": {
+        "$text": "Reviews",
+        "$links": [
+          "349",
+          "350",
+          "352",
+          "353",
+          "359"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Ringstone emblems": {
+        "$text": "Ringstone emblems",
+        "$links": [
+          [
+            "907",
+            "911"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Rituals": {
+        "$text": "Rituals",
+        "$links": [
+          "1573"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sabeans": {
+        "$text": "Sabeans",
+        "$links": [
+          "1693",
+          "1694"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Schools": {
+        "$text": "Schools",
+        "$links": [
+          "62",
+          "73",
+          "855",
+          "914",
+          [
+            "1886",
+            "1907"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Science": {
+        "$text": "Science",
+        "$links": [
+          "974",
+          "975",
+          "1584",
+          "1881",
+          "2110"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Secret ballot": {
+        "$text": "Secret ballot",
+        "$links": [
+          "44",
+          "45"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Secret societies": {
+        "$text": "Secret societies",
+        "$links": [
+          "192",
+          "1388",
+          "1991"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Self": {
+        "$text": "Self",
+        "$links": [
+          [
+            "386",
+            "397"
+          ]
+        ],
+        "$seeAlso": [
+          {
+            "id": "Ego"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Self-consciousness": {
+        "$text": "Self-consciousness",
+        "$links": [
+          "392"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Self-defense": {
+        "$text": "Self-defense",
+        "$links": [
+          [
+            "398",
+            "400"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Self-sacrifice": {
+        "$text": "Self-sacrifice",
+        "$links": [
+          [
+            "401",
+            "408"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Service": {
+        "$text": "Service",
+        "$links": [
+          [
+            "401",
+            "408"
+          ],
+          "967"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Seven Valleys": {
+        "$text": "Seven Valleys",
+        "$links": [
+          "1613"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sex education": {
+        "$text": "Sex education",
+        "$links": [
+          "358",
+          "1205",
+          "1220"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sexual relations": {
+        "$text": "Sexual relations",
+        "$seeAlso": [
+          {
+            "id": "Family"
+          },
+          {
+            "id": "Morality"
+          },
+          {
+            "id": "Immorality"
+          },
+          {
+            "id": "Homosexuality"
+          },
+          {
+            "id": "Kissing"
+          },
+          {
+            "id": "embracing"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sharing": {
+        "$text": "Sharing",
+        "$links": [
+          "1863"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sight": {
+        "$text": "Sight",
+        "$links": [
+          "1825"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Simplicity": {
+        "$text": "Simplicity",
+        "$links": [
+          "460"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sin": {
+        "$text": "Sin",
+        "$links": [
+          "996",
+          "2052"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Slander": {
+        "$text": "Slander",
+        "$links": [
+          [
+            "304",
+            "325"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sleep": {
+        "$text": "Sleep",
+        "$links": [
+          "990"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Smith, Joseph": {
+        "$text": "Smith, Joseph",
+        "$seeAlso": [
+          {
+            "id": "Joseph Smith"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Smoking": {
+        "$text": "Smoking",
+        "$seeAlso": [
+          {
+            "id": "Tobacco"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Social and economic development": {
+        "$text": "Social and economic development",
+        "$links": [
+          [
+            "1846",
+            "1856"
+          ],
+          [
+            "1873",
+            "1890"
+          ]
+        ],
+        "$children": {
+          "Tutorial schools": {
+            "$text": "Tutorial schools",
+            "$links": [
+              [
+                "1886",
+                "1890"
+              ]
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Social order": {
+        "$text": "Social order",
+        "$links": [
+          "5"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Soul": {
+        "$text": "Soul",
+        "$links": [
+          "385",
+          [
+            "679",
+            "705"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Spiritists": {
+        "$text": "Spiritists",
+        "$seeAlso": [
+          {
+            "id": "Spiritualists"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Spiritual Assemblies": {
+        "$text": "Spiritual Assemblies",
+        "$links": [
+          "12",
+          [
+            "117",
+            "153"
+          ],
+          "626"
+        ],
+        "$children": {
+          "abstention in voting": {
+            "$text": "abstention in voting",
+            "$links": [
+              "168",
+              "584"
+            ]
+          },
+          "attendance": {
+            "$text": "attendance",
+            "$links": [
+              "175",
+              "176"
+            ]
+          },
+          "authority": {
+            "$text": "authority",
+            "$links": [
+              "16"
+            ]
+          },
+          "by-election": {
+            "$text": "by-election",
+            "$links": [
+              "174"
+            ]
+          },
+          "criticism": {
+            "$text": "criticism",
+            "$links": [
+              "285",
+              "288",
+              "290"
+            ]
+          },
+          "defender": {
+            "$text": "defender",
+            "$links": [
+              "10"
+            ]
+          },
+          "dissolution": {
+            "$text": "dissolution",
+            "$links": [
+              "22",
+              "23"
+            ]
+          },
+          "duties of members": {
+            "$text": "duties of members",
+            "$links": [
+              "167"
+            ]
+          },
+          "elections": {
+            "$text": "elections",
+            "$links": [
+              [
+                "25",
+                "51"
+              ],
+              "174"
+            ]
+          },
+          "establishments": {
+            "$text": "establishments",
+            "$links": [
+              "7",
+              "8"
+            ]
+          },
+          "formation": {
+            "$text": "formation",
+            "$links": [
+              [
+                "17",
+                "29"
+              ],
+              "91",
+              "92"
+            ]
+          },
+          "formation in prison": {
+            "$text": "formation in prison",
+            "$links": [
+              "25"
+            ]
+          },
+          "future": {
+            "$text": "future",
+            "$links": [
+              "11"
+            ]
+          },
+          "inactive believers": {
+            "$text": "inactive believers",
+            "$links": [
+              [
+                "295",
+                "297"
+              ],
+              "301"
+            ]
+          },
+          "joint declaration": {
+            "$text": "joint declaration",
+            "$links": [
+              "18",
+              "19",
+              "21"
+            ]
+          },
+          "jurisdiction": {
+            "$text": "jurisdiction",
+            "$links": [
+              "15",
+              "24"
+            ]
+          },
+          "loyalty to government": {
+            "$text": "loyalty to government",
+            "$links": [
+              "16"
+            ]
+          },
+          "meetings": {
+            "$text": "meetings",
+            "$links": [
+              "154",
+              "155",
+              [
+                "159",
+                "161"
+              ]
+            ]
+          },
+          "minutes of": {
+            "$text": "minutes of",
+            "$links": [
+              "163"
+            ]
+          },
+          "purpose of": {
+            "$text": "purpose of",
+            "$links": [
+              "9"
+            ]
+          },
+          "qualifications of members": {
+            "$text": "qualifications of members",
+            "$links": [
+              "26",
+              "27",
+              "30"
+            ]
+          },
+          "quality": {
+            "$text": "quality",
+            "$links": [
+              "30"
+            ]
+          },
+          "quorum": {
+            "$text": "quorum",
+            "$links": [
+              "166"
+            ]
+          },
+          "relationship of believers to": {
+            "$text": "relationship of believers to",
+            "$links": [
+              "267",
+              "582"
+            ]
+          },
+          "residence": {
+            "$text": "residence",
+            "$links": [
+              "20"
+            ]
+          },
+          "resignation": {
+            "$text": "resignation",
+            "$links": [
+              "115",
+              "170",
+              [
+                "171",
+                "173"
+              ],
+              "177"
+            ]
+          },
+          "sanctions": {
+            "$text": "sanctions",
+            "$links": [
+              "155",
+              "176",
+              [
+                "178",
+                "181"
+              ],
+              [
+                "195",
+                "205"
+              ]
+            ]
+          },
+          "strengthening": {
+            "$text": "strengthening",
+            "$links": [
+              "13"
+            ]
+          },
+          "teaching": {
+            "$text": "teaching",
+            "$links": [
+              "14",
+              "118",
+              "156",
+              "157"
+            ]
+          },
+          "unity in": {
+            "$text": "unity in",
+            "$links": [
+              "587"
+            ]
+          },
+          "voting": {
+            "$text": "voting",
+            "$links": [
+              "169",
+              "585",
+              "586"
+            ]
+          },
+          "voting lists": {
+            "$text": "voting lists",
+            "$links": [
+              "293",
+              "294",
+              "296",
+              "300",
+              "302",
+              "303"
+            ]
+          },
+          "will of the majority": {
+            "$text": "will of the majority",
+            "$links": [
+              "158"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Spiritual growth": {
+        "$text": "Spiritual growth",
+        "$links": [
+          [
+            "390",
+            "394"
+          ],
+          "1835",
+          "1836",
+          [
+            "1839",
+            "1841"
+          ],
+          "1844",
+          "1845"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Spiritual healing": {
+        "$text": "Spiritual healing",
+        "$links": [
+          [
+            "923",
+            "945"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Spiritual laws": {
+        "$text": "Spiritual laws",
+        "$links": [
+          "3",
+          "1147"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Spiritualists": {
+        "$text": "Spiritualists",
+        "$links": [
+          "1399",
+          "1756",
+          "1760",
+          "1762"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Spirituality/reverence": {
+        "$text": "Spirituality/reverence",
+        "$links": [
+          [
+            "1828",
+            "1845"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Star, five pointed": {
+        "$text": "Star, five pointed",
+        "$links": [
+          "375"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Stars": {
+        "$text": "Stars",
+        "$links": [
+          "1718",
+          [
+            "1746",
+            "1750"
+          ],
+          "1752",
+          "1761"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "State religion": {
+        "$text": "State religion",
+        "$links": [
+          "11"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sterilization": {
+        "$text": "Sterilization",
+        "$seeAlso": [
+          {
+            "id": "Birth Control"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Strikes": {
+        "$text": "Strikes",
+        "$links": [
+          "1404",
+          "2121"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Suffering tests": {
+        "$text": "Suffering tests",
+        "$links": [
+          [
+            "2040",
+            "41"
+          ],
+          [
+            "2048",
+            "49"
+          ]
+        ],
+        "$seeAlso": [
+          {
+            "id": "Tests"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Suicide": {
+        "$text": "Suicide",
+        "$seeAlso": [
+          {
+            "id": "Death"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Summer schools": {
+        "$text": "Summer schools",
+        "$links": [
+          [
+            "1891",
+            "1912"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Superstition": {
+        "$text": "Superstition",
+        "$links": [
+          "1377",
+          "1484",
+          "1519",
+          "1731",
+          "1747",
+          "1750"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Support, child": {
+        "$text": "Support, child",
+        "$links": [
+          [
+            "1336",
+            "1337"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Supreme Tribunal": {
+        "$text": "Supreme Tribunal",
+        "$links": [
+          [
+            "1074",
+            "1077"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Sura of the Sun": {
+        "$text": "Sura of the Sun",
+        "$links": [
+          "1605"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Surrogate mothers": {
+        "$text": "Surrogate mothers",
+        "$links": [
+          "973",
+          "1168"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Swedenborg, Emanuel": {
+        "$text": "Swedenborg, Emanuel",
+        "$links": [
+          [
+            "1719",
+            "1722"
+          ]
+        ],
+        "$children": {
+          "'Abdu'l-Bahá's praise for": {
+            "$text": "'Abdu'l-Bahá's praise for",
+            "$links": [
+              "1721"
+            ]
+          }
+        },
+        "$book": "Lights of Guidance"
+      },
+      "Symbol of the Faith": {
+        "$text": "Symbol of the Faith",
+        "$links": [
+          "375"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Synagogues": {
+        "$text": "Synagogues",
+        "$links": [
+          "535",
+          "1387",
+          "1389"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Table writing": {
+        "$text": "Table writing",
+        "$links": [
+          "1755"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Tablet of Ahmad": {
+        "$text": "Tablet of Ahmad",
+        "$links": [
+          "1608"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Tablet of the Holy Mariner": {
+        "$text": "Tablet of the Holy Mariner",
+        "$links": [
+          "1609"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Tablets of Bahá'u'lláh to Presidents of the Americas": {
+        "$text": "Tablets of Bahá'u'lláh to Presidents of the Americas",
+        "$links": [
+          "1610"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Taxes": {
+        "$text": "Taxes",
+        "$links": [
+          "540",
+          "878",
+          [
+            "1031",
+            "1044"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Teachers": {
+        "$text": "Teachers",
+        "$links": [
+          "1134",
+          [
+            "1988",
+            "2001"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Teaching": {
+        "$text": "Teaching",
+        "$links": [
+          "14",
+          "118",
+          "156",
+          "157",
+          [
+            "241",
+            "243"
+          ],
+          "529",
+          "554",
+          "555",
+          "557",
+          [
+            "566",
+            "570"
+          ],
+          "572",
+          [
+            "828",
+            "834"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Telepathy": {
+        "$text": "Telepathy",
+        "$links": [
+          "1758"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Temples": {
+        "$text": "Temples",
+        "$links": [
+          "1884",
+          [
+            "2051",
+            "2071"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Tests": {
+        "$text": "Tests",
+        "$links": [
+          "247",
+          "426",
+          [
+            "2037",
+            "2050"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Theosophists": {
+        "$text": "Theosophists",
+        "$links": [
+          "1392"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Tobacco": {
+        "$text": "Tobacco",
+        "$links": [
+          [
+            "1189",
+            "1193"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Trade unions": {
+        "$text": "Trade unions",
+        "$links": [
+          "1403",
+          "2121"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Translations": {
+        "$text": "Translations",
+        "$links": [
+          "348",
+          "361",
+          "365",
+          [
+            "367",
+            "370"
+          ],
+          "371"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Transplants": {
+        "$text": "Transplants",
+        "$links": [
+          "983",
+          "984"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Transsexuality": {
+        "$text": "Transsexuality",
+        "$links": [
+          "1222"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Treasurer": {
+        "$text": "Treasurer",
+        "$links": [
+          [
+            "857",
+            "881"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Turner, Robert, first Negro Bahá'í": {
+        "$text": "Turner, Robert, first Negro Bahá'í",
+        "$links": [
+          "1779"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Tutorial schools": {
+        "$text": "Tutorial schools",
+        "$links": [
+          [
+            "1886",
+            "1890"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Uniform adoption law": {
+        "$text": "Uniform adoption law",
+        "$links": [
+          [
+            "1250",
+            "1252"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Unions": {
+        "$text": "Unions",
+        "$seeAlso": [
+          {
+            "id": "Trade Unions"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "United Nations": {
+        "$text": "United Nations",
+        "$links": [
+          "1400"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Unity": {
+        "$text": "Unity",
+        "$links": [
+          "587",
+          "1108",
+          [
+            "1339",
+            "1350"
+          ],
+          "1388",
+          "1705",
+          "1706"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Universal House of Justice": {
+        "$text": "Universal House of Justice",
+        "$links": [
+          "529",
+          "1051",
+          "1053",
+          [
+            "1059",
+            "1073"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Universities": {
+        "$text": "Universities",
+        "$links": [
+          [
+            "714",
+            "721"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Vaccination": {
+        "$text": "Vaccination",
+        "$links": [
+          "992"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Verities of the Faith": {
+        "$text": "Verities of the Faith",
+        "$links": [
+          "1612"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Virgin birth": {
+        "$text": "Virgin birth",
+        "$links": [
+          "1637",
+          "1639",
+          "1641"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Visions": {
+        "$text": "Visions",
+        "$links": [
+          [
+            "1740",
+            "1742"
+          ],
+          "1745"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Vivisection": {
+        "$text": "Vivisection",
+        "$links": [
+          [
+            "993",
+            "995"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Voting": {
+        "$text": "Voting",
+        "$links": [
+          "1443",
+          "1447"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Voting rights": {
+        "$text": "Voting rights",
+        "$links": [
+          [
+            "178",
+            "217"
+          ],
+          "803",
+          "1443",
+          "1448"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Wages": {
+        "$text": "Wages",
+        "$links": [
+          "1867"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "War, how to eliminate": {
+        "$text": "War, how to eliminate",
+        "$links": [
+          "1382"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Wars": {
+        "$text": "Wars",
+        "$seeAlso": [
+          {
+            "id": "Calamities"
+          },
+          {
+            "id": "Military Service"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Wealth": {
+        "$text": "Wealth",
+        "$links": [
+          "839",
+          "844",
+          "1860",
+          "1863",
+          "1882"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Weapons": {
+        "$text": "Weapons",
+        "$links": [
+          [
+            "399",
+            "400"
+          ],
+          "1427"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Weddings": {
+        "$text": "Weddings",
+        "$links": [
+          "913"
+        ],
+        "$seeAlso": [
+          {
+            "id": "Marriage"
+          }
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Will and Testament of 'Abdu'l-Bahá": {
+        "$text": "Will and Testament of 'Abdu'l-Bahá",
+        "$links": [
+          [
+            "1921",
+            "1922"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Wills, personal": {
+        "$text": "Wills, personal",
+        "$links": [
+          [
+            "630",
+            "636"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Wilson, President": {
+        "$text": "Wilson, President",
+        "$links": [
+          "1471"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Withdrawal": {
+        "$text": "Withdrawal",
+        "$links": [
+          "204",
+          "296",
+          "300",
+          "302"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Women": {
+        "$text": "Women",
+        "$links": [
+          [
+            "2072",
+            "2104"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Work": {
+        "$text": "Work",
+        "$links": [
+          "410",
+          "1870",
+          [
+            "2105",
+            "2120"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Workshop": {
+        "$text": "Workshop",
+        "$links": [
+          "73"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "World Center": {
+        "$text": "World Center",
+        "$links": [
+          "140",
+          "430"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "World Crisis": {
+        "$text": "World Crisis",
+        "$links": [
+          [
+            "422",
+            "459"
+          ],
+          "1359"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "World Government Organization": {
+        "$text": "World Government Organization",
+        "$links": [
+          [
+            "1074",
+            "1077"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "World Order": {
+        "$text": "World Order",
+        "$links": [
+          "11",
+          "1388"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Worship in the Temple": {
+        "$text": "Worship in the Temple",
+        "$links": [
+          [
+            "2058",
+            "2066"
+          ]
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Youth": {
+        "$text": "Youth",
+        "$links": [
+          "573",
+          "574",
+          "1001",
+          "1206",
+          "1213",
+          "1304"
+        ],
+        "$book": "Lights of Guidance"
+      },
+      "Zoroaster": {
+        "$text": "Zoroaster",
+        "$links": [
+          "1690",
+          "1691",
+          "1696"
+        ],
+        "$book": "Lights of Guidance"
+      }
+    }
+  },
+  {
     "book": "Some Answered Questions",
     "index": {
       "Aaron, God's rebuke to": {

@@ -19,7 +19,10 @@ function createLinkForIndexText (linkText, book) {
   const firstChar = linkText.charAt();
   const number = linkText.match(/\d+/u)?.[0];
   switch (book) {
-  case 'Some Answered Questions': {
+  case 'Lights of Guidance': {
+    a.href = 'https://bahai-library.com/jumpto2.php?booklist=http%3A%2F%2Fbahai-library.com%2Fhornby_lights_guidance%26chapter%3D%2B%2B%2B%23n%40%40%40&search=' + linkText;
+    break;
+  } case 'Some Answered Questions': {
     // There are also Roman numeral links to detect, but our online
     //  copy doesn't have those page anchors apparently
 

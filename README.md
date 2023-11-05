@@ -26,6 +26,10 @@ You can see a [**Demo**](https://bahai-browser.org/indexes/json/?indexTerm=God&e
 
 - *Some Answered Questions* - From <https://bahai-library.com/zamir/indexes/Some%20Answered%20Questions%20(2015)%20%20INDEX%20copy.html>.
 
+- *Lights of Guidance* - From <https://bahai-library.com/hornby_lights_guidance> (using
+    a script at <https://bahai-library.com/jumpto2.php>
+    for pagination)
+
 ## Higher priority to-dos
 
 1. Add more books (see <https://bahai-library.com/zamir_temp_indexes>)

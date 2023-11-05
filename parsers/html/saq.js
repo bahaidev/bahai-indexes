@@ -6,7 +6,7 @@ import writeJSON from './utils/writeJSON.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const {$$, XMLSerializer, Node, document} = await getDomForFile(
+const {$$, Node, document} = await getDomForFile(
   join(__dirname, '/../../indexes/html/Some Answered Questions.html')
 );
 
@@ -146,6 +146,8 @@ function processSeeAlso (base, text) {
  * @param {Node[]} chnk
  * @returns {string[]}
  */
+
+/*
 function serializeChunk (chnk) {
   return chnk.map((node) => {
     return (node.nodeType === Node.TEXT_NODE
@@ -154,6 +156,7 @@ function serializeChunk (chnk) {
       new XMLSerializer().serializeToString(node);
   });
 }
+*/
 
 $$('span.s1').forEach((span) => {
   span.replaceWith(...span.childNodes);
@@ -236,7 +239,7 @@ $$('p.p6').forEach((p) => {
     // Process differently if begins with `\t` (only one level
     //   of nesting exists)
     // Only happens to have one-item arrays now
-    console.log('chunks', serializeChunk(chunks[i]));
+    // console.log('chunks', serializeChunk(chunks[i]));
 
     const child = chunks[i][0].nodeValue;
 
