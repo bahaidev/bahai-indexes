@@ -81,11 +81,6 @@ function populateFullIndex ({result, ul, id, entriesOrLinks = 'both'}) {
       }
     }
     parent.append(li);
-    if (obj.$children) {
-      const innerUl = document.createElement('ul');
-      li.append(innerUl);
-      return innerUl;
-    }
 
     if (obj.$seeAlso) {
       // None with `obj.$children`?
@@ -129,6 +124,12 @@ function populateFullIndex ({result, ul, id, entriesOrLinks = 'both'}) {
           );
         });
       }
+    }
+
+    if (obj.$children) {
+      const innerUl = document.createElement('ul');
+      li.append(innerUl);
+      return innerUl;
     }
 
     return li;
