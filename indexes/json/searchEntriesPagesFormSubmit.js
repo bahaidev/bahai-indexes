@@ -187,7 +187,9 @@ async function searchEntriesFormPagesSubmit (e) {
       });
     });
 
-    if (!bookUl) resultsHolder.append(ul);
+    if (!bookUl) {
+      resultsHolder.append(ul);
+    }
   }
 }
 

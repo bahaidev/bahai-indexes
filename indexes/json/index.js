@@ -315,7 +315,7 @@ fieldsets.forEach((fieldset) => {
   fieldset.disabled = false;
 });
 
-window.addEventListener('popstate', (e) => {
+window.addEventListener('popstate', () => {
   // Use fresh copy of location as will otherwise use stale info
   url = new URL(location.href);
   setTimeout(async () => {

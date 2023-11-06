@@ -362,11 +362,11 @@ const {Node, $$} = await getDomForFile(
   join(__dirname, '/../../indexes/html/Kitáb-i-Aqdas.html')
 );
 
-const letterSections = $$('a[name]')
+const letterSections = $$('a[name]').
   // Main letter sections
-  .filter((a) => (/^[A-Z]$/u).test(a.name))
+  filter((a) => (/^[A-Z]$/u).test(a.name)).
   // Followed by nested items
-  .filter(({parentElement: implicitPar}) => {
+  filter(({parentElement: implicitPar}) => {
     const ul = implicitPar && implicitPar.nextElementSibling;
     return ul && ul.matches('ul');
   });

@@ -6,7 +6,7 @@ const path = `./indexes/json/books/${book}.json`;
 
 const bookJSON = JSON.parse(await readFile(path));
 
-Object.entries(bookJSON).forEach(([key, value]) => {
+Object.entries(bookJSON).forEach(([, value]) => {
   value.$book = book;
 });
 

@@ -61,8 +61,8 @@ bElems.forEach((b) => {
    */
   function parseIndex (node, obj, linksArray) {
     // (We replace for ; for subsequent iterations)
-    let subEntry = node.nodeValue
-      .trim().replace(/^[;,]\s*/u, '').replace(/,$/u, '').replaceAll('\n', ' ');
+    let subEntry = node.nodeValue.
+      trim().replace(/^[;,]\s*/u, '').replace(/,$/u, '').replaceAll('\n', ' ');
 
     if (!subEntry) {
       // 2. If no intervening non-whitespace text, add subsequent links to self

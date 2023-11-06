@@ -174,7 +174,7 @@ function validate (json) {
 
   const badSeeAlsos = [];
   iterateKeys(json, {
-    seeAlso (seeAlsos, indexName, basePath) {
+    seeAlso (seeAlsos /* , indexName, basePath */) {
       if (!seeAlsos) {
         return;
       }
@@ -269,6 +269,7 @@ async function arrangeByParagraph (json) {
       };
       paragraphLinks.forEach((ps) => {
         if (Array.isArray(ps)) {
+          // eslint-disable-next-line prefer-const -- Simpler
           let [start, end] = ps.map((n) => Number.parseInt(n.slice(1)));
           // Todo: We could just do `start` and `end` if not
           //    interested in interim

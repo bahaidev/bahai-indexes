@@ -27,6 +27,7 @@ function createLinkForIndexText (linkText, book) {
     //  copy doesn't have those page anchors apparently
 
     // CHAPTER+PARAGRAPH
+    // eslint-disable-next-line prefer-const -- Simpler
     let {groups: {num, par}} = linkText.match(
       /^(?<num>\d+)\.(?<par>\d+)$/u
     ) || {groups: {}};
