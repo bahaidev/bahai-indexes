@@ -1,5 +1,10 @@
 # CHANGES to `bahai-indexes`
 
+## 0.13.0
+
+- feat: Lights of Guidance
+- fix: allow seeAlso processing when children are present
+
 ## 0.12.0
 
 - feat: adds SAQ index
