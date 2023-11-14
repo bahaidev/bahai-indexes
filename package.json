@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/brettz9/bahai-indexes.git"
+    "url": "git@github.com:bahaidev/bahai-indexes.git"
   },
   "keywords": [
     "bahai",
@@ -29,8 +29,8 @@
   "author": "Brett Zamir",
   "contributors": [],
   "license": "MIT",
-  "bugs": "https://bitbucket.org/brettz9/bahai-indexes/issues?status=new&status=open",
-  "homepage": "https://bitbucket.org/brettz9/bahai-indexes#readme",
+  "bugs": "https://github.com/bahaidev/bahai-indexes/issues/",
+  "homepage": "https://github.com/bahaidev/bahai-indexes#readme",
   "dependencies": {
     "httpquery": "^0.8.3"
   },
