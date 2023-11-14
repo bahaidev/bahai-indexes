@@ -1,5 +1,10 @@
 # CHANGES to `bahai-indexes`
 
+## 0.14.0
+
+- chore: update to non-vulnerable `httpquery`, devDeps. and lint
+- chore: update repo metainfo
+
 ## 0.13.0
 
 - feat: Lights of Guidance
