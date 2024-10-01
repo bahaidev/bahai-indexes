@@ -4,3 +4,5 @@
 parsers
 pnpm-lock.yaml
 indexes/books.js
+
+eslint.config.js

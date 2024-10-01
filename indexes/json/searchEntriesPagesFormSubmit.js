@@ -1,5 +1,5 @@
-/* eslint-disable no-unsanitized/property -- Source must be trusted as
-    we want its HTML */
+// /* eslint-disable no-unsanitized/property -- Source must be trusted as
+//    we want its HTML */
 
 import {$, httpquery} from './utils.js';
 import {appendLinks, appendLinksToHolder} from './appendLinks.js';

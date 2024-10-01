@@ -1,5 +1,5 @@
-/* eslint-disable no-unsanitized/property -- Source must be trusted as
-    we want its HTML */
+// /* eslint-disable no-unsanitized/property -- Source must be trusted as
+// we want its HTML */
 
 import {appendLinks} from './appendLinks.js';
 import traverse from './traverse.js';
@@ -43,7 +43,7 @@ async function httpquery (url, {
   });
   try {
     return await resp.json();
-  } catch (err) {
+  } catch {
     return [];
   }
 }

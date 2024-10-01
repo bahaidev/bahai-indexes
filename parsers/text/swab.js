@@ -1,1 +1,1 @@
-/* eslint-disable import/unambiguous, unicorn/no-empty-file -- Placeholder */
+/* eslint-disable unicorn/no-empty-file -- Placeholder */

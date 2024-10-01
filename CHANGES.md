@@ -1,5 +1,12 @@
 # CHANGES to `bahai-indexes`
 
+## ?
+
+BREAKING CHANGE:
+    Require Node 18+
+
+- chore: update devDeps. and lint
+
 ## 0.14.0
 
 - chore: update to non-vulnerable `httpquery`, devDeps. and lint

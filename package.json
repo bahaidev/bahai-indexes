@@ -4,10 +4,13 @@
   "version": "0.14.0",
   "description": "Indexes to the Bahá'í Writings in JSON form",
   "main": "src/buildFlattenedJSONAndJS.js",
+  "browserslist": [
+    "defaults, not op_mini all"
+  ],
   "scripts": {
     "addBook": "node indexes/addBook.js",
     "start": "httpquery --path=indexes/json --debug",
-    "eslint": "eslint --ext=js,md,html .",
+    "eslint": "eslint .",
     "lint": "npm run eslint --",
     "build-books": "node indexes/books.js",
     "build": "node src/buildFlattenedJSONAndJS.js",
@@ -35,31 +38,14 @@
     "httpquery": "^0.9.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.3",
-    "@babel/eslint-parser": "^7.23.3",
-    "@brettz9/eslint-plugin": "^1.0.4",
-    "@stylistic/eslint-plugin": "^1.2.0",
-    "eslint": "^8.53.0",
-    "eslint-config-ash-nazg": "^35.1.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-array-func": "^4.0.0",
-    "eslint-plugin-compat": "^4.2.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-jsdoc": "^46.9.0",
-    "eslint-plugin-markdown": "^3.0.1",
-    "eslint-plugin-no-unsanitized": "^4.0.2",
-    "eslint-plugin-no-use-extend-native": "^0.5.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-sonarjs": "^0.23.0",
-    "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-unicorn": "^49.0.0",
+    "@babel/core": "^7.25.2",
+    "@babel/eslint-parser": "^7.25.1",
+    "eslint": "^9.11.1",
+    "eslint-config-ash-nazg": "^36.18.1",
     "handle-node": "^0.2.1",
-    "jsdom": "^22.1.0"
+    "jsdom": "^25.0.1"
   }
 }
